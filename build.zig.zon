@@ -1,0 +1,15 @@
+.{
+    .name = .arc_raiders_crafting_tool,
+    .version = "0.0.0",
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "wsr.zig",
+    },
+    .dependencies = .{
+        .wsr = .{
+            .path = "wsr/zig",
+        },
+    },
+    .fingerprint = 0xb08de7e804ee9aff,
+}

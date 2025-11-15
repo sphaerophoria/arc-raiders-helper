@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="wsr.js" wasm-url="item-list.wasm"></script>
+		<link rel="stylesheet" href="index.css" />
+	</head>
+	<body wsr-immediate="initPage" >
+		<div class="items" wsr-get="/items.json" wsr-call="onItemList">
+		</div>
+	</body>
+</html>

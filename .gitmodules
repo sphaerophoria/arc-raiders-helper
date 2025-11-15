@@ -1,0 +1,9 @@
+[submodule "wsr"]
+	path = wsr
+	url = ../wsr/
+[submodule "arcraiders-data"]
+	path = arcraiders-data
+	url = https://github.com/RaidTheory/arcraiders-data.git
+[submodule "html-root/arcraiders-data"]
+	path = html-root/arcraiders-data
+	url = https://github.com/RaidTheory/arcraiders-data.git
