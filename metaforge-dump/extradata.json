@@ -1035,12 +1035,16 @@
   {
     "id": "light-impact-grenade",
     "wiki_link": "https://arcraiders.wiki/wiki/Light_Impact_Grenade",
-    "scraps_into": null
+    "scraps_into": {
+      "chemicals": 1
+    }
   },
   {
     "id": "light-shield",
     "wiki_link": "https://arcraiders.wiki/wiki/Light_Shield",
-    "scraps_into": null
+    "scraps_into": {
+      "arc-alloy": 1
+    }
   },
   {
     "id": "lightweight-stock",
@@ -1049,7 +1053,7 @@
   },
   {
     "id": "lightweight-stock-recipe",
-    "wiki_link": "https://arcraiders.wiki/wiki/Lightweight_Stock_Recipe",
+    "wiki_link": null,
     "scraps_into": null
   },
   {
@@ -1059,22 +1063,26 @@
   },
   {
     "id": "looting-mk-1",
-    "wiki_link": "https://arcraiders.wiki/wiki/Looting_Mk_1",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Looting_Mk._1",
+    "scraps_into": {
+      "plastic-parts": 3
+    }
   },
   {
     "id": "looting-mk-2",
-    "wiki_link": "https://arcraiders.wiki/wiki/Looting_Mk_2",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Looting_Mk._2",
+    "scraps_into": {
+      "electrical-components": 1
+    }
   },
   {
     "id": "looting-mk-3-cautious",
-    "wiki_link": "https://arcraiders.wiki/wiki/Looting_Mk_3_Cautious",
+    "wiki_link": "https://arcraiders.wiki/wiki/Looting_Mk._3_(Cautious)",
     "scraps_into": null
   },
   {
     "id": "looting-mk-3-survivor",
-    "wiki_link": "https://arcraiders.wiki/wiki/Looting_Mk_3_Survivor",
+    "wiki_link": "https://arcraiders.wiki/wiki/Looting_Mk._3_(Survivor)",
     "scraps_into": null
   },
   {
@@ -1085,57 +1093,71 @@
   {
     "id": "lure-grenade",
     "wiki_link": "https://arcraiders.wiki/wiki/Lure_Grenade",
-    "scraps_into": null
+    "scraps_into": {
+      "speaker-component": 1
+    }
   },
   {
     "id": "lure-grenade-recipe",
-    "wiki_link": "https://arcraiders.wiki/wiki/Lure_Grenade_Recipe",
+    "wiki_link": null,
     "scraps_into": null
   },
   {
     "id": "magnet",
     "wiki_link": "https://arcraiders.wiki/wiki/Magnet",
-    "scraps_into": null
+    "scraps_into": {
+      "metal-parts": 2
+    }
   },
   {
     "id": "magnetic-accelerator",
     "wiki_link": "https://arcraiders.wiki/wiki/Magnetic_Accelerator",
-    "scraps_into": null
+    "scraps_into": {
+      "advanced-mechanical-components": 1
+    }
   },
   {
     "id": "magnetron",
     "wiki_link": "https://arcraiders.wiki/wiki/Magnetron",
-    "scraps_into": null
+    "scraps_into": {
+      "advanced-mechanical-components": 1
+    }
   },
   {
     "id": "mastery-medal-backpack-charm",
-    "wiki_link": "https://arcraiders.wiki/wiki/Mastery_Medal_Backpack_Charm",
+    "wiki_link": null,
     "scraps_into": null
   },
   {
     "id": "matriarch-reactor",
     "wiki_link": "https://arcraiders.wiki/wiki/Matriarch_Reactor",
-    "scraps_into": null
+    "scraps_into": {
+      "power-rod": 1
+    }
   },
   {
     "id": "mechanical-components",
     "wiki_link": "https://arcraiders.wiki/wiki/Mechanical_Components",
-    "scraps_into": null
+    "scraps_into": {
+      "metal-parts": 3
+    }
   },
   {
     "id": "medium-ammo",
     "wiki_link": "https://arcraiders.wiki/wiki/Medium_Ammo",
-    "scraps_into": null
+    "scraps_into": {}
   },
   {
     "id": "medium-gun-parts",
     "wiki_link": "https://arcraiders.wiki/wiki/Medium_Gun_Parts",
-    "scraps_into": null
+    "scraps_into": {
+      "simple-gun-parts": 1
+    }
   },
   {
     "id": "medium-gun-parts-recipe",
-    "wiki_link": "https://arcraiders.wiki/wiki/Medium_Gun_Parts_Recipe",
-    "scraps_into": null
+    "wiki_link": null,
+    "scraps_into": {}
   },
   {
     "id": "medium-shield",
@@ -1145,42 +1167,54 @@
   {
     "id": "metal-brackets",
     "wiki_link": "https://arcraiders.wiki/wiki/Metal_Brackets",
-    "scraps_into": null
+    "scraps_into": {
+      "metal-parts": 4
+    }
   },
   {
     "id": "metal-parts",
     "wiki_link": "https://arcraiders.wiki/wiki/Metal_Parts",
-    "scraps_into": null
+    "scraps_into": {}
   },
   {
     "id": "microscope",
     "wiki_link": "https://arcraiders.wiki/wiki/Microscope",
-    "scraps_into": null
+    "scraps_into": {
+      "mechanical-components": 2
+    }
   },
   {
     "id": "mini-centrifuge",
     "wiki_link": "https://arcraiders.wiki/wiki/Mini_Centrifuge",
-    "scraps_into": null
+    "scraps_into": {
+      "mechanical-components": 2
+    }
   },
   {
     "id": "mod-components",
     "wiki_link": "https://arcraiders.wiki/wiki/Mod_Components",
-    "scraps_into": null
+    "scraps_into": {
+      "mechanical-components": 1
+    }
   },
   {
     "id": "mod-components-recipe",
-    "wiki_link": "https://arcraiders.wiki/wiki/Mod_Components_Recipe",
-    "scraps_into": null
+    "wiki_link": null,
+    "scraps_into": {}
   },
   {
     "id": "garlic-press",
     "wiki_link": "https://arcraiders.wiki/wiki/Garlic_Press",
-    "scraps_into": null
+    "scraps_into": {
+      "metal-parts": 7
+    }
   },
   {
     "id": "gas-grenade",
     "wiki_link": "https://arcraiders.wiki/wiki/Gas_Grenade",
-    "scraps_into": null
+    "scraps_into": {
+      "chemicals": 1
+    }
   },
   {
     "id": "gas-grenade-trap",
@@ -1190,17 +1224,21 @@
   {
     "id": "gas-mine",
     "wiki_link": "https://arcraiders.wiki/wiki/Gas_Mine",
-    "scraps_into": null
+    "scraps_into": {
+      "chemicals": 2
+    }
   },
   {
     "id": "gas-mine-blueprint",
-    "wiki_link": "https://arcraiders.wiki/wiki/Gas_Mine_Blueprint",
-    "scraps_into": null
+    "wiki_link": null,
+    "scraps_into": {}
   },
   {
     "id": "geiger-counter",
     "wiki_link": "https://arcraiders.wiki/wiki/Geiger_Counter",
-    "scraps_into": null
+    "scraps_into": {
+      "battery": 3
+    }
   },
   {
     "id": "goggles-radio-renegade-variant",
@@ -1209,43 +1247,55 @@
   },
   {
     "id": "great-muullein",
-    "wiki_link": "https://arcraiders.wiki/wiki/Great_Muullein",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Great_Mullein",
+    "scraps_into": {
+      "assorted-seeds": 1
+    }
   },
   {
     "id": "green-light-stick",
     "wiki_link": "https://arcraiders.wiki/wiki/Green_Light_Stick",
-    "scraps_into": null
+    "scraps_into": {
+      "chemicals": 1
+    }
   },
   {
     "id": "green-light-stick-blueprint",
-    "wiki_link": "https://arcraiders.wiki/wiki/Green_Light_Stick_Blueprint",
-    "scraps_into": null
+    "wiki_link": null,
+    "scraps_into": {}
   },
   {
     "id": "hairpin-i",
-    "wiki_link": "https://arcraiders.wiki/wiki/Hairpin_I",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Hairpin",
+    "scraps_into": {
+      "metal-parts": 2
+    }
   },
   {
     "id": "hairpin-ii",
-    "wiki_link": "https://arcraiders.wiki/wiki/Hairpin_Ii",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Hairpin",
+    "scraps_into": {
+      "metal-parts": 4
+    }
   },
   {
     "id": "hairpin-iii",
-    "wiki_link": "https://arcraiders.wiki/wiki/Hairpin_Iii",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Hairpin",
+    "scraps_into": {
+      "simple-gun-parts": 1
+    }
   },
   {
     "id": "hairpin-iv",
-    "wiki_link": "https://arcraiders.wiki/wiki/Hairpin_Iv",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Hairpin",
+    "scraps_into": {
+      "simple-gun-parts": 2
+    }
   },
   {
     "id": "happy-jig-emote",
-    "wiki_link": "https://arcraiders.wiki/wiki/Happy_Jig_Emote",
-    "scraps_into": null
+    "wiki_link": null,
+    "scraps_into": {}
   },
   {
     "id": "headphones",
@@ -1255,27 +1305,31 @@
   {
     "id": "heavy-ammo",
     "wiki_link": "https://arcraiders.wiki/wiki/Heavy_Ammo",
-    "scraps_into": null
+    "scraps_into": {}
   },
   {
     "id": "heavy-fuse-grenade-recipe",
-    "wiki_link": "https://arcraiders.wiki/wiki/Heavy_Fuse_Grenade_Recipe",
-    "scraps_into": null
+    "wiki_link": null,
+    "scraps_into": {}
   },
   {
     "id": "heavy-fuze-grenade",
     "wiki_link": "https://arcraiders.wiki/wiki/Heavy_Fuze_Grenade",
-    "scraps_into": null
+    "scraps_into": {
+      "crude-explosives": 1
+    }
   },
   {
     "id": "heavy-gun-parts",
     "wiki_link": "https://arcraiders.wiki/wiki/Heavy_Gun_Parts",
-    "scraps_into": null
+    "scraps_into": {
+      "simple-gun-parts": 1
+    }
   },
   {
     "id": "heavy-gun-parts-recipe",
-    "wiki_link": "https://arcraiders.wiki/wiki/Heavy_Gun_Parts_Recipe",
-    "scraps_into": null
+    "wiki_link": null,
+    "scraps_into": {}
   },
   {
     "id": "heavy-shield",
@@ -1284,148 +1338,190 @@
   },
   {
     "id": "helmet-radio-renegade-variant",
-    "wiki_link": "https://arcraiders.wiki/wiki/Helmet_Radio_Renegade_Variant",
+    "wiki_link": null,
     "scraps_into": null
   },
   {
     "id": "herbal-bandage",
     "wiki_link": "https://arcraiders.wiki/wiki/Herbal_Bandage",
-    "scraps_into": null
+    "scraps_into": {
+      "fabric": 8
+    }
   },
   {
     "id": "horizontal-grip",
     "wiki_link": "https://arcraiders.wiki/wiki/Horizontal_Grip",
-    "scraps_into": null
+    "scraps_into": {
+      "mechanical-components": 2
+    }
   },
   {
     "id": "horizontal-grip-blueprint",
-    "wiki_link": "https://arcraiders.wiki/wiki/Horizontal_Grip_Blueprint",
+    "wiki_link": null,
     "scraps_into": null
   },
   {
     "id": "hornet-driver",
     "wiki_link": "https://arcraiders.wiki/wiki/Hornet_Driver",
-    "scraps_into": null
+    "scraps_into": {
+      "electrical-components": 2
+    }
   },
   {
     "id": "household-cleaner",
     "wiki_link": "https://arcraiders.wiki/wiki/Household_Cleaner",
-    "scraps_into": null
+    "scraps_into": {
+      "chemicals": 5
+    }
   },
   {
     "id": "hullcracker-blueprint",
-    "wiki_link": "https://arcraiders.wiki/wiki/Hullcracker_Blueprint",
+    "wiki_link": null,
     "scraps_into": null
   },
   {
     "id": "hullcracker-i",
-    "wiki_link": "https://arcraiders.wiki/wiki/Hullcracker_I",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Hullcracker",
+    "scraps_into": {
+      "heavy-gun-parts": 2
+    }
   },
   {
     "id": "hullcracker-ii",
-    "wiki_link": "https://arcraiders.wiki/wiki/Hullcracker_Ii",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Hullcracker",
+    "scraps_into": {
+      "heavy-gun-parts": 3
+    }
   },
   {
     "id": "hullcracker-iii",
-    "wiki_link": "https://arcraiders.wiki/wiki/Hullcracker_Iii",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Hullcracker",
+    "scraps_into": {
+      "heavy-gun-parts": 4
+    }
   },
   {
     "id": "hullcracker-iv",
-    "wiki_link": "https://arcraiders.wiki/wiki/Hullcracker_Iv",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Hullcracker",
+    "scraps_into": {
+      "heavy-gun-parts": 5
+    }
   },
   {
     "id": "humidifier",
     "wiki_link": "https://arcraiders.wiki/wiki/Humidifier",
-    "scraps_into": null
+    "scraps_into": {
+      "canister": 2
+    }
   },
   {
     "id": "ice-cream-scooper",
     "wiki_link": "https://arcraiders.wiki/wiki/Ice_Cream_Scooper",
-    "scraps_into": null
+    "scraps_into": {
+      "metal-parts": 3
+    }
   },
   {
     "id": "il-toro-recipe",
-    "wiki_link": "https://arcraiders.wiki/wiki/Il_Toro_Recipe",
-    "scraps_into": null
+    "wiki_link": null,
+    "scraps_into": {}
   },
   {
     "id": "il-toro-i",
-    "wiki_link": "https://arcraiders.wiki/wiki/Il_Toro_I",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Il_Toro",
+    "scraps_into": {
+      "simple-gun-parts": 2
+    }
   },
   {
     "id": "il-toro-ii",
-    "wiki_link": "https://arcraiders.wiki/wiki/Il_Toro_Ii",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Il_Toro",
+    "scraps_into": {
+      "simple-gun-parts": 3
+    }
   },
   {
     "id": "il-toro-iiii",
-    "wiki_link": "https://arcraiders.wiki/wiki/Il_Toro_Iiii",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Il_Toro",
+    "scraps_into": {
+      "simple-gun-parts": 4
+    }
   },
   {
     "id": "il-toro-iv",
-    "wiki_link": "https://arcraiders.wiki/wiki/Il_Toro_Iv",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Il_Toro",
+    "scraps_into": {
+      "simple-gun-parts": 5
+    }
   },
   {
     "id": "impure-arc-coolant",
-    "wiki_link": "https://arcraiders.wiki/wiki/Impure_Arc_Coolant",
+    "wiki_link": "https://arcraiders.wiki/wiki/Impure_ARC_Coolant",
     "scraps_into": null
   },
   {
     "id": "industrial-battery",
     "wiki_link": "https://arcraiders.wiki/wiki/Industrial_Battery",
-    "scraps_into": null
+    "scraps_into": {
+      "battery": 2
+    }
   },
   {
     "id": "industrial-charger",
     "wiki_link": "https://arcraiders.wiki/wiki/Industrial_Charger",
-    "scraps_into": null
+    "scraps_into": {
+      "voltage-converter": 1
+    }
   },
   {
     "id": "industrial-magnet",
     "wiki_link": "https://arcraiders.wiki/wiki/Industrial_Magnet",
-    "scraps_into": null
+    "scraps_into": {
+      "magnet": 2
+    }
   },
   {
     "id": "ion-sputter",
     "wiki_link": "https://arcraiders.wiki/wiki/Ion_Sputter",
-    "scraps_into": null
+    "scraps_into": {
+      "exodus-modules": 1
+    }
   },
   {
     "id": "jolt-mine",
     "wiki_link": "https://arcraiders.wiki/wiki/Jolt_Mine",
-    "scraps_into": null
+    "scraps_into": {
+      "battery": 1
+    }
   },
   {
     "id": "jolt-mine-recipe",
-    "wiki_link": "https://arcraiders.wiki/wiki/Jolt_Mine_Recipe",
-    "scraps_into": null
+    "wiki_link": null,
+    "scraps_into": {}
   },
   {
     "id": "junior-outfit",
-    "wiki_link": "https://arcraiders.wiki/wiki/Junior_Outfit",
+    "wiki_link": null,
     "scraps_into": null
   },
   {
     "id": "jupiter-i",
-    "wiki_link": "https://arcraiders.wiki/wiki/Jupiter_I",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Jupiter",
+    "scraps_into": {
+      "advanced-mechanical-components": 3
+    }
   },
   {
     "id": "jupiter-i-recipe",
-    "wiki_link": "https://arcraiders.wiki/wiki/Jupiter_I_Recipe",
+    "wiki_link": null,
     "scraps_into": null
   },
   {
     "id": "moss",
     "wiki_link": "https://arcraiders.wiki/wiki/Moss",
-    "scraps_into": null
+    "scraps_into": {
+      "assorted-seeds": 2
+    }
   },
   {
     "id": "motor",
@@ -1435,92 +1531,110 @@
   {
     "id": "mushroom",
     "wiki_link": "https://arcraiders.wiki/wiki/Mushroom",
-    "scraps_into": null
+    "scraps_into": {}
   },
   {
     "id": "music-album",
     "wiki_link": "https://arcraiders.wiki/wiki/Music_Album",
-    "scraps_into": null
+    "scraps_into": {}
   },
   {
     "id": "music-box",
     "wiki_link": "https://arcraiders.wiki/wiki/Music_Box",
-    "scraps_into": null
+    "scraps_into": {}
   },
   {
     "id": "muzzle-brake-i",
     "wiki_link": "https://arcraiders.wiki/wiki/Muzzle_Brake_I",
-    "scraps_into": null
+    "scraps_into": {
+      "metal-parts": 3
+    }
   },
   {
     "id": "muzzle-brake-ii",
-    "wiki_link": "https://arcraiders.wiki/wiki/Muzzle_Brake_Ii",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Muzzle_Brake_II",
+    "scraps_into": {
+      "mechanical-components": 1
+    }
   },
   {
     "id": "muzzle-brake-ii-recipe",
-    "wiki_link": "https://arcraiders.wiki/wiki/Muzzle_Brake_Ii_Recipe",
+    "wiki_link": null,
     "scraps_into": null
   },
   {
     "id": "muzzle-brake-iii",
-    "wiki_link": "https://arcraiders.wiki/wiki/Muzzle_Brake_Iii",
+    "wiki_link": "https://arcraiders.wiki/wiki/Muzzle_Brake_III",
     "scraps_into": null
   },
   {
     "id": "muzzle-brake-iii-recipe",
-    "wiki_link": "https://arcraiders.wiki/wiki/Muzzle_Brake_Iii_Recipe",
+    "wiki_link": null,
     "scraps_into": null
   },
   {
     "id": "noisemaker",
     "wiki_link": "https://arcraiders.wiki/wiki/Noisemaker",
-    "scraps_into": null
+    "scraps_into": {
+      "speaker-component": 1
+    }
   },
   {
     "id": "number-plate",
     "wiki_link": "https://arcraiders.wiki/wiki/Number_Plate",
-    "scraps_into": null
+    "scraps_into": {
+      "metal-parts": 2
+    }
   },
   {
     "id": "oil",
     "wiki_link": "https://arcraiders.wiki/wiki/Oil",
-    "scraps_into": null
+    "scraps_into": {
+      "chemicals": 2
+    }
   },
   {
     "id": "olives",
     "wiki_link": "https://arcraiders.wiki/wiki/Olives",
-    "scraps_into": null
+    "scraps_into": {}
   },
   {
     "id": "orange-camo-origin-outfit",
-    "wiki_link": "https://arcraiders.wiki/wiki/Orange_Camo_Origin_Outfit",
+    "wiki_link": null,
     "scraps_into": null
   },
   {
     "id": "osprey-recipe",
-    "wiki_link": "https://arcraiders.wiki/wiki/Osprey_Recipe",
-    "scraps_into": null
+    "wiki_link": null,
+    "scraps_into": {}
   },
   {
     "id": "osprey-i",
-    "wiki_link": "https://arcraiders.wiki/wiki/Osprey_I",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Osprey",
+    "scraps_into": {
+      "medium-gun-parts": 2
+    }
   },
   {
     "id": "osprey-ii",
-    "wiki_link": "https://arcraiders.wiki/wiki/Osprey_Ii",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Osprey",
+    "scraps_into": {
+      "medium-gun-parts": 2
+    }
   },
   {
     "id": "osprey-iii",
-    "wiki_link": "https://arcraiders.wiki/wiki/Osprey_Iii",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Osprey",
+    "scraps_into": {
+      "medium-gun-parts": 3
+    }
   },
   {
     "id": "osprey-iv",
-    "wiki_link": "https://arcraiders.wiki/wiki/Osprey_Iv",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Osprey",
+    "scraps_into": {
+      "medium-gun-parts": 3
+    }
   },
   {
     "id": "padded-stock",
@@ -1529,487 +1643,605 @@
   },
   {
     "id": "padded-stock-recipe",
-    "wiki_link": "https://arcraiders.wiki/wiki/Padded_Stock_Recipe",
-    "scraps_into": null
+    "wiki_link": null,
+    "scraps_into": {}
   },
   {
     "id": "painted-box",
     "wiki_link": "https://arcraiders.wiki/wiki/Painted_Box",
-    "scraps_into": null
+    "scraps_into": {}
   },
   {
     "id": "patrol-car-key",
     "wiki_link": "https://arcraiders.wiki/wiki/Patrol_Car_Key",
-    "scraps_into": null
+    "scraps_into": {}
   },
   {
     "id": "patrol-outfit",
-    "wiki_link": "https://arcraiders.wiki/wiki/Patrol_Outfit",
+    "wiki_link": null,
     "scraps_into": null
   },
   {
     "id": "photoelectric-cloak",
     "wiki_link": "https://arcraiders.wiki/wiki/Photoelectric_Cloak",
-    "scraps_into": null
+    "scraps_into": {
+      "advanced-electrical-components": 1
+    }
   },
   {
     "id": "plastic-parts",
     "wiki_link": "https://arcraiders.wiki/wiki/Plastic_Parts",
-    "scraps_into": null
+    "scraps_into": {}
   },
   {
     "id": "playing-cards",
     "wiki_link": "https://arcraiders.wiki/wiki/Playing_Cards",
-    "scraps_into": null
+    "scraps_into": {}
   },
   {
     "id": "polluted-air-filter",
     "wiki_link": "https://arcraiders.wiki/wiki/Polluted_Air_Filter",
-    "scraps_into": null
+    "scraps_into": {
+      "oil": 2
+    }
   },
   {
     "id": "pop-trigger",
     "wiki_link": "https://arcraiders.wiki/wiki/Pop_Trigger",
-    "scraps_into": null
+    "scraps_into": {
+      "crude-explosives": 5
+    }
   },
   {
     "id": "portable-television",
-    "wiki_link": "https://arcraiders.wiki/wiki/Portable_Television",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Portable_TV",
+    "scraps_into": {
+      "wires": 4
+    }
   },
   {
     "id": "poster-natural-wonder",
-    "wiki_link": "https://arcraiders.wiki/wiki/Poster_Natural_Wonder",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Poster_Of_Natural_Wonders",
+    "scraps_into": {}
   },
   {
     "id": "pottery",
     "wiki_link": "https://arcraiders.wiki/wiki/Pottery",
-    "scraps_into": null
+    "scraps_into": {}
   },
   {
     "id": "power-bank",
     "wiki_link": "https://arcraiders.wiki/wiki/Power_Bank",
-    "scraps_into": null
+    "scraps_into": {
+      "battery": 2
+    }
   },
   {
     "id": "power-cable",
     "wiki_link": "https://arcraiders.wiki/wiki/Power_Cable",
-    "scraps_into": null
+    "scraps_into": {
+      "wires": 3
+    }
   },
   {
     "id": "power-rod",
     "wiki_link": "https://arcraiders.wiki/wiki/Power_Rod",
-    "scraps_into": null
+    "scraps_into": {
+      "advanced-electrical-components": 1
+    }
   },
   {
     "id": "power-rod-recipe",
-    "wiki_link": "https://arcraiders.wiki/wiki/Power_Rod_Recipe",
-    "scraps_into": null
+    "wiki_link": null,
+    "scraps_into": {}
   },
   {
     "id": "prickly-pear",
     "wiki_link": "https://arcraiders.wiki/wiki/Prickly_Pear",
-    "scraps_into": null
+    "scraps_into": {}
   },
   {
     "id": "processor",
     "wiki_link": "https://arcraiders.wiki/wiki/Processor",
-    "scraps_into": null
+    "scraps_into": {
+      "plastic-parts": 2
+    }
   },
   {
     "id": "projector",
     "wiki_link": "https://arcraiders.wiki/wiki/Projector",
-    "scraps_into": null
+    "scraps_into": {
+      "processor": 1
+    }
   },
   {
     "id": "pulse-mine",
     "wiki_link": "https://arcraiders.wiki/wiki/Pulse_Mine",
-    "scraps_into": null
+    "scraps_into": {
+      "chemicals": 3
+    }
   },
   {
     "id": "pulse-mine-blueprint",
-    "wiki_link": "https://arcraiders.wiki/wiki/Pulse_Mine_Blueprint",
-    "scraps_into": null
+    "wiki_link": null,
+    "scraps_into": {}
   },
   {
     "id": "queen-reactor",
     "wiki_link": "https://arcraiders.wiki/wiki/Queen_Reactor",
-    "scraps_into": null
+    "scraps_into": {
+      "power-rod": 1
+    }
   },
   {
     "id": "radio",
     "wiki_link": "https://arcraiders.wiki/wiki/Radio",
-    "scraps_into": null
+    "scraps_into": {
+      "speaker-component": 1
+    }
   },
   {
     "id": "radio-relay",
     "wiki_link": "https://arcraiders.wiki/wiki/Radio_Relay",
-    "scraps_into": null
+    "scraps_into": {
+      "sensors": 2
+    }
   },
   {
     "id": "radio-renegade-outfit",
-    "wiki_link": "https://arcraiders.wiki/wiki/Radio_Renegade_Outfit",
+    "wiki_link": null,
     "scraps_into": null
   },
   {
     "id": "raider-hatch-key",
     "wiki_link": "https://arcraiders.wiki/wiki/Raider_Hatch_Key",
-    "scraps_into": null
+    "scraps_into": {}
   },
   {
     "id": "rattler-i",
-    "wiki_link": "https://arcraiders.wiki/wiki/Rattler_I",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Rattler",
+    "scraps_into": {
+      "metal-parts": 4
+    }
   },
   {
     "id": "rattler-ii",
-    "wiki_link": "https://arcraiders.wiki/wiki/Rattler_Ii",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Rattler",
+    "scraps_into": {
+      "metal-parts": 8
+    }
   },
   {
     "id": "rattler-iii",
-    "wiki_link": "https://arcraiders.wiki/wiki/Rattler_Iii",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Rattler",
+    "scraps_into": {
+      "metal-parts": 12
+    }
   },
   {
     "id": "adrenaline-shot",
     "wiki_link": "https://arcraiders.wiki/wiki/Adrenaline_Shot",
-    "scraps_into": null
+    "scraps_into": {
+      "chemicals": 1
+    }
   },
   {
     "id": "advanced-arc-powercell",
-    "wiki_link": "https://arcraiders.wiki/wiki/Advanced_Arc_Powercell",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Advanced_ARC_Powercell",
+    "scraps_into": {
+      "arc-powercell": 1
+    }
   },
   {
     "id": "advanced-electrical-components",
     "wiki_link": "https://arcraiders.wiki/wiki/Advanced_Electrical_Components",
-    "scraps_into": null
+    "scraps_into": {
+      "electrical-components": 1
+    }
   },
   {
     "id": "advanced-electrical-components-recipe",
-    "wiki_link": "https://arcraiders.wiki/wiki/Advanced_Electrical_Components_Recipe",
-    "scraps_into": null
+    "wiki_link": null,
+    "scraps_into": {}
   },
   {
     "id": "advanced-mechanical-components",
     "wiki_link": "https://arcraiders.wiki/wiki/Advanced_Mechanical_Components",
-    "scraps_into": null
+    "scraps_into": {
+      "mechanical-components": 1
+    }
   },
   {
     "id": "advanced-mechanical-components-recipe",
-    "wiki_link": "https://arcraiders.wiki/wiki/Advanced_Mechanical_Components_Recipe",
-    "scraps_into": null
+    "wiki_link": null,
+    "scraps_into": {}
   },
   {
     "id": "agave",
     "wiki_link": "https://arcraiders.wiki/wiki/Agave",
-    "scraps_into": null
+    "scraps_into": {}
   },
   {
     "id": "agave-juice",
     "wiki_link": "https://arcraiders.wiki/wiki/Agave_Juice",
-    "scraps_into": null
+    "scraps_into": {
+      "empty-wine-bottle": 1
+    }
   },
   {
     "id": "air-freshener",
     "wiki_link": "https://arcraiders.wiki/wiki/Air_Freshener",
-    "scraps_into": null
+    "scraps_into": {}
   },
   {
     "id": "alarm-clock",
     "wiki_link": "https://arcraiders.wiki/wiki/Alarm_Clock",
-    "scraps_into": null
+    "scraps_into": {
+      "processor": 1
+    }
   },
   {
     "id": "angled-grip-i",
     "wiki_link": "https://arcraiders.wiki/wiki/Angled_Grip_I",
-    "scraps_into": null
+    "scraps_into": {
+      "plastic-parts": 3
+    }
   },
   {
     "id": "angled-grip-ii",
-    "wiki_link": "https://arcraiders.wiki/wiki/Angled_Grip_Ii",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Angled_Grip_II",
+    "scraps_into": {
+      "mechanical-components": 1
+    }
   },
   {
     "id": "angled-grip-ii-recipe",
-    "wiki_link": "https://arcraiders.wiki/wiki/Angled_Grip_Ii_Recipe",
+    "wiki_link": null,
     "scraps_into": null
   },
   {
     "id": "angled-grip-iii",
-    "wiki_link": "https://arcraiders.wiki/wiki/Angled_Grip_Iii",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Angled_Grip_III",
+    "scraps_into": {
+      "mechanical-components": 2
+    }
   },
   {
     "id": "angled-grip-iii-recipe",
-    "wiki_link": "https://arcraiders.wiki/wiki/Angled_Grip_Iii_Recipe",
+    "wiki_link": null,
     "scraps_into": null
   },
   {
     "id": "antiseptic",
     "wiki_link": "https://arcraiders.wiki/wiki/Antiseptic",
-    "scraps_into": null
+    "scraps_into": {
+      "chemicals": 5
+    }
   },
   {
     "id": "anvil-recipe",
-    "wiki_link": "https://arcraiders.wiki/wiki/Anvil_Recipe",
+    "wiki_link": null,
     "scraps_into": null
   },
   {
     "id": "anvil-i",
-    "wiki_link": "https://arcraiders.wiki/wiki/Anvil_I",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Anvil",
+    "scraps_into": {
+      "simple-gun-parts": 2
+    }
   },
   {
     "id": "anvil-ii",
-    "wiki_link": "https://arcraiders.wiki/wiki/Anvil_Ii",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Anvil",
+    "scraps_into": {
+      "simple-gun-parts": 3
+    }
   },
   {
     "id": "anvil-iii",
-    "wiki_link": "https://arcraiders.wiki/wiki/Anvil_Iii",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Anvil",
+    "scraps_into": {
+      "simple-gun-parts": 4
+    }
   },
   {
     "id": "anvil-iv",
-    "wiki_link": "https://arcraiders.wiki/wiki/Anvil_Iv",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Anvil",
+    "scraps_into": {
+      "simple-gun-parts": 5
+    }
   },
   {
     "id": "anvil-splitter",
     "wiki_link": "https://arcraiders.wiki/wiki/Anvil_Splitter",
-    "scraps_into": null
+    "scraps_into": {
+      "mechanical-components": 2
+    }
   },
   {
     "id": "anvil-splitter-recipe",
-    "wiki_link": "https://arcraiders.wiki/wiki/Anvil_Splitter_Recipe",
+    "wiki_link": null,
     "scraps_into": null
   },
   {
     "id": "aphelion-rifle",
-    "wiki_link": "https://arcraiders.wiki/wiki/Aphelion_Rifle",
+    "wiki_link": "https://arcraiders.wiki/wiki/Aphelion",
     "scraps_into": null
   },
   {
     "id": "aphelion-rifle-blueprint",
-    "wiki_link": "https://arcraiders.wiki/wiki/Aphelion_Rifle_Blueprint",
+    "wiki_link": null,
     "scraps_into": null
   },
   {
     "id": "apricot",
     "wiki_link": "https://arcraiders.wiki/wiki/Apricot",
-    "scraps_into": null
+    "scraps_into": {
+      "assorted-seeds": 1
+    }
   },
   {
     "id": "arc-alloy",
-    "wiki_link": "https://arcraiders.wiki/wiki/Arc_Alloy",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/ARC_Alloy",
+    "scraps_into": {
+      "metal-parts": 1
+    }
   },
   {
     "id": "arc-circuitry",
-    "wiki_link": "https://arcraiders.wiki/wiki/Arc_Circuitry",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/ARC_Circuitry",
+    "scraps_into": {
+      "arc-alloy": 1
+    }
   },
   {
     "id": "arc-circuitry-recipe",
-    "wiki_link": "https://arcraiders.wiki/wiki/Arc_Circuitry_Recipe",
+    "wiki_link": null,
     "scraps_into": null
   },
   {
     "id": "arc-coolant",
-    "wiki_link": "https://arcraiders.wiki/wiki/Arc_Coolant",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/ARC_Coolant",
+    "scraps_into": {
+      "chemicals": 9
+    }
   },
   {
     "id": "arc-flex-rubber",
-    "wiki_link": "https://arcraiders.wiki/wiki/Arc_Flex_Rubber",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/ARC_Flex_Rubber",
+    "scraps_into": {
+      "rubber-parts": 9
+    }
   },
   {
     "id": "arc-motion-core",
-    "wiki_link": "https://arcraiders.wiki/wiki/Arc_Motion_Core",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/ARC_Motion_Core",
+    "scraps_into": {
+      "arc-alloy": 1
+    }
   },
   {
     "id": "arc-performance-steel",
-    "wiki_link": "https://arcraiders.wiki/wiki/Arc_Performance_Steel",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/ARC_Performance_Steel",
+    "scraps_into": {
+      "metal-parts": 7
+    }
   },
   {
     "id": "arc-powercell",
-    "wiki_link": "https://arcraiders.wiki/wiki/Arc_Powercell",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/ARC_Powercell",
+    "scraps_into": {}
   },
   {
     "id": "arc-synthetic-resin",
-    "wiki_link": "https://arcraiders.wiki/wiki/Arc_Synthetic_Resin",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/ARC_Synthetic_Resin",
+    "scraps_into": {
+      "plastic-parts": 8
+    }
   },
   {
     "id": "arc-thermo-lining",
-    "wiki_link": "https://arcraiders.wiki/wiki/Arc_Thermo_Lining",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/ARC_Thermo_Lining",
+    "scraps_into": {
+      "fabric": 9
+    }
   },
   {
     "id": "arpeggio-i",
-    "wiki_link": "https://arcraiders.wiki/wiki/Arpeggio_I",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Arpeggio",
+    "scraps_into": {
+      "simple-gun-parts": 2
+    }
   },
   {
     "id": "arpeggio-ii",
-    "wiki_link": "https://arcraiders.wiki/wiki/Arpeggio_Ii",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Arpeggio",
+    "scraps_into": {
+      "simple-gun-parts": 3
+    }
   },
   {
     "id": "arpeggio-iii",
-    "wiki_link": "https://arcraiders.wiki/wiki/Arpeggio_Iii",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Arpeggio",
+    "scraps_into": {
+      "simple-gun-parts": 4
+    }
   },
   {
     "id": "arpeggio-iv",
-    "wiki_link": "https://arcraiders.wiki/wiki/Arpeggio_Iv",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Arpeggio",
+    "scraps_into": {
+      "simple-gun-parts": 5
+    }
   },
   {
     "id": "assorted-seeds",
     "wiki_link": "https://arcraiders.wiki/wiki/Assorted_Seeds",
-    "scraps_into": null
+    "scraps_into": {}
   },
   {
     "id": "aviator-outfit",
-    "wiki_link": "https://arcraiders.wiki/wiki/Aviator_Outfit",
+    "wiki_link": null,
     "scraps_into": null
   },
   {
     "id": "bag-radio-renegade-variant",
-    "wiki_link": "https://arcraiders.wiki/wiki/Bag_Radio_Renegade_Variant",
+    "wiki_link": null,
     "scraps_into": null
   },
   {
     "id": "banana-backpack-charm",
-    "wiki_link": "https://arcraiders.wiki/wiki/Banana_Backpack_Charm",
+    "wiki_link": null,
     "scraps_into": null
   },
   {
     "id": "bandage",
     "wiki_link": "https://arcraiders.wiki/wiki/Bandage",
-    "scraps_into": null
+    "scraps_into": {
+      "fabric": 1
+    }
   },
   {
     "id": "barricade-kit",
     "wiki_link": "https://arcraiders.wiki/wiki/Barricade_Kit",
-    "scraps_into": null
+    "scraps_into": {
+      "metal-parts": 3
+    }
   },
   {
     "id": "barricade-kit-recipe",
-    "wiki_link": "https://arcraiders.wiki/wiki/Barricade_Kit_Recipe",
+    "wiki_link": null,
     "scraps_into": null
   },
   {
     "id": "bastion-part",
     "wiki_link": "https://arcraiders.wiki/wiki/Bastion_Part",
-    "scraps_into": null
+    "scraps_into": {
+      "advanced-mechanical-components": 2
+    }
   },
   {
     "id": "battery",
     "wiki_link": "https://arcraiders.wiki/wiki/Battery",
-    "scraps_into": null
+    "scraps_into": {
+      "mechanical-parts": 1
+    }
   },
   {
     "id": "bettina-blueprint",
-    "wiki_link": "https://arcraiders.wiki/wiki/Bettina_Blueprint",
+    "wiki_link": null,
     "scraps_into": null
   },
   {
     "id": "vita-shot-recipe",
-    "wiki_link": "https://arcraiders.wiki/wiki/Vita_Shot_Recipe",
+    "wiki_link": null,
     "scraps_into": null
   },
   {
     "id": "vita-spray",
     "wiki_link": "https://arcraiders.wiki/wiki/Vita_Spray",
-    "scraps_into": null
+    "scraps_into": {
+      "antiseptic": 1
+    }
   },
   {
     "id": "vita-spray-recipe",
-    "wiki_link": "https://arcraiders.wiki/wiki/Vita_Spray_Recipe",
+    "wiki_link": null,
     "scraps_into": null
   },
   {
     "id": "volcanic-rock",
     "wiki_link": "https://arcraiders.wiki/wiki/Volcanic_Rock",
-    "scraps_into": null
+    "scraps_into": {}
   },
   {
     "id": "voltage-converter",
     "wiki_link": "https://arcraiders.wiki/wiki/Voltage_Converter",
-    "scraps_into": null
+    "scraps_into": {
+      "rubber-parts": 2
+    }
   },
   {
     "id": "vulcano-blueprint",
-    "wiki_link": "https://arcraiders.wiki/wiki/Vulcano_Blueprint",
+    "wiki_link": null,
     "scraps_into": null
   },
   {
     "id": "vulcano-i",
-    "wiki_link": "https://arcraiders.wiki/wiki/Vulcano_I",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Vulcano",
+    "scraps_into": {
+      "heavy-gun-parts": 2
+    }
   },
   {
     "id": "vulcano-ii",
-    "wiki_link": "https://arcraiders.wiki/wiki/Vulcano_Ii",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Vulcano",
+    "scraps_into": {
+      "heavy-gun-parts": 3
+    }
   },
   {
     "id": "vulcano-iii",
-    "wiki_link": "https://arcraiders.wiki/wiki/Vulcano_Iii",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Vulcano",
+    "scraps_into": {
+      "heavy-gun-parts": 4
+    }
   },
   {
     "id": "vulcano-iv",
-    "wiki_link": "https://arcraiders.wiki/wiki/Vulcano_Iv",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Vulcano",
+    "scraps_into": {
+      "heavy-gun-parts": 5
+    }
   },
   {
     "id": "wasp-driver",
     "wiki_link": "https://arcraiders.wiki/wiki/Wasp_Driver",
-    "scraps_into": null
+    "scraps_into": {
+      "electrical-components": 1
+    }
   },
   {
     "id": "water-filter",
     "wiki_link": "https://arcraiders.wiki/wiki/Water_Filter",
-    "scraps_into": null
+    "scraps_into": {
+      "canister": 2
+    }
   },
   {
     "id": "water-pump",
     "wiki_link": "https://arcraiders.wiki/wiki/Water_Pump",
-    "scraps_into": null
+    "scraps_into": {
+      "oil": 2
+    }
   },
   {
     "id": "wires-recipe",
-    "wiki_link": "https://arcraiders.wiki/wiki/Wires_Recipe",
+    "wiki_link": null,
     "scraps_into": null
   },
   {
     "id": "wolfpack",
     "wiki_link": "https://arcraiders.wiki/wiki/Wolfpack",
-    "scraps_into": null
+    "scraps_into": {
+      "explosive-compound": 2
+    }
   },
   {
     "id": "wolfpack-recipe",
-    "wiki_link": "https://arcraiders.wiki/wiki/Wolfpack_Recipe",
+    "wiki_link": null,
     "scraps_into": null
   },
   {
     "id": "yellow-light-stick",
     "wiki_link": "https://arcraiders.wiki/wiki/Yellow_Light_Stick",
-    "scraps_into": null
+    "scraps_into": {
+      "chemicals": 1
+    }
   },
   {
     "id": "yellow-light-stick-blueprint",
-    "wiki_link": "https://arcraiders.wiki/wiki/Yellow_Light_Stick_Blueprint",
+    "wiki_link": null,
     "scraps_into": null
   },
   {
@@ -2019,73 +2251,85 @@
   },
   {
     "id": "dried-out-arc-resin",
-    "wiki_link": "https://arcraiders.wiki/wiki/Dried_Out_Arc_Resin",
+    "wiki_link": "https://arcraiders.wiki/wiki/Dried-Out_ARC_Resin",
     "scraps_into": null
   },
   {
     "id": "duct-tape-recipe",
-    "wiki_link": "https://arcraiders.wiki/wiki/Duct_Tape_Recipe",
+    "wiki_link": null,
     "scraps_into": null
   },
   {
     "id": "durable-cloth",
     "wiki_link": "https://arcraiders.wiki/wiki/Durable_Cloth",
-    "scraps_into": null
+    "scraps_into": {
+      "fabric": 2
+    }
   },
   {
     "id": "electrical-components",
     "wiki_link": "https://arcraiders.wiki/wiki/Electrical_Components",
-    "scraps_into": null
+    "scraps_into": {
+      "plastic-parts": 3
+    }
   },
   {
     "id": "empty-wine-bottle",
     "wiki_link": "https://arcraiders.wiki/wiki/Empty_Wine_Bottle",
-    "scraps_into": null
+    "scraps_into": {}
   },
   {
     "id": "energy-ammo-recipe",
-    "wiki_link": "https://arcraiders.wiki/wiki/Energy_Ammo_Recipe",
+    "wiki_link": null,
     "scraps_into": null
   },
   {
     "id": "energy-ammo",
     "wiki_link": "https://arcraiders.wiki/wiki/Energy_Ammo",
-    "scraps_into": null
+    "scraps_into": {}
   },
   {
     "id": "equalizer-i",
-    "wiki_link": "https://arcraiders.wiki/wiki/Equalizer_I",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Equalizer",
+    "scraps_into": {
+      "magnetic-accelerator": 1
+    }
   },
   {
     "id": "equalizer-recipe",
-    "wiki_link": "https://arcraiders.wiki/wiki/Equalizer_Recipe",
+    "wiki_link": null,
     "scraps_into": null
   },
   {
     "id": "esr-analyzer",
-    "wiki_link": "https://arcraiders.wiki/wiki/Esr_Analyzer",
-    "scraps_into": null
+    "wiki_link": null,
+    "scraps_into": {}
   },
   {
     "id": "exodus-modules",
     "wiki_link": "https://arcraiders.wiki/wiki/Exodus_Modules",
-    "scraps_into": null
+    "scraps_into": {
+      "processor": 2
+    }
   },
   {
     "id": "expired-pasta",
     "wiki_link": "https://arcraiders.wiki/wiki/Expired_Pasta",
-    "scraps_into": null
+    "scraps_into": {}
   },
   {
     "id": "expired-respirator",
     "wiki_link": "https://arcraiders.wiki/wiki/Expired_Respirator",
-    "scraps_into": null
+    "scraps_into": {
+      "rubber-parts": 5
+    }
   },
   {
     "id": "explosive-compound",
     "wiki_link": "https://arcraiders.wiki/wiki/Explosive_Compound",
-    "scraps_into": null
+    "scraps_into": {
+      "crude-explosives": 5
+    }
   },
   {
     "id": "explosive-mine",
@@ -2094,7 +2338,7 @@
   },
   {
     "id": "explosive-mine-blueprint",
-    "wiki_link": "https://arcraiders.wiki/wiki/Explosive_Mine_Blueprint",
+    "wiki_link": null,
     "scraps_into": null
   },
   {
@@ -2104,52 +2348,62 @@
   },
   {
     "id": "extended-barrel-recipe",
-    "wiki_link": "https://arcraiders.wiki/wiki/Extended_Barrel_Recipe",
+    "wiki_link": null,
     "scraps_into": null
   },
   {
     "id": "extended-light-mag-i",
     "wiki_link": "https://arcraiders.wiki/wiki/Extended_Light_Mag_I",
-    "scraps_into": null
+    "scraps_into": {
+      "plastic-parts": 3
+    }
   },
   {
     "id": "extended-light-mag-ii",
-    "wiki_link": "https://arcraiders.wiki/wiki/Extended_Light_Mag_Ii",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Extended_Light_Mag_II",
+    "scraps_into": {
+      "mechanical-components": 1
+    }
   },
   {
     "id": "extended-light-mag-ii-recipe",
-    "wiki_link": "https://arcraiders.wiki/wiki/Extended_Light_Mag_Ii_Recipe",
+    "wiki_link": null,
     "scraps_into": null
   },
   {
     "id": "extended-light-mag-iii",
-    "wiki_link": "https://arcraiders.wiki/wiki/Extended_Light_Mag_Iii",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Extended_Light_Mag_III",
+    "scraps_into": {
+      "mechanical-components": 2
+    }
   },
   {
     "id": "extended-light-mag-iii-recipe",
-    "wiki_link": "https://arcraiders.wiki/wiki/Extended_Light_Mag_Iii_Recipe",
+    "wiki_link": null,
     "scraps_into": null
   },
   {
     "id": "extended-medium-mag-i",
     "wiki_link": "https://arcraiders.wiki/wiki/Extended_Medium_Mag_I",
-    "scraps_into": null
+    "scraps_into": {
+      "plastic-parts": 3
+    }
   },
   {
     "id": "extended-medium-mag-ii",
-    "wiki_link": "https://arcraiders.wiki/wiki/Extended_Medium_Mag_Ii",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Extended_Medium_Mag_II",
+    "scraps_into": {
+      "mechanical-components": 1
+    }
   },
   {
     "id": "extended-medium-mag-ii-recipe",
-    "wiki_link": "https://arcraiders.wiki/wiki/Extended_Medium_Mag_Ii_Recipe",
+    "wiki_link": null,
     "scraps_into": null
   },
   {
     "id": "extended-medium-mag-iii",
-    "wiki_link": "https://arcraiders.wiki/wiki/Extended_Medium_Mag_Iii",
+    "wiki_link": "https://arcraiders.wiki/wiki/Extended_Medium_Mag_III",
     "scraps_into": null
   },
   {
@@ -2160,357 +2414,447 @@
   {
     "id": "extended-shotgun-mag-i",
     "wiki_link": "https://arcraiders.wiki/wiki/Extended_Shotgun_Mag_I",
-    "scraps_into": null
+    "scraps_into": {
+      "plastic-parts": 3
+    }
   },
   {
     "id": "extended-shotgun-mag-ii",
-    "wiki_link": "https://arcraiders.wiki/wiki/Extended_Shotgun_Mag_Ii",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Extended_Shotgun_Mag_II",
+    "scraps_into": {
+      "mechanical-components": 1
+    }
   },
   {
     "id": "extended-shotgun-mag-ii-recipe",
-    "wiki_link": "https://arcraiders.wiki/wiki/Extended_Shotgun_Mag_Ii_Recipe",
+    "wiki_link": null,
     "scraps_into": null
   },
   {
     "id": "extended-shotgun-mag-iii",
-    "wiki_link": "https://arcraiders.wiki/wiki/Extended_Shotgun_Mag_Iii",
+    "wiki_link": "https://arcraiders.wiki/wiki/Extended_Shotgun_Mag_III",
     "scraps_into": null
   },
   {
     "id": "extended-shotgun-mag-iii-recipe",
-    "wiki_link": "https://arcraiders.wiki/wiki/Extended_Shotgun_Mag_Iii_Recipe",
+    "wiki_link": null,
     "scraps_into": null
   },
   {
     "id": "fabric",
     "wiki_link": "https://arcraiders.wiki/wiki/Fabric",
-    "scraps_into": null
+    "scraps_into": {}
   },
   {
     "id": "faded-photograph",
     "wiki_link": "https://arcraiders.wiki/wiki/Faded_Photograph",
-    "scraps_into": null
+    "scraps_into": {}
   },
   {
     "id": "ferro-i",
-    "wiki_link": "https://arcraiders.wiki/wiki/Ferro_I",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Ferro",
+    "scraps_into": {
+      "metal-parts": 2
+    }
   },
   {
     "id": "ferro-ii",
-    "wiki_link": "https://arcraiders.wiki/wiki/Ferro_Ii",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Ferro",
+    "scraps_into": {
+      "metal-parts": 4
+    }
   },
   {
     "id": "ferro-iii",
-    "wiki_link": "https://arcraiders.wiki/wiki/Ferro_Iii",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Ferro",
+    "scraps_into": {
+      "simple-gun-parts": 1
+    }
   },
   {
     "id": "ferro-iv",
-    "wiki_link": "https://arcraiders.wiki/wiki/Ferro_Iv",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Ferro",
+    "scraps_into": {
+      "simple-gun-parts": 2
+    }
   },
   {
     "id": "fertilizer",
     "wiki_link": "https://arcraiders.wiki/wiki/Fertilizer",
-    "scraps_into": null
+    "scraps_into": {}
   },
   {
     "id": "film-reel",
     "wiki_link": "https://arcraiders.wiki/wiki/Film_Reel",
-    "scraps_into": null
+    "scraps_into": {}
   },
   {
     "id": "fine-wristwatch",
     "wiki_link": "https://arcraiders.wiki/wiki/Fine_Wristwatch",
-    "scraps_into": null
+    "scraps_into": {}
   },
   {
     "id": "fireball-burner",
     "wiki_link": "https://arcraiders.wiki/wiki/Fireball_Burner",
-    "scraps_into": null
+    "scraps_into": {
+      "arc-alloy": 1
+    }
   },
   {
     "id": "flame-spray",
     "wiki_link": "https://arcraiders.wiki/wiki/Flame_Spray",
-    "scraps_into": null
+    "scraps_into": {
+      "fireball-burner": 1
+    }
   },
   {
     "id": "flow-controller",
     "wiki_link": "https://arcraiders.wiki/wiki/Flow_Controller",
-    "scraps_into": null
+    "scraps_into": {
+      "mechanical-components": 2
+    }
   },
   {
     "id": "free-loadout-augment",
     "wiki_link": "https://arcraiders.wiki/wiki/Free_Loadout_Augment",
-    "scraps_into": null
+    "scraps_into": {}
   },
   {
     "id": "frequency-modulation-box",
     "wiki_link": "https://arcraiders.wiki/wiki/Frequency_Modulation_Box",
-    "scraps_into": null
+    "scraps_into": {
+      "electrical-components": 2
+    }
   },
   {
     "id": "fried-motherboard",
     "wiki_link": "https://arcraiders.wiki/wiki/Fried_Motherboard",
-    "scraps_into": null
+    "scraps_into": {
+      "wires": 5
+    }
   },
   {
     "id": "fruit-mix",
     "wiki_link": "https://arcraiders.wiki/wiki/Fruit_Mix",
-    "scraps_into": null
+    "scraps_into": {}
   },
   {
     "id": "frying-pan",
     "wiki_link": "https://arcraiders.wiki/wiki/Frying_Pan",
-    "scraps_into": null
+    "scraps_into": {
+      "metal-parts": 4
+    }
   },
   {
     "id": "surge-shield-recharger",
     "wiki_link": "https://arcraiders.wiki/wiki/Surge_Shield_Recharger",
-    "scraps_into": null
+    "scraps_into": {
+      "plastic-parts": 5
+    }
   },
   {
     "id": "surveyor-vault",
     "wiki_link": "https://arcraiders.wiki/wiki/Surveyor_Vault",
-    "scraps_into": null
+    "scraps_into": {
+      "mechanical-components": 2
+    }
   },
   {
     "id": "synthesized-fuel",
     "wiki_link": "https://arcraiders.wiki/wiki/Synthesized_Fuel",
-    "scraps_into": null
+    "scraps_into": {
+      "oil": 1
+    }
   },
   {
     "id": "syringe",
     "wiki_link": "https://arcraiders.wiki/wiki/Syringe",
-    "scraps_into": null
+    "scraps_into": {
+      "plastic-parts": 2
+    }
   },
   {
     "id": "tactical-mk-1",
-    "wiki_link": "https://arcraiders.wiki/wiki/Tactical_Mk_1",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Tactical_Mk._1",
+    "scraps_into": {
+      "plastic-parts": 3
+    }
   },
   {
     "id": "tactical-mk-2",
-    "wiki_link": "https://arcraiders.wiki/wiki/Tactical_Mk_2",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Tactical_Mk._2",
+    "scraps_into": {
+      "electrical-components": 1
+    }
   },
   {
     "id": "tactical-mk3-defensive",
-    "wiki_link": "https://arcraiders.wiki/wiki/Tactical_Mk3_Defensive",
+    "wiki_link": "https://arcraiders.wiki/wiki/Tactical_Mk._3_(Defensive)",
     "scraps_into": null
   },
   {
     "id": "tactical-mk3-defensive-blueprint",
-    "wiki_link": "https://arcraiders.wiki/wiki/Tactical_Mk3_Defensive_Blueprint",
+    "wiki_link": null,
     "scraps_into": null
   },
   {
     "id": "tactical-mk-3-healing",
-    "wiki_link": "https://arcraiders.wiki/wiki/Tactical_Mk_3_Healing",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Tactical_Mk._3_(Healing)",
+    "scraps_into": {
+      "electrical-components": 2
+    }
   },
   {
     "id": "tacical-mk3-healing-blueprint",
-    "wiki_link": "https://arcraiders.wiki/wiki/Tacical_Mk3_Healing_Blueprint",
+    "wiki_link": null,
     "scraps_into": null
   },
   {
     "id": "tagging-grenade",
     "wiki_link": "https://arcraiders.wiki/wiki/Tagging_Grenade",
-    "scraps_into": null
+    "scraps_into": {
+      "sensors": 1
+    }
   },
   {
     "id": "tagging-grenade-recipe",
-    "wiki_link": "https://arcraiders.wiki/wiki/Tagging_Grenade_Recipe",
+    "wiki_link": null,
     "scraps_into": null
   },
   {
     "id": "tattered-arc-lining",
-    "wiki_link": "https://arcraiders.wiki/wiki/Tattered_Arc_Lining",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Tattered_ARC_Lining",
+    "scraps_into": {
+      "fabric": 5
+    }
   },
   {
     "id": "tattered-clothes",
     "wiki_link": "https://arcraiders.wiki/wiki/Tattered_Clothes",
-    "scraps_into": null
+    "scraps_into": {
+      "fabric": 5
+    }
   },
   {
     "id": "telemetry-transceiver",
     "wiki_link": "https://arcraiders.wiki/wiki/Telemetry_Transceiver",
-    "scraps_into": null
+    "scraps_into": {
+      "electrical-components": 2
+    }
   },
   {
     "id": "tempest-i",
-    "wiki_link": "https://arcraiders.wiki/wiki/Tempest_I",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Tempest",
+    "scraps_into": {
+      "medium-gun-parts": 2
+    }
   },
   {
     "id": "tempest-i-recipe",
-    "wiki_link": "https://arcraiders.wiki/wiki/Tempest_I_Recipe",
+    "wiki_link": null,
     "scraps_into": null
   },
   {
     "id": "tempest-ii",
-    "wiki_link": "https://arcraiders.wiki/wiki/Tempest_Ii",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Tempest",
+    "scraps_into": {
+      "medium-gun-parts": 3
+    }
   },
   {
     "id": "tempest-iii",
-    "wiki_link": "https://arcraiders.wiki/wiki/Tempest_Iii",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Tempest",
+    "scraps_into": {
+      "medium-gun-parts": 4
+    }
   },
   {
     "id": "tempest-iv",
-    "wiki_link": "https://arcraiders.wiki/wiki/Tempest_Iv",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Tempest",
+    "scraps_into": {
+      "medium-gun-parts": 5
+    }
   },
   {
     "id": "thermostat",
     "wiki_link": "https://arcraiders.wiki/wiki/Thermostat",
-    "scraps_into": null
+    "scraps_into": {
+      "sensors": 1
+    }
   },
   {
     "id": "tick-pod",
     "wiki_link": "https://arcraiders.wiki/wiki/Tick_Pod",
-    "scraps_into": null
+    "scraps_into": {
+      "arc-alloy": 1
+    }
   },
   {
     "id": "toaster",
     "wiki_link": "https://arcraiders.wiki/wiki/Toaster",
-    "scraps_into": null
+    "scraps_into": {
+      "wires": 3
+    }
   },
   {
     "id": "torch-ginger",
     "wiki_link": "https://arcraiders.wiki/wiki/Torch_Ginger",
-    "scraps_into": null
+    "scraps_into": {
+      "assorted-seeds": 1
+    }
   },
   {
     "id": "torn-blanket",
     "wiki_link": "https://arcraiders.wiki/wiki/Torn_Blanket",
-    "scraps_into": null
+    "scraps_into": {
+      "fabric": 5
+    }
   },
   {
     "id": "torn-book",
     "wiki_link": "https://arcraiders.wiki/wiki/Torn_Book",
-    "scraps_into": null
+    "scraps_into": {}
   },
   {
     "id": "torrent-i-recipe",
-    "wiki_link": "https://arcraiders.wiki/wiki/Torrent_I_Recipe",
+    "wiki_link": null,
     "scraps_into": null
   },
   {
     "id": "torrente-i",
-    "wiki_link": "https://arcraiders.wiki/wiki/Torrente_I",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Torrente",
+    "scraps_into": {
+      "medium-gun-parts": 2
+    }
   },
   {
     "id": "torrente-ii",
-    "wiki_link": "https://arcraiders.wiki/wiki/Torrente_Ii",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Torrente",
+    "scraps_into": {
+      "medium-gun-parts": 2
+    }
   },
   {
     "id": "torrente-iii",
-    "wiki_link": "https://arcraiders.wiki/wiki/Torrente_Iii",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Torrente",
+    "scraps_into": {
+      "medium-gun-parts": 3
+    }
   },
   {
     "id": "torrente-iv",
-    "wiki_link": "https://arcraiders.wiki/wiki/Torrente_Iv",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Torrente",
+    "scraps_into": {
+      "medium-gun-parts": 3
+    }
   },
   {
     "id": "trailblazer-grenade",
-    "wiki_link": "https://arcraiders.wiki/wiki/Trailblazer_Grenade",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Trailblazer",
+    "scraps_into": {
+      "crude-explosives": 2
+    }
   },
   {
     "id": "trailblazer-grenade-blueprint",
-    "wiki_link": "https://arcraiders.wiki/wiki/Trailblazer_Grenade_Blueprint",
+    "wiki_link": null,
     "scraps_into": null
   },
   {
     "id": "trigger-nade",
-    "wiki_link": "https://arcraiders.wiki/wiki/Trigger_Nade",
+    "wiki_link": "https://arcraiders.wiki/wiki/Trigger_%27Nade",
     "scraps_into": null
   },
   {
     "id": "trigger-nade-recipe",
-    "wiki_link": "https://arcraiders.wiki/wiki/Trigger_Nade_Recipe",
+    "wiki_link": null,
     "scraps_into": null
   },
   {
     "id": "turbo-pump",
     "wiki_link": "https://arcraiders.wiki/wiki/Turbo_Pump",
-    "scraps_into": null
+    "scraps_into": {
+      "steel-spring": 3
+    }
   },
   {
     "id": "unusable-weapon",
     "wiki_link": "https://arcraiders.wiki/wiki/Unusable_Weapon",
-    "scraps_into": null
+    "scraps_into": {
+      "simple-gun-parts": 3
+    }
   },
   {
     "id": "vase",
     "wiki_link": "https://arcraiders.wiki/wiki/Vase",
-    "scraps_into": null
+    "scraps_into": {}
   },
   {
     "id": "venator-recipe",
-    "wiki_link": "https://arcraiders.wiki/wiki/Venator_Recipe",
+    "wiki_link": null,
     "scraps_into": null
   },
   {
     "id": "venator-i",
-    "wiki_link": "https://arcraiders.wiki/wiki/Venator_I",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Venator",
+    "scraps_into": {
+      "medium-gun-parts": 2
+    }
   },
   {
     "id": "venator-ii",
-    "wiki_link": "https://arcraiders.wiki/wiki/Venator_Ii",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Venator",
+    "scraps_into": {
+      "medium-gun-parts": 2
+    }
   },
   {
     "id": "venator-iii",
-    "wiki_link": "https://arcraiders.wiki/wiki/Venator_Iii",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Venator",
+    "scraps_into": {
+      "medium-gun-parts": 3
+    }
   },
   {
     "id": "venator-iv",
-    "wiki_link": "https://arcraiders.wiki/wiki/Venator_Iv",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Venator",
+    "scraps_into": {
+      "medium-gun-parts": 3
+    }
   },
   {
     "id": "vertical-grip-i",
     "wiki_link": "https://arcraiders.wiki/wiki/Vertical_Grip_I",
-    "scraps_into": null
+    "scraps_into": {
+      "plastic-parts": 3
+    }
   },
   {
     "id": "vertical-grip-ii",
-    "wiki_link": "https://arcraiders.wiki/wiki/Vertical_Grip_Ii",
+    "wiki_link": "https://arcraiders.wiki/wiki/Vertical_Grip_II",
     "scraps_into": null
   },
   {
     "id": "vertical-grip-ii-recipe",
-    "wiki_link": "https://arcraiders.wiki/wiki/Vertical_Grip_Ii_Recipe",
+    "wiki_link": null,
     "scraps_into": null
   },
   {
     "id": "vertical-grip-iii",
-    "wiki_link": "https://arcraiders.wiki/wiki/Vertical_Grip_Iii",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Vertical_Grip_III",
+    "scraps_into": {
+      "mechanical-components": 2
+    }
   },
   {
     "id": "vertical-grip-iii-recipe",
-    "wiki_link": "https://arcraiders.wiki/wiki/Vertical_Grip_Iii_Recipe",
+    "wiki_link": null,
     "scraps_into": null
   },
   {
     "id": "very-comfortable-pillow",
     "wiki_link": "https://arcraiders.wiki/wiki/Very_Comfortable_Pillow",
-    "scraps_into": null
+    "scraps_into": {}
   },
   {
     "id": "vita-shot",
@@ -2519,62 +2863,78 @@
   },
   {
     "id": "bettina-i",
-    "wiki_link": "https://arcraiders.wiki/wiki/Bettina_I",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Bettina",
+    "scraps_into": {
+      "advanced-mechanical-components": 1
+    }
   },
   {
     "id": "bettina-ii",
-    "wiki_link": "https://arcraiders.wiki/wiki/Bettina_Ii",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Bettina",
+    "scraps_into": {
+      "advanced-mechanical-components": 2
+    }
   },
   {
     "id": "bettina-iii",
-    "wiki_link": "https://arcraiders.wiki/wiki/Bettina_Iii",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Bettina",
+    "scraps_into": {
+      "advanced-mechanical-components": 3
+    }
   },
   {
     "id": "bettina-iv",
-    "wiki_link": "https://arcraiders.wiki/wiki/Bettina_Iv",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Bettina",
+    "scraps_into": {
+      "advanced-mechanical-components": 4
+    }
   },
   {
     "id": "bicycle-pump",
     "wiki_link": "https://arcraiders.wiki/wiki/Bicycle_Pump",
-    "scraps_into": null
+    "scraps_into": {
+      "canister": 3
+    }
   },
   {
     "id": "binoculars",
     "wiki_link": "https://arcraiders.wiki/wiki/Binoculars",
-    "scraps_into": null
+    "scraps_into": {
+      "plastic-parts": 4
+    }
   },
   {
     "id": "bison-driver",
-    "wiki_link": "https://arcraiders.wiki/wiki/Bison_Driver",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Leaper",
+    "scraps_into": {
+      "mechanical-components": 2
+    }
   },
   {
     "id": "black-eye-face-style",
-    "wiki_link": "https://arcraiders.wiki/wiki/Black_Eye_Face_Style",
+    "wiki_link": null,
     "scraps_into": null
   },
   {
     "id": "black-hiker-colour",
-    "wiki_link": "https://arcraiders.wiki/wiki/Black_Hiker_Colour",
+    "wiki_link": null,
     "scraps_into": null
   },
   {
     "id": "black-and-white-origin-color",
-    "wiki_link": "https://arcraiders.wiki/wiki/Black_And_White_Origin_Color",
+    "wiki_link": null,
     "scraps_into": null
   },
   {
     "id": "blaze-grenade",
     "wiki_link": "https://arcraiders.wiki/wiki/Blaze_Grenade",
-    "scraps_into": null
+    "scraps_into": {
+      "oil": 1
+    }
   },
   {
     "id": "blaze-grenade-blueprint",
-    "wiki_link": "https://arcraiders.wiki/wiki/Blaze_Grenade_Blueprint",
+    "wiki_link": null,
     "scraps_into": null
   },
   {
@@ -2585,107 +2945,123 @@
   {
     "id": "bloated-tuna-can",
     "wiki_link": "https://arcraiders.wiki/wiki/Bloated_Tuna_Can",
-    "scraps_into": null
+    "scraps_into": {}
   },
   {
     "id": "blue-gate-cellar-key",
     "wiki_link": "https://arcraiders.wiki/wiki/Blue_Gate_Cellar_Key",
-    "scraps_into": null
+    "scraps_into": {}
   },
   {
     "id": "blue-gate-communication-tower-key",
     "wiki_link": "https://arcraiders.wiki/wiki/Blue_Gate_Communication_Tower_Key",
-    "scraps_into": null
+    "scraps_into": {}
   },
   {
     "id": "blue-gate-confiscation-room-key",
     "wiki_link": "https://arcraiders.wiki/wiki/Blue_Gate_Confiscation_Room_Key",
-    "scraps_into": null
+    "scraps_into": {}
   },
   {
     "id": "blue-gate-village-key",
     "wiki_link": "https://arcraiders.wiki/wiki/Blue_Gate_Village_Key",
-    "scraps_into": null
+    "scraps_into": {}
   },
   {
     "id": "blue-light-stick",
     "wiki_link": "https://arcraiders.wiki/wiki/Blue_Light_Stick",
-    "scraps_into": null
+    "scraps_into": {
+      "chemicals": 1
+    }
   },
   {
     "id": "blue-light-stick-blueprint",
-    "wiki_link": "https://arcraiders.wiki/wiki/Blue_Light_Stick_Blueprint",
+    "wiki_link": null,
     "scraps_into": null
   },
   {
     "id": "blue-radio-renegade-color",
-    "wiki_link": "https://arcraiders.wiki/wiki/Blue_Radio_Renegade_Color",
+    "wiki_link": null,
     "scraps_into": null
   },
   {
     "id": "blue-yellow-aviator-color",
-    "wiki_link": "https://arcraiders.wiki/wiki/Blue_Yellow_Aviator_Color",
+    "wiki_link": null,
     "scraps_into": null
   },
   {
     "id": "bobcat-i-recipe",
-    "wiki_link": "https://arcraiders.wiki/wiki/Bobcat_I_Recipe",
+    "wiki_link": null,
     "scraps_into": null
   },
   {
     "id": "bobcat-i",
-    "wiki_link": "https://arcraiders.wiki/wiki/Bobcat_I",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Bobcat",
+    "scraps_into": {
+      "light-gun-parts": 2
+    }
   },
   {
     "id": "bobcat-ii",
-    "wiki_link": "https://arcraiders.wiki/wiki/Bobcat_Ii",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Bobcat",
+    "scraps_into": {
+      "light-gun-parts": 3
+    }
   },
   {
     "id": "bobcat-iii",
-    "wiki_link": "https://arcraiders.wiki/wiki/Bobcat_Iii",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Bobcat",
+    "scraps_into": {
+      "light-gun-parts": 4
+    }
   },
   {
     "id": "bobcat-iv",
-    "wiki_link": "https://arcraiders.wiki/wiki/Bobcat_Iv",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Bobcat",
+    "scraps_into": {
+      "light-gun-parts": 5
+    }
   },
   {
     "id": "bombardier-cell",
     "wiki_link": "https://arcraiders.wiki/wiki/Bombardier_Cell",
-    "scraps_into": null
+    "scraps_into": {}
   },
   {
     "id": "bow-and-arrow-emote",
-    "wiki_link": "https://arcraiders.wiki/wiki/Bow_And_Arrow_Emote",
+    "wiki_link": null,
     "scraps_into": null
   },
   {
     "id": "breathtaking-snow-globe",
     "wiki_link": "https://arcraiders.wiki/wiki/Breathtaking_Snow_Globe",
-    "scraps_into": null
+    "scraps_into": {}
   },
   {
     "id": "briefcase-backpack-attachment",
-    "wiki_link": "https://arcraiders.wiki/wiki/Briefcase_Backpack_Attachment",
+    "wiki_link": null,
     "scraps_into": null
   },
   {
     "id": "broken-flashlight",
     "wiki_link": "https://arcraiders.wiki/wiki/Broken_Flashlight",
-    "scraps_into": null
+    "scraps_into": {
+      "metal-parts": 7
+    }
   },
   {
     "id": "broken-guidance-system",
     "wiki_link": "https://arcraiders.wiki/wiki/Broken_Guidance_System",
-    "scraps_into": null
+    "scraps_into": {
+      "processor": 2
+    }
   },
   {
     "id": "broken-handcuffs",
     "wiki_link": "https://arcraiders.wiki/wiki/Broken_Handcuffs",
-    "scraps_into": null
+    "scraps_into": {
+      "metal-parts": 4
+    }
   },
   {
     "id": "broken-handheld-radio",
@@ -2694,8 +3070,10 @@
   },
   {
     "id": "broken-riot-shield",
-    "wiki_link": "https://arcraiders.wiki/wiki/Broken_Riot_Shield",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Ruined_Riot_Shield",
+    "scraps_into": {
+      "plastic-parts": 10
+    }
   },
   {
     "id": "broken-taser",
@@ -2704,67 +3082,81 @@
   },
   {
     "id": "burgerboy-backpack-charm",
-    "wiki_link": "https://arcraiders.wiki/wiki/Burgerboy_Backpack_Charm",
+    "wiki_link": null,
     "scraps_into": null
   },
   {
     "id": "buried-city-hospital-key",
     "wiki_link": "https://arcraiders.wiki/wiki/Buried_City_Hospital_Key",
-    "scraps_into": null
+    "scraps_into": {}
   },
   {
     "id": "buried-city-jkv-employee-access-card",
     "wiki_link": "https://arcraiders.wiki/wiki/Buried_City_Jkv_Employee_Access_Card",
-    "scraps_into": null
+    "scraps_into": {}
   },
   {
     "id": "buried-city-residential-master-key",
     "wiki_link": "https://arcraiders.wiki/wiki/Buried_City_Residential_Master_Key",
-    "scraps_into": null
+    "scraps_into": {}
   },
   {
     "id": "buried-city-town-hall-key",
     "wiki_link": "https://arcraiders.wiki/wiki/Buried_City_Town_Hall_Key",
-    "scraps_into": null
+    "scraps_into": {}
   },
   {
     "id": "burltetta-recipe",
-    "wiki_link": "https://arcraiders.wiki/wiki/Burltetta_Recipe",
+    "wiki_link": null,
     "scraps_into": null
   },
   {
     "id": "burletta-i",
-    "wiki_link": "https://arcraiders.wiki/wiki/Burletta_I",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Burletta",
+    "scraps_into": {
+      "simple-gun-parts": 2
+    }
   },
   {
     "id": "burletta-ii",
-    "wiki_link": "https://arcraiders.wiki/wiki/Burletta_Ii",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Burletta",
+    "scraps_into": {
+      "simple-gun-parts": 2
+    }
   },
   {
     "id": "burletta-iiii",
-    "wiki_link": "https://arcraiders.wiki/wiki/Burletta_Iiii",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Burletta",
+    "scraps_into": {
+      "simple-gun-parts": 3
+    }
   },
   {
     "id": "burletta-iv",
-    "wiki_link": "https://arcraiders.wiki/wiki/Burletta_Iv",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Burletta",
+    "scraps_into": {
+      "simple-gun-parts": 3
+    }
   },
   {
     "id": "burned-arc-circuitry",
-    "wiki_link": "https://arcraiders.wiki/wiki/Burned_Arc_Circuitry",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Burned_ARC_Circuitry",
+    "scraps_into": {
+      "arc-alloy": 1
+    }
   },
   {
     "id": "camera-lens",
     "wiki_link": "https://arcraiders.wiki/wiki/Camera_Lens",
-    "scraps_into": null
+    "scraps_into": {
+      "plastic-parts": 4
+    }
   },
   {
     "id": "candle-holder",
     "wiki_link": "https://arcraiders.wiki/wiki/Candle_Holder",
-    "scraps_into": null
+    "scraps_into": {
+      "metal-parts": 4
+    }
   }
 ]
