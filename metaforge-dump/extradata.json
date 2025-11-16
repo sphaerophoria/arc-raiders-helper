@@ -39,7 +39,7 @@
     "id": "remote-control",
     "wiki_link": "https://arcraiders.wiki/wiki/Remote_Control",
     "scraps_into": {
-      "sensors": 1
+      "sensors-recipe": 1
     }
   },
   {
@@ -151,7 +151,7 @@
     "id": "rubber-pad",
     "wiki_link": "https://arcraiders.wiki/wiki/Rubber_Pad",
     "scraps_into": {
-      "rubber-parts": 9
+      "rubber-parts-recipe": 9
     }
   },
   {
@@ -163,7 +163,7 @@
     "id": "ruined-accordion",
     "wiki_link": "https://arcraiders.wiki/wiki/Ruined_Accordion",
     "scraps_into": {
-      "rubber-parts": 13
+      "rubber-parts-recipe": 13
     }
   },
   {
@@ -267,7 +267,7 @@
     "id": "shield-recharger",
     "wiki_link": "https://arcraiders.wiki/wiki/Shield_Recharger",
     "scraps_into": {
-      "rubber-parts": 3
+      "rubber-parts-recipe": 3
     }
   },
   {
@@ -371,6 +371,11 @@
     "scraps_into": null
   },
   {
+    "id": "combat-mk3-flanking",
+    "wiki_link": "https://arcraiders.wiki/wiki/Combat_Mk._3_(Flanking)",
+    "scraps_into": null
+  },
+  {
     "id": "compensator-i",
     "wiki_link": "https://arcraiders.wiki/wiki/Compensator_I",
     "scraps_into": {
@@ -429,7 +434,7 @@
     "id": "cooling-fan",
     "wiki_link": "https://arcraiders.wiki/wiki/Cooling_Fan",
     "scraps_into": {
-      "wires": 4
+      "wires-recipe": 4
     }
   },
   {
@@ -481,7 +486,7 @@
     "id": "damaged-heat-sink",
     "wiki_link": "https://arcraiders.wiki/wiki/Damaged_Heat_Sink",
     "scraps_into": {
-      "wires": 3
+      "wires-recipe": 3
     }
   },
   {
@@ -570,21 +575,21 @@
     "id": "deflated-football",
     "wiki_link": "https://arcraiders.wiki/wiki/Deflated_Football",
     "scraps_into": {
-      "rubber-parts": 9
+      "rubber-parts-recipe": 9
     }
   },
   {
     "id": "degraded-arc-rubber",
     "wiki_link": "https://arcraiders.wiki/wiki/Degraded_ARC_Rubber",
     "scraps_into": {
-      "rubber-parts": 5
+      "rubber-parts-recipe": 5
     }
   },
   {
     "id": "diving-googles",
     "wiki_link": "https://arcraiders.wiki/wiki/Diving_Goggles",
     "scraps_into": {
-      "rubber-parts": 5
+      "rubber-parts-recipe": 5
     }
   },
   {
@@ -802,7 +807,7 @@
     "id": "stable-stock-i",
     "wiki_link": "https://arcraiders.wiki/wiki/Stable_Stock_I",
     "scraps_into": {
-      "rubber-parts": 3
+      "rubber-parts-recipe": 3
     }
   },
   {
@@ -1696,7 +1701,7 @@
     "id": "portable-television",
     "wiki_link": "https://arcraiders.wiki/wiki/Portable_TV",
     "scraps_into": {
-      "wires": 4
+      "wires-recipe": 4
     }
   },
   {
@@ -1720,7 +1725,7 @@
     "id": "power-cable",
     "wiki_link": "https://arcraiders.wiki/wiki/Power_Cable",
     "scraps_into": {
-      "wires": 3
+      "wires-recipe": 3
     }
   },
   {
@@ -1784,7 +1789,7 @@
     "id": "radio-relay",
     "wiki_link": "https://arcraiders.wiki/wiki/Radio_Relay",
     "scraps_into": {
-      "sensors": 2
+      "sensors-recipe": 2
     }
   },
   {
@@ -2010,7 +2015,7 @@
     "id": "arc-flex-rubber",
     "wiki_link": "https://arcraiders.wiki/wiki/ARC_Flex_Rubber",
     "scraps_into": {
-      "rubber-parts": 9
+      "rubber-parts-recipe": 9
     }
   },
   {
@@ -2124,7 +2129,7 @@
     "id": "battery",
     "wiki_link": "https://arcraiders.wiki/wiki/Battery",
     "scraps_into": {
-      "mechanical-parts": 1
+      "metal-parts": 1
     }
   },
   {
@@ -2158,7 +2163,7 @@
     "id": "voltage-converter",
     "wiki_link": "https://arcraiders.wiki/wiki/Voltage_Converter",
     "scraps_into": {
-      "rubber-parts": 2
+      "rubber-parts-recipe": 2
     }
   },
   {
@@ -2321,7 +2326,7 @@
     "id": "expired-respirator",
     "wiki_link": "https://arcraiders.wiki/wiki/Expired_Respirator",
     "scraps_into": {
-      "rubber-parts": 5
+      "rubber-parts-recipe": 5
     }
   },
   {
@@ -2530,7 +2535,7 @@
     "id": "fried-motherboard",
     "wiki_link": "https://arcraiders.wiki/wiki/Fried_Motherboard",
     "scraps_into": {
-      "wires": 5
+      "wires-recipe": 5
     }
   },
   {
@@ -2613,7 +2618,7 @@
     "id": "tagging-grenade",
     "wiki_link": "https://arcraiders.wiki/wiki/Tagging_Grenade",
     "scraps_into": {
-      "sensors": 1
+      "sensors-recipe": 1
     }
   },
   {
@@ -2679,7 +2684,7 @@
     "id": "thermostat",
     "wiki_link": "https://arcraiders.wiki/wiki/Thermostat",
     "scraps_into": {
-      "sensors": 1
+      "sensors-recipe": 1
     }
   },
   {
@@ -2693,7 +2698,7 @@
     "id": "toaster",
     "wiki_link": "https://arcraiders.wiki/wiki/Toaster",
     "scraps_into": {
-      "wires": 3
+      "wires-recipe": 3
     }
   },
   {
@@ -2774,7 +2779,7 @@
     "id": "turbo-pump",
     "wiki_link": "https://arcraiders.wiki/wiki/Turbo_Pump",
     "scraps_into": {
-      "steel-spring": 3
+      "spring": 3
     }
   },
   {
