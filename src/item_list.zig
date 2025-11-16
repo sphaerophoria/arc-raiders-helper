@@ -96,7 +96,7 @@ fn onItemListFailable() !void {
         .ignore_unknown_fields = true,
     });
     for (items) |item| {
-        try output_html.writer.print("<div item-name=\"{s}\", wsr-get=\"arcraiders-data/items/{s}.json\" wsr-call=\"onItemRetrieved\">{s}</div>", .{htmlEscape(item), urlEscape(item), htmlEscape(item)});
+        try output_html.writer.print("<div item-name=\"{s}\" wsr-get=\"arcraiders-data/items/{s}.json\" wsr-call=\"onItemRetrieved\">{s}</div>", .{htmlEscape(item), urlEscape(item), htmlEscape(item)});
     }
 
     wsr.setSelfProperty(output_html.written(), "innerHTML");
@@ -131,6 +131,7 @@ const Translation = struct {
 const Item = struct {
     id: []const u8,
     name: Translation,
+    rarity: ?[]const u8 = null,
   imageFilename: ?[]const u8 = null,
 
   const image_leading_string = "https://cdn.arctracker.io/";
@@ -187,6 +188,24 @@ fn htmlChecked(b: bool) []const u8 {
     if (b) return "checked" else return "";
 }
 
+const Rarity = enum {
+    Epic,
+    Legendary,
+    Rare,
+    Uncommon,
+    Common,
+};
+fn rarityMap(rarity_s: []const u8) []const u8 {
+    const rarity = std.meta.stringToEnum(Rarity, rarity_s) orelse return "common";
+    return switch (rarity) {
+        .Epic => "epic",
+        .Legendary => "legendary",
+        .Uncommon => "uncommon",
+        .Rare => "rare",
+        .Common => "common",
+    };
+}
+
 fn onItemRetrievedFailable() !void {
     var arena = std.heap.ArenaAllocator.init(std.heap.wasm_allocator);
     defer arena.deinit();
@@ -211,16 +230,25 @@ fn onItemRetrievedFailable() !void {
         wsr.print("Setting {s} as {}", .{item.id, checked});
     }
     try output_html.writer.print(
-        \\<div>{s}</div>
+        //\\<div>{s}</div>
         \\<input item-id="{s}" {s} type="checkbox" wsr-onevent="click" wsr-call="onItemClicked"/>
-        , .{htmlEscape(item.name.en), htmlEscape(item.id), htmlChecked(checked), },
+        , .{htmlEscape(item.id), htmlChecked(checked), },
     );
     if (item.imageFilename) |f| {
         // FIXME: What to do when image is not present?
         try output_html.writer.print(
-            \\<img src="{s}{s}"/>
-        , .{Item.image_replace_string, urlEscape(f[Item.image_leading_string.len..])});
+            \\<div class="item-card">
+            \\<img class="item-img" src="{s}{s}" />
+            \\<img src="rarity-overlay-{s}.png" title="{s}"/>
+            \\</div>
+        , .{Item.image_replace_string, urlEscape(f[Item.image_leading_string.len..]), rarityMap(item.rarity orelse ""), htmlEscape(item.name.en) });
     } else {
+        try output_html.writer.print(
+            \\<div class="item-card">
+            \\<img src="not-found.png" />
+            \\<img src="rarity-overlay-{s}.png" title="{s}"/>
+            \\</div>
+        , .{rarityMap(item.rarity orelse ""), htmlEscape(item.name.en)});
     }
 
     wsr.setSelfProperty(output_html.written(), "innerHTML");

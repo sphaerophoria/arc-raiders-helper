@@ -1,20 +1,45 @@
 .items {
 	display: flex;
 	flex-wrap: wrap;
+	overflow-y: scroll;
+	flex-grow: 1;
 }
 
-.items > div {
+.item-card > img {
+	position: absolute;
+	width: 100%;
+}
+
+.item-card {
+	display: block;
+	position: relative;
 	width: 100px;
+	height: 100px;
 	margin-left: 5px;
 	margin-right: 5px;
 }
 
-.items > div > img {
+.item-card > img {
 	width: 100%;
 }
 
+.items-pane {
+	width: 40%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.item-image {
+	background: url("not-found.png");
+}
 body {
 	color: #ecdbc9;
 	background: #090b17;
+	display: block;
+	margin: 0;
+	padding: 0;
 }
+
+
 
