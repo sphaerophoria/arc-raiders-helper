@@ -186,117 +186,145 @@
   {
     "id": "ruined-riot-shield",
     "wiki_link": "https://arcraiders.wiki/wiki/Ruined_Riot_Shield",
-    "scraps_into": null
+    "scraps_into": {
+      "plastic-parts": 10
+    }
   },
   {
     "id": "ruined-tactical-vest",
     "wiki_link": "https://arcraiders.wiki/wiki/Ruined_Tactical_Vest",
-    "scraps_into": null
+    "scraps_into": {
+      "fabric": 5
+    }
   },
   {
     "id": "rusted-bolts",
     "wiki_link": "https://arcraiders.wiki/wiki/Rusted_Bolts",
-    "scraps_into": null
+    "scraps_into": {
+      "metal-parts": 4
+    }
   },
   {
     "id": "rusted-gear",
     "wiki_link": "https://arcraiders.wiki/wiki/Rusted_Gear",
-    "scraps_into": null
+    "scraps_into": {
+      "metal-parts": 12
+    }
   },
   {
     "id": "rusted-shut-medical-kit",
     "wiki_link": "https://arcraiders.wiki/wiki/Rusted_Shut_Medical_Kit",
-    "scraps_into": null
+    "scraps_into": {
+      "syringe": 2
+    }
   },
   {
     "id": "rusted-tools",
     "wiki_link": "https://arcraiders.wiki/wiki/Rusted_Tools",
-    "scraps_into": null
+    "scraps_into": {
+      "metal-parts": 7
+    }
   },
   {
     "id": "rusty-arc-steel",
-    "wiki_link": "https://arcraiders.wiki/wiki/Rusty_Arc_Steel",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Rusty_ARC_Steel",
+    "scraps_into": {
+      "metal-parts": 3
+    }
   },
   {
     "id": "sample-cleaner",
     "wiki_link": "https://arcraiders.wiki/wiki/Sample_Cleaner",
-    "scraps_into": null
+    "scraps_into": {
+      "assorted-seeds": 12
+    }
   },
   {
     "id": "seeker-grenade",
     "wiki_link": "https://arcraiders.wiki/wiki/Seeker_Grenade",
-    "scraps_into": null
+    "scraps_into": {
+      "chemicals": 3
+    }
   },
   {
     "id": "seeker-grenade-blueprint",
-    "wiki_link": "https://arcraiders.wiki/wiki/Seeker_Grenade_Blueprint",
-    "scraps_into": null
+    "wiki_link": null,
+    "scraps_into": {}
   },
   {
     "id": "sensors-recipe",
-    "wiki_link": "https://arcraiders.wiki/wiki/Sensors_Recipe",
-    "scraps_into": null
+    "wiki_link": null,
+    "scraps_into": {}
   },
   {
     "id": "sentinel-part",
     "wiki_link": "https://arcraiders.wiki/wiki/Sentinel_Part",
-    "scraps_into": null
+    "scraps_into": {
+      "mechanical-components": 2
+    }
   },
   {
     "id": "shield-recharger",
     "wiki_link": "https://arcraiders.wiki/wiki/Shield_Recharger",
-    "scraps_into": null
+    "scraps_into": {
+      "rubber-parts": 3
+    }
   },
   {
     "id": "shotgun-ammo",
     "wiki_link": "https://arcraiders.wiki/wiki/Shotgun_Ammo",
-    "scraps_into": null
+    "scraps_into": {}
   },
   {
     "id": "shotgun-choke-i",
     "wiki_link": "https://arcraiders.wiki/wiki/Shotgun_Choke_I",
-    "scraps_into": null
+    "scraps_into": {
+      "metal-parts": 3
+    }
   },
   {
     "id": "shotgun-choke-ii",
     "wiki_link": "https://arcraiders.wiki/wiki/Shotgun_Choke_Ii",
-    "scraps_into": null
+    "scraps_into": {
+      "mechanical-components": 2
+    }
   },
   {
     "id": "shotgun-choke-ii-recipe",
-    "wiki_link": "https://arcraiders.wiki/wiki/Shotgun_Choke_Ii_Recipe",
-    "scraps_into": null
+    "wiki_link": null,
+    "scraps_into": {}
   },
   {
     "id": "shotgun-choke-iii",
-    "wiki_link": "https://arcraiders.wiki/wiki/Shotgun_Choke_Iii",
+    "wiki_link": "https://arcraiders.wiki/wiki/Shotgun_Choke_III",
     "scraps_into": null
   },
   {
     "id": "shotgun-choke-iii-recipe",
-    "wiki_link": "https://arcraiders.wiki/wiki/Shotgun_Choke_Iii_Recipe",
+    "wiki_link": null,
     "scraps_into": null
   },
   {
     "id": "shotgun-gun-parts",
-    "wiki_link": "https://arcraiders.wiki/wiki/Shotgun_Gun_Parts",
+    "wiki_link": null,
     "scraps_into": null
   },
   {
     "id": "canister",
     "wiki_link": "https://arcraiders.wiki/wiki/Canister",
-    "scraps_into": null
+    "scraps_into": {
+      "plastic-parts": 1
+    }
   },
   {
     "id": "cans-backpack-attachment",
-    "wiki_link": "https://arcraiders.wiki/wiki/Cans_Backpack_Attachment",
+    "wiki_link": null,
     "scraps_into": null
   },
   {
     "id": "cat-bed",
     "wiki_link": "https://arcraiders.wiki/wiki/Cat_Bed",
-    "scraps_into": null
+    "scraps_into": {}
   },
   {
     "id": "cheer-emote",
@@ -306,122 +334,143 @@
   {
     "id": "chemicals",
     "wiki_link": "https://arcraiders.wiki/wiki/Chemicals",
-    "scraps_into": null
+    "scraps_into": {}
   },
   {
     "id": "coffee-pot",
     "wiki_link": "https://arcraiders.wiki/wiki/Coffee_Pot",
-    "scraps_into": null
+    "scraps_into": {}
   },
   {
     "id": "combat-mk-1",
-    "wiki_link": "https://arcraiders.wiki/wiki/Combat_Mk_1",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Combat_Mk._1",
+    "scraps_into": {
+      "plastic-parts": 3
+    }
   },
   {
     "id": "combat-mk-2",
-    "wiki_link": "https://arcraiders.wiki/wiki/Combat_Mk_2",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Combat_Mk._2",
+    "scraps_into": {
+      "electrical-components": 1
+    }
   },
   {
     "id": "combat-mk-3-aggressive",
-    "wiki_link": "https://arcraiders.wiki/wiki/Combat_Mk_3_Aggressive",
+    "wiki_link": "https://arcraiders.wiki/wiki/Combat_Mk._3_(Aggressive)",
     "scraps_into": null
   },
   {
     "id": "combat-mk3-aggressive-blueprint",
-    "wiki_link": "https://arcraiders.wiki/wiki/Combat_Mk3_Aggressive_Blueprint",
-    "scraps_into": null
-  },
-  {
-    "id": "combat-mk3-flanking",
-    "wiki_link": "https://arcraiders.wiki/wiki/Combat_Mk3_Flanking",
+    "wiki_link": null,
     "scraps_into": null
   },
   {
     "id": "combat-mk-3-flanking",
-    "wiki_link": "https://arcraiders.wiki/wiki/Combat_Mk_3_Flanking",
+    "wiki_link": "https://arcraiders.wiki/wiki/Combat_Mk._3_(Flanking)",
     "scraps_into": null
   },
   {
     "id": "compensator-i",
     "wiki_link": "https://arcraiders.wiki/wiki/Compensator_I",
-    "scraps_into": null
+    "scraps_into": {
+      "metal-parts": 3
+    }
   },
   {
     "id": "compensator-ii",
-    "wiki_link": "https://arcraiders.wiki/wiki/Compensator_Ii",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Compensator_II",
+    "scraps_into": {
+      "mechanical-components": 1
+    }
   },
   {
     "id": "compensator-ii-recipe",
-    "wiki_link": "https://arcraiders.wiki/wiki/Compensator_Ii_Recipe",
+    "wiki_link": null,
     "scraps_into": null
   },
   {
     "id": "compensator-iii",
-    "wiki_link": "https://arcraiders.wiki/wiki/Compensator_Iii",
+    "wiki_link": "https://arcraiders.wiki/wiki/Compensator_III",
     "scraps_into": null
   },
   {
     "id": "compensator-iii-recipe",
-    "wiki_link": "https://arcraiders.wiki/wiki/Compensator_Iii_Recipe",
+    "wiki_link": null,
     "scraps_into": null
   },
   {
     "id": "complex-gun-parts",
     "wiki_link": "https://arcraiders.wiki/wiki/Complex_Gun_Parts",
-    "scraps_into": null
+    "scraps_into": {
+      "simple-gun-parts": 2
+    }
   },
   {
     "id": "complex-gun-parts-blueprint",
-    "wiki_link": "https://arcraiders.wiki/wiki/Complex_Gun_Parts_Blueprint",
+    "wiki_link": null,
     "scraps_into": null
   },
   {
     "id": "coolant",
     "wiki_link": "https://arcraiders.wiki/wiki/Coolant",
-    "scraps_into": null
+    "scraps_into": {
+      "oil": 2
+    }
   },
   {
     "id": "cooling-coil",
     "wiki_link": "https://arcraiders.wiki/wiki/Cooling_Coil",
-    "scraps_into": null
+    "scraps_into": {
+      "steel-spring": 2
+    }
   },
   {
     "id": "cooling-fan",
     "wiki_link": "https://arcraiders.wiki/wiki/Cooling_Fan",
-    "scraps_into": null
+    "scraps_into": {
+      "wires": 4
+    }
   },
   {
     "id": "cracked-bioscanner",
     "wiki_link": "https://arcraiders.wiki/wiki/Cracked_Bioscanner",
-    "scraps_into": null
+    "scraps_into": {
+      "battery": 2
+    }
   },
   {
     "id": "crimson-racer-aviator-colour",
-    "wiki_link": "https://arcraiders.wiki/wiki/Crimson_Racer_Aviator_Colour",
+    "wiki_link": null,
     "scraps_into": null
   },
   {
     "id": "crude-explosives",
     "wiki_link": "https://arcraiders.wiki/wiki/Crude_Explosives",
-    "scraps_into": null
+    "scraps_into": {
+      "chemicals": 2
+    }
   },
   {
     "id": "crumpled-plastic-bottle",
     "wiki_link": "https://arcraiders.wiki/wiki/Crumpled_Plastic_Bottle",
-    "scraps_into": null
+    "scraps_into": {
+      "plastic-parts": 1
+    }
   },
   {
     "id": "damaged-arc-motion-core",
-    "wiki_link": "https://arcraiders.wiki/wiki/Damaged_Arc_Motion_Core",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Damaged_ARC_Motion_Core",
+    "scraps_into": {
+      "arc-alloy": 1
+    }
   },
   {
     "id": "damaged-arc-powercell",
-    "wiki_link": "https://arcraiders.wiki/wiki/Damaged_Arc_Powercell",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Damaged_ARC_Powercell",
+    "scraps_into": {
+      "metal-parts": 1
+    }
   },
   {
     "id": "damaged-fireball-burner",
@@ -431,27 +480,37 @@
   {
     "id": "damaged-heat-sink",
     "wiki_link": "https://arcraiders.wiki/wiki/Damaged_Heat_Sink",
-    "scraps_into": null
+    "scraps_into": {
+      "wires": 3
+    }
   },
   {
     "id": "danaged-hornet-driver",
-    "wiki_link": "https://arcraiders.wiki/wiki/Danaged_Hornet_Driver",
-    "scraps_into": null
+    "wiki_link": "https://arcraiders.wiki/wiki/Damaged_Hornet_Driver",
+    "scraps_into": {
+      "arc-alloy": 1
+    }
   },
   {
     "id": "damaged-rocketeer-part",
     "wiki_link": "https://arcraiders.wiki/wiki/Damaged_Rocketeer_Part",
-    "scraps_into": null
+    "scraps_into": {
+      "arc-alloy": 2
+    }
   },
   {
     "id": "damaged-tick-pod",
     "wiki_link": "https://arcraiders.wiki/wiki/Damaged_Tick_Pod",
-    "scraps_into": null
+    "scraps_into": {
+      "metal-parts": 1
+    }
   },
   {
     "id": "damaged-wasp-driver",
     "wiki_link": "https://arcraiders.wiki/wiki/Damaged_Wasp_Driver",
-    "scraps_into": null
+    "scraps_into": {
+      "metal-parts": 1
+    }
   },
   {
     "id": "dam-control-center-tower-key",
