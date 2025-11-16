@@ -34,7 +34,10 @@ def main():
 
             out.append({
                 "id": item["id"],
+                "item_type": item["item_type"],
+                "name": item["name"],
                 "rarity": rarity,
+                "value": item["value"],
                 "components": components,
                 "recycle_components": recycle_components,
             })

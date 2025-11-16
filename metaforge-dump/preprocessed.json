@@ -1,0 +1,8512 @@
+[
+  {
+    "id": "rattler-iv",
+    "item_type": "Weapon",
+    "name": "Rattler IV",
+    "rarity": "common",
+    "value": 7000,
+    "components": [
+      {
+        "id": "mechanical-components",
+        "quantity": 3
+      },
+      {
+        "id": "simple-gun-parts",
+        "quantity": 1
+      },
+      {
+        "id": "rattler-iii",
+        "quantity": 1
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "mechanical-components",
+        "quantity": 4
+      },
+      {
+        "id": "simple-gun-parts",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "recorder",
+    "item_type": "Trinket",
+    "name": "Recorder",
+    "rarity": "uncommon",
+    "value": 1000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "plastic-parts",
+        "quantity": 10
+      }
+    ]
+  },
+  {
+    "id": "red-coral-jewelry",
+    "item_type": "Trinket",
+    "name": "Red Coral Jewelry",
+    "rarity": "rare",
+    "value": 5000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "red-light-stick",
+    "item_type": "Quick Use",
+    "name": "Red Light Stick",
+    "rarity": "common",
+    "value": 150,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "chemicals",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "red-light-stick-blueprint",
+    "item_type": "Blueprint",
+    "name": "Red Light Stick Blueprint",
+    "rarity": "legendary",
+    "value": 5000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "refinement-1",
+    "item_type": "Refinement",
+    "name": "Refinement 1",
+    "rarity": null,
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "remote-control",
+    "item_type": "Recyclable",
+    "name": "Remote Control",
+    "rarity": "rare",
+    "value": 1000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "plastic-parts",
+        "quantity": 7
+      },
+      {
+        "id": "sensors-recipe",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "remote-raider-flare",
+    "item_type": "Quick Use",
+    "name": "Remote Raider Flare",
+    "rarity": "common",
+    "value": 270,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "chemicals",
+        "quantity": 1
+      },
+      {
+        "id": "rubber-parts-recipe",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "remote-raider-flare-blueprint",
+    "item_type": "Blueprint",
+    "name": "Remote Raider Flare Blueprint",
+    "rarity": "legendary",
+    "value": 5000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "renegade-recipe",
+    "item_type": "Blueprint",
+    "name": "Renegade Blueprint",
+    "rarity": "legendary",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "renegade-i",
+    "item_type": "Weapon",
+    "name": "Renegade I",
+    "rarity": "rare",
+    "value": 7000,
+    "components": [
+      {
+        "id": "advanced-mechanical-components",
+        "quantity": 2
+      },
+      {
+        "id": "medium-gun-parts",
+        "quantity": 3
+      },
+      {
+        "id": "oil",
+        "quantity": 5
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "advanced-mechanical-components",
+        "quantity": 1
+      },
+      {
+        "id": "medium-gun-parts",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "renegade-ii",
+    "item_type": "Weapon",
+    "name": "Renegade II",
+    "rarity": "rare",
+    "value": 10000,
+    "components": [
+      {
+        "id": "renegade-i",
+        "quantity": 1
+      },
+      {
+        "id": "advanced-mechanical-components",
+        "quantity": 1
+      },
+      {
+        "id": "medium-gun-parts",
+        "quantity": 2
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "advanced-mechanical-components",
+        "quantity": 2
+      },
+      {
+        "id": "medium-gun-parts",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "renegade-iii",
+    "item_type": "Weapon",
+    "name": "Renegade III",
+    "rarity": "rare",
+    "value": 13000,
+    "components": [
+      {
+        "id": "renegade-ii",
+        "quantity": 1
+      },
+      {
+        "id": "advanced-mechanical-components",
+        "quantity": 1
+      },
+      {
+        "id": "medium-gun-parts",
+        "quantity": 2
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "advanced-mechanical-components",
+        "quantity": 2
+      },
+      {
+        "id": "medium-gun-parts",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "renegade-iv",
+    "item_type": "Weapon",
+    "name": "Renegade IV",
+    "rarity": "rare",
+    "value": 17000,
+    "components": [
+      {
+        "id": "renegade-iii",
+        "quantity": 1
+      },
+      {
+        "id": "advanced-mechanical-components",
+        "quantity": 2
+      },
+      {
+        "id": "medium-gun-parts",
+        "quantity": 2
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "advanced-mechanical-components",
+        "quantity": 3
+      },
+      {
+        "id": "medium-gun-parts",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": "resin",
+    "item_type": "Nature",
+    "name": "Resin",
+    "rarity": "common",
+    "value": 1000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "ripped-safety-vest",
+    "item_type": "Recyclable",
+    "name": "Ripped Safety Vest",
+    "rarity": "uncommon",
+    "value": 1000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "durable-cloth",
+        "quantity": 1
+      },
+      {
+        "id": "magnet",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "rocketeer-part",
+    "item_type": "Recyclable",
+    "name": "Rocketeer Driver",
+    "rarity": "epic",
+    "value": 5000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "advanced-electrical-components",
+        "quantity": 2
+      },
+      {
+        "id": "arc-alloy",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": "rocket-thruster",
+    "item_type": "Recyclable",
+    "name": "Rocket Thruster",
+    "rarity": "rare",
+    "value": 2000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "metal-parts",
+        "quantity": 6
+      },
+      {
+        "id": "synthesized-fuel",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "rollbot-part",
+    "item_type": "Recyclable",
+    "name": "Rollbot Part",
+    "rarity": "epic",
+    "value": 6000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "roots",
+    "item_type": "Nature",
+    "name": "Roots",
+    "rarity": "uncommon",
+    "value": 640,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "assorted-seeds",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "rope",
+    "item_type": "Topside Material",
+    "name": "Rope",
+    "rarity": "rare",
+    "value": 500,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "fabric",
+        "quantity": 5
+      }
+    ]
+  },
+  {
+    "id": "rosary",
+    "item_type": "Trinket",
+    "name": "Rosary",
+    "rarity": "rare",
+    "value": 2000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "rotary-encoder",
+    "item_type": "Recyclable",
+    "name": "Rotary Encoder",
+    "rarity": "rare",
+    "value": 3000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "electrical-components",
+        "quantity": 2
+      },
+      {
+        "id": "processor",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "rubber-duck",
+    "item_type": "Trinket",
+    "name": "Rubber Duck",
+    "rarity": "common",
+    "value": 1000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "rubber-pad",
+    "item_type": "Recyclable",
+    "name": "Rubber Pad",
+    "rarity": "rare",
+    "value": 1000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "rubber-parts-recipe",
+        "quantity": 18
+      }
+    ]
+  },
+  {
+    "id": "rubber-parts-recipe",
+    "item_type": "Basic Material",
+    "name": "Rubber Parts",
+    "rarity": "common",
+    "value": 50,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "ruined-accordion",
+    "item_type": "Recyclable",
+    "name": "Ruined Accordion",
+    "rarity": "rare",
+    "value": 2000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "rubber-parts-recipe",
+        "quantity": 18
+      },
+      {
+        "id": "spring",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": "ruined-baton",
+    "item_type": "Recyclable",
+    "name": "Ruined Baton",
+    "rarity": "uncommon",
+    "value": 640,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "metal-parts",
+        "quantity": 6
+      },
+      {
+        "id": "rubber-parts-recipe",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": "ruined-handcuffs",
+    "item_type": "Recyclable",
+    "name": "Ruined Handcuffs",
+    "rarity": "uncommon",
+    "value": 640,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "metal-parts",
+        "quantity": 8
+      }
+    ]
+  },
+  {
+    "id": "ruined-parachute",
+    "item_type": "Recyclable",
+    "name": "Ruined Parachute",
+    "rarity": "uncommon",
+    "value": 640,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "fabric",
+        "quantity": 10
+      }
+    ]
+  },
+  {
+    "id": "ruined-riot-shield",
+    "item_type": "Recyclable",
+    "name": "Ruined Riot Shield",
+    "rarity": "rare",
+    "value": 1000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "plastic-parts",
+        "quantity": 10
+      },
+      {
+        "id": "rubber-parts-recipe",
+        "quantity": 6
+      }
+    ]
+  },
+  {
+    "id": "ruined-tactical-vest",
+    "item_type": "Recyclable",
+    "name": "Ruined Tactical Vest",
+    "rarity": "uncommon",
+    "value": 640,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "fabric",
+        "quantity": 5
+      },
+      {
+        "id": "magnet",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "rusted-bolts",
+    "item_type": "Recyclable",
+    "name": "Rusted Bolts",
+    "rarity": "uncommon",
+    "value": 640,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "metal-parts",
+        "quantity": 8
+      }
+    ]
+  },
+  {
+    "id": "rusted-gear",
+    "item_type": "Recyclable",
+    "name": "Rusted Gear",
+    "rarity": "rare",
+    "value": 2000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "mechanical-components",
+        "quantity": 2
+      },
+      {
+        "id": "metal-parts",
+        "quantity": 4
+      }
+    ]
+  },
+  {
+    "id": "rusted-shut-medical-kit",
+    "item_type": "Recyclable",
+    "name": "Rusted Shut Medical Kit",
+    "rarity": "rare",
+    "value": 2000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "antiseptic",
+        "quantity": 1
+      },
+      {
+        "id": "syringe",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "rusted-tools",
+    "item_type": "Recyclable",
+    "name": "Rusted Tools",
+    "rarity": "rare",
+    "value": 1000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "metal-parts",
+        "quantity": 8
+      },
+      {
+        "id": "spring",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "rusty-arc-steel",
+    "item_type": "Recyclable",
+    "name": "Rusty ARC Steel",
+    "rarity": "uncommon",
+    "value": 640,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "sample-cleaner",
+    "item_type": "Recyclable",
+    "name": "Sample Cleaner",
+    "rarity": "rare",
+    "value": 3000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "assorted-seeds",
+        "quantity": 14
+      },
+      {
+        "id": "electrical-components",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "seeker-grenade",
+    "item_type": "Quick Use",
+    "name": "Seeker Grenade",
+    "rarity": "uncommon",
+    "value": 640,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "crude-explosives",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "seeker-grenade-blueprint",
+    "item_type": "Blueprint",
+    "name": "Seeker Grenade Blueprint",
+    "rarity": "legendary",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "sensors-recipe",
+    "item_type": "Topside Material",
+    "name": "Sensors",
+    "rarity": "rare",
+    "value": 500,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "metal-parts",
+        "quantity": 1
+      },
+      {
+        "id": "wires-recipe",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "sentinel-part",
+    "item_type": "Recyclable",
+    "name": "Sentinel Firing Core",
+    "rarity": "rare",
+    "value": 3000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "arc-alloy",
+        "quantity": 2
+      },
+      {
+        "id": "mechanical-components",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": "shield-recharger",
+    "item_type": "Quick Use",
+    "name": "Shield Recharger",
+    "rarity": "uncommon",
+    "value": 520,
+    "components": [
+      {
+        "id": "rubber-parts-recipe",
+        "quantity": 5
+      },
+      {
+        "id": "arc-powercell",
+        "quantity": 1
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "rubber-parts-recipe",
+        "quantity": 4
+      }
+    ]
+  },
+  {
+    "id": "shotgun-ammo",
+    "item_type": "Ammunition",
+    "name": "Shotgun ammo",
+    "rarity": "common",
+    "value": 20,
+    "components": [
+      {
+        "id": "metal-parts",
+        "quantity": 3
+      },
+      {
+        "id": "chemicals",
+        "quantity": 2
+      }
+    ],
+    "recycle_components": []
+  },
+  {
+    "id": "shotgun-choke-i",
+    "item_type": "Modification",
+    "name": "Shotgun Choke I",
+    "rarity": "common",
+    "value": 640,
+    "components": [
+      {
+        "id": "metal-parts",
+        "quantity": 6
+      },
+      {
+        "id": "wires-recipe",
+        "quantity": 1
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "metal-parts",
+        "quantity": 5
+      }
+    ]
+  },
+  {
+    "id": "shotgun-choke-ii",
+    "item_type": "Modification",
+    "name": "Shotgun Choke II",
+    "rarity": "uncommon",
+    "value": 2000,
+    "components": [
+      {
+        "id": "mechanical-components",
+        "quantity": 1
+      },
+      {
+        "id": "wires-recipe",
+        "quantity": 1
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "mechanical-components",
+        "quantity": 1
+      },
+      {
+        "id": "wires-recipe",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "shotgun-choke-ii-recipe",
+    "item_type": "Blueprint",
+    "name": "Shotgun Choke II Blueprint",
+    "rarity": "legendary",
+    "value": 5000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "shotgun-choke-iii",
+    "item_type": "Modification",
+    "name": "Shotgun Choke III",
+    "rarity": "rare",
+    "value": 5000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "mod-components",
+        "quantity": 1
+      },
+      {
+        "id": "wires-recipe",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "shotgun-choke-iii-recipe",
+    "item_type": "Blueprint",
+    "name": "Shotgun Choke III Blueprint",
+    "rarity": "legendary",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "shotgun-gun-parts",
+    "item_type": "Material",
+    "name": "Shotgun Parts",
+    "rarity": "rare",
+    "value": 700,
+    "components": [
+      {
+        "id": "simple-gun-parts",
+        "quantity": 2
+      }
+    ],
+    "recycle_components": []
+  },
+  {
+    "id": "canister",
+    "item_type": "Topside Material",
+    "name": "Canister",
+    "rarity": "uncommon",
+    "value": 300,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "plastic-parts",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": "cans-backpack-attachment",
+    "item_type": "Cosmetic",
+    "name": "Cans (Backpack Attachment)",
+    "rarity": "common",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "cat-bed",
+    "item_type": "Trinket",
+    "name": "Cat Bed",
+    "rarity": "uncommon",
+    "value": 1000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "cheer-emote",
+    "item_type": "Misc",
+    "name": "Cheer (Emote)",
+    "rarity": "",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "chemicals",
+    "item_type": "Basic Material",
+    "name": "Chemicals",
+    "rarity": "common",
+    "value": 50,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "coffee-pot",
+    "item_type": "Trinket",
+    "name": "Coffee Pot",
+    "rarity": "common",
+    "value": 1000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "combat-mk-1",
+    "item_type": "Augment",
+    "name": "Combat Mk. 1",
+    "rarity": "uncommon",
+    "value": 640,
+    "components": [
+      {
+        "id": "plastic-parts",
+        "quantity": 6
+      },
+      {
+        "id": "rubber-parts-recipe",
+        "quantity": 6
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "plastic-parts",
+        "quantity": 3
+      },
+      {
+        "id": "rubber-parts-recipe",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": "combat-mk-2",
+    "item_type": "Augment",
+    "name": "Combat Mk. 2",
+    "rarity": "rare",
+    "value": 2000,
+    "components": [
+      {
+        "id": "electrical-components",
+        "quantity": 2
+      },
+      {
+        "id": "magnet",
+        "quantity": 3
+      }
+    ],
+    "recycle_components": []
+  },
+  {
+    "id": "combat-mk-3-aggressive",
+    "item_type": "Augment",
+    "name": "Combat Mk. 3 (Aggressive)",
+    "rarity": "epic",
+    "value": 5000,
+    "components": [
+      {
+        "id": "advanced-electrical-components",
+        "quantity": 2
+      },
+      {
+        "id": "processor",
+        "quantity": 3
+      }
+    ],
+    "recycle_components": []
+  },
+  {
+    "id": "combat-mk3-aggressive-blueprint",
+    "item_type": "Blueprint",
+    "name": "Combat Mk.3 (Aggressive) Blueprint",
+    "rarity": "legendary",
+    "value": 5000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "combat-mk3-flanking",
+    "item_type": "Augment",
+    "name": "Combat Mk.3 (Flanking) ",
+    "rarity": "epic",
+    "value": 5000,
+    "components": [
+      {
+        "id": "advanced-electrical-components",
+        "quantity": 2
+      },
+      {
+        "id": "processor",
+        "quantity": 3
+      }
+    ],
+    "recycle_components": []
+  },
+  {
+    "id": "combat-mk-3-flanking",
+    "item_type": "Blueprint",
+    "name": "Combat Mk. 3 (Flanking) Blueprint",
+    "rarity": "legendary",
+    "value": 5000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "compensator-i",
+    "item_type": "Modification",
+    "name": "Compensator I",
+    "rarity": "common",
+    "value": 640,
+    "components": [
+      {
+        "id": "metal-parts",
+        "quantity": 6
+      },
+      {
+        "id": "wires-recipe",
+        "quantity": 1
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "metal-parts",
+        "quantity": 5
+      }
+    ]
+  },
+  {
+    "id": "compensator-ii",
+    "item_type": "Modification",
+    "name": "Compensator II",
+    "rarity": "uncommon",
+    "value": 2000,
+    "components": [
+      {
+        "id": "mechanical-components",
+        "quantity": 2
+      },
+      {
+        "id": "wires-recipe",
+        "quantity": 4
+      }
+    ],
+    "recycle_components": []
+  },
+  {
+    "id": "compensator-ii-recipe",
+    "item_type": "Blueprint",
+    "name": "Compensator II Blueprint",
+    "rarity": "legendary",
+    "value": 5000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "compensator-iii",
+    "item_type": "Modification",
+    "name": "Compensator III",
+    "rarity": "rare",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "compensator-iii-recipe",
+    "item_type": "Blueprint",
+    "name": "Compensator III Blueprint",
+    "rarity": "legendary",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "complex-gun-parts",
+    "item_type": "Topside Material",
+    "name": "Complex Gun Parts",
+    "rarity": "epic",
+    "value": 2000,
+    "components": [
+      {
+        "id": "light-gun-parts",
+        "quantity": 2
+      },
+      {
+        "id": "medium-gun-parts",
+        "quantity": 2
+      },
+      {
+        "id": "heavy-gun-parts",
+        "quantity": 2
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "simple-gun-parts",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": "complex-gun-parts-blueprint",
+    "item_type": "Blueprint",
+    "name": "Complex Gun Parts Blueprint",
+    "rarity": "legendary",
+    "value": 5000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "coolant",
+    "item_type": "Recyclable",
+    "name": "Coolant",
+    "rarity": "rare",
+    "value": 1000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "chemicals",
+        "quantity": 5
+      },
+      {
+        "id": "oil",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "cooling-coil",
+    "item_type": "Recyclable",
+    "name": "Cooling Coil",
+    "rarity": "rare",
+    "value": 1000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "chemicals",
+        "quantity": 6
+      },
+      {
+        "id": "spring",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "cooling-fan",
+    "item_type": "Recyclable",
+    "name": "Cooling Fan",
+    "rarity": "rare",
+    "value": 2000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "plastic-parts",
+        "quantity": 14
+      },
+      {
+        "id": "wires-recipe",
+        "quantity": 4
+      }
+    ]
+  },
+  {
+    "id": "cracked-bioscanner",
+    "item_type": "Recyclable",
+    "name": "Cracked Bioscanner",
+    "rarity": "rare",
+    "value": 1000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "battery",
+        "quantity": 3
+      },
+      {
+        "id": "rubber-parts-recipe",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": "crimson-racer-aviator-colour",
+    "item_type": "Misc",
+    "name": "Crimson Racer (Aviator Colour)",
+    "rarity": "common",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "crude-explosives",
+    "item_type": "Refined Material",
+    "name": "Crude Explosives",
+    "rarity": "uncommon",
+    "value": 270,
+    "components": [
+      {
+        "id": "chemicals",
+        "quantity": 6
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "chemicals",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": "crumpled-plastic-bottle",
+    "item_type": "Recyclable",
+    "name": "Crumpled Plastic Bottle",
+    "rarity": "uncommon",
+    "value": 270,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "plastic-parts",
+        "quantity": 4
+      }
+    ]
+  },
+  {
+    "id": "damaged-arc-motion-core",
+    "item_type": "Recyclable",
+    "name": "Damaged ARC Motion Core",
+    "rarity": "uncommon",
+    "value": 640,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "arc-alloy",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "damaged-arc-powercell",
+    "item_type": "Recyclable",
+    "name": "Damaged ARC Powercell",
+    "rarity": "common",
+    "value": 293,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "arc-alloy",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "damaged-fireball-burner",
+    "item_type": "Recyclable",
+    "name": "Damaged Fireball Burner",
+    "rarity": "common",
+    "value": 270,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "arc-alloy",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "damaged-heat-sink",
+    "item_type": "Recyclable",
+    "name": "Damaged Heat Sink",
+    "rarity": "rare",
+    "value": 1000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "metal-parts",
+        "quantity": 6
+      },
+      {
+        "id": "wires-recipe",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "danaged-hornet-driver",
+    "item_type": "Recyclable",
+    "name": "Damaged Hornet Driver",
+    "rarity": "common",
+    "value": 640,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "damaged-rocketeer-part",
+    "item_type": "Recyclable",
+    "name": "Damaged Rocketeer Driver",
+    "rarity": "common",
+    "value": 2000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "arc-alloy",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": "damaged-tick-pod",
+    "item_type": "Recyclable",
+    "name": "Damaged Tick Pod",
+    "rarity": "common",
+    "value": 270,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "arc-alloy",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "damaged-wasp-driver",
+    "item_type": "Recyclable",
+    "name": "Damaged Wasp Driver",
+    "rarity": "common",
+    "value": 270,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "arc-alloy",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "dam-control-center-tower-key",
+    "item_type": "Key",
+    "name": "Dam Control Center Tower Key",
+    "rarity": "epic",
+    "value": 100,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "dam-staff-room-key",
+    "item_type": "Key",
+    "name": "Dam Staff Room Key",
+    "rarity": "uncommon",
+    "value": 100,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "dam-surveillance-key",
+    "item_type": "Key",
+    "name": "Dam Surveillance Key",
+    "rarity": "uncommon",
+    "value": 100,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "dam-testing-annex-key",
+    "item_type": "Key",
+    "name": "Dam Testing Annex Key",
+    "rarity": "rare",
+    "value": 100,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "dam-utility-key",
+    "item_type": "Quest Item",
+    "name": "Dam Utility Key",
+    "rarity": "uncommon",
+    "value": 100,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "dart-board",
+    "item_type": "Trinket",
+    "name": "Dart Board",
+    "rarity": "uncommon",
+    "value": 2000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "deadline",
+    "item_type": "Quick Use",
+    "name": "Deadline",
+    "rarity": "epic",
+    "value": 2700,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "explosive-compound",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "deadline-blueprint",
+    "item_type": "Blueprint",
+    "name": "Deadline Blueprint",
+    "rarity": "legendary",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "defibrillator",
+    "item_type": "Quick Use",
+    "name": "Defibrillator",
+    "rarity": "rare",
+    "value": 1000,
+    "components": [
+      {
+        "id": "plastic-parts",
+        "quantity": 3
+      },
+      {
+        "id": "moss",
+        "quantity": 1
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "moss",
+        "quantity": 1
+      },
+      {
+        "id": "plastic-parts",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "defibrillator-recipe",
+    "item_type": "Blueprint",
+    "name": "Defibrillator Blueprint",
+    "rarity": "legendary",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "deflated-football",
+    "item_type": "Recyclable",
+    "name": "Deflated Football",
+    "rarity": "uncommon",
+    "value": 1000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "fabric",
+        "quantity": 9
+      },
+      {
+        "id": "rubber-parts-recipe",
+        "quantity": 9
+      }
+    ]
+  },
+  {
+    "id": "degraded-arc-rubber",
+    "item_type": "Recyclable",
+    "name": "Degraded ARC Rubber",
+    "rarity": "uncommon",
+    "value": 640,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "rubber-parts-recipe",
+        "quantity": 11
+      }
+    ]
+  },
+  {
+    "id": "diving-googles",
+    "item_type": "Recyclable",
+    "name": "Diving Googles",
+    "rarity": "rare",
+    "value": 640,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "rubber-parts-recipe",
+        "quantity": 12
+      }
+    ]
+  },
+  {
+    "id": "dog-collar",
+    "item_type": "Recyclable",
+    "name": "Dog Collar",
+    "rarity": "rare",
+    "value": 640,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "fabric",
+        "quantity": 8
+      },
+      {
+        "id": "metal-parts",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "door-blocker",
+    "item_type": "Quick Use",
+    "name": "Door Blocker",
+    "rarity": "common",
+    "value": 270,
+    "components": [
+      {
+        "id": "metal-parts",
+        "quantity": 3
+      },
+      {
+        "id": "rubber-parts-recipe",
+        "quantity": 3
+      }
+    ],
+    "recycle_components": []
+  },
+  {
+    "id": "door-blocker-recipe",
+    "item_type": "Blueprint",
+    "name": "Door Blocker Blueprint",
+    "rarity": "legendary",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "shotgun-parts-recipe",
+    "item_type": "Blueprint",
+    "name": "Shotgun Parts Blueprint",
+    "rarity": "legendary",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "shotgun-silencer",
+    "item_type": "Mods",
+    "name": "Shotgun Silencer",
+    "rarity": "epic",
+    "value": 5000,
+    "components": [
+      {
+        "id": "mod-components",
+        "quantity": 1
+      },
+      {
+        "id": "wires-recipe",
+        "quantity": 9
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "mod-components",
+        "quantity": 1
+      },
+      {
+        "id": "wires-recipe",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "shotgun-silencer-blueprint",
+    "item_type": "Blueprint",
+    "name": "Shotgun Silencer Blueprint",
+    "rarity": "legendary",
+    "value": 5000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "showstopper",
+    "item_type": "Throwable",
+    "name": "Showstopper",
+    "rarity": "rare",
+    "value": 2200,
+    "components": [
+      {
+        "id": "advanced-electrical-components",
+        "quantity": 1
+      },
+      {
+        "id": "voltage-converter",
+        "quantity": 1
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "battery",
+        "quantity": 2
+      },
+      {
+        "id": "electrical-components",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "showstopper-blueprint",
+    "item_type": "Blueprint",
+    "name": "Showstopper Blueprint",
+    "rarity": "legendary",
+    "value": 5000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "shrapnel-grenade",
+    "item_type": "Throwable",
+    "name": "Shrapnel Grenade",
+    "rarity": "uncommon",
+    "value": 800,
+    "components": [
+      {
+        "id": "crude-explosives",
+        "quantity": 1
+      },
+      {
+        "id": "spring",
+        "quantity": 2
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "crude-explosives",
+        "quantity": 1
+      },
+      {
+        "id": "metal-parts",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "shredder-gyro",
+    "item_type": "Recyclable",
+    "name": "Shredder Gyro",
+    "rarity": "uncommon",
+    "value": 3000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "arc-alloy",
+        "quantity": 3
+      },
+      {
+        "id": "mechanical-components",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": "signal-amplifier",
+    "item_type": "Recyclable",
+    "name": "Signal Amplifier",
+    "rarity": "rare",
+    "value": 3000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "electrical-components",
+        "quantity": 2
+      },
+      {
+        "id": "voltage-converter",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "silencer-i",
+    "item_type": "Modification",
+    "name": "Silencer I",
+    "rarity": "uncommon",
+    "value": 0,
+    "components": [
+      {
+        "id": "wires-recipe",
+        "quantity": 1
+      },
+      {
+        "id": "mechanical-components",
+        "quantity": 1
+      }
+    ],
+    "recycle_components": []
+  },
+  {
+    "id": "silencer-i-recipe",
+    "item_type": "Blueprint",
+    "name": "Silencer I Blueprint",
+    "rarity": "legendary",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "silencer-ii",
+    "item_type": "Modification",
+    "name": "Silencer II",
+    "rarity": "rare",
+    "value": 5000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "mod-components",
+        "quantity": 1
+      },
+      {
+        "id": "wires-recipe",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "silencer-ii-recipe",
+    "item_type": "Blueprint",
+    "name": "Silencer II Blueprint",
+    "rarity": "legendary",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "silencer-iii",
+    "item_type": "Modification",
+    "name": "Silencer III",
+    "rarity": "epic",
+    "value": 7000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "mod-components",
+        "quantity": 1
+      },
+      {
+        "id": "wires-recipe",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": "silencer-iii-recipe",
+    "item_type": "Blueprint",
+    "name": "Silencer III Blueprint",
+    "rarity": "legendary",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "silver-teaspoon-set",
+    "item_type": "Trinket",
+    "name": "Silver Teaspoon Set",
+    "rarity": "rare",
+    "value": 3000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "simple-gun-parts",
+    "item_type": "Topside Material",
+    "name": "Simple Gun Parts",
+    "rarity": "uncommon",
+    "value": 330,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "metal-parts",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "smoke-grenade",
+    "item_type": "Quick Use",
+    "name": "Smoke Grenade",
+    "rarity": "rare",
+    "value": 1000,
+    "components": [
+      {
+        "id": "chemicals",
+        "quantity": 7
+      },
+      {
+        "id": "canister",
+        "quantity": 1
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "canister",
+        "quantity": 1
+      },
+      {
+        "id": "chemicals",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "smoke-grenade-blueprint",
+    "item_type": "Blueprint",
+    "name": "Smoke Grenade Blueprint",
+    "rarity": "legendary",
+    "value": 5000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "snap-blast-grenade",
+    "item_type": "Quick Use",
+    "name": "Snap Blast Grenade",
+    "rarity": "uncommon",
+    "value": 800,
+    "components": [
+      {
+        "id": "crude-explosives",
+        "quantity": 2
+      },
+      {
+        "id": "magnet",
+        "quantity": 1
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "chemicals",
+        "quantity": 1
+      },
+      {
+        "id": "magnet",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "snap-hook",
+    "item_type": "Quick Use",
+    "name": "Snap Hook",
+    "rarity": "legendary",
+    "value": 14000,
+    "components": [
+      {
+        "id": "rope",
+        "quantity": 3
+      },
+      {
+        "id": "power-rod",
+        "quantity": 2
+      },
+      {
+        "id": "exodus-modules",
+        "quantity": 1
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "power-rod",
+        "quantity": 1
+      },
+      {
+        "id": "rope",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": "snap-hook-recipe",
+    "item_type": "Blueprint",
+    "name": "Snap Hook Blueprint",
+    "rarity": "legendary",
+    "value": 5000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "snitch-scanner",
+    "item_type": "Recyclable",
+    "name": "Snitch Scanner",
+    "rarity": "uncommon",
+    "value": 2000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "arc-alloy",
+        "quantity": 1
+      },
+      {
+        "id": "electrical-components",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "spaceport-container-storage-key",
+    "item_type": "Quest Item",
+    "name": "Spaceport Container Storage Key",
+    "rarity": "uncommon",
+    "value": 100,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "spaceport-ground-control-key",
+    "item_type": "Key",
+    "name": "Spaceport Control Tower Key",
+    "rarity": "rare",
+    "value": 100,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "spaceport-outskirts-bunker-key",
+    "item_type": "Key",
+    "name": "Spaceport Outskirts Bunker Key",
+    "rarity": "rare",
+    "value": 100,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "spaceport-trench-tower-key",
+    "item_type": "Key",
+    "name": "Spaceport Trench Tower Key",
+    "rarity": "uncommon",
+    "value": 100,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "spaceport-warehouse-key",
+    "item_type": "Key",
+    "name": "Spaceport Warehouse Key",
+    "rarity": "uncommon",
+    "value": 100,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "speaker-component",
+    "item_type": "Topside Material",
+    "name": "Speaker Component",
+    "rarity": "rare",
+    "value": 500,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "plastic-parts",
+        "quantity": 2
+      },
+      {
+        "id": "rubber-parts-recipe",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": "spectrometer",
+    "item_type": "Recyclable",
+    "name": "Spectrometer",
+    "rarity": "rare",
+    "value": 3000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "advanced-electrical-components",
+        "quantity": 1
+      },
+      {
+        "id": "sensors-recipe",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "spectrum-analyzer",
+    "item_type": "Recyclable",
+    "name": "Spectrum Analyzer",
+    "rarity": "epic",
+    "value": 3500,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "exodus-modules",
+        "quantity": 1
+      },
+      {
+        "id": "sensors-recipe",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "spotter-relay",
+    "item_type": "Recyclable",
+    "name": "Spotter Relay",
+    "rarity": "uncommon",
+    "value": 2000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "arc-alloy",
+        "quantity": 1
+      },
+      {
+        "id": "electrical-components",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "spring-cushion",
+    "item_type": "Recyclable",
+    "name": "Spring Cushion",
+    "rarity": "rare",
+    "value": 2000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "durable-cloth",
+        "quantity": 2
+      },
+      {
+        "id": "spring",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "stable-stock-i",
+    "item_type": "Modification",
+    "name": "Stable Stock I",
+    "rarity": "common",
+    "value": 640,
+    "components": [
+      {
+        "id": "rubber-parts-recipe",
+        "quantity": 7
+      },
+      {
+        "id": "duct-tape-recipe",
+        "quantity": 1
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "rubber-parts-recipe",
+        "quantity": 6
+      }
+    ]
+  },
+  {
+    "id": "stable-stock-ii",
+    "item_type": "Modification",
+    "name": "Stable Stock II",
+    "rarity": "uncommon",
+    "value": 2000,
+    "components": [
+      {
+        "id": "mechanical-components",
+        "quantity": 1
+      },
+      {
+        "id": "duct-tape-recipe",
+        "quantity": 1
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "duct-tape-recipe",
+        "quantity": 1
+      },
+      {
+        "id": "mechanical-components",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "stable-stock-ii-recipe",
+    "item_type": "Blueprint",
+    "name": "Stable Stock II Blueprint",
+    "rarity": "legendary",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "stable-stock-iii",
+    "item_type": "Modification",
+    "name": "Stable Stock III",
+    "rarity": "rare",
+    "value": 5000,
+    "components": [
+      {
+        "id": "mod-components",
+        "quantity": 1
+      },
+      {
+        "id": "duct-tape-recipe",
+        "quantity": 6
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "duct-tape-recipe",
+        "quantity": 2
+      },
+      {
+        "id": "mod-components",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "stable-stock-iii-recipe",
+    "item_type": "Blueprint",
+    "name": "Stable Stock III Blueprint",
+    "rarity": "legendary",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "statuette",
+    "item_type": "Trinket",
+    "name": "Statuette",
+    "rarity": "rare",
+    "value": 3000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "spring",
+    "item_type": "Topside Material",
+    "name": "Steel Spring",
+    "rarity": "uncommon",
+    "value": 300,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "metal-parts",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "stella-montis-archives-key",
+    "item_type": "Key",
+    "name": "Stella Montis Archives Key",
+    "rarity": "epic",
+    "value": 100,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "stella-montis-assembly-admin-key",
+    "item_type": "Key",
+    "name": "Stella Montis Assembly Admin Key",
+    "rarity": "uncommon",
+    "value": 100,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "stella-montis-medical-storage-key",
+    "item_type": "Key",
+    "name": "Stella Montis Medical Storage Key",
+    "rarity": "uncommon",
+    "value": 100,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "stella-montis-security-checkpoint-key",
+    "item_type": "Key",
+    "name": "Stella Montis Security Checkpoint Key",
+    "rarity": "rare",
+    "value": 100,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "sterilized-bandage",
+    "item_type": "Quick Use",
+    "name": "Sterilized Bandage",
+    "rarity": "rare",
+    "value": 2000,
+    "components": [
+      {
+        "id": "antiseptic",
+        "quantity": 1
+      },
+      {
+        "id": "durable-cloth",
+        "quantity": 2
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "antiseptic",
+        "quantity": 1
+      },
+      {
+        "id": "fabric",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "sterilized-bandage-recipe",
+    "item_type": "Blueprint",
+    "name": "Sterilized Bandage Blueprint",
+    "rarity": "legendary",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "stitcher-i",
+    "item_type": "Weapon",
+    "name": "Stitcher I",
+    "rarity": "common",
+    "value": 800,
+    "components": [
+      {
+        "id": "metal-parts",
+        "quantity": 8
+      },
+      {
+        "id": "rubber-parts-recipe",
+        "quantity": 4
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "metal-parts",
+        "quantity": 3
+      },
+      {
+        "id": "rubber-parts-recipe",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "stitcher-ii",
+    "item_type": "Weapon",
+    "name": "Stitcher II",
+    "rarity": "common",
+    "value": 2000,
+    "components": [
+      {
+        "id": "stitcher-i",
+        "quantity": 1
+      },
+      {
+        "id": "metal-parts",
+        "quantity": 8
+      },
+      {
+        "id": "rubber-parts-recipe",
+        "quantity": 12
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "metal-parts",
+        "quantity": 6
+      },
+      {
+        "id": "rubber-parts-recipe",
+        "quantity": 6
+      }
+    ]
+  },
+  {
+    "id": "stitcher-iii",
+    "item_type": "Weapon",
+    "name": "Stitcher III",
+    "rarity": "common",
+    "value": 3000,
+    "components": [
+      {
+        "id": "stitcher-ii",
+        "quantity": 1
+      },
+      {
+        "id": "metal-parts",
+        "quantity": 10
+      },
+      {
+        "id": "simple-gun-parts",
+        "quantity": 1
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "metal-parts",
+        "quantity": 12
+      },
+      {
+        "id": "simple-gun-parts",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "stitcher-iv",
+    "item_type": "Weapon",
+    "name": "Stitcher IV",
+    "rarity": "common",
+    "value": 5000,
+    "components": [
+      {
+        "id": "stitcher-iii",
+        "quantity": 1
+      },
+      {
+        "id": "mechanical-components",
+        "quantity": 3
+      },
+      {
+        "id": "simple-gun-parts",
+        "quantity": 1
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "mechanical-components",
+        "quantity": 2
+      },
+      {
+        "id": "simple-gun-parts",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "succulent-backpack-charm",
+    "item_type": "Misc",
+    "name": "Succulent (Backpack Charm)",
+    "rarity": "",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "kettle-i",
+    "item_type": "Weapon",
+    "name": "Kettle I",
+    "rarity": "common",
+    "value": 840,
+    "components": [
+      {
+        "id": "rubber-parts-recipe",
+        "quantity": 8
+      },
+      {
+        "id": "metal-parts",
+        "quantity": 6
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "metal-parts",
+        "quantity": 3
+      },
+      {
+        "id": "rubber-parts-recipe",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "kettle-ii",
+    "item_type": "Weapon",
+    "name": "Kettle II",
+    "rarity": "common",
+    "value": 2000,
+    "components": [
+      {
+        "id": "kettle-i",
+        "quantity": 1
+      },
+      {
+        "id": "metal-parts",
+        "quantity": 8
+      },
+      {
+        "id": "plastic-parts",
+        "quantity": 10
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "metal-parts",
+        "quantity": 6
+      },
+      {
+        "id": "rubber-parts-recipe",
+        "quantity": 6
+      }
+    ]
+  },
+  {
+    "id": "kettle-iii",
+    "item_type": "Weapon",
+    "name": "Kettle III",
+    "rarity": "common",
+    "value": 3000,
+    "components": [
+      {
+        "id": "kettle-ii",
+        "quantity": 1
+      },
+      {
+        "id": "metal-parts",
+        "quantity": 10
+      },
+      {
+        "id": "simple-gun-parts",
+        "quantity": 1
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "metal-parts",
+        "quantity": 12
+      },
+      {
+        "id": "simple-gun-parts",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "kettle-iv",
+    "item_type": "Weapon",
+    "name": "Kettle IV",
+    "rarity": "common",
+    "value": 5000,
+    "components": [
+      {
+        "id": "kettle-iii",
+        "quantity": 1
+      },
+      {
+        "id": "mechanical-components",
+        "quantity": 3
+      },
+      {
+        "id": "simple-gun-parts",
+        "quantity": 1
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "mechanical-components",
+        "quantity": 2
+      },
+      {
+        "id": "simple-gun-parts",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "key-card",
+    "item_type": "Key",
+    "name": "Key Card",
+    "rarity": null,
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "kinetic-converter",
+    "item_type": "Modification",
+    "name": "Kinetic Converter",
+    "rarity": "legendary",
+    "value": 7000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "kinetic-converter-recipe",
+    "item_type": "Blueprint",
+    "name": "Kinetic Converter Blueprint",
+    "rarity": "legendary",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "laboratory-reagents",
+    "item_type": "Recyclable",
+    "name": "Laboratory Reagents",
+    "rarity": "rare",
+    "value": 2000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "chemicals",
+        "quantity": 16
+      },
+      {
+        "id": "crude-explosives",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": "lances-mixtape-5th-edition",
+    "item_type": "Trinket",
+    "name": "Lance's Mixtape (5th Edition)",
+    "rarity": "epic",
+    "value": 10000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "laser-trap-fire-recipe",
+    "item_type": "Blueprint",
+    "name": "Laser Trap: Fire Blueprint",
+    "rarity": "legendary",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "laser-trap-gas-recipe",
+    "item_type": "Blueprint",
+    "name": "Laser Trap: Gas Blueprint",
+    "rarity": "legendary",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "laser-trap-lure-recipe",
+    "item_type": "Quick Use",
+    "name": "Laser Trap: Lure",
+    "rarity": "common",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "laser-trap-smoke-recipe",
+    "item_type": "Quick Use",
+    "name": "Laser Trap: Smoke",
+    "rarity": "uncommon",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "launcher-ammo",
+    "item_type": "Ammunition",
+    "name": "Launcher Ammo",
+    "rarity": "rare",
+    "value": 200,
+    "components": [
+      {
+        "id": "metal-parts",
+        "quantity": 4
+      },
+      {
+        "id": "explosive-compound",
+        "quantity": 1
+      }
+    ],
+    "recycle_components": []
+  },
+  {
+    "id": "launcher-ammo-blueprint",
+    "item_type": "Blueprint",
+    "name": "Launcher Ammo BLueprint",
+    "rarity": "legendary",
+    "value": 5000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "leaper-pulse-unit",
+    "item_type": "Throwable",
+    "name": "Leaper Pulse Unit",
+    "rarity": "epic",
+    "value": 5000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "lemon",
+    "item_type": "Nature",
+    "name": "Lemon",
+    "rarity": "common",
+    "value": 640,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "assorted-seeds",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": "lidar-scanner",
+    "item_type": "Trinket",
+    "name": "Lidar Scanner",
+    "rarity": "common",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "light-ammo",
+    "item_type": "Ammunition",
+    "name": "Light Ammo",
+    "rarity": "common",
+    "value": 4,
+    "components": [
+      {
+        "id": "metal-parts",
+        "quantity": 3
+      },
+      {
+        "id": "chemicals",
+        "quantity": 2
+      }
+    ],
+    "recycle_components": []
+  },
+  {
+    "id": "light-bulb",
+    "item_type": "Trinket",
+    "name": "Light Bulb",
+    "rarity": "uncommon",
+    "value": 2000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "light-gun-parts",
+    "item_type": "Topside Material",
+    "name": "Light Gun Parts",
+    "rarity": "rare",
+    "value": 700,
+    "components": [
+      {
+        "id": "simple-gun-parts",
+        "quantity": 2
+      },
+      {
+        "id": "rubber-parts-recipe",
+        "quantity": 8
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "simple-gun-parts",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "light-gun-parts-recipe",
+    "item_type": "Blueprint",
+    "name": "Light Gun Parts Blueprint",
+    "rarity": "legendary",
+    "value": 5000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "light-impact-grenade",
+    "item_type": "Quick Use",
+    "name": "Light Impact Grenade",
+    "rarity": "common",
+    "value": 270,
+    "components": [
+      {
+        "id": "plastic-parts",
+        "quantity": 2
+      },
+      {
+        "id": "chemicals",
+        "quantity": 3
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "chemicals",
+        "quantity": 1
+      },
+      {
+        "id": "plastic-parts",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "light-shield",
+    "item_type": "Shield",
+    "name": "Light Shield",
+    "rarity": "uncommon",
+    "value": 640,
+    "components": [
+      {
+        "id": "arc-alloy",
+        "quantity": 2
+      },
+      {
+        "id": "plastic-parts",
+        "quantity": 4
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "plastic-parts",
+        "quantity": 4
+      }
+    ]
+  },
+  {
+    "id": "lightweight-stock",
+    "item_type": "Modification",
+    "name": "Lightweight Stock",
+    "rarity": "epic",
+    "value": 5000,
+    "components": [
+      {
+        "id": "mod-components",
+        "quantity": 1
+      },
+      {
+        "id": "duct-tape-recipe",
+        "quantity": 6
+      }
+    ],
+    "recycle_components": []
+  },
+  {
+    "id": "lightweight-stock-recipe",
+    "item_type": "Blueprint",
+    "name": "Lightweight Stock Blueprint",
+    "rarity": "legendary",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "lil-smoke-grenade",
+    "item_type": "Quick Use",
+    "name": "Li'l Smoke Grenade",
+    "rarity": "common",
+    "value": 300,
+    "components": [
+      {
+        "id": "chemicals",
+        "quantity": 5
+      },
+      {
+        "id": "plastic-parts",
+        "quantity": 1
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "chemicals",
+        "quantity": 1
+      },
+      {
+        "id": "plastic-parts",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "looting-mk-1",
+    "item_type": "Augment",
+    "name": "Looting Mk. 1",
+    "rarity": "uncommon",
+    "value": 640,
+    "components": [
+      {
+        "id": "plastic-parts",
+        "quantity": 6
+      },
+      {
+        "id": "rubber-parts-recipe",
+        "quantity": 6
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "plastic-parts",
+        "quantity": 3
+      },
+      {
+        "id": "rubber-parts-recipe",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": "looting-mk-2",
+    "item_type": "Augment",
+    "name": "Looting Mk. 2",
+    "rarity": "rare",
+    "value": 2000,
+    "components": [
+      {
+        "id": "electrical-components",
+        "quantity": 2
+      },
+      {
+        "id": "magnet",
+        "quantity": 3
+      }
+    ],
+    "recycle_components": []
+  },
+  {
+    "id": "looting-mk-3-cautious",
+    "item_type": "Augment",
+    "name": "Looting MK. 3 (Cautious)",
+    "rarity": "epic",
+    "value": 5000,
+    "components": [
+      {
+        "id": "advanced-electrical-components",
+        "quantity": 2
+      },
+      {
+        "id": "processor",
+        "quantity": 3
+      }
+    ],
+    "recycle_components": []
+  },
+  {
+    "id": "looting-mk-3-survivor",
+    "item_type": "Augment",
+    "name": "Looting MK. 3 (Survivor)",
+    "rarity": "epic",
+    "value": 5000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "looting-mk-3-survivor-blueprint",
+    "item_type": "Blueprint",
+    "name": "Looting MK. 3 (Survivor) Blueprint",
+    "rarity": "legendary",
+    "value": 5000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "lure-grenade",
+    "item_type": "Quick Use",
+    "name": "Lure Grenade",
+    "rarity": "uncommon",
+    "value": 1000,
+    "components": [
+      {
+        "id": "speaker-component",
+        "quantity": 2
+      },
+      {
+        "id": "plastic-parts",
+        "quantity": 2
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "speaker-component",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "lure-grenade-recipe",
+    "item_type": "Blueprint",
+    "name": "Lure Grenade Blueprint",
+    "rarity": "legendary",
+    "value": 5000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "magnet",
+    "item_type": "Topside Material",
+    "name": "Magnet",
+    "rarity": "uncommon",
+    "value": 300,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "metal-parts",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "magnetic-accelerator",
+    "item_type": "Refined Material",
+    "name": "Magnetic Accelerator",
+    "rarity": "epic",
+    "value": 5500,
+    "components": [
+      {
+        "id": "advanced-mechanical-components",
+        "quantity": 2
+      },
+      {
+        "id": "arc-motion-core",
+        "quantity": 2
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "advanced-mechanical-components",
+        "quantity": 1
+      },
+      {
+        "id": "arc-motion-core",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "magnetron",
+    "item_type": "Recyclable",
+    "name": "Magnetron",
+    "rarity": "epic",
+    "value": 6000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "magnetic-accelerator",
+        "quantity": 1
+      },
+      {
+        "id": "spring",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "mastery-medal-backpack-charm",
+    "item_type": "Misc",
+    "name": "Mastery Medal (Backpack Charm)",
+    "rarity": "",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "matriarch-reactor",
+    "item_type": "Recyclable",
+    "name": "Matriarch Reactor",
+    "rarity": "legendary",
+    "value": 13000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "magnetic-accelerator",
+        "quantity": 1
+      },
+      {
+        "id": "power-rod",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "mechanical-components",
+    "item_type": "Refined Material",
+    "name": "Mechanical Components",
+    "rarity": "uncommon",
+    "value": 640,
+    "components": [
+      {
+        "id": "metal-parts",
+        "quantity": 7
+      },
+      {
+        "id": "rubber-parts-recipe",
+        "quantity": 3
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "metal-parts",
+        "quantity": 3
+      },
+      {
+        "id": "rubber-parts-recipe",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "medium-ammo",
+    "item_type": "Ammunition",
+    "name": "Medium Ammo",
+    "rarity": "common",
+    "value": 6,
+    "components": [
+      {
+        "id": "metal-parts",
+        "quantity": 3
+      },
+      {
+        "id": "chemicals",
+        "quantity": 2
+      }
+    ],
+    "recycle_components": []
+  },
+  {
+    "id": "medium-gun-parts",
+    "item_type": "Topside Material",
+    "name": "Medium Gun Parts",
+    "rarity": "rare",
+    "value": 700,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "simple-gun-parts",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "medium-gun-parts-recipe",
+    "item_type": "Blueprint",
+    "name": "Medium Gun Parts Blueprint",
+    "rarity": "legendary",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "medium-shield",
+    "item_type": "Shield",
+    "name": "Medium Shield",
+    "rarity": "rare",
+    "value": 2000,
+    "components": [
+      {
+        "id": "arc-circuitry",
+        "quantity": 1
+      },
+      {
+        "id": "battery",
+        "quantity": 4
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "arc-circuitry",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "metal-brackets",
+    "item_type": "Recyclable",
+    "name": "Metal Brackets",
+    "rarity": "uncommon",
+    "value": 640,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "metal-parts",
+        "quantity": 8
+      }
+    ]
+  },
+  {
+    "id": "metal-parts",
+    "item_type": "Basic Material",
+    "name": "Metal Parts",
+    "rarity": "common",
+    "value": 75,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "microscope",
+    "item_type": "Recyclable",
+    "name": "Microscope",
+    "rarity": "rare",
+    "value": 3000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "advanced-mechanical-components",
+        "quantity": 1
+      },
+      {
+        "id": "magnet",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": "mini-centrifuge",
+    "item_type": "Recyclable",
+    "name": "Mini Centrifuge",
+    "rarity": "rare",
+    "value": 3000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "advanced-mechanical-components",
+        "quantity": 1
+      },
+      {
+        "id": "canister",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "mod-components",
+    "item_type": "Refined Material",
+    "name": "Mod Components",
+    "rarity": "rare",
+    "value": 1750,
+    "components": [
+      {
+        "id": "mechanical-components",
+        "quantity": 2
+      },
+      {
+        "id": "spring",
+        "quantity": 2
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "mechanical-components",
+        "quantity": 1
+      },
+      {
+        "id": "spring",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "mod-components-recipe",
+    "item_type": "Blueprint",
+    "name": "Mod Components Blueprint",
+    "rarity": "legendary",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "garlic-press",
+    "item_type": "Recyclable",
+    "name": "Garlic Press",
+    "rarity": "uncommon",
+    "value": 1000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "metal-parts",
+        "quantity": 12
+      }
+    ]
+  },
+  {
+    "id": "gas-grenade",
+    "item_type": "Explosives",
+    "name": "Gas Grenade",
+    "rarity": "common",
+    "value": 270,
+    "components": [
+      {
+        "id": "chemicals",
+        "quantity": 4
+      },
+      {
+        "id": "rubber-parts-recipe",
+        "quantity": 2
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "chemicals",
+        "quantity": 1
+      },
+      {
+        "id": "rubber-parts-recipe",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "gas-grenade-trap",
+    "item_type": "Quick Use",
+    "name": "Gas Grenade Trap",
+    "rarity": "common",
+    "value": 300,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "gas-mine",
+    "item_type": "Quick Use",
+    "name": "Gas Mine",
+    "rarity": "common",
+    "value": 270,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "chemicals",
+        "quantity": 1
+      },
+      {
+        "id": "rubber-parts-recipe",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "gas-mine-blueprint",
+    "item_type": "Blueprint",
+    "name": "Gas Mine Blueprint",
+    "rarity": "legendary",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "geiger-counter",
+    "item_type": "Recyclable",
+    "name": "Geiger Counter",
+    "rarity": "epic",
+    "value": 3500,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "battery",
+        "quantity": 3
+      },
+      {
+        "id": "exodus-modules",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "goggles-radio-renegade-variant",
+    "item_type": "Misc",
+    "name": "Goggles (Radio Renegade Variant)",
+    "rarity": "",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "great-muullein",
+    "item_type": "Nature",
+    "name": "Great Mullein",
+    "rarity": "uncommon",
+    "value": 300,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "assorted-seeds",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "green-light-stick",
+    "item_type": "Quick Use",
+    "name": "Green Light Stick",
+    "rarity": "common",
+    "value": 150,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "chemicals",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "green-light-stick-blueprint",
+    "item_type": "Blueprint",
+    "name": "Green Light Stick Blueprint",
+    "rarity": "legendary",
+    "value": 5000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "hairpin-i",
+    "item_type": "Weapon",
+    "name": "Hairpin I",
+    "rarity": "common",
+    "value": 450,
+    "components": [
+      {
+        "id": "metal-parts",
+        "quantity": 2
+      },
+      {
+        "id": "plastic-parts",
+        "quantity": 5
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "metal-parts",
+        "quantity": 2
+      },
+      {
+        "id": "rubber-parts-recipe",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "hairpin-ii",
+    "item_type": "Weapon",
+    "name": "Hairpin II",
+    "rarity": "common",
+    "value": 1000,
+    "components": [
+      {
+        "id": "hairpin-i",
+        "quantity": 1
+      },
+      {
+        "id": "metal-parts",
+        "quantity": 8
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "metal-parts",
+        "quantity": 4
+      },
+      {
+        "id": "rubber-parts-recipe",
+        "quantity": 4
+      }
+    ]
+  },
+  {
+    "id": "hairpin-iii",
+    "item_type": "Weapon",
+    "name": "Hairpin III",
+    "rarity": "common",
+    "value": 2000,
+    "components": [
+      {
+        "id": "hairpin-ii",
+        "quantity": 1
+      },
+      {
+        "id": "metal-parts",
+        "quantity": 9
+      },
+      {
+        "id": "simple-gun-parts",
+        "quantity": 1
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "metal-parts",
+        "quantity": 6
+      },
+      {
+        "id": "simple-gun-parts",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "hairpin-iv",
+    "item_type": "Weapon",
+    "name": "Hairpin IV",
+    "rarity": "common",
+    "value": 2900,
+    "components": [
+      {
+        "id": "hairpin-iii",
+        "quantity": 1
+      },
+      {
+        "id": "mechanical-components",
+        "quantity": 1
+      },
+      {
+        "id": "simple-gun-parts",
+        "quantity": 1
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "mechanical-components",
+        "quantity": 1
+      },
+      {
+        "id": "simple-gun-parts",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "happy-jig-emote",
+    "item_type": "Misc",
+    "name": "Happy Jig (Emote)",
+    "rarity": "",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "headphones",
+    "item_type": "Recyclable",
+    "name": "Headphones",
+    "rarity": "rare",
+    "value": 1000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "rubber-parts-recipe",
+        "quantity": 7
+      },
+      {
+        "id": "speaker-component",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "heavy-ammo",
+    "item_type": "Ammunition",
+    "name": "Heavy Ammo",
+    "rarity": "common",
+    "value": 12,
+    "components": [
+      {
+        "id": "metal-parts",
+        "quantity": 3
+      },
+      {
+        "id": "chemicals",
+        "quantity": 2
+      }
+    ],
+    "recycle_components": []
+  },
+  {
+    "id": "heavy-fuse-grenade-recipe",
+    "item_type": "Blueprint",
+    "name": "Heavy Fuse Grenade Blueprint",
+    "rarity": "legendary",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "heavy-fuze-grenade",
+    "item_type": "Quick Use",
+    "name": "Heavy Fuze Grenade",
+    "rarity": "rare",
+    "value": 1600,
+    "components": [
+      {
+        "id": "explosive-compound",
+        "quantity": 1
+      },
+      {
+        "id": "canister",
+        "quantity": 2
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "oil",
+        "quantity": 1
+      },
+      {
+        "id": "rubber-parts-recipe",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "heavy-gun-parts",
+    "item_type": "Topside Material",
+    "name": "Heavy Gun Parts",
+    "rarity": "rare",
+    "value": 700,
+    "components": [
+      {
+        "id": "simple-gun-parts",
+        "quantity": 2
+      },
+      {
+        "id": "rubber-parts-recipe",
+        "quantity": 8
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "simple-gun-parts",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "heavy-gun-parts-recipe",
+    "item_type": "Blueprint",
+    "name": "Heavy Gun Parts Blueprint",
+    "rarity": "legendary",
+    "value": 5000,
+    "components": [
+      {
+        "id": "simple-gun-parts",
+        "quantity": 4
+      }
+    ],
+    "recycle_components": []
+  },
+  {
+    "id": "heavy-shield",
+    "item_type": "Shield",
+    "name": "Heavy Shield",
+    "rarity": "epic",
+    "value": 5500,
+    "components": [
+      {
+        "id": "power-rod",
+        "quantity": 1
+      },
+      {
+        "id": "voltage-converter",
+        "quantity": 2
+      }
+    ],
+    "recycle_components": []
+  },
+  {
+    "id": "helmet-radio-renegade-variant",
+    "item_type": "Misc",
+    "name": "Helmet (Radio Renegade Variant)",
+    "rarity": "common",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "herbal-bandage",
+    "item_type": "Quick Use",
+    "name": "Herbal Bandage",
+    "rarity": "uncommon",
+    "value": 640,
+    "components": [
+      {
+        "id": "durable-cloth",
+        "quantity": 1
+      },
+      {
+        "id": "great-muullein",
+        "quantity": 1
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "assorted-seeds",
+        "quantity": 2
+      },
+      {
+        "id": "fabric",
+        "quantity": 5
+      }
+    ]
+  },
+  {
+    "id": "horizontal-grip",
+    "item_type": "Modification",
+    "name": "Horizontal Grip",
+    "rarity": "epic",
+    "value": 7000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "horizontal-grip-blueprint",
+    "item_type": "Blueprint",
+    "name": "Horizontal Grip Blueprint",
+    "rarity": "legendary",
+    "value": 5000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "hornet-driver",
+    "item_type": "Recyclable",
+    "name": "Hornet Driver",
+    "rarity": "rare",
+    "value": 2000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "arc-alloy",
+        "quantity": 2
+      },
+      {
+        "id": "electrical-components",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "household-cleaner",
+    "item_type": "Recyclable",
+    "name": "Household Cleaner",
+    "rarity": "uncommon",
+    "value": 640,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "chemicals",
+        "quantity": 11
+      }
+    ]
+  },
+  {
+    "id": "hullcracker-blueprint",
+    "item_type": "Blueprint",
+    "name": "Hullcracker Blueprint",
+    "rarity": "legendary",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "hullcracker-i",
+    "item_type": "Weapon",
+    "name": "Hullcracker I",
+    "rarity": "epic",
+    "value": 10000,
+    "components": [
+      {
+        "id": "magnetic-accelerator",
+        "quantity": 1
+      },
+      {
+        "id": "heavy-gun-parts",
+        "quantity": 3
+      },
+      {
+        "id": "exodus-modules",
+        "quantity": 1
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "advanced-mechanical-components",
+        "quantity": 2
+      },
+      {
+        "id": "heavy-gun-parts",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "hullcracker-ii",
+    "item_type": "Weapon",
+    "name": "Hullcracker II",
+    "rarity": "epic",
+    "value": 13000,
+    "components": [
+      {
+        "id": "advanced-mechanical-components",
+        "quantity": 1
+      },
+      {
+        "id": "heavy-gun-parts",
+        "quantity": 2
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "advanced-mechanical-components",
+        "quantity": 2
+      },
+      {
+        "id": "heavy-gun-parts",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": "hullcracker-iii",
+    "item_type": "Weapon",
+    "name": "Hullcracker III",
+    "rarity": "epic",
+    "value": 17000,
+    "components": [
+      {
+        "id": "advanced-mechanical-components",
+        "quantity": 2
+      },
+      {
+        "id": "heavy-gun-parts",
+        "quantity": 1
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "advanced-mechanical-components",
+        "quantity": 3
+      },
+      {
+        "id": "heavy-gun-parts",
+        "quantity": 4
+      }
+    ]
+  },
+  {
+    "id": "hullcracker-iv",
+    "item_type": "Weapon",
+    "name": "Hullcracker IV ",
+    "rarity": "epic",
+    "value": 22000,
+    "components": [
+      {
+        "id": "advanced-mechanical-components",
+        "quantity": 2
+      },
+      {
+        "id": "heavy-gun-parts",
+        "quantity": 3
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "advanced-mechanical-components",
+        "quantity": 4
+      },
+      {
+        "id": "heavy-gun-parts",
+        "quantity": 5
+      }
+    ]
+  },
+  {
+    "id": "humidifier",
+    "item_type": "Recyclable",
+    "name": "Humidifier",
+    "rarity": "rare",
+    "value": 1000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "canister",
+        "quantity": 2
+      },
+      {
+        "id": "wires-recipe",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "ice-cream-scooper",
+    "item_type": "Recyclable",
+    "name": "Ice Cream Scooper",
+    "rarity": "uncommon",
+    "value": 640,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "metal-parts",
+        "quantity": 7
+      }
+    ]
+  },
+  {
+    "id": "il-toro-recipe",
+    "item_type": "Blueprint",
+    "name": "Il Toro Blueprint",
+    "rarity": "legendary",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "il-toro-i",
+    "item_type": "Weapon",
+    "name": "Il Toro I",
+    "rarity": "uncommon",
+    "value": 5000,
+    "components": [
+      {
+        "id": "mechanical-components",
+        "quantity": 5
+      },
+      {
+        "id": "simple-gun-parts",
+        "quantity": 6
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "mechanical-components",
+        "quantity": 2
+      },
+      {
+        "id": "simple-gun-parts",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "il-toro-ii",
+    "item_type": "Weapon",
+    "name": "Il Toro II",
+    "rarity": "uncommon",
+    "value": 7000,
+    "components": [
+      {
+        "id": "il-toro-i",
+        "quantity": 1
+      },
+      {
+        "id": "mechanical-components",
+        "quantity": 3
+      },
+      {
+        "id": "simple-gun-parts",
+        "quantity": 1
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "mechanical-components",
+        "quantity": 3
+      },
+      {
+        "id": "simple-gun-parts",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": "il-toro-iiii",
+    "item_type": "Weapon",
+    "name": "Il Toro III",
+    "rarity": "uncommon",
+    "value": 10000,
+    "components": [
+      {
+        "id": "il-toro-ii",
+        "quantity": 1
+      },
+      {
+        "id": "mechanical-components",
+        "quantity": 4
+      },
+      {
+        "id": "heavy-gun-parts",
+        "quantity": 1
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "mechanical-components",
+        "quantity": 4
+      },
+      {
+        "id": "simple-gun-parts",
+        "quantity": 4
+      }
+    ]
+  },
+  {
+    "id": "il-toro-iv",
+    "item_type": "Weapon",
+    "name": "Il Toro IV",
+    "rarity": "uncommon",
+    "value": 13000,
+    "components": [
+      {
+        "id": "il-toro-iiii",
+        "quantity": 1
+      },
+      {
+        "id": "mechanical-components",
+        "quantity": 4
+      },
+      {
+        "id": "heavy-gun-parts",
+        "quantity": 1
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "mechanical-components",
+        "quantity": 5
+      },
+      {
+        "id": "simple-gun-parts",
+        "quantity": 5
+      }
+    ]
+  },
+  {
+    "id": "impure-arc-coolant",
+    "item_type": "Recyclable",
+    "name": "Impure ARC Coolant",
+    "rarity": "uncommon",
+    "value": 640,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "chemicals",
+        "quantity": 12
+      }
+    ]
+  },
+  {
+    "id": "industrial-battery",
+    "item_type": "Recyclable",
+    "name": "Industrial Battery",
+    "rarity": "rare",
+    "value": 1000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "battery",
+        "quantity": 2
+      },
+      {
+        "id": "chemicals",
+        "quantity": 7
+      }
+    ]
+  },
+  {
+    "id": "industrial-charger",
+    "item_type": "Recyclable",
+    "name": "Industrial Charger",
+    "rarity": "rare",
+    "value": 1000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "metal-parts",
+        "quantity": 5
+      },
+      {
+        "id": "voltage-converter",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "industrial-magnet",
+    "item_type": "Recyclable",
+    "name": "Industrial Magnet",
+    "rarity": "rare",
+    "value": 1000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "magnet",
+        "quantity": 2
+      },
+      {
+        "id": "metal-parts",
+        "quantity": 4
+      }
+    ]
+  },
+  {
+    "id": "ion-sputter",
+    "item_type": "Recyclable",
+    "name": "Ion Sputter",
+    "rarity": "epic",
+    "value": 6000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "exodus-modules",
+        "quantity": 1
+      },
+      {
+        "id": "voltage-converter",
+        "quantity": 4
+      }
+    ]
+  },
+  {
+    "id": "jolt-mine",
+    "item_type": "Quick Use",
+    "name": "Jolt Mine",
+    "rarity": "rare",
+    "value": 850,
+    "components": [
+      {
+        "id": "electrical-components",
+        "quantity": 1
+      },
+      {
+        "id": "battery",
+        "quantity": 1
+      }
+    ],
+    "recycle_components": []
+  },
+  {
+    "id": "jolt-mine-recipe",
+    "item_type": "Blueprint",
+    "name": "Jolt Mine Blueprint",
+    "rarity": "legendary",
+    "value": 5000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "junior-outfit",
+    "item_type": "Cosmetic",
+    "name": "Junior (Outfit)",
+    "rarity": "common",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "jupiter-i",
+    "item_type": "Weapon",
+    "name": "Jupiter",
+    "rarity": "legendary",
+    "value": 34000,
+    "components": [
+      {
+        "id": "queen-reactor",
+        "quantity": 1
+      },
+      {
+        "id": "magnetic-accelerator",
+        "quantity": 3
+      },
+      {
+        "id": "complex-gun-parts",
+        "quantity": 3
+      }
+    ],
+    "recycle_components": []
+  },
+  {
+    "id": "jupiter-i-recipe",
+    "item_type": "Blueprint",
+    "name": "Jupiter Blueprint",
+    "rarity": "legendary",
+    "value": 5000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "moss",
+    "item_type": "Topside Material",
+    "name": "Moss",
+    "rarity": "rare",
+    "value": 500,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "assorted-seeds",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": "motor",
+    "item_type": "Recyclable",
+    "name": "Motor",
+    "rarity": "rare",
+    "value": 2000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "mechanical-components",
+        "quantity": 2
+      },
+      {
+        "id": "oil",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "mushroom",
+    "item_type": "Nature",
+    "name": "Mushroom",
+    "rarity": "uncommon",
+    "value": 1000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "music-album",
+    "item_type": "Trinket",
+    "name": "Music Album",
+    "rarity": "rare",
+    "value": 3000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "music-box",
+    "item_type": "Trinket",
+    "name": "Music Box",
+    "rarity": "rare",
+    "value": 5000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "muzzle-brake-i",
+    "item_type": "Modification",
+    "name": "Muzzle Brake I",
+    "rarity": "common",
+    "value": 640,
+    "components": [
+      {
+        "id": "metal-parts",
+        "quantity": 6
+      },
+      {
+        "id": "wires-recipe",
+        "quantity": 1
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "metal-parts",
+        "quantity": 5
+      }
+    ]
+  },
+  {
+    "id": "muzzle-brake-ii",
+    "item_type": "Modification",
+    "name": "Muzzle Brake II",
+    "rarity": "uncommon",
+    "value": 2000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "mechanical-components",
+        "quantity": 1
+      },
+      {
+        "id": "wires-recipe",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "muzzle-brake-ii-recipe",
+    "item_type": "Blueprint",
+    "name": "Muzzle Brake II Blueprint",
+    "rarity": "legendary",
+    "value": 5000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "muzzle-brake-iii",
+    "item_type": "Modification",
+    "name": "Muzzle Brake III",
+    "rarity": "rare",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "muzzle-brake-iii-recipe",
+    "item_type": "Blueprint",
+    "name": "Muzzle Brake III Blueprint",
+    "rarity": "legendary",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "noisemaker",
+    "item_type": "Quick Use",
+    "name": "Noisemaker",
+    "rarity": "common",
+    "value": 640,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "speaker-component",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "number-plate",
+    "item_type": "Recyclable",
+    "name": "Number Plate",
+    "rarity": "uncommon",
+    "value": 80,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "metal-parts",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": "oil",
+    "item_type": "Topside Material",
+    "name": "Oil",
+    "rarity": "uncommon",
+    "value": 300,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "chemicals",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": "olives",
+    "item_type": "Misc",
+    "name": "Olives",
+    "rarity": "uncommon",
+    "value": 640,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "orange-camo-origin-outfit",
+    "item_type": "Misc",
+    "name": "Orange Camo (Origin Outfit)",
+    "rarity": "",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "osprey-recipe",
+    "item_type": "Blueprint",
+    "name": "Osprey Blueprint",
+    "rarity": "legendary",
+    "value": 5000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "osprey-i",
+    "item_type": "Weapon",
+    "name": "Osprey I",
+    "rarity": "rare",
+    "value": 7000,
+    "components": [
+      {
+        "id": "advanced-mechanical-components",
+        "quantity": 2
+      },
+      {
+        "id": "medium-gun-parts",
+        "quantity": 3
+      },
+      {
+        "id": "wires-recipe",
+        "quantity": 7
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "advanced-mechanical-components",
+        "quantity": 1
+      },
+      {
+        "id": "medium-gun-parts",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "osprey-ii",
+    "item_type": "Weapon",
+    "name": "Osprey II",
+    "rarity": "rare",
+    "value": 10000,
+    "components": [
+      {
+        "id": "osprey-i",
+        "quantity": 1
+      },
+      {
+        "id": "advanced-mechanical-components",
+        "quantity": 1
+      },
+      {
+        "id": "medium-gun-parts",
+        "quantity": 2
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "advanced-mechanical-components",
+        "quantity": 1
+      },
+      {
+        "id": "medium-gun-parts",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "osprey-iii",
+    "item_type": "Weapon",
+    "name": "Osprey III",
+    "rarity": "rare",
+    "value": 13000,
+    "components": [
+      {
+        "id": "osprey-ii",
+        "quantity": 1
+      },
+      {
+        "id": "advanced-mechanical-components",
+        "quantity": 1
+      },
+      {
+        "id": "medium-gun-parts",
+        "quantity": 2
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "advanced-mechanical-components",
+        "quantity": 2
+      },
+      {
+        "id": "medium-gun-parts",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": "osprey-iv",
+    "item_type": "Weapon",
+    "name": "Osprey IV",
+    "rarity": "rare",
+    "value": 17000,
+    "components": [
+      {
+        "id": "osprey-iii",
+        "quantity": 1
+      },
+      {
+        "id": "advanced-mechanical-components",
+        "quantity": 2
+      },
+      {
+        "id": "medium-gun-parts",
+        "quantity": 2
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "advanced-mechanical-components",
+        "quantity": 3
+      },
+      {
+        "id": "medium-gun-parts",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": "padded-stock",
+    "item_type": "Modification",
+    "name": "Padded Stock",
+    "rarity": "epic",
+    "value": 0,
+    "components": [
+      {
+        "id": "mod-components",
+        "quantity": 2
+      },
+      {
+        "id": "duct-tape-recipe",
+        "quantity": 5
+      }
+    ],
+    "recycle_components": []
+  },
+  {
+    "id": "padded-stock-recipe",
+    "item_type": "Blueprint",
+    "name": "Padded Stock Blueprint",
+    "rarity": "legendary",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "painted-box",
+    "item_type": "Trinket",
+    "name": "Painted Box",
+    "rarity": "uncommon",
+    "value": 2000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "patrol-car-key",
+    "item_type": "Key",
+    "name": "Patrol Car Key",
+    "rarity": "uncommon",
+    "value": 100,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "patrol-outfit",
+    "item_type": "Misc",
+    "name": "Patrol (Outfit)",
+    "rarity": "",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "photoelectric-cloak",
+    "item_type": "Quick Use",
+    "name": "Photoelectric Cloak",
+    "rarity": "epic",
+    "value": 5000,
+    "components": [
+      {
+        "id": "advanced-electrical-components",
+        "quantity": 2
+      },
+      {
+        "id": "speaker-component",
+        "quantity": 4
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "advanced-electrical-components",
+        "quantity": 1
+      },
+      {
+        "id": "speaker-component",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "plastic-parts",
+    "item_type": "Basic Material",
+    "name": "Plastic Parts",
+    "rarity": "common",
+    "value": 60,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "playing-cards",
+    "item_type": "Trinket",
+    "name": "Playing Cards",
+    "rarity": "rare",
+    "value": 5000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "polluted-air-filter",
+    "item_type": "Recyclable",
+    "name": "Polluted Air Filter",
+    "rarity": "rare",
+    "value": 1000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "fabric",
+        "quantity": 6
+      },
+      {
+        "id": "oil",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "pop-trigger",
+    "item_type": "Recyclable",
+    "name": "Pop Trigger",
+    "rarity": "common",
+    "value": 640,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "arc-alloy",
+        "quantity": 1
+      },
+      {
+        "id": "crude-explosives",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "portable-television",
+    "item_type": "Recyclable",
+    "name": "Portable TV",
+    "rarity": "rare",
+    "value": 2000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "battery",
+        "quantity": 2
+      },
+      {
+        "id": "wires-recipe",
+        "quantity": 6
+      }
+    ]
+  },
+  {
+    "id": "poster-natural-wonder",
+    "item_type": "Trinket",
+    "name": "Poster of Natural Wonder",
+    "rarity": "uncommon",
+    "value": 2000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "pottery",
+    "item_type": "Trinket",
+    "name": "Pottery",
+    "rarity": "uncommon",
+    "value": 2000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "power-bank",
+    "item_type": "Recyclable",
+    "name": "Power Bank",
+    "rarity": "rare",
+    "value": 1000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "battery",
+        "quantity": 2
+      },
+      {
+        "id": "wires-recipe",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "power-cable",
+    "item_type": "Recyclable",
+    "name": "Power Cable",
+    "rarity": "rare",
+    "value": 1000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "wires-recipe",
+        "quantity": 4
+      }
+    ]
+  },
+  {
+    "id": "power-rod",
+    "item_type": "Advanced Material",
+    "name": "Power Rod",
+    "rarity": "epic",
+    "value": 5500,
+    "components": [
+      {
+        "id": "arc-circuitry",
+        "quantity": 2
+      },
+      {
+        "id": "advanced-electrical-components",
+        "quantity": 2
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "advanced-electrical-components",
+        "quantity": 1
+      },
+      {
+        "id": "arc-circuitry",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "power-rod-recipe",
+    "item_type": "Blueprint",
+    "name": "Power Rod Blueprint",
+    "rarity": "legendary",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "prickly-pear",
+    "item_type": "Nature",
+    "name": "Prickly Pear",
+    "rarity": "common",
+    "value": 640,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "assorted-seeds",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": "processor",
+    "item_type": "Topside Material",
+    "name": "Processor",
+    "rarity": "rare",
+    "value": 500,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "plastic-parts",
+        "quantity": 1
+      },
+      {
+        "id": "wires-recipe",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "projector",
+    "item_type": "Recyclable",
+    "name": "Projector",
+    "rarity": "rare",
+    "value": 1000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "processor",
+        "quantity": 1
+      },
+      {
+        "id": "wires-recipe",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "pulse-mine",
+    "item_type": "Quick Use",
+    "name": "Pulse Mine",
+    "rarity": "uncommon",
+    "value": 470,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "chemicals",
+        "quantity": 6
+      }
+    ]
+  },
+  {
+    "id": "pulse-mine-blueprint",
+    "item_type": "Blueprint",
+    "name": "Pulse Mine Blueprint",
+    "rarity": "legendary",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "queen-reactor",
+    "item_type": "Recyclable",
+    "name": "Queen Reactor",
+    "rarity": "legendary",
+    "value": 13000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "magnetic-accelerator",
+        "quantity": 1
+      },
+      {
+        "id": "power-rod",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "radio",
+    "item_type": "Recyclable",
+    "name": "Radio",
+    "rarity": "rare",
+    "value": 1000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "sensors-recipe",
+        "quantity": 1
+      },
+      {
+        "id": "speaker-component",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "radio-relay",
+    "item_type": "Recyclable",
+    "name": "Radio Relay",
+    "rarity": "rare",
+    "value": 3000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "sensors-recipe",
+        "quantity": 2
+      },
+      {
+        "id": "speaker-component",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "radio-renegade-outfit",
+    "item_type": "Misc",
+    "name": "Radio Renegade (Outfit)",
+    "rarity": "",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "raider-hatch-key",
+    "item_type": "Key",
+    "name": "Raider Hatch Key",
+    "rarity": "rare",
+    "value": 1000,
+    "components": [
+      {
+        "id": "advanced-electrical-components",
+        "quantity": 1
+      },
+      {
+        "id": "sensors-recipe",
+        "quantity": 3
+      }
+    ],
+    "recycle_components": []
+  },
+  {
+    "id": "rattler-i",
+    "item_type": "Weapon",
+    "name": "Rattler I",
+    "rarity": "common",
+    "value": 1750,
+    "components": [
+      {
+        "id": "metal-parts",
+        "quantity": 16
+      },
+      {
+        "id": "rubber-parts-recipe",
+        "quantity": 12
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "metal-parts",
+        "quantity": 8
+      }
+    ]
+  },
+  {
+    "id": "rattler-ii",
+    "item_type": "Weapon",
+    "name": "Rattler II",
+    "rarity": "common",
+    "value": 3000,
+    "components": [
+      {
+        "id": "rattler-i",
+        "quantity": 1
+      },
+      {
+        "id": "metal-parts",
+        "quantity": 10
+      },
+      {
+        "id": "rubber-parts-recipe",
+        "quantity": 10
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "metal-parts",
+        "quantity": 12
+      }
+    ]
+  },
+  {
+    "id": "rattler-iii",
+    "item_type": "Weapon",
+    "name": "Rattler III",
+    "rarity": "common",
+    "value": 5000,
+    "components": [
+      {
+        "id": "rattler-ii",
+        "quantity": 1
+      },
+      {
+        "id": "mechanical-components",
+        "quantity": 3
+      },
+      {
+        "id": "simple-gun-parts",
+        "quantity": 1
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "mechanical-components",
+        "quantity": 3
+      },
+      {
+        "id": "simple-gun-parts",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "adrenaline-shot",
+    "item_type": "Quick Use",
+    "name": "Adrenaline Shot",
+    "rarity": "common",
+    "value": 300,
+    "components": [
+      {
+        "id": "plastic-parts",
+        "quantity": 3
+      },
+      {
+        "id": "chemicals",
+        "quantity": 3
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "chemicals",
+        "quantity": 1
+      },
+      {
+        "id": "plastic-parts",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "advanced-arc-powercell",
+    "item_type": "Misc",
+    "name": "Advanced ARC Powercell",
+    "rarity": "rare",
+    "value": 640,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "arc-powercell",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "advanced-electrical-components",
+    "item_type": "Refined Material",
+    "name": "Advanced Electrical Components",
+    "rarity": "rare",
+    "value": 1750,
+    "components": [
+      {
+        "id": "wires-recipe",
+        "quantity": 3
+      },
+      {
+        "id": "electrical-components",
+        "quantity": 2
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "electrical-components",
+        "quantity": 1
+      },
+      {
+        "id": "wires-recipe",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "advanced-electrical-components-recipe",
+    "item_type": "Blueprint",
+    "name": "Advanced Electrical Components Blueprint",
+    "rarity": "legendary",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "advanced-mechanical-components",
+    "item_type": "Advanced Material",
+    "name": "Advanced Mechanical Components",
+    "rarity": "rare",
+    "value": 1750,
+    "components": [
+      {
+        "id": "spring",
+        "quantity": 2
+      },
+      {
+        "id": "mechanical-components",
+        "quantity": 2
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "mechanical-components",
+        "quantity": 1
+      },
+      {
+        "id": "spring",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "advanced-mechanical-components-recipe",
+    "item_type": "Blueprint",
+    "name": "Advanced Mechanical Components Blueprint",
+    "rarity": "legendary",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "agave",
+    "item_type": "Nature",
+    "name": "Agave",
+    "rarity": "common",
+    "value": 1000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "assorted-seeds",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": "agave-juice",
+    "item_type": "Consumable",
+    "name": "Agave Juice",
+    "rarity": "common",
+    "value": 123,
+    "components": [
+      {
+        "id": "agave",
+        "quantity": 1
+      },
+      {
+        "id": "empty-wine-bottle",
+        "quantity": 1
+      }
+    ],
+    "recycle_components": []
+  },
+  {
+    "id": "air-freshener",
+    "item_type": "Trinket",
+    "name": "Air Freshener",
+    "rarity": "uncommon",
+    "value": 2000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "alarm-clock",
+    "item_type": "Recyclable",
+    "name": "Alarm Clock",
+    "rarity": "rare",
+    "value": 1000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "plastic-parts",
+        "quantity": 6
+      },
+      {
+        "id": "processor",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "angled-grip-i",
+    "item_type": "Modification",
+    "name": "Angled Grip I",
+    "rarity": "common",
+    "value": 640,
+    "components": [
+      {
+        "id": "plastic-parts",
+        "quantity": 6
+      },
+      {
+        "id": "duct-tape-recipe",
+        "quantity": 1
+      }
+    ],
+    "recycle_components": []
+  },
+  {
+    "id": "angled-grip-ii",
+    "item_type": "Modification",
+    "name": "Angled Grip II",
+    "rarity": "uncommon",
+    "value": 0,
+    "components": [
+      {
+        "id": "mechanical-components",
+        "quantity": 1
+      },
+      {
+        "id": "duct-tape-recipe",
+        "quantity": 1
+      }
+    ],
+    "recycle_components": []
+  },
+  {
+    "id": "angled-grip-ii-recipe",
+    "item_type": "Blueprint",
+    "name": "Angled Grip II Blueprint",
+    "rarity": "legendary",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "angled-grip-iii",
+    "item_type": "Modification",
+    "name": "Angled Grip III",
+    "rarity": "rare",
+    "value": 5000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "angled-grip-iii-recipe",
+    "item_type": "Blueprint",
+    "name": "Angled Grip III Blueprint",
+    "rarity": "legendary",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "antiseptic",
+    "item_type": "Refined Material",
+    "name": "Antiseptic",
+    "rarity": "rare",
+    "value": 1000,
+    "components": [
+      {
+        "id": "chemicals",
+        "quantity": 10
+      },
+      {
+        "id": "great-muullein",
+        "quantity": 2
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "chemicals",
+        "quantity": 10
+      }
+    ]
+  },
+  {
+    "id": "anvil-recipe",
+    "item_type": "Blueprint",
+    "name": "Anvil Blueprint",
+    "rarity": "legendary",
+    "value": 5000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "anvil-i",
+    "item_type": "Weapon",
+    "name": "Anvil I",
+    "rarity": "uncommon",
+    "value": 5000,
+    "components": [
+      {
+        "id": "mechanical-components",
+        "quantity": 5
+      },
+      {
+        "id": "simple-gun-parts",
+        "quantity": 6
+      },
+      {
+        "id": "anvil-recipe",
+        "quantity": 1
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "mechanical-components",
+        "quantity": 2
+      },
+      {
+        "id": "simple-gun-parts",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "anvil-ii",
+    "item_type": "Weapon",
+    "name": "Anvil II",
+    "rarity": "uncommon",
+    "value": 7000,
+    "components": [
+      {
+        "id": "anvil-i",
+        "quantity": 1
+      },
+      {
+        "id": "mechanical-components",
+        "quantity": 3
+      },
+      {
+        "id": "simple-gun-parts",
+        "quantity": 1
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "mechanical-components",
+        "quantity": 3
+      },
+      {
+        "id": "simple-gun-parts",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": "anvil-iii",
+    "item_type": "Weapon",
+    "name": "Anvil III",
+    "rarity": "uncommon",
+    "value": 10000,
+    "components": [
+      {
+        "id": "anvil-ii",
+        "quantity": 1
+      },
+      {
+        "id": "mechanical-components",
+        "quantity": 4
+      },
+      {
+        "id": "heavy-gun-parts",
+        "quantity": 1
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "mechanical-components",
+        "quantity": 4
+      },
+      {
+        "id": "simple-gun-parts",
+        "quantity": 4
+      }
+    ]
+  },
+  {
+    "id": "anvil-iv",
+    "item_type": "Weapon",
+    "name": "Anvil IV",
+    "rarity": "uncommon",
+    "value": 13000,
+    "components": [
+      {
+        "id": "mechanical-components",
+        "quantity": 4
+      },
+      {
+        "id": "heavy-gun-parts",
+        "quantity": 1
+      },
+      {
+        "id": "anvil-iii",
+        "quantity": 1
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "mechanical-components",
+        "quantity": 5
+      },
+      {
+        "id": "simple-gun-parts",
+        "quantity": 5
+      }
+    ]
+  },
+  {
+    "id": "anvil-splitter",
+    "item_type": "Modification",
+    "name": "Anvil Splitter",
+    "rarity": "legendary",
+    "value": 7000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "mod-components",
+        "quantity": 1
+      },
+      {
+        "id": "processor",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "anvil-splitter-recipe",
+    "item_type": "Blueprint",
+    "name": "Anvil Splitter Blueprint",
+    "rarity": "legendary",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "aphelion-rifle",
+    "item_type": "Weapon",
+    "name": "Aphelion Rifle",
+    "rarity": "legendary",
+    "value": 0,
+    "components": [
+      {
+        "id": "matriarch-reactor",
+        "quantity": 1
+      }
+    ],
+    "recycle_components": []
+  },
+  {
+    "id": "aphelion-rifle-blueprint",
+    "item_type": "Blueprint",
+    "name": "Aphelion Rifle Blueprint",
+    "rarity": "legendary",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "apricot",
+    "item_type": "Nature",
+    "name": "Apricot",
+    "rarity": "common",
+    "value": 640,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "assorted-seeds",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": "arc-alloy",
+    "item_type": "Topside Material",
+    "name": "ARC Alloy",
+    "rarity": "uncommon",
+    "value": 200,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "metal-parts",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "arc-circuitry",
+    "item_type": "Topside Material",
+    "name": "ARC Circuitry",
+    "rarity": "rare",
+    "value": 1000,
+    "components": [
+      {
+        "id": "arc-alloy",
+        "quantity": 8
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "arc-alloy",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "arc-circuitry-recipe",
+    "item_type": "Blueprint",
+    "name": "ARC Circuitry Blueprint",
+    "rarity": "legendary",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "arc-coolant",
+    "item_type": "Recyclable",
+    "name": "ARC Coolant",
+    "rarity": "rare",
+    "value": 1000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "chemicals",
+        "quantity": 16
+      }
+    ]
+  },
+  {
+    "id": "arc-flex-rubber",
+    "item_type": "Recyclable",
+    "name": "ARC Flex Rubber",
+    "rarity": "rare",
+    "value": 1000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "arc-motion-core",
+    "item_type": "Topside Material",
+    "name": "ARC Motion Core",
+    "rarity": "rare",
+    "value": 1000,
+    "components": [
+      {
+        "id": "arc-alloy",
+        "quantity": 8
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "arc-alloy",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "arc-performance-steel",
+    "item_type": "Recyclable",
+    "name": "ARC Performance Steel",
+    "rarity": "rare",
+    "value": 1000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "metal-parts",
+        "quantity": 12
+      }
+    ]
+  },
+  {
+    "id": "arc-powercell",
+    "item_type": "Topside Material",
+    "name": "ARC Powercell",
+    "rarity": "common",
+    "value": 640,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "arc-synthetic-resin",
+    "item_type": "Recyclable",
+    "name": "ARC Synthetic Resin",
+    "rarity": "rare",
+    "value": 1000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "plastic-parts",
+        "quantity": 14
+      }
+    ]
+  },
+  {
+    "id": "arc-thermo-lining",
+    "item_type": "Recyclable",
+    "name": "ARC Thermo Lining",
+    "rarity": "rare",
+    "value": 1000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "fabric",
+        "quantity": 16
+      }
+    ]
+  },
+  {
+    "id": "arpeggio-i",
+    "item_type": "Weapon",
+    "name": "Arpeggio I",
+    "rarity": "uncommon",
+    "value": 5500,
+    "components": [
+      {
+        "id": "mechanical-components",
+        "quantity": 6
+      },
+      {
+        "id": "simple-gun-parts",
+        "quantity": 6
+      }
+    ],
+    "recycle_components": []
+  },
+  {
+    "id": "arpeggio-ii",
+    "item_type": "Weapon",
+    "name": "Arpeggio II",
+    "rarity": "uncommon",
+    "value": 8000,
+    "components": [
+      {
+        "id": "arpeggio-i",
+        "quantity": 1
+      },
+      {
+        "id": "metal-parts",
+        "quantity": 14
+      },
+      {
+        "id": "simple-gun-parts",
+        "quantity": 3
+      }
+    ],
+    "recycle_components": []
+  },
+  {
+    "id": "arpeggio-iii",
+    "item_type": "Weapon",
+    "name": "Arpeggio III",
+    "rarity": "uncommon",
+    "value": 11500,
+    "components": [
+      {
+        "id": "arpeggio-ii",
+        "quantity": 1
+      },
+      {
+        "id": "metal-parts",
+        "quantity": 10
+      },
+      {
+        "id": "simple-gun-parts",
+        "quantity": 4
+      }
+    ],
+    "recycle_components": []
+  },
+  {
+    "id": "arpeggio-iv",
+    "item_type": "Weapon",
+    "name": "Arpeggio IV",
+    "rarity": "uncommon",
+    "value": 15000,
+    "components": [
+      {
+        "id": "mechanical-components",
+        "quantity": 1
+      },
+      {
+        "id": "medium-gun-parts",
+        "quantity": 2
+      },
+      {
+        "id": "arpeggio-iii",
+        "quantity": 1
+      }
+    ],
+    "recycle_components": []
+  },
+  {
+    "id": "assorted-seeds",
+    "item_type": "Nature",
+    "name": "Assorted Seeds",
+    "rarity": "common",
+    "value": 100,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "aviator-outfit",
+    "item_type": "Misc",
+    "name": "Aviator (Outfit)",
+    "rarity": "",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "bag-radio-renegade-variant",
+    "item_type": "Misc",
+    "name": "Bag (Radio Renegade Variant)",
+    "rarity": "common",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "banana-backpack-charm",
+    "item_type": "Misc",
+    "name": "Banana (Backpack Charm)",
+    "rarity": "",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "bandage",
+    "item_type": "Quick Use",
+    "name": "Bandage",
+    "rarity": "common",
+    "value": 250,
+    "components": [
+      {
+        "id": "fabric",
+        "quantity": 5
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "fabric",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "barricade-kit",
+    "item_type": "Quick Use",
+    "name": "Barricade Kit",
+    "rarity": "uncommon",
+    "value": 640,
+    "components": [
+      {
+        "id": "metal-parts",
+        "quantity": 5
+      },
+      {
+        "id": "spring",
+        "quantity": 1
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "metal-parts",
+        "quantity": 4
+      }
+    ]
+  },
+  {
+    "id": "barricade-kit-recipe",
+    "item_type": "Blueprint",
+    "name": "Barricade Kit Blueprint",
+    "rarity": "legendary",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "bastion-part",
+    "item_type": "Recyclable",
+    "name": "Bastion Cell",
+    "rarity": "epic",
+    "value": 5000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "advanced-mechanical-components",
+        "quantity": 2
+      },
+      {
+        "id": "arc-alloy",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "battery",
+    "item_type": "Topside Material",
+    "name": "Battery",
+    "rarity": "uncommon",
+    "value": 250,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "metal-parts",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "bettina-blueprint",
+    "item_type": "Blueprint",
+    "name": "Bettina Blueprint",
+    "rarity": "legendary",
+    "value": 5000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "vita-shot-recipe",
+    "item_type": "Blueprint",
+    "name": "Vita Shot Blueprint",
+    "rarity": "legendary",
+    "value": 5000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "vita-spray",
+    "item_type": "Quick Use",
+    "name": "Vita Spray",
+    "rarity": "epic",
+    "value": 2880,
+    "components": [
+      {
+        "id": "antiseptic",
+        "quantity": 2
+      },
+      {
+        "id": "canister",
+        "quantity": 4
+      }
+    ],
+    "recycle_components": []
+  },
+  {
+    "id": "vita-spray-recipe",
+    "item_type": "Blueprint",
+    "name": "Vita Spray Blueprint",
+    "rarity": "legendary",
+    "value": 5000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "volcanic-rock",
+    "item_type": "Misc",
+    "name": "Volcanic Rock",
+    "rarity": "common",
+    "value": 270,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "voltage-converter",
+    "item_type": "Topside Material",
+    "name": "Voltage Converter",
+    "rarity": "rare",
+    "value": 500,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "rubber-parts-recipe",
+        "quantity": 1
+      },
+      {
+        "id": "wires-recipe",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "vulcano-blueprint",
+    "item_type": "Blueprint",
+    "name": "Vulcano Blueprint",
+    "rarity": "legendary",
+    "value": 5000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "vulcano-i",
+    "item_type": "Weapon",
+    "name": "Vulcano I",
+    "rarity": "epic",
+    "value": 10000,
+    "components": [
+      {
+        "id": "magnetic-accelerator",
+        "quantity": 1
+      },
+      {
+        "id": "heavy-gun-parts",
+        "quantity": 3
+      },
+      {
+        "id": "exodus-modules",
+        "quantity": 1
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "advanced-mechanical-components",
+        "quantity": 2
+      },
+      {
+        "id": "heavy-gun-parts",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "vulcano-ii",
+    "item_type": "Weapon",
+    "name": "Vulcano II",
+    "rarity": "epic",
+    "value": 13000,
+    "components": [
+      {
+        "id": "advanced-mechanical-components",
+        "quantity": 1
+      },
+      {
+        "id": "heavy-gun-parts",
+        "quantity": 2
+      },
+      {
+        "id": "vulcano-i",
+        "quantity": 1
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "advanced-mechanical-components",
+        "quantity": 2
+      },
+      {
+        "id": "heavy-gun-parts",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": "vulcano-iii",
+    "item_type": "Weapon",
+    "name": "Vulcano III",
+    "rarity": "epic",
+    "value": 17000,
+    "components": [
+      {
+        "id": "vulcano-ii",
+        "quantity": 1
+      },
+      {
+        "id": "advanced-mechanical-components",
+        "quantity": 2
+      },
+      {
+        "id": "heavy-gun-parts",
+        "quantity": 1
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "advanced-mechanical-components",
+        "quantity": 3
+      },
+      {
+        "id": "heavy-gun-parts",
+        "quantity": 4
+      }
+    ]
+  },
+  {
+    "id": "vulcano-iv",
+    "item_type": "Weapon",
+    "name": "Vulcano IV",
+    "rarity": "epic",
+    "value": 22000,
+    "components": [
+      {
+        "id": "vulcano-iii",
+        "quantity": 1
+      },
+      {
+        "id": "advanced-mechanical-components",
+        "quantity": 2
+      },
+      {
+        "id": "heavy-gun-parts",
+        "quantity": 3
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "advanced-mechanical-components",
+        "quantity": 4
+      },
+      {
+        "id": "heavy-gun-parts",
+        "quantity": 5
+      }
+    ]
+  },
+  {
+    "id": "wasp-driver",
+    "item_type": "Recyclable",
+    "name": "Wasp Driver",
+    "rarity": "rare",
+    "value": 1000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "arc-alloy",
+        "quantity": 1
+      },
+      {
+        "id": "electrical-components",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "water-filter",
+    "item_type": "Recyclable",
+    "name": "Water Filter",
+    "rarity": "rare",
+    "value": 1000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "canister",
+        "quantity": 3
+      },
+      {
+        "id": "rubber-parts-recipe",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "water-pump",
+    "item_type": "Recyclable",
+    "name": "Water Pump",
+    "rarity": "rare",
+    "value": 1000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "metal-parts",
+        "quantity": 4
+      },
+      {
+        "id": "oil",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "wires-recipe",
+    "item_type": "Topside Material",
+    "name": "Wires",
+    "rarity": "uncommon",
+    "value": 200,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "rubber-parts-recipe",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "wolfpack",
+    "item_type": "Quick Use",
+    "name": "WolfPack",
+    "rarity": "epic",
+    "value": 5000,
+    "components": [
+      {
+        "id": "explosive-compound",
+        "quantity": 3
+      },
+      {
+        "id": "arc-motion-core",
+        "quantity": 2
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "arc-motion-core",
+        "quantity": 1
+      },
+      {
+        "id": "explosive-compound",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "wolfpack-recipe",
+    "item_type": "Blueprint",
+    "name": "Wolfpack Blueprint",
+    "rarity": "legendary",
+    "value": 5000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "yellow-light-stick",
+    "item_type": "Quick Use",
+    "name": "Yellow Light Stick",
+    "rarity": "common",
+    "value": 150,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "chemicals",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "yellow-light-stick-blueprint",
+    "item_type": "Blueprint",
+    "name": "Yellow Light Stick Blueprint",
+    "rarity": "legendary",
+    "value": 5000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "zipline",
+    "item_type": "Quick Use",
+    "name": "Zipline",
+    "rarity": "rare",
+    "value": 1000,
+    "components": [
+      {
+        "id": "rope",
+        "quantity": 1
+      },
+      {
+        "id": "mechanical-components",
+        "quantity": 1
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "metal-parts",
+        "quantity": 1
+      },
+      {
+        "id": "rope",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "dried-out-arc-resin",
+    "item_type": "Recyclable",
+    "name": "Dried-Out ARC Resin",
+    "rarity": "uncommon",
+    "value": 640,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "duct-tape-recipe",
+    "item_type": "Topside Material",
+    "name": "Duct Tape",
+    "rarity": "uncommon",
+    "value": 300,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "fabric",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": "durable-cloth",
+    "item_type": "Refined Material",
+    "name": "Durable Cloth",
+    "rarity": "uncommon",
+    "value": 640,
+    "components": [
+      {
+        "id": "fabric",
+        "quantity": 14
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "fabric",
+        "quantity": 6
+      }
+    ]
+  },
+  {
+    "id": "electrical-components",
+    "item_type": "Refined Material",
+    "name": "Electrical Components",
+    "rarity": "uncommon",
+    "value": 640,
+    "components": [
+      {
+        "id": "plastic-parts",
+        "quantity": 8
+      },
+      {
+        "id": "rubber-parts-recipe",
+        "quantity": 4
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "plastic-parts",
+        "quantity": 3
+      },
+      {
+        "id": "rubber-parts-recipe",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": "empty-wine-bottle",
+    "item_type": "Trinket",
+    "name": "Empty Wine Bottle",
+    "rarity": "common",
+    "value": 1000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "energy-ammo-recipe",
+    "item_type": "Blueprint",
+    "name": "Energy Ammo Blueprint",
+    "rarity": "legendary",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "energy-ammo",
+    "item_type": "Ammunition",
+    "name": "Energy Clip",
+    "rarity": "rare",
+    "value": 5,
+    "components": [
+      {
+        "id": "advanced-arc-powercell",
+        "quantity": 1
+      },
+      {
+        "id": "battery",
+        "quantity": 2
+      }
+    ],
+    "recycle_components": []
+  },
+  {
+    "id": "equalizer-i",
+    "item_type": "Weapon",
+    "name": "Equalizer",
+    "rarity": "legendary",
+    "value": 34000,
+    "components": [
+      {
+        "id": "queen-reactor",
+        "quantity": 1
+      },
+      {
+        "id": "magnetic-accelerator",
+        "quantity": 3
+      },
+      {
+        "id": "complex-gun-parts",
+        "quantity": 3
+      }
+    ],
+    "recycle_components": []
+  },
+  {
+    "id": "equalizer-recipe",
+    "item_type": "Blueprint",
+    "name": "Equalizer Blueprint",
+    "rarity": "legendary",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "esr-analyzer",
+    "item_type": "Quest Item",
+    "name": "ESR Analyzer",
+    "rarity": "common",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "exodus-modules",
+    "item_type": "Topside Material",
+    "name": "Exodus Modules",
+    "rarity": "epic",
+    "value": 2750,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "magnet",
+        "quantity": 2
+      },
+      {
+        "id": "processor",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "expired-pasta",
+    "item_type": "Trinket",
+    "name": "Expired Pasta",
+    "rarity": "common",
+    "value": 1000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "expired-respirator",
+    "item_type": "Recyclable",
+    "name": "Expired Respirator",
+    "rarity": "rare",
+    "value": 640,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "fabric",
+        "quantity": 4
+      },
+      {
+        "id": "rubber-parts-recipe",
+        "quantity": 8
+      }
+    ]
+  },
+  {
+    "id": "explosive-compound",
+    "item_type": "Refined Material",
+    "name": "Explosive Compound",
+    "rarity": "rare",
+    "value": 1000,
+    "components": [
+      {
+        "id": "crude-explosives",
+        "quantity": 2
+      },
+      {
+        "id": "oil",
+        "quantity": 2
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "crude-explosives",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "explosive-mine",
+    "item_type": "Quick Use",
+    "name": "Explosive Mine",
+    "rarity": "rare",
+    "value": 1500,
+    "components": [
+      {
+        "id": "sensors-recipe",
+        "quantity": 1
+      },
+      {
+        "id": "explosive-compound",
+        "quantity": 1
+      }
+    ],
+    "recycle_components": []
+  },
+  {
+    "id": "explosive-mine-blueprint",
+    "item_type": "Blueprint",
+    "name": "Explosive Mine Blueprint",
+    "rarity": "legendary",
+    "value": 5000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "extended-barrel",
+    "item_type": "Modification",
+    "name": "Extended Barrel",
+    "rarity": "epic",
+    "value": 5000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "mod-components",
+        "quantity": 1
+      },
+      {
+        "id": "wires-recipe",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "extended-barrel-recipe",
+    "item_type": "Blueprint",
+    "name": "Extended Barrel Blueprint",
+    "rarity": "legendary",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "extended-light-mag-i",
+    "item_type": "Modification",
+    "name": "Extended Light Mag I",
+    "rarity": "common",
+    "value": 640,
+    "components": [
+      {
+        "id": "plastic-parts",
+        "quantity": 6
+      },
+      {
+        "id": "spring",
+        "quantity": 1
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "plastic-parts",
+        "quantity": 6
+      }
+    ]
+  },
+  {
+    "id": "extended-light-mag-ii",
+    "item_type": "Modification",
+    "name": "Extended Light Mag II",
+    "rarity": "uncommon",
+    "value": 2000,
+    "components": [
+      {
+        "id": "mechanical-components",
+        "quantity": 1
+      },
+      {
+        "id": "spring",
+        "quantity": 1
+      }
+    ],
+    "recycle_components": []
+  },
+  {
+    "id": "extended-light-mag-ii-recipe",
+    "item_type": "Blueprint",
+    "name": "Extended Light Mag II Blueprint",
+    "rarity": "legendary",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "extended-light-mag-iii",
+    "item_type": "Modification",
+    "name": "Extended Light Mag III",
+    "rarity": "rare",
+    "value": 0,
+    "components": [
+      {
+        "id": "mod-components",
+        "quantity": 1
+      },
+      {
+        "id": "spring",
+        "quantity": 6
+      }
+    ],
+    "recycle_components": []
+  },
+  {
+    "id": "extended-light-mag-iii-recipe",
+    "item_type": "Blueprint",
+    "name": "Extended Light Mag III Blueprint",
+    "rarity": "legendary",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "extended-medium-mag-i",
+    "item_type": "Modification",
+    "name": "Extended Medium Mag I",
+    "rarity": "common",
+    "value": 640,
+    "components": [
+      {
+        "id": "plastic-parts",
+        "quantity": 6
+      },
+      {
+        "id": "spring",
+        "quantity": 1
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "plastic-parts",
+        "quantity": 6
+      }
+    ]
+  },
+  {
+    "id": "extended-medium-mag-ii",
+    "item_type": "Modification",
+    "name": "Extended Medium Mag II",
+    "rarity": "uncommon",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "extended-medium-mag-ii-recipe",
+    "item_type": "Blueprint",
+    "name": "Extended Medium Mag II Blueprint",
+    "rarity": "legendary",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "extended-medium-mag-iii",
+    "item_type": "Modification",
+    "name": "Extended Medium Mag III",
+    "rarity": "rare",
+    "value": 0,
+    "components": [
+      {
+        "id": "mod-components",
+        "quantity": 1
+      },
+      {
+        "id": "spring",
+        "quantity": 6
+      }
+    ],
+    "recycle_components": []
+  },
+  {
+    "id": "extended-medium-mag-iii-blueprint",
+    "item_type": "Blueprint",
+    "name": "Extended Medium Mag III Blueprint",
+    "rarity": "legendary",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "extended-shotgun-mag-i",
+    "item_type": "Modification",
+    "name": "Extended Shotgun Mag I",
+    "rarity": "common",
+    "value": 640,
+    "components": [
+      {
+        "id": "plastic-parts",
+        "quantity": 6
+      },
+      {
+        "id": "spring",
+        "quantity": 1
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "plastic-parts",
+        "quantity": 6
+      }
+    ]
+  },
+  {
+    "id": "extended-shotgun-mag-ii",
+    "item_type": "Modification",
+    "name": "Extended Shotgun Mag II",
+    "rarity": "uncommon",
+    "value": 2000,
+    "components": [
+      {
+        "id": "mechanical-components",
+        "quantity": 2
+      },
+      {
+        "id": "spring",
+        "quantity": 3
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "mechanical-components",
+        "quantity": 1
+      },
+      {
+        "id": "spring",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "extended-shotgun-mag-ii-recipe",
+    "item_type": "Blueprint",
+    "name": "Extended Shotgun Mag II Blueprint",
+    "rarity": "legendary",
+    "value": 5000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "extended-shotgun-mag-iii",
+    "item_type": "Modification",
+    "name": "Extended Shotgun Mag III",
+    "rarity": "rare",
+    "value": 0,
+    "components": [
+      {
+        "id": "mod-components",
+        "quantity": 1
+      },
+      {
+        "id": "spring",
+        "quantity": 6
+      }
+    ],
+    "recycle_components": []
+  },
+  {
+    "id": "extended-shotgun-mag-iii-recipe",
+    "item_type": "Blueprint",
+    "name": "Extended Shotgun Mag III Blueprint",
+    "rarity": "legendary",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "fabric",
+    "item_type": "Basic Material",
+    "name": "Fabric",
+    "rarity": "common",
+    "value": 50,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "faded-photograph",
+    "item_type": "Trinket",
+    "name": "Faded Photograph",
+    "rarity": "common",
+    "value": 640,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "ferro-i",
+    "item_type": "Weapon",
+    "name": "Ferro I",
+    "rarity": "common",
+    "value": 475,
+    "components": [
+      {
+        "id": "metal-parts",
+        "quantity": 5
+      },
+      {
+        "id": "rubber-parts-recipe",
+        "quantity": 2
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "metal-parts",
+        "quantity": 2
+      },
+      {
+        "id": "rubber-parts-recipe",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "ferro-ii",
+    "item_type": "Weapon",
+    "name": "Ferro II",
+    "rarity": "common",
+    "value": 1000,
+    "components": [
+      {
+        "id": "ferro-i",
+        "quantity": 1
+      },
+      {
+        "id": "metal-parts",
+        "quantity": 7
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "metal-parts",
+        "quantity": 4
+      },
+      {
+        "id": "rubber-parts-recipe",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": "ferro-iii",
+    "item_type": "Weapon",
+    "name": "Ferro III",
+    "rarity": "common",
+    "value": 2000,
+    "components": [
+      {
+        "id": "ferro-ii",
+        "quantity": 1
+      },
+      {
+        "id": "metal-parts",
+        "quantity": 9
+      },
+      {
+        "id": "simple-gun-parts",
+        "quantity": 1
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "metal-parts",
+        "quantity": 6
+      },
+      {
+        "id": "simple-gun-parts",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "ferro-iv",
+    "item_type": "Weapon",
+    "name": "Ferro IV",
+    "rarity": "common",
+    "value": 2900,
+    "components": [
+      {
+        "id": "ferro-iii",
+        "quantity": 1
+      },
+      {
+        "id": "mechanical-components",
+        "quantity": 1
+      },
+      {
+        "id": "simple-gun-parts",
+        "quantity": 1
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "mechanical-components",
+        "quantity": 1
+      },
+      {
+        "id": "simple-gun-parts",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "fertilizer",
+    "item_type": "Misc",
+    "name": "Fertilizer",
+    "rarity": "common",
+    "value": 1000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "film-reel",
+    "item_type": "Trinket",
+    "name": "Film Reel",
+    "rarity": "rare",
+    "value": 2000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "fine-wristwatch",
+    "item_type": "Trinket",
+    "name": "Fine Wristwatch",
+    "rarity": "rare",
+    "value": 3000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "fireball-burner",
+    "item_type": "Recyclable",
+    "name": "Fireball Burner",
+    "rarity": "uncommon",
+    "value": 640,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "arc-alloy",
+        "quantity": 1
+      },
+      {
+        "id": "crude-explosives",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "flame-spray",
+    "item_type": "Quick use",
+    "name": "Flame Spray",
+    "rarity": "uncommon",
+    "value": 640,
+    "components": [
+      {
+        "id": "air-freshener",
+        "quantity": 1
+      },
+      {
+        "id": "fireball-burner",
+        "quantity": 1
+      }
+    ],
+    "recycle_components": []
+  },
+  {
+    "id": "flow-controller",
+    "item_type": "Recyclable",
+    "name": "Flow Controller",
+    "rarity": "rare",
+    "value": 3000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "advanced-mechanical-components",
+        "quantity": 1
+      },
+      {
+        "id": "sensors-recipe",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "free-loadout-augment",
+    "item_type": "Augment",
+    "name": "Free Loadout Augment",
+    "rarity": "common",
+    "value": 100,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "frequency-modulation-box",
+    "item_type": "Recyclable",
+    "name": "Frequency Modulation Box",
+    "rarity": "rare",
+    "value": 3000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "advanced-electrical-components",
+        "quantity": 1
+      },
+      {
+        "id": "speaker-component",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "fried-motherboard",
+    "item_type": "Recyclable",
+    "name": "Fried Motherboard",
+    "rarity": "rare",
+    "value": 2000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "electrical-components",
+        "quantity": 2
+      },
+      {
+        "id": "plastic-parts",
+        "quantity": 5
+      }
+    ]
+  },
+  {
+    "id": "fruit-mix",
+    "item_type": "Medical",
+    "name": "Fruit Mix",
+    "rarity": "common",
+    "value": 0,
+    "components": [
+      {
+        "id": "lemon",
+        "quantity": 1
+      },
+      {
+        "id": "apricot",
+        "quantity": 1
+      },
+      {
+        "id": "prickly-pear",
+        "quantity": 1
+      }
+    ],
+    "recycle_components": []
+  },
+  {
+    "id": "frying-pan",
+    "item_type": "Recyclable",
+    "name": "Frying Pan",
+    "rarity": "rare",
+    "value": 640,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "metal-parts",
+        "quantity": 8
+      }
+    ]
+  },
+  {
+    "id": "surge-shield-recharger",
+    "item_type": "Quick Use",
+    "name": "Surge Shield Recharger",
+    "rarity": "rare",
+    "value": 1200,
+    "components": [
+      {
+        "id": "electrical-components",
+        "quantity": 1
+      },
+      {
+        "id": "advanced-arc-powercell",
+        "quantity": 1
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "electrical-components",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "surveyor-vault",
+    "item_type": "Recyclable",
+    "name": "Surveyor Vault",
+    "rarity": "rare",
+    "value": 2000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "arc-alloy",
+        "quantity": 2
+      },
+      {
+        "id": "mechanical-components",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "synthesized-fuel",
+    "item_type": "Topside Material",
+    "name": "Synthesized Fuel",
+    "rarity": "rare",
+    "value": 700,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "oil",
+        "quantity": 1
+      },
+      {
+        "id": "plastic-parts",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "syringe",
+    "item_type": "Topside Material",
+    "name": "Syringe",
+    "rarity": "rare",
+    "value": 500,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "chemicals",
+        "quantity": 2
+      },
+      {
+        "id": "plastic-parts",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": "tactical-mk-1",
+    "item_type": "Augment",
+    "name": "Tactical Mk. 1",
+    "rarity": "uncommon",
+    "value": 640,
+    "components": [
+      {
+        "id": "plastic-parts",
+        "quantity": 6
+      },
+      {
+        "id": "rubber-parts-recipe",
+        "quantity": 6
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "plastic-parts",
+        "quantity": 3
+      },
+      {
+        "id": "rubber-parts-recipe",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": "tactical-mk-2",
+    "item_type": "Augment",
+    "name": "Tactical Mk. 2",
+    "rarity": "rare",
+    "value": 2000,
+    "components": [
+      {
+        "id": "electrical-components",
+        "quantity": 2
+      },
+      {
+        "id": "magnet",
+        "quantity": 3
+      }
+    ],
+    "recycle_components": []
+  },
+  {
+    "id": "tactical-mk3-defensive",
+    "item_type": "Augment",
+    "name": "Tactical Mk.3 (Defensive)",
+    "rarity": "epic",
+    "value": 5000,
+    "components": [
+      {
+        "id": "advanced-electrical-components",
+        "quantity": 2
+      },
+      {
+        "id": "processor",
+        "quantity": 3
+      }
+    ],
+    "recycle_components": []
+  },
+  {
+    "id": "tactical-mk3-defensive-blueprint",
+    "item_type": "Blueprint",
+    "name": "Tactical MK.3 (Defensive) Blueprint",
+    "rarity": "legendary",
+    "value": 5000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "tactical-mk-3-healing",
+    "item_type": "Augment",
+    "name": "Tactical Mk. 3 (Healing)",
+    "rarity": "epic",
+    "value": 5000,
+    "components": [
+      {
+        "id": "advanced-electrical-components",
+        "quantity": 2
+      },
+      {
+        "id": "processor",
+        "quantity": 3
+      }
+    ],
+    "recycle_components": []
+  },
+  {
+    "id": "tacical-mk3-healing-blueprint",
+    "item_type": "Blueprint",
+    "name": "Tactical MK.3 (Healing) Blueprint",
+    "rarity": "legendary",
+    "value": 5000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "tagging-grenade",
+    "item_type": "Quick Use",
+    "name": "Tagging Grenade",
+    "rarity": "rare",
+    "value": 1000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "plastic-parts",
+        "quantity": 1
+      },
+      {
+        "id": "sensors-recipe",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "tagging-grenade-recipe",
+    "item_type": "Blueprint",
+    "name": "Tagging Grenade Blueprint",
+    "rarity": "legendary",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "tattered-arc-lining",
+    "item_type": "Recyclable",
+    "name": "Tattered ARC Lining",
+    "rarity": "uncommon",
+    "value": 640,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "fabric",
+        "quantity": 12
+      }
+    ]
+  },
+  {
+    "id": "tattered-clothes",
+    "item_type": "Recyclable",
+    "name": "Tattered Clothes",
+    "rarity": "uncommon",
+    "value": 640,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "fabric",
+        "quantity": 11
+      }
+    ]
+  },
+  {
+    "id": "telemetry-transceiver",
+    "item_type": "Recyclable",
+    "name": "Telemetry Transceiver",
+    "rarity": "rare",
+    "value": 3000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "tempest-i",
+    "item_type": "Weapon",
+    "name": "Tempest I",
+    "rarity": "epic",
+    "value": 0,
+    "components": [
+      {
+        "id": "magnetic-accelerator",
+        "quantity": 1
+      },
+      {
+        "id": "medium-gun-parts",
+        "quantity": 3
+      },
+      {
+        "id": "exodus-modules",
+        "quantity": 2
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "advanced-mechanical-components",
+        "quantity": 2
+      },
+      {
+        "id": "medium-gun-parts",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "tempest-i-recipe",
+    "item_type": "Blueprint",
+    "name": "Tempest I Blueprint",
+    "rarity": "legendary",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "tempest-ii",
+    "item_type": "Weapon",
+    "name": "Tempest II",
+    "rarity": "epic",
+    "value": 17000,
+    "components": [
+      {
+        "id": "tempest-i",
+        "quantity": 1
+      },
+      {
+        "id": "advanced-mechanical-components",
+        "quantity": 2
+      },
+      {
+        "id": "medium-gun-parts",
+        "quantity": 1
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "advanced-mechanical-components",
+        "quantity": 3
+      },
+      {
+        "id": "medium-gun-parts",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": "tempest-iii",
+    "item_type": "Weapon",
+    "name": "Tempest III",
+    "rarity": "epic",
+    "value": 22000,
+    "components": [
+      {
+        "id": "tempest-ii",
+        "quantity": 1
+      },
+      {
+        "id": "advanced-mechanical-components",
+        "quantity": 2
+      },
+      {
+        "id": "medium-gun-parts",
+        "quantity": 3
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "advanced-mechanical-components",
+        "quantity": 4
+      },
+      {
+        "id": "medium-gun-parts",
+        "quantity": 4
+      }
+    ]
+  },
+  {
+    "id": "tempest-iv",
+    "item_type": "Weapon",
+    "name": "Tempest IV",
+    "rarity": "epic",
+    "value": 0,
+    "components": [
+      {
+        "id": "tempest-iii",
+        "quantity": 1
+      },
+      {
+        "id": "advanced-mechanical-components",
+        "quantity": 2
+      },
+      {
+        "id": "medium-gun-parts",
+        "quantity": 3
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "advanced-mechanical-components",
+        "quantity": 5
+      },
+      {
+        "id": "medium-gun-parts",
+        "quantity": 4
+      }
+    ]
+  },
+  {
+    "id": "thermostat",
+    "item_type": "Recyclable",
+    "name": "Thermostat",
+    "rarity": "rare",
+    "value": 1000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "rubber-parts-recipe",
+        "quantity": 7
+      },
+      {
+        "id": "sensors-recipe",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "tick-pod",
+    "item_type": "Recyclable",
+    "name": "Tick Pod",
+    "rarity": "uncommon",
+    "value": 640,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "arc-alloy",
+        "quantity": 2
+      },
+      {
+        "id": "chemicals",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "toaster",
+    "item_type": "Recyclable",
+    "name": "Toaster",
+    "rarity": "rare",
+    "value": 1000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "plastic-parts",
+        "quantity": 5
+      },
+      {
+        "id": "wires-recipe",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": "torch-ginger",
+    "item_type": "Material",
+    "name": "Torch Ginger",
+    "rarity": "uncommon",
+    "value": 300,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "chemicals",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": "torn-blanket",
+    "item_type": "Recyclable",
+    "name": "Torn Blanket",
+    "rarity": "rare",
+    "value": 640,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "fabric",
+        "quantity": 12
+      }
+    ]
+  },
+  {
+    "id": "torn-book",
+    "item_type": "Trinket",
+    "name": "Torn Book",
+    "rarity": "common",
+    "value": 1000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "torrent-i-recipe",
+    "item_type": "Blueprint",
+    "name": "Torrente Blueprint",
+    "rarity": "legendary",
+    "value": 5000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "torrente-i",
+    "item_type": "Weapon",
+    "name": "Torrente I",
+    "rarity": "rare",
+    "value": 7000,
+    "components": [
+      {
+        "id": "advanced-mechanical-components",
+        "quantity": 1
+      },
+      {
+        "id": "medium-gun-parts",
+        "quantity": 2
+      }
+    ],
+    "recycle_components": []
+  },
+  {
+    "id": "torrente-ii",
+    "item_type": "Weapon",
+    "name": "Torrente II",
+    "rarity": "rare",
+    "value": 10000,
+    "components": [
+      {
+        "id": "torrente-i",
+        "quantity": 1
+      },
+      {
+        "id": "advanced-mechanical-components",
+        "quantity": 1
+      },
+      {
+        "id": "medium-gun-parts",
+        "quantity": 2
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "advanced-mechanical-components",
+        "quantity": 2
+      },
+      {
+        "id": "medium-gun-parts",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "torrente-iii",
+    "item_type": "Weapon",
+    "name": "Torrente III",
+    "rarity": "rare",
+    "value": 13000,
+    "components": [
+      {
+        "id": "torrente-ii",
+        "quantity": 1
+      },
+      {
+        "id": "advanced-mechanical-components",
+        "quantity": 1
+      },
+      {
+        "id": "medium-gun-parts",
+        "quantity": 2
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "advanced-mechanical-components",
+        "quantity": 2
+      },
+      {
+        "id": "medium-gun-parts",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": "torrente-iv",
+    "item_type": "Weapon",
+    "name": "Torrente IV",
+    "rarity": "rare",
+    "value": 15000,
+    "components": [
+      {
+        "id": "medium-gun-parts",
+        "quantity": 3
+      },
+      {
+        "id": "torrente-iii",
+        "quantity": 1
+      },
+      {
+        "id": "advanced-mechanical-components",
+        "quantity": 3
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "advanced-mechanical-components",
+        "quantity": 3
+      },
+      {
+        "id": "medium-gun-parts",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": "trailblazer-grenade",
+    "item_type": "Quick Use",
+    "name": "Trailblazer Grenade",
+    "rarity": "rare",
+    "value": 1600,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "crude-explosives",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "trailblazer-grenade-blueprint",
+    "item_type": "Blueprint",
+    "name": "Trailblazer Grenade Blueprint",
+    "rarity": "legendary",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "trigger-nade",
+    "item_type": "Quick Use",
+    "name": "Trigger Nade",
+    "rarity": "rare",
+    "value": 1000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "trigger-nade-recipe",
+    "item_type": "Blueprint",
+    "name": "Trigger Nade Blueprint",
+    "rarity": "legendary",
+    "value": 5000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "turbo-pump",
+    "item_type": "Recyclable",
+    "name": "Turbo Pump",
+    "rarity": "rare",
+    "value": 2000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "mechanical-components",
+        "quantity": 1
+      },
+      {
+        "id": "oil",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": "unusable-weapon",
+    "item_type": "Recyclable",
+    "name": "Unusable Weapon",
+    "rarity": "rare",
+    "value": 2000,
+    "components": [
+      {
+        "id": "simple-gun-parts",
+        "quantity": 5
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "metal-parts",
+        "quantity": 4
+      }
+    ]
+  },
+  {
+    "id": "vase",
+    "item_type": "Trinket",
+    "name": "Vase",
+    "rarity": "rare",
+    "value": 3000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "venator-recipe",
+    "item_type": "Blueprint",
+    "name": "Venator Blueprint",
+    "rarity": "legendary",
+    "value": 5000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "venator-i",
+    "item_type": "Weapon",
+    "name": "Venator I",
+    "rarity": "rare",
+    "value": 7000,
+    "components": [
+      {
+        "id": "advanced-mechanical-components",
+        "quantity": 2
+      },
+      {
+        "id": "magnet",
+        "quantity": 5
+      },
+      {
+        "id": "medium-gun-parts",
+        "quantity": 3
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "advanced-mechanical-components",
+        "quantity": 1
+      },
+      {
+        "id": "medium-gun-parts",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "venator-ii",
+    "item_type": "Weapon",
+    "name": "Venator II",
+    "rarity": "rare",
+    "value": 0,
+    "components": [
+      {
+        "id": "advanced-mechanical-components",
+        "quantity": 1
+      },
+      {
+        "id": "medium-gun-parts",
+        "quantity": 2
+      },
+      {
+        "id": "venator-i",
+        "quantity": 1
+      }
+    ],
+    "recycle_components": []
+  },
+  {
+    "id": "venator-iii",
+    "item_type": "Weapon",
+    "name": "Venator III",
+    "rarity": "rare",
+    "value": 0,
+    "components": [
+      {
+        "id": "venator-ii",
+        "quantity": 1
+      },
+      {
+        "id": "advanced-mechanical-components",
+        "quantity": 1
+      },
+      {
+        "id": "medium-gun-parts",
+        "quantity": 2
+      }
+    ],
+    "recycle_components": []
+  },
+  {
+    "id": "venator-iv",
+    "item_type": "Weapon",
+    "name": "Venator IV",
+    "rarity": "rare",
+    "value": 10540,
+    "components": [
+      {
+        "id": "venator-iii",
+        "quantity": 1
+      },
+      {
+        "id": "advanced-mechanical-components",
+        "quantity": 1
+      },
+      {
+        "id": "medium-gun-parts",
+        "quantity": 2
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "advanced-mechanical-components",
+        "quantity": 3
+      },
+      {
+        "id": "medium-gun-parts",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": "vertical-grip-i",
+    "item_type": "Modification",
+    "name": "Vertical Grip I",
+    "rarity": "common",
+    "value": 640,
+    "components": [
+      {
+        "id": "plastic-parts",
+        "quantity": 6
+      },
+      {
+        "id": "duct-tape-recipe",
+        "quantity": 1
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "plastic-parts",
+        "quantity": 6
+      }
+    ]
+  },
+  {
+    "id": "vertical-grip-ii",
+    "item_type": "Modification",
+    "name": "Vertical Grip II",
+    "rarity": "uncommon",
+    "value": 2000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "duct-tape-recipe",
+        "quantity": 1
+      },
+      {
+        "id": "mechanical-components",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "vertical-grip-ii-recipe",
+    "item_type": "Blueprint",
+    "name": "Vertical Grip II Blueprint",
+    "rarity": "legendary",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "vertical-grip-iii",
+    "item_type": "Modification",
+    "name": "Vertical Grip III",
+    "rarity": "rare",
+    "value": 0,
+    "components": [
+      {
+        "id": "mod-components",
+        "quantity": 2
+      },
+      {
+        "id": "duct-tape-recipe",
+        "quantity": 5
+      }
+    ],
+    "recycle_components": []
+  },
+  {
+    "id": "vertical-grip-iii-recipe",
+    "item_type": "Blueprint",
+    "name": "Vertical Grip III Blueprint",
+    "rarity": "legendary",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "very-comfortable-pillow",
+    "item_type": "Trinket",
+    "name": "Very Comfortable Pillow",
+    "rarity": "uncommon",
+    "value": 2000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "vita-shot",
+    "item_type": "Quick Use",
+    "name": "Vita Shot",
+    "rarity": "rare",
+    "value": 2000,
+    "components": [
+      {
+        "id": "antiseptic",
+        "quantity": 1
+      },
+      {
+        "id": "syringe",
+        "quantity": 1
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "chemicals",
+        "quantity": 4
+      },
+      {
+        "id": "syringe",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "bettina-i",
+    "item_type": "Weapon",
+    "name": "Bettina I",
+    "rarity": "epic",
+    "value": 8000,
+    "components": [
+      {
+        "id": "advanced-mechanical-components",
+        "quantity": 3
+      },
+      {
+        "id": "heavy-gun-parts",
+        "quantity": 3
+      },
+      {
+        "id": "canister",
+        "quantity": 3
+      }
+    ],
+    "recycle_components": []
+  },
+  {
+    "id": "bettina-ii",
+    "item_type": "Weapon",
+    "name": "Bettina II",
+    "rarity": "epic",
+    "value": 11000,
+    "components": [
+      {
+        "id": "advanced-mechanical-components",
+        "quantity": 1
+      },
+      {
+        "id": "heavy-gun-parts",
+        "quantity": 2
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "advanced-mechanical-components",
+        "quantity": 2
+      },
+      {
+        "id": "heavy-gun-parts",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "bettina-iii",
+    "item_type": "Weapon",
+    "name": "Bettina III",
+    "rarity": "epic",
+    "value": 14000,
+    "components": [
+      {
+        "id": "advanced-mechanical-components",
+        "quantity": 1
+      },
+      {
+        "id": "heavy-gun-parts",
+        "quantity": 2
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "advanced-mechanical-components",
+        "quantity": 2
+      },
+      {
+        "id": "heavy-gun-parts",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": "bettina-iv",
+    "item_type": "Weapon",
+    "name": "Bettina IV",
+    "rarity": "epic",
+    "value": 18000,
+    "components": [
+      {
+        "id": "advanced-mechanical-components",
+        "quantity": 2
+      },
+      {
+        "id": "heavy-gun-parts",
+        "quantity": 2
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "advanced-mechanical-components",
+        "quantity": 3
+      },
+      {
+        "id": "heavy-gun-parts",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": "bicycle-pump",
+    "item_type": "Recyclable",
+    "name": "Bicycle Pump",
+    "rarity": "rare",
+    "value": 2000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "canister",
+        "quantity": 4
+      },
+      {
+        "id": "metal-parts",
+        "quantity": 10
+      }
+    ]
+  },
+  {
+    "id": "binoculars",
+    "item_type": "Gadget",
+    "name": "Binoculars",
+    "rarity": "common",
+    "value": 640,
+    "components": [
+      {
+        "id": "plastic-parts",
+        "quantity": 8
+      },
+      {
+        "id": "rubber-parts-recipe",
+        "quantity": 4
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "plastic-parts",
+        "quantity": 4
+      },
+      {
+        "id": "rubber-parts-recipe",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "bison-driver",
+    "item_type": "Recyclable",
+    "name": "Bison Driver",
+    "rarity": "rare",
+    "value": 2500,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "arc-alloy",
+        "quantity": 2
+      },
+      {
+        "id": "arc-motion-core",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "black-eye-face-style",
+    "item_type": "Misc",
+    "name": "Black Eye (Face Style)",
+    "rarity": "",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "black-hiker-colour",
+    "item_type": "Misc",
+    "name": "Black (Hiker Colour)",
+    "rarity": "common",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "black-and-white-origin-color",
+    "item_type": "Misc",
+    "name": "Black & White (Origin Color)",
+    "rarity": "common",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "blaze-grenade",
+    "item_type": "Throwable",
+    "name": "Blaze Grenade",
+    "rarity": "rare",
+    "value": 1600,
+    "components": [
+      {
+        "id": "oil",
+        "quantity": 2
+      },
+      {
+        "id": "metal-parts",
+        "quantity": 7
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "metal-parts",
+        "quantity": 4
+      },
+      {
+        "id": "oil",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "blaze-grenade-blueprint",
+    "item_type": "Blueprint",
+    "name": "Blaze Grenade Blueprint",
+    "rarity": "legendary",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "blaze-grenade-trap",
+    "item_type": "Quick Use",
+    "name": "Blaze Grenade Trap",
+    "rarity": "rare",
+    "value": 1000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "bloated-tuna-can",
+    "item_type": "Trinket",
+    "name": "Bloated Tuna Can",
+    "rarity": "common",
+    "value": 1000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "blue-gate-cellar-key",
+    "item_type": "Key",
+    "name": "Blue Gate Cellar Key",
+    "rarity": "uncommon",
+    "value": 100,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "blue-gate-communication-tower-key",
+    "item_type": "Key",
+    "name": "Blue Gate Communication Tower Key",
+    "rarity": "rare",
+    "value": 100,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "blue-gate-confiscation-room-key",
+    "item_type": "Key",
+    "name": "Blue Gate Confiscation Room Key",
+    "rarity": "epic",
+    "value": 100,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "blue-gate-village-key",
+    "item_type": "Key",
+    "name": "Blue Gate Village Key",
+    "rarity": "rare",
+    "value": 100,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "blue-light-stick",
+    "item_type": "Quick Use",
+    "name": "Blue Light Stick",
+    "rarity": "common",
+    "value": 150,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "chemicals",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "blue-light-stick-blueprint",
+    "item_type": "Blueprint",
+    "name": "Blue Light Stick Blueprint",
+    "rarity": "legendary",
+    "value": 5000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "blue-radio-renegade-color",
+    "item_type": "Misc",
+    "name": "Blue (Radio Renegade Color)",
+    "rarity": "common",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "blue-yellow-aviator-color",
+    "item_type": "Misc",
+    "name": "Blue Yellow (Aviator Color)",
+    "rarity": "common",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "bobcat-i-recipe",
+    "item_type": "Blueprint",
+    "name": "Bobcat Blueprint",
+    "rarity": "legendary",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "bobcat-i",
+    "item_type": "Weapon",
+    "name": "Bobcat I",
+    "rarity": "epic",
+    "value": 13000,
+    "components": [
+      {
+        "id": "magnetic-accelerator",
+        "quantity": 1
+      },
+      {
+        "id": "light-gun-parts",
+        "quantity": 3
+      },
+      {
+        "id": "bobcat-i-recipe",
+        "quantity": 1
+      },
+      {
+        "id": "exodus-modules",
+        "quantity": 2
+      }
+    ],
+    "recycle_components": []
+  },
+  {
+    "id": "bobcat-ii",
+    "item_type": "Weapon",
+    "name": "Bobcat II",
+    "rarity": "epic",
+    "value": 17000,
+    "components": [
+      {
+        "id": "bobcat-i",
+        "quantity": 1
+      },
+      {
+        "id": "advanced-mechanical-components",
+        "quantity": 2
+      },
+      {
+        "id": "light-gun-parts",
+        "quantity": 1
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "advanced-mechanical-components",
+        "quantity": 3
+      },
+      {
+        "id": "light-gun-parts",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": "bobcat-iii",
+    "item_type": "Weapon",
+    "name": "Bobcat III",
+    "rarity": "epic",
+    "value": 22000,
+    "components": [
+      {
+        "id": "advanced-mechanical-components",
+        "quantity": 2
+      },
+      {
+        "id": "light-gun-parts",
+        "quantity": 3
+      },
+      {
+        "id": "bobcat-ii",
+        "quantity": 1
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "advanced-mechanical-components",
+        "quantity": 4
+      },
+      {
+        "id": "light-gun-parts",
+        "quantity": 4
+      }
+    ]
+  },
+  {
+    "id": "bobcat-iv",
+    "item_type": "Weapon",
+    "name": "Bobcat IV",
+    "rarity": "epic",
+    "value": 27000,
+    "components": [
+      {
+        "id": "bobcat-iii",
+        "quantity": 1
+      },
+      {
+        "id": "advanced-mechanical-components",
+        "quantity": 2
+      },
+      {
+        "id": "light-gun-parts",
+        "quantity": 3
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "advanced-mechanical-components",
+        "quantity": 5
+      },
+      {
+        "id": "light-gun-parts",
+        "quantity": 4
+      }
+    ]
+  },
+  {
+    "id": "bombardier-cell",
+    "item_type": "Recyclable",
+    "name": "Bombardier Cell",
+    "rarity": "epic",
+    "value": 5000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "advanced-mechanical-components",
+        "quantity": 2
+      },
+      {
+        "id": "arc-alloy",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "bow-and-arrow-emote",
+    "item_type": "Misc",
+    "name": "Bow and Arrow (Emote)",
+    "rarity": "",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "breathtaking-snow-globe",
+    "item_type": "Trinket",
+    "name": "Breathtaking Snow Globe",
+    "rarity": "epic",
+    "value": 7000,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "briefcase-backpack-attachment",
+    "item_type": "Misc",
+    "name": "Briefcase (Backpack Attachment)",
+    "rarity": "",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "broken-flashlight",
+    "item_type": "Recyclable",
+    "name": "Broken Flashlight",
+    "rarity": "rare",
+    "value": 1000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "battery",
+        "quantity": 2
+      },
+      {
+        "id": "metal-parts",
+        "quantity": 6
+      }
+    ]
+  },
+  {
+    "id": "broken-guidance-system",
+    "item_type": "Recyclable",
+    "name": "Broken Guidance System",
+    "rarity": "rare",
+    "value": 2000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "processor",
+        "quantity": 4
+      }
+    ]
+  },
+  {
+    "id": "broken-handcuffs",
+    "item_type": "Recyclable",
+    "name": "Broken Handcuffs",
+    "rarity": "uncommon",
+    "value": 270,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "broken-handheld-radio",
+    "item_type": "Recyclable",
+    "name": "Broken Handheld Radio",
+    "rarity": "rare",
+    "value": 2000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "sensors-recipe",
+        "quantity": 3
+      },
+      {
+        "id": "wires-recipe",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "broken-riot-shield",
+    "item_type": "Recyclable",
+    "name": "Broken Riot Shield",
+    "rarity": "rare",
+    "value": 1000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "plastic-parts",
+        "quantity": 10
+      }
+    ]
+  },
+  {
+    "id": "broken-taser",
+    "item_type": "Recyclable",
+    "name": "Broken Taser",
+    "rarity": "rare",
+    "value": 1000,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "battery",
+        "quantity": 2
+      },
+      {
+        "id": "wires-recipe",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "burgerboy-backpack-charm",
+    "item_type": "Misc",
+    "name": "Burgerboy (Backpack Charm)",
+    "rarity": "",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "buried-city-hospital-key",
+    "item_type": "Quest Item",
+    "name": "Buried City Hospital Key",
+    "rarity": "uncommon",
+    "value": 100,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "buried-city-jkv-employee-access-card",
+    "item_type": "Key",
+    "name": "Buried City JKV Employee Access Card",
+    "rarity": "uncommon",
+    "value": 100,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "buried-city-residential-master-key",
+    "item_type": "Quest Item",
+    "name": "Buried City Residential Master Key",
+    "rarity": "uncommon",
+    "value": 100,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "buried-city-town-hall-key",
+    "item_type": "Key",
+    "name": "Buried City Town Hall Key",
+    "rarity": "epic",
+    "value": 100,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "burltetta-recipe",
+    "item_type": "Blueprint",
+    "name": "Burletta Blueprint",
+    "rarity": "legendary",
+    "value": 0,
+    "components": [],
+    "recycle_components": []
+  },
+  {
+    "id": "burletta-i",
+    "item_type": "Weapon",
+    "name": "Burletta I",
+    "rarity": "uncommon",
+    "value": 2900,
+    "components": [
+      {
+        "id": "mechanical-components",
+        "quantity": 3
+      },
+      {
+        "id": "simple-gun-parts",
+        "quantity": 3
+      },
+      {
+        "id": "burltetta-recipe",
+        "quantity": 1
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "mechanical-components",
+        "quantity": 1
+      },
+      {
+        "id": "simple-gun-parts",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "burletta-ii",
+    "item_type": "Weapon",
+    "name": "Burletta II",
+    "rarity": "uncommon",
+    "value": 5000,
+    "components": [
+      {
+        "id": "burletta-i",
+        "quantity": 1
+      },
+      {
+        "id": "mechanical-components",
+        "quantity": 3
+      },
+      {
+        "id": "simple-gun-parts",
+        "quantity": 1
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "mechanical-components",
+        "quantity": 2
+      },
+      {
+        "id": "simple-gun-parts",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "burletta-iiii",
+    "item_type": "Weapon",
+    "name": "Burletta III",
+    "rarity": "uncommon",
+    "value": 7000,
+    "components": [
+      {
+        "id": "burletta-ii",
+        "quantity": 1
+      },
+      {
+        "id": "mechanical-components",
+        "quantity": 3
+      },
+      {
+        "id": "simple-gun-parts",
+        "quantity": 1
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "mechanical-components",
+        "quantity": 3
+      },
+      {
+        "id": "simple-gun-parts",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": "burletta-iv",
+    "item_type": "Weapon",
+    "name": "Burletta IV",
+    "rarity": "uncommon",
+    "value": 10000,
+    "components": [
+      {
+        "id": "burletta-iiii",
+        "quantity": 1
+      },
+      {
+        "id": "mechanical-components",
+        "quantity": 4
+      },
+      {
+        "id": "light-gun-parts",
+        "quantity": 1
+      }
+    ],
+    "recycle_components": [
+      {
+        "id": "mechanical-components",
+        "quantity": 4
+      },
+      {
+        "id": "simple-gun-parts",
+        "quantity": 4
+      }
+    ]
+  },
+  {
+    "id": "burned-arc-circuitry",
+    "item_type": "Recyclable",
+    "name": "Burned ARC Circuitry",
+    "rarity": "uncommon",
+    "value": 640,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "arc-alloy",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "camera-lens",
+    "item_type": "Recyclable",
+    "name": "Camera Lens",
+    "rarity": "uncommon",
+    "value": 640,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "plastic-parts",
+        "quantity": 8
+      }
+    ]
+  },
+  {
+    "id": "candle-holder",
+    "item_type": "Recyclable",
+    "name": "Candle Holder",
+    "rarity": "uncommon",
+    "value": 640,
+    "components": [],
+    "recycle_components": [
+      {
+        "id": "metal-parts",
+        "quantity": 8
+      }
+    ]
+  }
+]
