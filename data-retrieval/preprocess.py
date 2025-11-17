@@ -31,6 +31,9 @@ def checkSalvageInfo(info, all_ids):
             if key not in all_ids:
                 raise RuntimeError(f"{key} is not a valid id")
 
+def extractLevelFromName(name):
+    return name.split()[-1]
+
 def main(metadata_path, extradata_path, out_path):
     metaforge_files = Path(metadata_path)
     with open(extradata_path) as f:
@@ -69,9 +72,15 @@ def main(metadata_path, extradata_path, out_path):
             if rarity is not None:
                 rarity = rarity.lower()
 
+
+            item_level = None
+            if item["item_type"] == "Weapon":
+                item_level = extractLevelFromName(item["name"])
+
             out.append({
                 "id": item["id"],
-                "item_type": item["item_type"],
+                "item_type": item["item_type"].lower(),
+                "item_level": item_level,
                 "icon": healIcon(item["icon"]),
                 "name": item["name"],
                 "rarity": rarity,

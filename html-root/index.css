@@ -5,22 +5,37 @@
 	flex-grow: 1;
 }
 
-.item-card > img {
+.item-img {
 	position: absolute;
+	width: 80%;
+	height: 80%;
+	object-fit: contain;
+}
+
+.item-img.is-gun {
+  transform: rotate(35deg);
+	width: 113%;
+	height: 113%;
+}
+
+.item-rarity-overlay {
 	width: 100%;
 }
 
+.item-level-overlay {
+	position: absolute;
+	bottom: 0;
+}
+
 .item-card {
-	display: block;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	position: relative;
 	width: 100px;
 	height: 100px;
 	margin-left: 5px;
 	margin-right: 5px;
-}
-
-.item-card > img {
-	width: 100%;
 }
 
 .items-pane {
@@ -33,6 +48,7 @@
 .item-image {
 	background: url("not-found.png");
 }
+
 body {
 	color: #ecdbc9;
 	background: #090b17;
@@ -40,6 +56,3 @@ body {
 	margin: 0;
 	padding: 0;
 }
-
-
-

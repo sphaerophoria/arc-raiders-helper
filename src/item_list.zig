@@ -55,6 +55,7 @@ var global = struct {
 }{};
 
 pub export fn initPage() void {
+
     initPageFailable() catch {
         wsr.printCapturedBacktrace();
         unreachable;
@@ -65,12 +66,28 @@ pub fn initPageFailable() !void {
     var arena = std.heap.ArenaAllocator.init(std.heap.wasm_allocator);
     defer arena.deinit();
 
+    var scanner = std.json.Scanner.initCompleteInput(arena.allocator(), wsr.getInputBuffer());
+    var diagnostics = std.json.Diagnostics{};
+    scanner.enableDiagnostics(&diagnostics);
+    const items = std.json.parseFromTokenSourceLeaky(ItemList, arena.allocator(), &scanner, .{
+        .allocate = .alloc_always,
+        .ignore_unknown_fields = true,
+    }) catch |e| {
+        wsr.print("{any}", .{diagnostics});
+        return e;
+    };
+
+    // FIXME: localstorage or URL based state
+    //
+    //
+    // Share URL -> loadouts
+    // Usually... use localstorage
     const s = try state.getState(arena.allocator());
     global.state_cache = try StateCache.fromState(s);
 
-    for (s) |item| {
-        wsr.print("Checked: {s}\n", .{item});
-    }
+    var untracked_writer = std.Io.Writer.Allocating.init(arena.allocator());
+    try generateItemList(items, &untracked_writer.writer);
+    wsr.setElemProperty("untracked-items", untracked_writer.written(), "innerHTML");
 }
 
 fn urlEscape(s: []const u8) []const u8 {
@@ -81,52 +98,93 @@ fn htmlEscape(s: []const u8) []const u8 {
     return s;
 }
 
-pub export fn onItemList() void {
-    onItemListFailable() catch |e| {
-        wsr.print("{t}", .{e});
-        wsr.printCapturedBacktrace();
-        unreachable;
+const ItemType = enum {
+    weapon,
+    blueprint,
+    key,
+    @"quest item",
+    unknown,
+
+    fn fromString(s: []const u8) ItemType {
+        return std.meta.stringToEnum(ItemType, s) orelse ItemType.unknown;
+    }
+};
+
+fn itemTypeToGunClass(s: []const u8) []const u8 {
+    const item_type = std.meta.stringToEnum(ItemType, s) orelse ItemType.unknown;
+    return switch (item_type) {
+        .weapon => "is-gun",
+        else => "",
     };
 }
 
-fn onItemListFailable() !void {
-    var arena = std.heap.ArenaAllocator.init(std.heap.wasm_allocator);
-    defer arena.deinit();
+const ItemLevelOverlay = struct {
+    level: ?[]const u8,
 
-    var output_html = std.Io.Writer.Allocating.init(arena.allocator());
+    pub fn format(self: ItemLevelOverlay, writer: *std.Io.Writer) !void {
+        const level = self.level orelse return;
 
+        try writer.print(
+            \\<div class="item-level-overlay">{s}</div>
+            , .{htmlEscape(level)});
+    }
+};
+const ItemHtmlWidget = struct {
+    item: Item,
 
-    wsr.print("{s}", .{wsr.getInputBuffer()});
-    const items = try std.json.parseFromSliceLeaky(ItemList, arena.allocator(), wsr.getInputBuffer(), .{
-        .ignore_unknown_fields = true,
-    });
-
-    for (items) |item| {
-        //const checked = global.state_cache.?.idTracked(item.id);
-            try output_html.writer.print(
-                \\<div item-name=\"{s}\">
-                \\  <input item-id="{s}" {s} type="checkbox" wsr-onevent="click" wsr-call="onItemClicked"/>
-                \\  <div class="item-card">
-                \\    <img class="item-img" src="images/{s}.webp" />
-                \\    <img src="rarity-overlay-{s}.png" title="{s}"/>
-                \\  </div>
-                \\</div>
+    pub fn format(self: ItemHtmlWidget, writer: *std.Io.Writer) !void {
+        try writer.print(
+            \\<div class="item-card">
+            \\  <img class="item-img {[gun_class]s}" src="images/{[id]s}.webp" title="{[name]s}"/>
+            \\  {[item_level_overlay]f}
+            \\  <img class="item-rarity-overlay" src="rarity-overlay-{[rarity]s}.png" title="{[name]s}"/>
+            \\</div>
             , .{
-                htmlEscape(item.id),
-                htmlEscape(item.id),
-                htmlChecked(false),
-                htmlEscape(item.id),
-                htmlEscape(item.rarity orelse "uncommon"),
-                htmlEscape(item.name),
-            },
+                .id = htmlEscape(self.item.id),
+                .item_level_overlay = ItemLevelOverlay { .level = self.item.item_level },
+                .name = htmlEscape(self.item.name),
+                .gun_class = itemTypeToGunClass(self.item.item_type),
+                .rarity = htmlEscape(self.item.rarity orelse "uncommon"),
+            }
         );
     }
 
-    wsr.setSelfProperty(output_html.written(), "innerHTML");
+};
+
+fn shouldSkipItem(item: Item) bool {
+    const item_type = ItemType.fromString(item.item_type);
+    switch (item_type) {
+        .weapon, .unknown => return false,
+        .@"quest item", .key, .blueprint => return true,
+    }
+}
+
+fn generateItemList(items: ItemList, untracked_writer: *std.Io.Writer) !void {
+    for (items) |item| {
+
+        if (shouldSkipItem(item)) {
+            continue;
+        }
+
+        const tracked = global.state_cache.?.idTracked(item.id);
+        try untracked_writer.print(
+            \\<div item-name=\"{[id]s}\">
+            \\  <input item-id="{[id]s}" {[checked]s} type="checkbox" wsr-onevent="click" wsr-call="onItemClicked"/>
+            \\  {[item_card]f}
+            \\</div>
+        , .{
+            .id = htmlEscape(item.id),
+            .checked = htmlChecked(tracked),
+            .item_card = ItemHtmlWidget { .item = item },
+        },
+        );
+    }
 }
 
 const Item = struct {
     id: []const u8 = &.{},
+    item_type: []const u8,
+    item_level: ?[]const u8,
     name: []const u8 = &.{},
     rarity: ?[]const u8 = null,
     icon: ?[]const u8 = null,
