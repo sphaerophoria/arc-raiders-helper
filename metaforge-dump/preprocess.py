@@ -3,6 +3,12 @@
 from pathlib import Path
 import json
 
+def healIcon(icon):
+    if icon is None:
+        return None
+    idx = icon.rfind("/")
+    return icon[idx + 1:]
+
 def fixSalvageInfo(info):
     ret = []
     if info is None:
@@ -66,6 +72,7 @@ def main():
             out.append({
                 "id": item["id"],
                 "item_type": item["item_type"],
+                "icon": healIcon(item["icon"]),
                 "name": item["name"],
                 "rarity": rarity,
                 "value": item["value"],

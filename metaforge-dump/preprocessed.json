@@ -2,6 +2,7 @@
   {
     "id": "rattler-iv",
     "item_type": "Weapon",
+    "icon": "rattler-iv.webp",
     "name": "Rattler IV",
     "rarity": "common",
     "value": 7000,
@@ -39,6 +40,7 @@
   {
     "id": "recorder",
     "item_type": "Trinket",
+    "icon": "recorded.webp",
     "name": "Recorder",
     "rarity": "uncommon",
     "value": 1000,
@@ -59,6 +61,7 @@
   {
     "id": "red-coral-jewelry",
     "item_type": "Trinket",
+    "icon": "red-coral-jewelry.webp",
     "name": "Red Coral Jewelry",
     "rarity": "rare",
     "value": 5000,
@@ -69,6 +72,7 @@
   {
     "id": "red-light-stick",
     "item_type": "Quick Use",
+    "icon": "red-light-stick.webp",
     "name": "Red Light Stick",
     "rarity": "common",
     "value": 150,
@@ -89,6 +93,7 @@
   {
     "id": "red-light-stick-blueprint",
     "item_type": "Blueprint",
+    "icon": "red-light-stick-blueprint.webp",
     "name": "Red Light Stick Blueprint",
     "rarity": "legendary",
     "value": 5000,
@@ -99,6 +104,7 @@
   {
     "id": "refinement-1",
     "item_type": "Refinement",
+    "icon": null,
     "name": "Refinement 1",
     "rarity": null,
     "value": 0,
@@ -109,6 +115,7 @@
   {
     "id": "remote-control",
     "item_type": "Recyclable",
+    "icon": "remote-control.webp",
     "name": "Remote Control",
     "rarity": "rare",
     "value": 1000,
@@ -133,6 +140,7 @@
   {
     "id": "remote-raider-flare",
     "item_type": "Quick Use",
+    "icon": "remote-raider-flare.webp",
     "name": "Remote Raider Flare",
     "rarity": "common",
     "value": 270,
@@ -152,6 +160,7 @@
   {
     "id": "remote-raider-flare-blueprint",
     "item_type": "Blueprint",
+    "icon": "remote-raider-flare-blueprint.webp",
     "name": "Remote Raider Flare Blueprint",
     "rarity": "legendary",
     "value": 5000,
@@ -162,6 +171,7 @@
   {
     "id": "renegade-recipe",
     "item_type": "Blueprint",
+    "icon": "renegade-recipe.webp",
     "name": "Renegade Blueprint",
     "rarity": "legendary",
     "value": 0,
@@ -172,6 +182,7 @@
   {
     "id": "renegade-i",
     "item_type": "Weapon",
+    "icon": "renegade-i.webp",
     "name": "Renegade I",
     "rarity": "rare",
     "value": 7000,
@@ -209,6 +220,7 @@
   {
     "id": "renegade-ii",
     "item_type": "Weapon",
+    "icon": "renegade-ii.webp",
     "name": "Renegade II",
     "rarity": "rare",
     "value": 10000,
@@ -246,6 +258,7 @@
   {
     "id": "renegade-iii",
     "item_type": "Weapon",
+    "icon": "renegade-iii.webp",
     "name": "Renegade III",
     "rarity": "rare",
     "value": 13000,
@@ -283,6 +296,7 @@
   {
     "id": "renegade-iv",
     "item_type": "Weapon",
+    "icon": "renegade-iv.webp",
     "name": "Renegade IV",
     "rarity": "rare",
     "value": 17000,
@@ -320,6 +334,7 @@
   {
     "id": "resin",
     "item_type": "Nature",
+    "icon": "resin.webp",
     "name": "Resin",
     "rarity": "common",
     "value": 1000,
@@ -330,6 +345,7 @@
   {
     "id": "ripped-safety-vest",
     "item_type": "Recyclable",
+    "icon": "ripped-safety-vest.webp",
     "name": "Ripped Safety Vest",
     "rarity": "uncommon",
     "value": 1000,
@@ -354,6 +370,7 @@
   {
     "id": "rocketeer-part",
     "item_type": "Recyclable",
+    "icon": "rocketeer-part.webp",
     "name": "Rocketeer Driver",
     "rarity": "epic",
     "value": 5000,
@@ -378,6 +395,7 @@
   {
     "id": "rocket-thruster",
     "item_type": "Recyclable",
+    "icon": "rocket-thruster.webp",
     "name": "Rocket Thruster",
     "rarity": "rare",
     "value": 2000,
@@ -402,6 +420,7 @@
   {
     "id": "rollbot-part",
     "item_type": "Recyclable",
+    "icon": "rollbot-part.webp",
     "name": "Rollbot Part",
     "rarity": "epic",
     "value": 6000,
@@ -417,6 +436,7 @@
   {
     "id": "roots",
     "item_type": "Nature",
+    "icon": "roots.webp",
     "name": "Roots",
     "rarity": "uncommon",
     "value": 640,
@@ -432,6 +452,7 @@
   {
     "id": "rope",
     "item_type": "Topside Material",
+    "icon": "rope.webp",
     "name": "Rope",
     "rarity": "rare",
     "value": 500,
@@ -452,6 +473,7 @@
   {
     "id": "rosary",
     "item_type": "Trinket",
+    "icon": "rosary.webp",
     "name": "Rosary",
     "rarity": "rare",
     "value": 2000,
@@ -462,6 +484,7 @@
   {
     "id": "rotary-encoder",
     "item_type": "Recyclable",
+    "icon": "rotary-encoder.webp",
     "name": "Rotary Encoder",
     "rarity": "rare",
     "value": 3000,
@@ -486,6 +509,7 @@
   {
     "id": "rubber-duck",
     "item_type": "Trinket",
+    "icon": "rubber-duck.webp",
     "name": "Rubber Duck",
     "rarity": "common",
     "value": 1000,
@@ -496,6 +520,7 @@
   {
     "id": "rubber-pad",
     "item_type": "Recyclable",
+    "icon": "rubber-pad.webp",
     "name": "Rubber Pad",
     "rarity": "rare",
     "value": 1000,
@@ -516,6 +541,7 @@
   {
     "id": "rubber-parts-recipe",
     "item_type": "Basic Material",
+    "icon": "rubber-parts-recipe.webp",
     "name": "Rubber Parts",
     "rarity": "common",
     "value": 50,
@@ -526,6 +552,7 @@
   {
     "id": "ruined-accordion",
     "item_type": "Recyclable",
+    "icon": "ruined-accordion.webp",
     "name": "Ruined Accordion",
     "rarity": "rare",
     "value": 2000,
@@ -550,6 +577,7 @@
   {
     "id": "ruined-baton",
     "item_type": "Recyclable",
+    "icon": "ruined-baton.webp",
     "name": "Ruined Baton",
     "rarity": "uncommon",
     "value": 640,
@@ -569,6 +597,7 @@
   {
     "id": "ruined-handcuffs",
     "item_type": "Recyclable",
+    "icon": "ruined-handcuffs.webp",
     "name": "Ruined Handcuffs",
     "rarity": "uncommon",
     "value": 640,
@@ -589,6 +618,7 @@
   {
     "id": "ruined-parachute",
     "item_type": "Recyclable",
+    "icon": "ruined-parachute.webp",
     "name": "Ruined Parachute",
     "rarity": "uncommon",
     "value": 640,
@@ -604,6 +634,7 @@
   {
     "id": "ruined-riot-shield",
     "item_type": "Recyclable",
+    "icon": "ruined-riot-shield.webp",
     "name": "Ruined Riot Shield",
     "rarity": "rare",
     "value": 1000,
@@ -628,6 +659,7 @@
   {
     "id": "ruined-tactical-vest",
     "item_type": "Recyclable",
+    "icon": "ruined-tactical-vest.webp",
     "name": "Ruined Tactical Vest",
     "rarity": "uncommon",
     "value": 640,
@@ -652,6 +684,7 @@
   {
     "id": "rusted-bolts",
     "item_type": "Recyclable",
+    "icon": "rusted-bolts.webp",
     "name": "Rusted Bolts",
     "rarity": "uncommon",
     "value": 640,
@@ -672,6 +705,7 @@
   {
     "id": "rusted-gear",
     "item_type": "Recyclable",
+    "icon": "rusted-gear.webp",
     "name": "Rusted Gear",
     "rarity": "rare",
     "value": 2000,
@@ -696,6 +730,7 @@
   {
     "id": "rusted-shut-medical-kit",
     "item_type": "Recyclable",
+    "icon": "rusted-shut-medical-kit.webp",
     "name": "Rusted Shut Medical Kit",
     "rarity": "rare",
     "value": 2000,
@@ -720,6 +755,7 @@
   {
     "id": "rusted-tools",
     "item_type": "Recyclable",
+    "icon": "rusted-tools.webp",
     "name": "Rusted Tools",
     "rarity": "rare",
     "value": 1000,
@@ -744,6 +780,7 @@
   {
     "id": "rusty-arc-steel",
     "item_type": "Recyclable",
+    "icon": "rusty-arc-steel.webp",
     "name": "Rusty ARC Steel",
     "rarity": "uncommon",
     "value": 640,
@@ -759,6 +796,7 @@
   {
     "id": "sample-cleaner",
     "item_type": "Recyclable",
+    "icon": "sample-cleaner.webp",
     "name": "Sample Cleaner",
     "rarity": "rare",
     "value": 3000,
@@ -783,6 +821,7 @@
   {
     "id": "seeker-grenade",
     "item_type": "Quick Use",
+    "icon": "seeker-grenade.webp",
     "name": "Seeker Grenade",
     "rarity": "uncommon",
     "value": 640,
@@ -803,6 +842,7 @@
   {
     "id": "seeker-grenade-blueprint",
     "item_type": "Blueprint",
+    "icon": "seeker-grenade-blueprint.webp",
     "name": "Seeker Grenade Blueprint",
     "rarity": "legendary",
     "value": 0,
@@ -813,6 +853,7 @@
   {
     "id": "sensors-recipe",
     "item_type": "Topside Material",
+    "icon": "sensors-recipe.webp",
     "name": "Sensors",
     "rarity": "rare",
     "value": 500,
@@ -832,6 +873,7 @@
   {
     "id": "sentinel-part",
     "item_type": "Recyclable",
+    "icon": "sentinel-part.webp",
     "name": "Sentinel Firing Core",
     "rarity": "rare",
     "value": 3000,
@@ -856,6 +898,7 @@
   {
     "id": "shield-recharger",
     "item_type": "Quick Use",
+    "icon": "shield-recharger.webp",
     "name": "Shield Recharger",
     "rarity": "uncommon",
     "value": 520,
@@ -885,6 +928,7 @@
   {
     "id": "shotgun-ammo",
     "item_type": "Ammunition",
+    "icon": "shotgun-ammo.webp",
     "name": "Shotgun ammo",
     "rarity": "common",
     "value": 20,
@@ -904,6 +948,7 @@
   {
     "id": "shotgun-choke-i",
     "item_type": "Modification",
+    "icon": "shotgun-choke-i.webp",
     "name": "Shotgun Choke I",
     "rarity": "common",
     "value": 640,
@@ -933,6 +978,7 @@
   {
     "id": "shotgun-choke-ii",
     "item_type": "Modification",
+    "icon": "shotgun-choke-ii.webp",
     "name": "Shotgun Choke II",
     "rarity": "uncommon",
     "value": 2000,
@@ -966,6 +1012,7 @@
   {
     "id": "shotgun-choke-ii-recipe",
     "item_type": "Blueprint",
+    "icon": "shotgun-choke-ii-recipe.webp",
     "name": "Shotgun Choke II Blueprint",
     "rarity": "legendary",
     "value": 5000,
@@ -976,6 +1023,7 @@
   {
     "id": "shotgun-choke-iii",
     "item_type": "Modification",
+    "icon": "shotgun-choke-iii.webp",
     "name": "Shotgun Choke III",
     "rarity": "rare",
     "value": 5000,
@@ -995,6 +1043,7 @@
   {
     "id": "shotgun-choke-iii-recipe",
     "item_type": "Blueprint",
+    "icon": "shotgun-choke-iii-recipe.webp",
     "name": "Shotgun Choke III Blueprint",
     "rarity": "legendary",
     "value": 0,
@@ -1005,6 +1054,7 @@
   {
     "id": "shotgun-gun-parts",
     "item_type": "Material",
+    "icon": "shotgun-gun-parts.webp",
     "name": "Shotgun Parts",
     "rarity": "rare",
     "value": 700,
@@ -1020,6 +1070,7 @@
   {
     "id": "canister",
     "item_type": "Topside Material",
+    "icon": "canister.webp",
     "name": "Canister",
     "rarity": "uncommon",
     "value": 300,
@@ -1040,6 +1091,7 @@
   {
     "id": "cans-backpack-attachment",
     "item_type": "Cosmetic",
+    "icon": "cans-backpack-attachment.webp",
     "name": "Cans (Backpack Attachment)",
     "rarity": "common",
     "value": 0,
@@ -1050,6 +1102,7 @@
   {
     "id": "cat-bed",
     "item_type": "Trinket",
+    "icon": "cat-bed.webp",
     "name": "Cat Bed",
     "rarity": "uncommon",
     "value": 1000,
@@ -1060,6 +1113,7 @@
   {
     "id": "cheer-emote",
     "item_type": "Misc",
+    "icon": "cheer-emote.webp",
     "name": "Cheer (Emote)",
     "rarity": "",
     "value": 0,
@@ -1070,6 +1124,7 @@
   {
     "id": "chemicals",
     "item_type": "Basic Material",
+    "icon": "chemicals.webp",
     "name": "Chemicals",
     "rarity": "common",
     "value": 50,
@@ -1080,6 +1135,7 @@
   {
     "id": "coffee-pot",
     "item_type": "Trinket",
+    "icon": "coffee-pot.webp",
     "name": "Coffee Pot",
     "rarity": "common",
     "value": 1000,
@@ -1090,6 +1146,7 @@
   {
     "id": "combat-mk-1",
     "item_type": "Augment",
+    "icon": "combat-mk-1.webp",
     "name": "Combat Mk. 1",
     "rarity": "uncommon",
     "value": 640,
@@ -1123,6 +1180,7 @@
   {
     "id": "combat-mk-2",
     "item_type": "Augment",
+    "icon": "combat-mk-2.webp",
     "name": "Combat Mk. 2",
     "rarity": "rare",
     "value": 2000,
@@ -1147,6 +1205,7 @@
   {
     "id": "combat-mk-3-aggressive",
     "item_type": "Augment",
+    "icon": "combat-mk-3-aggressive.webp",
     "name": "Combat Mk. 3 (Aggressive)",
     "rarity": "epic",
     "value": 5000,
@@ -1166,6 +1225,7 @@
   {
     "id": "combat-mk3-aggressive-blueprint",
     "item_type": "Blueprint",
+    "icon": "combat-mk3-aggressive-blueprint.webp",
     "name": "Combat Mk.3 (Aggressive) Blueprint",
     "rarity": "legendary",
     "value": 5000,
@@ -1176,6 +1236,7 @@
   {
     "id": "combat-mk3-flanking",
     "item_type": "Augment",
+    "icon": "combat-mk3-flanking.webp",
     "name": "Combat Mk.3 (Flanking) ",
     "rarity": "epic",
     "value": 5000,
@@ -1195,6 +1256,7 @@
   {
     "id": "combat-mk-3-flanking",
     "item_type": "Blueprint",
+    "icon": "combat-mk-3-flanking.webp",
     "name": "Combat Mk. 3 (Flanking) Blueprint",
     "rarity": "legendary",
     "value": 5000,
@@ -1205,6 +1267,7 @@
   {
     "id": "compensator-i",
     "item_type": "Modification",
+    "icon": "compensator-i.webp",
     "name": "Compensator I",
     "rarity": "common",
     "value": 640,
@@ -1234,6 +1297,7 @@
   {
     "id": "compensator-ii",
     "item_type": "Modification",
+    "icon": "compensator-ii.webp",
     "name": "Compensator II",
     "rarity": "uncommon",
     "value": 2000,
@@ -1258,6 +1322,7 @@
   {
     "id": "compensator-ii-recipe",
     "item_type": "Blueprint",
+    "icon": "compensator-ii-recipe.webp",
     "name": "Compensator II Blueprint",
     "rarity": "legendary",
     "value": 5000,
@@ -1268,6 +1333,7 @@
   {
     "id": "compensator-iii",
     "item_type": "Modification",
+    "icon": "compensator-iii.webp",
     "name": "Compensator III",
     "rarity": "rare",
     "value": 0,
@@ -1278,6 +1344,7 @@
   {
     "id": "compensator-iii-recipe",
     "item_type": "Blueprint",
+    "icon": "compensator-iii-recipe.webp",
     "name": "Compensator III Blueprint",
     "rarity": "legendary",
     "value": 0,
@@ -1288,6 +1355,7 @@
   {
     "id": "complex-gun-parts",
     "item_type": "Topside Material",
+    "icon": "complex-gun-parts.webp",
     "name": "Complex Gun Parts",
     "rarity": "epic",
     "value": 2000,
@@ -1321,6 +1389,7 @@
   {
     "id": "complex-gun-parts-blueprint",
     "item_type": "Blueprint",
+    "icon": "complex-gun-parts-blueprint.webp",
     "name": "Complex Gun Parts Blueprint",
     "rarity": "legendary",
     "value": 5000,
@@ -1331,6 +1400,7 @@
   {
     "id": "coolant",
     "item_type": "Recyclable",
+    "icon": "coolant.webp",
     "name": "Coolant",
     "rarity": "rare",
     "value": 1000,
@@ -1355,6 +1425,7 @@
   {
     "id": "cooling-coil",
     "item_type": "Recyclable",
+    "icon": "cooling-coil.webp",
     "name": "Cooling Coil",
     "rarity": "rare",
     "value": 1000,
@@ -1379,6 +1450,7 @@
   {
     "id": "cooling-fan",
     "item_type": "Recyclable",
+    "icon": "cooling-fan.webp",
     "name": "Cooling Fan",
     "rarity": "rare",
     "value": 2000,
@@ -1403,6 +1475,7 @@
   {
     "id": "cracked-bioscanner",
     "item_type": "Recyclable",
+    "icon": "cracked-bioscanner.webp",
     "name": "Cracked Bioscanner",
     "rarity": "rare",
     "value": 1000,
@@ -1427,6 +1500,7 @@
   {
     "id": "crimson-racer-aviator-colour",
     "item_type": "Misc",
+    "icon": "crimson-racer-aviator-colour.webp",
     "name": "Crimson Racer (Aviator Colour)",
     "rarity": "common",
     "value": 0,
@@ -1437,6 +1511,7 @@
   {
     "id": "crude-explosives",
     "item_type": "Refined Material",
+    "icon": "crude-explosives.webp",
     "name": "Crude Explosives",
     "rarity": "uncommon",
     "value": 270,
@@ -1462,6 +1537,7 @@
   {
     "id": "crumpled-plastic-bottle",
     "item_type": "Recyclable",
+    "icon": "crumpled-plastic-bottle.webp",
     "name": "Crumpled Plastic Bottle",
     "rarity": "uncommon",
     "value": 270,
@@ -1482,6 +1558,7 @@
   {
     "id": "damaged-arc-motion-core",
     "item_type": "Recyclable",
+    "icon": "damaged-arc-motion-core.webp",
     "name": "Damaged ARC Motion Core",
     "rarity": "uncommon",
     "value": 640,
@@ -1502,6 +1579,7 @@
   {
     "id": "damaged-arc-powercell",
     "item_type": "Recyclable",
+    "icon": "damaged-arc-powercell.webp",
     "name": "Damaged ARC Powercell",
     "rarity": "common",
     "value": 293,
@@ -1522,6 +1600,7 @@
   {
     "id": "damaged-fireball-burner",
     "item_type": "Recyclable",
+    "icon": "damaged-fireball-burner.webp",
     "name": "Damaged Fireball Burner",
     "rarity": "common",
     "value": 270,
@@ -1537,6 +1616,7 @@
   {
     "id": "damaged-heat-sink",
     "item_type": "Recyclable",
+    "icon": "damaged-heat-sink.webp",
     "name": "Damaged Heat Sink",
     "rarity": "rare",
     "value": 1000,
@@ -1561,6 +1641,7 @@
   {
     "id": "danaged-hornet-driver",
     "item_type": "Recyclable",
+    "icon": "danaged.webp",
     "name": "Damaged Hornet Driver",
     "rarity": "common",
     "value": 640,
@@ -1576,6 +1657,7 @@
   {
     "id": "damaged-rocketeer-part",
     "item_type": "Recyclable",
+    "icon": "damaged-rocketeer-part.webp",
     "name": "Damaged Rocketeer Driver",
     "rarity": "common",
     "value": 2000,
@@ -1596,6 +1678,7 @@
   {
     "id": "damaged-tick-pod",
     "item_type": "Recyclable",
+    "icon": "damaged-tick-pod.webp",
     "name": "Damaged Tick Pod",
     "rarity": "common",
     "value": 270,
@@ -1616,6 +1699,7 @@
   {
     "id": "damaged-wasp-driver",
     "item_type": "Recyclable",
+    "icon": "damaged-wasp-driver.webp",
     "name": "Damaged Wasp Driver",
     "rarity": "common",
     "value": 270,
@@ -1636,6 +1720,7 @@
   {
     "id": "dam-control-center-tower-key",
     "item_type": "Key",
+    "icon": "dam-control-center-tower-key.webp",
     "name": "Dam Control Center Tower Key",
     "rarity": "epic",
     "value": 100,
@@ -1646,6 +1731,7 @@
   {
     "id": "dam-staff-room-key",
     "item_type": "Key",
+    "icon": "dam-staff-room-key.webp",
     "name": "Dam Staff Room Key",
     "rarity": "uncommon",
     "value": 100,
@@ -1656,6 +1742,7 @@
   {
     "id": "dam-surveillance-key",
     "item_type": "Key",
+    "icon": "dam-surveillance-key.webp",
     "name": "Dam Surveillance Key",
     "rarity": "uncommon",
     "value": 100,
@@ -1666,6 +1753,7 @@
   {
     "id": "dam-testing-annex-key",
     "item_type": "Key",
+    "icon": "dam-testing-annex-key.webp",
     "name": "Dam Testing Annex Key",
     "rarity": "rare",
     "value": 100,
@@ -1676,6 +1764,7 @@
   {
     "id": "dam-utility-key",
     "item_type": "Quest Item",
+    "icon": "dam-utility-key.webp",
     "name": "Dam Utility Key",
     "rarity": "uncommon",
     "value": 100,
@@ -1686,6 +1775,7 @@
   {
     "id": "dart-board",
     "item_type": "Trinket",
+    "icon": "dart-board.webp",
     "name": "Dart Board",
     "rarity": "uncommon",
     "value": 2000,
@@ -1696,6 +1786,7 @@
   {
     "id": "deadline",
     "item_type": "Quick Use",
+    "icon": "deadline.webp",
     "name": "Deadline",
     "rarity": "epic",
     "value": 2700,
@@ -1716,6 +1807,7 @@
   {
     "id": "deadline-blueprint",
     "item_type": "Blueprint",
+    "icon": "deadline-blueprint.webp",
     "name": "Deadline Blueprint",
     "rarity": "legendary",
     "value": 0,
@@ -1726,6 +1818,7 @@
   {
     "id": "defibrillator",
     "item_type": "Quick Use",
+    "icon": "defibrillator.webp",
     "name": "Defibrillator",
     "rarity": "rare",
     "value": 1000,
@@ -1759,6 +1852,7 @@
   {
     "id": "defibrillator-recipe",
     "item_type": "Blueprint",
+    "icon": "defibrillator-recipe.webp",
     "name": "Defibrillator Blueprint",
     "rarity": "legendary",
     "value": 0,
@@ -1769,6 +1863,7 @@
   {
     "id": "deflated-football",
     "item_type": "Recyclable",
+    "icon": "deflated-football.webp",
     "name": "Deflated Football",
     "rarity": "uncommon",
     "value": 1000,
@@ -1793,6 +1888,7 @@
   {
     "id": "degraded-arc-rubber",
     "item_type": "Recyclable",
+    "icon": "degraded-arc-rubber.webp",
     "name": "Degraded ARC Rubber",
     "rarity": "uncommon",
     "value": 640,
@@ -1813,6 +1909,7 @@
   {
     "id": "diving-googles",
     "item_type": "Recyclable",
+    "icon": "diving-googles.webp",
     "name": "Diving Googles",
     "rarity": "rare",
     "value": 640,
@@ -1833,6 +1930,7 @@
   {
     "id": "dog-collar",
     "item_type": "Recyclable",
+    "icon": "dog-collar.webp",
     "name": "Dog Collar",
     "rarity": "rare",
     "value": 640,
@@ -1857,6 +1955,7 @@
   {
     "id": "door-blocker",
     "item_type": "Quick Use",
+    "icon": "door-blocker.webp",
     "name": "Door Blocker",
     "rarity": "common",
     "value": 270,
@@ -1881,6 +1980,7 @@
   {
     "id": "door-blocker-recipe",
     "item_type": "Blueprint",
+    "icon": "door-blocker-recipe.webp",
     "name": "Door Blocker Blueprint",
     "rarity": "legendary",
     "value": 0,
@@ -1891,6 +1991,7 @@
   {
     "id": "shotgun-parts-recipe",
     "item_type": "Blueprint",
+    "icon": "shotgun-parts-recipe.webp",
     "name": "Shotgun Parts Blueprint",
     "rarity": "legendary",
     "value": 0,
@@ -1901,6 +2002,7 @@
   {
     "id": "shotgun-silencer",
     "item_type": "Mods",
+    "icon": "shotgun-silencer.webp",
     "name": "Shotgun Silencer",
     "rarity": "epic",
     "value": 5000,
@@ -1934,6 +2036,7 @@
   {
     "id": "shotgun-silencer-blueprint",
     "item_type": "Blueprint",
+    "icon": "shotgun-silencer-blueprint.webp",
     "name": "Shotgun Silencer Blueprint",
     "rarity": "legendary",
     "value": 5000,
@@ -1944,6 +2047,7 @@
   {
     "id": "showstopper",
     "item_type": "Throwable",
+    "icon": "showstopper.webp",
     "name": "Showstopper",
     "rarity": "rare",
     "value": 2200,
@@ -1977,6 +2081,7 @@
   {
     "id": "showstopper-blueprint",
     "item_type": "Blueprint",
+    "icon": "showstopper-blueprint.webp",
     "name": "Showstopper Blueprint",
     "rarity": "legendary",
     "value": 5000,
@@ -1987,6 +2092,7 @@
   {
     "id": "shrapnel-grenade",
     "item_type": "Throwable",
+    "icon": "shrapnel-grenade.webp",
     "name": "Shrapnel Grenade",
     "rarity": "uncommon",
     "value": 800,
@@ -2015,6 +2121,7 @@
   {
     "id": "shredder-gyro",
     "item_type": "Recyclable",
+    "icon": "shredder-gyro.webp",
     "name": "Shredder Gyro",
     "rarity": "uncommon",
     "value": 3000,
@@ -2039,6 +2146,7 @@
   {
     "id": "signal-amplifier",
     "item_type": "Recyclable",
+    "icon": "signal-amplifier.webp",
     "name": "Signal Amplifier",
     "rarity": "rare",
     "value": 3000,
@@ -2063,6 +2171,7 @@
   {
     "id": "silencer-i",
     "item_type": "Modification",
+    "icon": "silencer-i.webp",
     "name": "Silencer I",
     "rarity": "uncommon",
     "value": 0,
@@ -2087,6 +2196,7 @@
   {
     "id": "silencer-i-recipe",
     "item_type": "Blueprint",
+    "icon": "silencer-i-recipe.webp",
     "name": "Silencer I Blueprint",
     "rarity": "legendary",
     "value": 0,
@@ -2097,6 +2207,7 @@
   {
     "id": "silencer-ii",
     "item_type": "Modification",
+    "icon": "silencer-ii.webp",
     "name": "Silencer II",
     "rarity": "rare",
     "value": 5000,
@@ -2121,6 +2232,7 @@
   {
     "id": "silencer-ii-recipe",
     "item_type": "Blueprint",
+    "icon": "silencer-ii-recipe.webp",
     "name": "Silencer II Blueprint",
     "rarity": "legendary",
     "value": 0,
@@ -2131,6 +2243,7 @@
   {
     "id": "silencer-iii",
     "item_type": "Modification",
+    "icon": "silencer-iii.webp",
     "name": "Silencer III",
     "rarity": "epic",
     "value": 7000,
@@ -2155,6 +2268,7 @@
   {
     "id": "silencer-iii-recipe",
     "item_type": "Blueprint",
+    "icon": "silencer-iii-recipe.webp",
     "name": "Silencer III Blueprint",
     "rarity": "legendary",
     "value": 0,
@@ -2165,6 +2279,7 @@
   {
     "id": "silver-teaspoon-set",
     "item_type": "Trinket",
+    "icon": "silver-teaspoon-set.webp",
     "name": "Silver Teaspoon Set",
     "rarity": "rare",
     "value": 3000,
@@ -2175,6 +2290,7 @@
   {
     "id": "simple-gun-parts",
     "item_type": "Topside Material",
+    "icon": "simple-gun-parts.webp",
     "name": "Simple Gun Parts",
     "rarity": "uncommon",
     "value": 330,
@@ -2195,6 +2311,7 @@
   {
     "id": "smoke-grenade",
     "item_type": "Quick Use",
+    "icon": "smoke-grenade.webp",
     "name": "Smoke Grenade",
     "rarity": "rare",
     "value": 1000,
@@ -2228,6 +2345,7 @@
   {
     "id": "smoke-grenade-blueprint",
     "item_type": "Blueprint",
+    "icon": "smoke-grenade-blueprint.webp",
     "name": "Smoke Grenade Blueprint",
     "rarity": "legendary",
     "value": 5000,
@@ -2238,6 +2356,7 @@
   {
     "id": "snap-blast-grenade",
     "item_type": "Quick Use",
+    "icon": "snap-blast-grenade.webp",
     "name": "Snap Blast Grenade",
     "rarity": "uncommon",
     "value": 800,
@@ -2271,6 +2390,7 @@
   {
     "id": "snap-hook",
     "item_type": "Quick Use",
+    "icon": "snap-hook.webp",
     "name": "Snap Hook",
     "rarity": "legendary",
     "value": 14000,
@@ -2308,6 +2428,7 @@
   {
     "id": "snap-hook-recipe",
     "item_type": "Blueprint",
+    "icon": "snap-hook-recipe.webp",
     "name": "Snap Hook Blueprint",
     "rarity": "legendary",
     "value": 5000,
@@ -2318,6 +2439,7 @@
   {
     "id": "snitch-scanner",
     "item_type": "Recyclable",
+    "icon": "snitch-scanner.webp",
     "name": "Snitch Scanner",
     "rarity": "uncommon",
     "value": 2000,
@@ -2342,6 +2464,7 @@
   {
     "id": "spaceport-container-storage-key",
     "item_type": "Quest Item",
+    "icon": "spaceport-container-storage-key.webp",
     "name": "Spaceport Container Storage Key",
     "rarity": "uncommon",
     "value": 100,
@@ -2352,6 +2475,7 @@
   {
     "id": "spaceport-ground-control-key",
     "item_type": "Key",
+    "icon": "spaceport-ground-control-key.webp",
     "name": "Spaceport Control Tower Key",
     "rarity": "rare",
     "value": 100,
@@ -2362,6 +2486,7 @@
   {
     "id": "spaceport-outskirts-bunker-key",
     "item_type": "Key",
+    "icon": "spaceport-outskirts-bunker-key.webp",
     "name": "Spaceport Outskirts Bunker Key",
     "rarity": "rare",
     "value": 100,
@@ -2372,6 +2497,7 @@
   {
     "id": "spaceport-trench-tower-key",
     "item_type": "Key",
+    "icon": "spaceport-trench-tower-key.webp",
     "name": "Spaceport Trench Tower Key",
     "rarity": "uncommon",
     "value": 100,
@@ -2382,6 +2508,7 @@
   {
     "id": "spaceport-warehouse-key",
     "item_type": "Key",
+    "icon": "spaceport-warehouse-key.webp",
     "name": "Spaceport Warehouse Key",
     "rarity": "uncommon",
     "value": 100,
@@ -2392,6 +2519,7 @@
   {
     "id": "speaker-component",
     "item_type": "Topside Material",
+    "icon": "speaker-component.webp",
     "name": "Speaker Component",
     "rarity": "rare",
     "value": 500,
@@ -2416,6 +2544,7 @@
   {
     "id": "spectrometer",
     "item_type": "Recyclable",
+    "icon": "spectrometer.webp",
     "name": "Spectrometer",
     "rarity": "rare",
     "value": 3000,
@@ -2440,6 +2569,7 @@
   {
     "id": "spectrum-analyzer",
     "item_type": "Recyclable",
+    "icon": "spectrum-analyzer.webp",
     "name": "Spectrum Analyzer",
     "rarity": "epic",
     "value": 3500,
@@ -2464,6 +2594,7 @@
   {
     "id": "spotter-relay",
     "item_type": "Recyclable",
+    "icon": "spotter-relay.webp",
     "name": "Spotter Relay",
     "rarity": "uncommon",
     "value": 2000,
@@ -2483,6 +2614,7 @@
   {
     "id": "spring-cushion",
     "item_type": "Recyclable",
+    "icon": "spring-cushion.webp",
     "name": "Spring Cushion",
     "rarity": "rare",
     "value": 2000,
@@ -2507,6 +2639,7 @@
   {
     "id": "stable-stock-i",
     "item_type": "Modification",
+    "icon": "stable-stock-i.webp",
     "name": "Stable Stock I",
     "rarity": "common",
     "value": 640,
@@ -2536,6 +2669,7 @@
   {
     "id": "stable-stock-ii",
     "item_type": "Modification",
+    "icon": "stable-stock-ii.webp",
     "name": "Stable Stock II",
     "rarity": "uncommon",
     "value": 2000,
@@ -2569,6 +2703,7 @@
   {
     "id": "stable-stock-ii-recipe",
     "item_type": "Blueprint",
+    "icon": "stable-stock-ii-recipe.webp",
     "name": "Stable Stock II Blueprint",
     "rarity": "legendary",
     "value": 0,
@@ -2579,6 +2714,7 @@
   {
     "id": "stable-stock-iii",
     "item_type": "Modification",
+    "icon": "stable-stock-iii.webp",
     "name": "Stable Stock III",
     "rarity": "rare",
     "value": 5000,
@@ -2612,6 +2748,7 @@
   {
     "id": "stable-stock-iii-recipe",
     "item_type": "Blueprint",
+    "icon": "stable-stock-iii-recipe.webp",
     "name": "Stable Stock III Blueprint",
     "rarity": "legendary",
     "value": 0,
@@ -2622,6 +2759,7 @@
   {
     "id": "statuette",
     "item_type": "Trinket",
+    "icon": "statuette.webp",
     "name": "Statuette",
     "rarity": "rare",
     "value": 3000,
@@ -2632,6 +2770,7 @@
   {
     "id": "spring",
     "item_type": "Topside Material",
+    "icon": "spring.webp",
     "name": "Steel Spring",
     "rarity": "uncommon",
     "value": 300,
@@ -2652,6 +2791,7 @@
   {
     "id": "stella-montis-archives-key",
     "item_type": "Key",
+    "icon": "stella-montis-archives-key.webp",
     "name": "Stella Montis Archives Key",
     "rarity": "epic",
     "value": 100,
@@ -2662,6 +2802,7 @@
   {
     "id": "stella-montis-assembly-admin-key",
     "item_type": "Key",
+    "icon": "stella-montis-assembly-admin-key.webp",
     "name": "Stella Montis Assembly Admin Key",
     "rarity": "uncommon",
     "value": 100,
@@ -2672,6 +2813,7 @@
   {
     "id": "stella-montis-medical-storage-key",
     "item_type": "Key",
+    "icon": "stella-montis-medical-storage-key.webp",
     "name": "Stella Montis Medical Storage Key",
     "rarity": "uncommon",
     "value": 100,
@@ -2682,6 +2824,7 @@
   {
     "id": "stella-montis-security-checkpoint-key",
     "item_type": "Key",
+    "icon": "stella-montis-security-checkpoint-key.webp",
     "name": "Stella Montis Security Checkpoint Key",
     "rarity": "rare",
     "value": 100,
@@ -2692,6 +2835,7 @@
   {
     "id": "sterilized-bandage",
     "item_type": "Quick Use",
+    "icon": "sterilized-bandage.webp",
     "name": "Sterilized Bandage",
     "rarity": "rare",
     "value": 2000,
@@ -2725,6 +2869,7 @@
   {
     "id": "sterilized-bandage-recipe",
     "item_type": "Blueprint",
+    "icon": "sterilized-bandage-recipe.webp",
     "name": "Sterilized Bandage Blueprint",
     "rarity": "legendary",
     "value": 0,
@@ -2735,6 +2880,7 @@
   {
     "id": "stitcher-i",
     "item_type": "Weapon",
+    "icon": "stitcher-ii.webp",
     "name": "Stitcher I",
     "rarity": "common",
     "value": 800,
@@ -2768,6 +2914,7 @@
   {
     "id": "stitcher-ii",
     "item_type": "Weapon",
+    "icon": "stitcher-ii.webp",
     "name": "Stitcher II",
     "rarity": "common",
     "value": 2000,
@@ -2805,6 +2952,7 @@
   {
     "id": "stitcher-iii",
     "item_type": "Weapon",
+    "icon": "stitcher-iii.webp",
     "name": "Stitcher III",
     "rarity": "common",
     "value": 3000,
@@ -2842,6 +2990,7 @@
   {
     "id": "stitcher-iv",
     "item_type": "Weapon",
+    "icon": "stitcher-iv.webp",
     "name": "Stitcher IV",
     "rarity": "common",
     "value": 5000,
@@ -2879,6 +3028,7 @@
   {
     "id": "succulent-backpack-charm",
     "item_type": "Misc",
+    "icon": "succulent-backpack-charm.webp",
     "name": "Succulent (Backpack Charm)",
     "rarity": "",
     "value": 0,
@@ -2889,6 +3039,7 @@
   {
     "id": "kettle-i",
     "item_type": "Weapon",
+    "icon": "kettle-i.webp",
     "name": "Kettle I",
     "rarity": "common",
     "value": 840,
@@ -2922,6 +3073,7 @@
   {
     "id": "kettle-ii",
     "item_type": "Weapon",
+    "icon": "kettle-ii.webp",
     "name": "Kettle II",
     "rarity": "common",
     "value": 2000,
@@ -2959,6 +3111,7 @@
   {
     "id": "kettle-iii",
     "item_type": "Weapon",
+    "icon": "kettle-iii.webp",
     "name": "Kettle III",
     "rarity": "common",
     "value": 3000,
@@ -2996,6 +3149,7 @@
   {
     "id": "kettle-iv",
     "item_type": "Weapon",
+    "icon": "kettle-iv.webp",
     "name": "Kettle IV",
     "rarity": "common",
     "value": 5000,
@@ -3033,6 +3187,7 @@
   {
     "id": "key-card",
     "item_type": "Key",
+    "icon": "key-card",
     "name": "Key Card",
     "rarity": null,
     "value": 0,
@@ -3043,6 +3198,7 @@
   {
     "id": "kinetic-converter",
     "item_type": "Modification",
+    "icon": "kinetic-converter.webp",
     "name": "Kinetic Converter",
     "rarity": "legendary",
     "value": 7000,
@@ -3058,6 +3214,7 @@
   {
     "id": "kinetic-converter-recipe",
     "item_type": "Blueprint",
+    "icon": "kinetic-converter-recipe.webp",
     "name": "Kinetic Converter Blueprint",
     "rarity": "legendary",
     "value": 0,
@@ -3068,6 +3225,7 @@
   {
     "id": "laboratory-reagents",
     "item_type": "Recyclable",
+    "icon": "laboratory-reagents.webp",
     "name": "Laboratory Reagents",
     "rarity": "rare",
     "value": 2000,
@@ -3092,6 +3250,7 @@
   {
     "id": "lances-mixtape-5th-edition",
     "item_type": "Trinket",
+    "icon": "lances-mixtape-5th-edition.webp",
     "name": "Lance's Mixtape (5th Edition)",
     "rarity": "epic",
     "value": 10000,
@@ -3102,6 +3261,7 @@
   {
     "id": "laser-trap-fire-recipe",
     "item_type": "Blueprint",
+    "icon": "laser-trap-fire-recipe.webp",
     "name": "Laser Trap: Fire Blueprint",
     "rarity": "legendary",
     "value": 0,
@@ -3112,6 +3272,7 @@
   {
     "id": "laser-trap-gas-recipe",
     "item_type": "Blueprint",
+    "icon": "laser-trap-gas-recipe.webp",
     "name": "Laser Trap: Gas Blueprint",
     "rarity": "legendary",
     "value": 0,
@@ -3122,6 +3283,7 @@
   {
     "id": "laser-trap-lure-recipe",
     "item_type": "Quick Use",
+    "icon": "laser-trap-lure.webp",
     "name": "Laser Trap: Lure",
     "rarity": "common",
     "value": 0,
@@ -3132,6 +3294,7 @@
   {
     "id": "laser-trap-smoke-recipe",
     "item_type": "Quick Use",
+    "icon": "laser-trap-smoke-recipe.webp",
     "name": "Laser Trap: Smoke",
     "rarity": "uncommon",
     "value": 0,
@@ -3142,6 +3305,7 @@
   {
     "id": "launcher-ammo",
     "item_type": "Ammunition",
+    "icon": "launcher-ammo.webp",
     "name": "Launcher Ammo",
     "rarity": "rare",
     "value": 200,
@@ -3161,6 +3325,7 @@
   {
     "id": "launcher-ammo-blueprint",
     "item_type": "Blueprint",
+    "icon": "launcher-ammo-blueprint.webp",
     "name": "Launcher Ammo BLueprint",
     "rarity": "legendary",
     "value": 5000,
@@ -3171,6 +3336,7 @@
   {
     "id": "leaper-pulse-unit",
     "item_type": "Throwable",
+    "icon": "leaper-pulse-unit.webp",
     "name": "Leaper Pulse Unit",
     "rarity": "epic",
     "value": 5000,
@@ -3186,6 +3352,7 @@
   {
     "id": "lemon",
     "item_type": "Nature",
+    "icon": "lemon.webp",
     "name": "Lemon",
     "rarity": "common",
     "value": 640,
@@ -3201,6 +3368,7 @@
   {
     "id": "lidar-scanner",
     "item_type": "Trinket",
+    "icon": "lidar-scanner.webp",
     "name": "Lidar Scanner",
     "rarity": "common",
     "value": 0,
@@ -3211,6 +3379,7 @@
   {
     "id": "light-ammo",
     "item_type": "Ammunition",
+    "icon": "light-ammo.webp",
     "name": "Light Ammo",
     "rarity": "common",
     "value": 4,
@@ -3230,6 +3399,7 @@
   {
     "id": "light-bulb",
     "item_type": "Trinket",
+    "icon": "light-bulb.webp",
     "name": "Light Bulb",
     "rarity": "uncommon",
     "value": 2000,
@@ -3240,6 +3410,7 @@
   {
     "id": "light-gun-parts",
     "item_type": "Topside Material",
+    "icon": "light-gun-parts.webp",
     "name": "Light Gun Parts",
     "rarity": "rare",
     "value": 700,
@@ -3269,6 +3440,7 @@
   {
     "id": "light-gun-parts-recipe",
     "item_type": "Blueprint",
+    "icon": "light-gun-parts-recipe.webp",
     "name": "Light Gun Parts Blueprint",
     "rarity": "legendary",
     "value": 5000,
@@ -3279,6 +3451,7 @@
   {
     "id": "light-impact-grenade",
     "item_type": "Quick Use",
+    "icon": "light-impact-grenade.webp",
     "name": "Light Impact Grenade",
     "rarity": "common",
     "value": 270,
@@ -3312,6 +3485,7 @@
   {
     "id": "light-shield",
     "item_type": "Shield",
+    "icon": "light-shield.webp",
     "name": "Light Shield",
     "rarity": "uncommon",
     "value": 640,
@@ -3341,6 +3515,7 @@
   {
     "id": "lightweight-stock",
     "item_type": "Modification",
+    "icon": "lightweight-stock.webp",
     "name": "Lightweight Stock",
     "rarity": "epic",
     "value": 5000,
@@ -3360,6 +3535,7 @@
   {
     "id": "lightweight-stock-recipe",
     "item_type": "Blueprint",
+    "icon": "lightweight-stock-recipe.webp",
     "name": "Lightweight Stock Blueprint",
     "rarity": "legendary",
     "value": 0,
@@ -3370,6 +3546,7 @@
   {
     "id": "lil-smoke-grenade",
     "item_type": "Quick Use",
+    "icon": "lil-smoke-grenade.webp",
     "name": "Li'l Smoke Grenade",
     "rarity": "common",
     "value": 300,
@@ -3398,6 +3575,7 @@
   {
     "id": "looting-mk-1",
     "item_type": "Augment",
+    "icon": "looting-mk-1.webp",
     "name": "Looting Mk. 1",
     "rarity": "uncommon",
     "value": 640,
@@ -3431,6 +3609,7 @@
   {
     "id": "looting-mk-2",
     "item_type": "Augment",
+    "icon": "looting-mk-2.webp",
     "name": "Looting Mk. 2",
     "rarity": "rare",
     "value": 2000,
@@ -3455,6 +3634,7 @@
   {
     "id": "looting-mk-3-cautious",
     "item_type": "Augment",
+    "icon": "looting-mk-3-cautious.webp",
     "name": "Looting MK. 3 (Cautious)",
     "rarity": "epic",
     "value": 5000,
@@ -3474,6 +3654,7 @@
   {
     "id": "looting-mk-3-survivor",
     "item_type": "Augment",
+    "icon": "looting-mk-3-survivor.webp",
     "name": "Looting MK. 3 (Survivor)",
     "rarity": "epic",
     "value": 5000,
@@ -3484,6 +3665,7 @@
   {
     "id": "looting-mk-3-survivor-blueprint",
     "item_type": "Blueprint",
+    "icon": "looting-mk-3-survivor-blueprint.webp",
     "name": "Looting MK. 3 (Survivor) Blueprint",
     "rarity": "legendary",
     "value": 5000,
@@ -3494,6 +3676,7 @@
   {
     "id": "lure-grenade",
     "item_type": "Quick Use",
+    "icon": "lure-grenade.webp",
     "name": "Lure Grenade",
     "rarity": "uncommon",
     "value": 1000,
@@ -3523,6 +3706,7 @@
   {
     "id": "lure-grenade-recipe",
     "item_type": "Blueprint",
+    "icon": "lure-grenade-recipe.webp",
     "name": "Lure Grenade Blueprint",
     "rarity": "legendary",
     "value": 5000,
@@ -3533,6 +3717,7 @@
   {
     "id": "magnet",
     "item_type": "Topside Material",
+    "icon": "magnet.webp",
     "name": "Magnet",
     "rarity": "uncommon",
     "value": 300,
@@ -3553,6 +3738,7 @@
   {
     "id": "magnetic-accelerator",
     "item_type": "Refined Material",
+    "icon": "magnetic-accelerator.webp",
     "name": "Magnetic Accelerator",
     "rarity": "epic",
     "value": 5500,
@@ -3586,6 +3772,7 @@
   {
     "id": "magnetron",
     "item_type": "Recyclable",
+    "icon": "magnetron.webp",
     "name": "Magnetron",
     "rarity": "epic",
     "value": 6000,
@@ -3610,6 +3797,7 @@
   {
     "id": "mastery-medal-backpack-charm",
     "item_type": "Misc",
+    "icon": "mastery-medal-backpack-charm.webp",
     "name": "Mastery Medal (Backpack Charm)",
     "rarity": "",
     "value": 0,
@@ -3620,6 +3808,7 @@
   {
     "id": "matriarch-reactor",
     "item_type": "Recyclable",
+    "icon": "matriarch-reactor.webp",
     "name": "Matriarch Reactor",
     "rarity": "legendary",
     "value": 13000,
@@ -3644,6 +3833,7 @@
   {
     "id": "mechanical-components",
     "item_type": "Refined Material",
+    "icon": "mechanical-components.webp",
     "name": "Mechanical Components",
     "rarity": "uncommon",
     "value": 640,
@@ -3677,6 +3867,7 @@
   {
     "id": "medium-ammo",
     "item_type": "Ammunition",
+    "icon": "medium-ammo.webp",
     "name": "Medium Ammo",
     "rarity": "common",
     "value": 6,
@@ -3696,6 +3887,7 @@
   {
     "id": "medium-gun-parts",
     "item_type": "Topside Material",
+    "icon": "medium-gun-parts.webp",
     "name": "Medium Gun Parts",
     "rarity": "rare",
     "value": 700,
@@ -3716,6 +3908,7 @@
   {
     "id": "medium-gun-parts-recipe",
     "item_type": "Blueprint",
+    "icon": "medium-gun-parts-recipe.webp",
     "name": "Medium Gun Parts Blueprint",
     "rarity": "legendary",
     "value": 0,
@@ -3726,6 +3919,7 @@
   {
     "id": "medium-shield",
     "item_type": "Shield",
+    "icon": "medium-shield.webp",
     "name": "Medium Shield",
     "rarity": "rare",
     "value": 2000,
@@ -3750,6 +3944,7 @@
   {
     "id": "metal-brackets",
     "item_type": "Recyclable",
+    "icon": "metal-brackets.webp",
     "name": "Metal Brackets",
     "rarity": "uncommon",
     "value": 640,
@@ -3770,6 +3965,7 @@
   {
     "id": "metal-parts",
     "item_type": "Basic Material",
+    "icon": "metal-parts.webp",
     "name": "Metal Parts",
     "rarity": "common",
     "value": 75,
@@ -3780,6 +3976,7 @@
   {
     "id": "microscope",
     "item_type": "Recyclable",
+    "icon": "microscope.webp",
     "name": "Microscope",
     "rarity": "rare",
     "value": 3000,
@@ -3804,6 +4001,7 @@
   {
     "id": "mini-centrifuge",
     "item_type": "Recyclable",
+    "icon": "mini-centrifuge.webp",
     "name": "Mini Centrifuge",
     "rarity": "rare",
     "value": 3000,
@@ -3828,6 +4026,7 @@
   {
     "id": "mod-components",
     "item_type": "Refined Material",
+    "icon": "mod-components.webp",
     "name": "Mod Components",
     "rarity": "rare",
     "value": 1750,
@@ -3861,6 +4060,7 @@
   {
     "id": "mod-components-recipe",
     "item_type": "Blueprint",
+    "icon": "mod-components-recipe.webp",
     "name": "Mod Components Blueprint",
     "rarity": "legendary",
     "value": 0,
@@ -3871,6 +4071,7 @@
   {
     "id": "garlic-press",
     "item_type": "Recyclable",
+    "icon": "garlic-press.webp",
     "name": "Garlic Press",
     "rarity": "uncommon",
     "value": 1000,
@@ -3891,6 +4092,7 @@
   {
     "id": "gas-grenade",
     "item_type": "Explosives",
+    "icon": "gas-grenade.webp",
     "name": "Gas Grenade",
     "rarity": "common",
     "value": 270,
@@ -3924,6 +4126,7 @@
   {
     "id": "gas-grenade-trap",
     "item_type": "Quick Use",
+    "icon": "gas-grenade-trap.webp",
     "name": "Gas Grenade Trap",
     "rarity": "common",
     "value": 300,
@@ -3934,6 +4137,7 @@
   {
     "id": "gas-mine",
     "item_type": "Quick Use",
+    "icon": "gas-mine.webp",
     "name": "Gas Mine",
     "rarity": "common",
     "value": 270,
@@ -3958,6 +4162,7 @@
   {
     "id": "gas-mine-blueprint",
     "item_type": "Blueprint",
+    "icon": "gas-mine-blueprint.webp",
     "name": "Gas Mine Blueprint",
     "rarity": "legendary",
     "value": 0,
@@ -3968,6 +4173,7 @@
   {
     "id": "geiger-counter",
     "item_type": "Recyclable",
+    "icon": "geiger-counter.webp",
     "name": "Geiger Counter",
     "rarity": "epic",
     "value": 3500,
@@ -3992,6 +4198,7 @@
   {
     "id": "goggles-radio-renegade-variant",
     "item_type": "Misc",
+    "icon": "goggles-radio-renegade-variant.webp",
     "name": "Goggles (Radio Renegade Variant)",
     "rarity": "",
     "value": 0,
@@ -4002,6 +4209,7 @@
   {
     "id": "great-muullein",
     "item_type": "Nature",
+    "icon": "great-muullein.webp",
     "name": "Great Mullein",
     "rarity": "uncommon",
     "value": 300,
@@ -4022,6 +4230,7 @@
   {
     "id": "green-light-stick",
     "item_type": "Quick Use",
+    "icon": "green-light-stick.webp",
     "name": "Green Light Stick",
     "rarity": "common",
     "value": 150,
@@ -4042,6 +4251,7 @@
   {
     "id": "green-light-stick-blueprint",
     "item_type": "Blueprint",
+    "icon": "green-light-stick-blueprint.webp",
     "name": "Green Light Stick Blueprint",
     "rarity": "legendary",
     "value": 5000,
@@ -4052,6 +4262,7 @@
   {
     "id": "hairpin-i",
     "item_type": "Weapon",
+    "icon": "hairpin-i.webp",
     "name": "Hairpin I",
     "rarity": "common",
     "value": 450,
@@ -4085,6 +4296,7 @@
   {
     "id": "hairpin-ii",
     "item_type": "Weapon",
+    "icon": "hairpin-ii.webp",
     "name": "Hairpin II",
     "rarity": "common",
     "value": 1000,
@@ -4118,6 +4330,7 @@
   {
     "id": "hairpin-iii",
     "item_type": "Weapon",
+    "icon": "hairpin-iii.webp",
     "name": "Hairpin III",
     "rarity": "common",
     "value": 2000,
@@ -4155,6 +4368,7 @@
   {
     "id": "hairpin-iv",
     "item_type": "Weapon",
+    "icon": "hairpin-iv.webp",
     "name": "Hairpin IV",
     "rarity": "common",
     "value": 2900,
@@ -4192,6 +4406,7 @@
   {
     "id": "happy-jig-emote",
     "item_type": "Misc",
+    "icon": "happy-jig-emote.webp",
     "name": "Happy Jig (Emote)",
     "rarity": "",
     "value": 0,
@@ -4202,6 +4417,7 @@
   {
     "id": "headphones",
     "item_type": "Recyclable",
+    "icon": "headphones.webp",
     "name": "Headphones",
     "rarity": "rare",
     "value": 1000,
@@ -4221,6 +4437,7 @@
   {
     "id": "heavy-ammo",
     "item_type": "Ammunition",
+    "icon": "heavy-ammo.webp",
     "name": "Heavy Ammo",
     "rarity": "common",
     "value": 12,
@@ -4240,6 +4457,7 @@
   {
     "id": "heavy-fuse-grenade-recipe",
     "item_type": "Blueprint",
+    "icon": "heavy-fuse-grenade-recipe.webp",
     "name": "Heavy Fuse Grenade Blueprint",
     "rarity": "legendary",
     "value": 0,
@@ -4250,6 +4468,7 @@
   {
     "id": "heavy-fuze-grenade",
     "item_type": "Quick Use",
+    "icon": "heavy-fuze-grenade.webp",
     "name": "Heavy Fuze Grenade",
     "rarity": "rare",
     "value": 1600,
@@ -4283,6 +4502,7 @@
   {
     "id": "heavy-gun-parts",
     "item_type": "Topside Material",
+    "icon": "heavy-gun-parts.webp",
     "name": "Heavy Gun Parts",
     "rarity": "rare",
     "value": 700,
@@ -4312,6 +4532,7 @@
   {
     "id": "heavy-gun-parts-recipe",
     "item_type": "Blueprint",
+    "icon": "heavy-gun-parts-recipe.webp",
     "name": "Heavy Gun Parts Blueprint",
     "rarity": "legendary",
     "value": 5000,
@@ -4327,6 +4548,7 @@
   {
     "id": "heavy-shield",
     "item_type": "Shield",
+    "icon": "heavy-shield.webp",
     "name": "Heavy Shield",
     "rarity": "epic",
     "value": 5500,
@@ -4346,6 +4568,7 @@
   {
     "id": "helmet-radio-renegade-variant",
     "item_type": "Misc",
+    "icon": "helmet-radio-renegade-variant.webp",
     "name": "Helmet (Radio Renegade Variant)",
     "rarity": "common",
     "value": 0,
@@ -4356,6 +4579,7 @@
   {
     "id": "herbal-bandage",
     "item_type": "Quick Use",
+    "icon": "herbal-bandage.webp",
     "name": "Herbal Bandage",
     "rarity": "uncommon",
     "value": 640,
@@ -4389,6 +4613,7 @@
   {
     "id": "horizontal-grip",
     "item_type": "Modification",
+    "icon": "horizontal-grip.webp",
     "name": "Horizontal Grip",
     "rarity": "epic",
     "value": 7000,
@@ -4404,6 +4629,7 @@
   {
     "id": "horizontal-grip-blueprint",
     "item_type": "Blueprint",
+    "icon": "horizontal-grip-blueprint.webp",
     "name": "Horizontal Grip Blueprint",
     "rarity": "legendary",
     "value": 5000,
@@ -4414,6 +4640,7 @@
   {
     "id": "hornet-driver",
     "item_type": "Recyclable",
+    "icon": "hornet-driver.webp",
     "name": "Hornet Driver",
     "rarity": "rare",
     "value": 2000,
@@ -4438,6 +4665,7 @@
   {
     "id": "household-cleaner",
     "item_type": "Recyclable",
+    "icon": "household-cleaner.webp",
     "name": "Household Cleaner",
     "rarity": "uncommon",
     "value": 640,
@@ -4458,6 +4686,7 @@
   {
     "id": "hullcracker-blueprint",
     "item_type": "Blueprint",
+    "icon": "hullcracker-blueprint.webp",
     "name": "Hullcracker Blueprint",
     "rarity": "legendary",
     "value": 0,
@@ -4468,6 +4697,7 @@
   {
     "id": "hullcracker-i",
     "item_type": "Weapon",
+    "icon": "hullcracker.webp",
     "name": "Hullcracker I",
     "rarity": "epic",
     "value": 10000,
@@ -4505,6 +4735,7 @@
   {
     "id": "hullcracker-ii",
     "item_type": "Weapon",
+    "icon": "hullcracker-ii.webp",
     "name": "Hullcracker II",
     "rarity": "epic",
     "value": 13000,
@@ -4538,6 +4769,7 @@
   {
     "id": "hullcracker-iii",
     "item_type": "Weapon",
+    "icon": "hullcracker-iii.webp",
     "name": "Hullcracker III",
     "rarity": "epic",
     "value": 17000,
@@ -4571,6 +4803,7 @@
   {
     "id": "hullcracker-iv",
     "item_type": "Weapon",
+    "icon": "hullcracker-iv.webp",
     "name": "Hullcracker IV ",
     "rarity": "epic",
     "value": 22000,
@@ -4604,6 +4837,7 @@
   {
     "id": "humidifier",
     "item_type": "Recyclable",
+    "icon": "humidifier.webp",
     "name": "Humidifier",
     "rarity": "rare",
     "value": 1000,
@@ -4628,6 +4862,7 @@
   {
     "id": "ice-cream-scooper",
     "item_type": "Recyclable",
+    "icon": "ice-cream-scooper.webp",
     "name": "Ice Cream Scooper",
     "rarity": "uncommon",
     "value": 640,
@@ -4648,6 +4883,7 @@
   {
     "id": "il-toro-recipe",
     "item_type": "Blueprint",
+    "icon": "il-toro-recipe.webp",
     "name": "Il Toro Blueprint",
     "rarity": "legendary",
     "value": 0,
@@ -4658,6 +4894,7 @@
   {
     "id": "il-toro-i",
     "item_type": "Weapon",
+    "icon": "il%20Toro-i.webp",
     "name": "Il Toro I",
     "rarity": "uncommon",
     "value": 5000,
@@ -4691,6 +4928,7 @@
   {
     "id": "il-toro-ii",
     "item_type": "Weapon",
+    "icon": "il-toro-ii.webp",
     "name": "Il Toro II",
     "rarity": "uncommon",
     "value": 7000,
@@ -4728,6 +4966,7 @@
   {
     "id": "il-toro-iiii",
     "item_type": "Weapon",
+    "icon": "il-toro-iiii.webp",
     "name": "Il Toro III",
     "rarity": "uncommon",
     "value": 10000,
@@ -4765,6 +5004,7 @@
   {
     "id": "il-toro-iv",
     "item_type": "Weapon",
+    "icon": "il-toro-iv.webp",
     "name": "Il Toro IV",
     "rarity": "uncommon",
     "value": 13000,
@@ -4802,6 +5042,7 @@
   {
     "id": "impure-arc-coolant",
     "item_type": "Recyclable",
+    "icon": "impure-arc-coolant.webp",
     "name": "Impure ARC Coolant",
     "rarity": "uncommon",
     "value": 640,
@@ -4817,6 +5058,7 @@
   {
     "id": "industrial-battery",
     "item_type": "Recyclable",
+    "icon": "industrial-battery.webp",
     "name": "Industrial Battery",
     "rarity": "rare",
     "value": 1000,
@@ -4841,6 +5083,7 @@
   {
     "id": "industrial-charger",
     "item_type": "Recyclable",
+    "icon": "industrial-charger.webp",
     "name": "Industrial Charger",
     "rarity": "rare",
     "value": 1000,
@@ -4865,6 +5108,7 @@
   {
     "id": "industrial-magnet",
     "item_type": "Recyclable",
+    "icon": "industrial-magnet.webp",
     "name": "Industrial Magnet",
     "rarity": "rare",
     "value": 1000,
@@ -4889,6 +5133,7 @@
   {
     "id": "ion-sputter",
     "item_type": "Recyclable",
+    "icon": "ion-sputter.webp",
     "name": "Ion Sputter",
     "rarity": "epic",
     "value": 6000,
@@ -4913,6 +5158,7 @@
   {
     "id": "jolt-mine",
     "item_type": "Quick Use",
+    "icon": "jolt-mine.webp",
     "name": "Jolt Mine",
     "rarity": "rare",
     "value": 850,
@@ -4937,6 +5183,7 @@
   {
     "id": "jolt-mine-recipe",
     "item_type": "Blueprint",
+    "icon": "jolt-mine-recipe.webp",
     "name": "Jolt Mine Blueprint",
     "rarity": "legendary",
     "value": 5000,
@@ -4947,6 +5194,7 @@
   {
     "id": "junior-outfit",
     "item_type": "Cosmetic",
+    "icon": "junior-outfit.webp",
     "name": "Junior (Outfit)",
     "rarity": "common",
     "value": 0,
@@ -4957,6 +5205,7 @@
   {
     "id": "jupiter-i",
     "item_type": "Weapon",
+    "icon": "jupiter-i.webp",
     "name": "Jupiter",
     "rarity": "legendary",
     "value": 34000,
@@ -4985,6 +5234,7 @@
   {
     "id": "jupiter-i-recipe",
     "item_type": "Blueprint",
+    "icon": "jupiter-i-recipe.webp",
     "name": "Jupiter Blueprint",
     "rarity": "legendary",
     "value": 5000,
@@ -4995,6 +5245,7 @@
   {
     "id": "moss",
     "item_type": "Topside Material",
+    "icon": "moss.webp",
     "name": "Moss",
     "rarity": "rare",
     "value": 500,
@@ -5015,6 +5266,7 @@
   {
     "id": "motor",
     "item_type": "Recyclable",
+    "icon": "motor.webp",
     "name": "Motor",
     "rarity": "rare",
     "value": 2000,
@@ -5034,6 +5286,7 @@
   {
     "id": "mushroom",
     "item_type": "Nature",
+    "icon": "mushroom.webp",
     "name": "Mushroom",
     "rarity": "uncommon",
     "value": 1000,
@@ -5044,6 +5297,7 @@
   {
     "id": "music-album",
     "item_type": "Trinket",
+    "icon": "music-album.webp",
     "name": "Music Album",
     "rarity": "rare",
     "value": 3000,
@@ -5054,6 +5308,7 @@
   {
     "id": "music-box",
     "item_type": "Trinket",
+    "icon": "music-box.webp",
     "name": "Music Box",
     "rarity": "rare",
     "value": 5000,
@@ -5064,6 +5319,7 @@
   {
     "id": "muzzle-brake-i",
     "item_type": "Modification",
+    "icon": "muzzle-brake-i.webp",
     "name": "Muzzle Brake I",
     "rarity": "common",
     "value": 640,
@@ -5093,6 +5349,7 @@
   {
     "id": "muzzle-brake-ii",
     "item_type": "Modification",
+    "icon": "muzzle-brake-ii.webp",
     "name": "Muzzle Brake II",
     "rarity": "uncommon",
     "value": 2000,
@@ -5117,6 +5374,7 @@
   {
     "id": "muzzle-brake-ii-recipe",
     "item_type": "Blueprint",
+    "icon": "muzzle-brake-ii-recipe.webp",
     "name": "Muzzle Brake II Blueprint",
     "rarity": "legendary",
     "value": 5000,
@@ -5127,6 +5385,7 @@
   {
     "id": "muzzle-brake-iii",
     "item_type": "Modification",
+    "icon": "muzzle-brake-iii.webp",
     "name": "Muzzle Brake III",
     "rarity": "rare",
     "value": 0,
@@ -5137,6 +5396,7 @@
   {
     "id": "muzzle-brake-iii-recipe",
     "item_type": "Blueprint",
+    "icon": "muzzle-brake-iii-recipe.webp",
     "name": "Muzzle Brake III Blueprint",
     "rarity": "legendary",
     "value": 0,
@@ -5147,6 +5407,7 @@
   {
     "id": "noisemaker",
     "item_type": "Quick Use",
+    "icon": "noisemaker.webp",
     "name": "Noisemaker",
     "rarity": "common",
     "value": 640,
@@ -5167,6 +5428,7 @@
   {
     "id": "number-plate",
     "item_type": "Recyclable",
+    "icon": "number-plate.webp",
     "name": "Number Plate",
     "rarity": "uncommon",
     "value": 80,
@@ -5187,6 +5449,7 @@
   {
     "id": "oil",
     "item_type": "Topside Material",
+    "icon": "oil.webp",
     "name": "Oil",
     "rarity": "uncommon",
     "value": 300,
@@ -5207,6 +5470,7 @@
   {
     "id": "olives",
     "item_type": "Misc",
+    "icon": "olives.webp",
     "name": "Olives",
     "rarity": "uncommon",
     "value": 640,
@@ -5217,6 +5481,7 @@
   {
     "id": "orange-camo-origin-outfit",
     "item_type": "Misc",
+    "icon": "orange-camo-origin-outfit.webp",
     "name": "Orange Camo (Origin Outfit)",
     "rarity": "",
     "value": 0,
@@ -5227,6 +5492,7 @@
   {
     "id": "osprey-recipe",
     "item_type": "Blueprint",
+    "icon": "osprey-recipe.webp",
     "name": "Osprey Blueprint",
     "rarity": "legendary",
     "value": 5000,
@@ -5237,6 +5503,7 @@
   {
     "id": "osprey-i",
     "item_type": "Weapon",
+    "icon": "osprey-i.webp",
     "name": "Osprey I",
     "rarity": "rare",
     "value": 7000,
@@ -5274,6 +5541,7 @@
   {
     "id": "osprey-ii",
     "item_type": "Weapon",
+    "icon": "osprey-ii.webp",
     "name": "Osprey II",
     "rarity": "rare",
     "value": 10000,
@@ -5311,6 +5579,7 @@
   {
     "id": "osprey-iii",
     "item_type": "Weapon",
+    "icon": "osprey-iii.webp",
     "name": "Osprey III",
     "rarity": "rare",
     "value": 13000,
@@ -5348,6 +5617,7 @@
   {
     "id": "osprey-iv",
     "item_type": "Weapon",
+    "icon": "osprey-iv.webp",
     "name": "Osprey IV",
     "rarity": "rare",
     "value": 17000,
@@ -5385,6 +5655,7 @@
   {
     "id": "padded-stock",
     "item_type": "Modification",
+    "icon": "padded-stock.webp",
     "name": "Padded Stock",
     "rarity": "epic",
     "value": 0,
@@ -5404,6 +5675,7 @@
   {
     "id": "padded-stock-recipe",
     "item_type": "Blueprint",
+    "icon": "padded-stock-recipe.webp",
     "name": "Padded Stock Blueprint",
     "rarity": "legendary",
     "value": 0,
@@ -5414,6 +5686,7 @@
   {
     "id": "painted-box",
     "item_type": "Trinket",
+    "icon": "painted-box.webp",
     "name": "Painted Box",
     "rarity": "uncommon",
     "value": 2000,
@@ -5424,6 +5697,7 @@
   {
     "id": "patrol-car-key",
     "item_type": "Key",
+    "icon": "patrol-car-key.webp",
     "name": "Patrol Car Key",
     "rarity": "uncommon",
     "value": 100,
@@ -5434,6 +5708,7 @@
   {
     "id": "patrol-outfit",
     "item_type": "Misc",
+    "icon": "patrol-outfit.webp",
     "name": "Patrol (Outfit)",
     "rarity": "",
     "value": 0,
@@ -5444,6 +5719,7 @@
   {
     "id": "photoelectric-cloak",
     "item_type": "Quick Use",
+    "icon": "photoelectric-cloak.webp",
     "name": "Photoelectric Cloak",
     "rarity": "epic",
     "value": 5000,
@@ -5477,6 +5753,7 @@
   {
     "id": "plastic-parts",
     "item_type": "Basic Material",
+    "icon": "plastic-parts.webp",
     "name": "Plastic Parts",
     "rarity": "common",
     "value": 60,
@@ -5487,6 +5764,7 @@
   {
     "id": "playing-cards",
     "item_type": "Trinket",
+    "icon": "playing-cards.webp",
     "name": "Playing Cards",
     "rarity": "rare",
     "value": 5000,
@@ -5497,6 +5775,7 @@
   {
     "id": "polluted-air-filter",
     "item_type": "Recyclable",
+    "icon": "polluted-air-filter.webp",
     "name": "Polluted Air Filter",
     "rarity": "rare",
     "value": 1000,
@@ -5521,6 +5800,7 @@
   {
     "id": "pop-trigger",
     "item_type": "Recyclable",
+    "icon": "pop-trigger.webp",
     "name": "Pop Trigger",
     "rarity": "common",
     "value": 640,
@@ -5545,6 +5825,7 @@
   {
     "id": "portable-television",
     "item_type": "Recyclable",
+    "icon": "portable-television.webp",
     "name": "Portable TV",
     "rarity": "rare",
     "value": 2000,
@@ -5569,6 +5850,7 @@
   {
     "id": "poster-natural-wonder",
     "item_type": "Trinket",
+    "icon": "poster-natural-wonder.webp",
     "name": "Poster of Natural Wonder",
     "rarity": "uncommon",
     "value": 2000,
@@ -5579,6 +5861,7 @@
   {
     "id": "pottery",
     "item_type": "Trinket",
+    "icon": "pottery.webp",
     "name": "Pottery",
     "rarity": "uncommon",
     "value": 2000,
@@ -5589,6 +5872,7 @@
   {
     "id": "power-bank",
     "item_type": "Recyclable",
+    "icon": "power-bank.webp",
     "name": "Power Bank",
     "rarity": "rare",
     "value": 1000,
@@ -5613,6 +5897,7 @@
   {
     "id": "power-cable",
     "item_type": "Recyclable",
+    "icon": "power-cable.webp",
     "name": "Power Cable",
     "rarity": "rare",
     "value": 1000,
@@ -5633,6 +5918,7 @@
   {
     "id": "power-rod",
     "item_type": "Advanced Material",
+    "icon": "power-rod.webp",
     "name": "Power Rod",
     "rarity": "epic",
     "value": 5500,
@@ -5666,6 +5952,7 @@
   {
     "id": "power-rod-recipe",
     "item_type": "Blueprint",
+    "icon": "power-rod-recipe.webp",
     "name": "Power Rod Blueprint",
     "rarity": "legendary",
     "value": 0,
@@ -5676,6 +5963,7 @@
   {
     "id": "prickly-pear",
     "item_type": "Nature",
+    "icon": "prickly-pear.webp",
     "name": "Prickly Pear",
     "rarity": "common",
     "value": 640,
@@ -5691,6 +5979,7 @@
   {
     "id": "processor",
     "item_type": "Topside Material",
+    "icon": "processor.webp",
     "name": "Processor",
     "rarity": "rare",
     "value": 500,
@@ -5715,6 +6004,7 @@
   {
     "id": "projector",
     "item_type": "Recyclable",
+    "icon": "projector.webp",
     "name": "Projector",
     "rarity": "rare",
     "value": 1000,
@@ -5739,6 +6029,7 @@
   {
     "id": "pulse-mine",
     "item_type": "Quick Use",
+    "icon": "pulse-mine.webp",
     "name": "Pulse Mine",
     "rarity": "uncommon",
     "value": 470,
@@ -5759,6 +6050,7 @@
   {
     "id": "pulse-mine-blueprint",
     "item_type": "Blueprint",
+    "icon": "pulse-mine-blueprint.webp",
     "name": "Pulse Mine Blueprint",
     "rarity": "legendary",
     "value": 0,
@@ -5769,6 +6061,7 @@
   {
     "id": "queen-reactor",
     "item_type": "Recyclable",
+    "icon": "queen-reactor.webp",
     "name": "Queen Reactor",
     "rarity": "legendary",
     "value": 13000,
@@ -5793,6 +6086,7 @@
   {
     "id": "radio",
     "item_type": "Recyclable",
+    "icon": "radio.webp",
     "name": "Radio",
     "rarity": "rare",
     "value": 1000,
@@ -5817,6 +6111,7 @@
   {
     "id": "radio-relay",
     "item_type": "Recyclable",
+    "icon": "radio-relay.webp",
     "name": "Radio Relay",
     "rarity": "rare",
     "value": 3000,
@@ -5841,6 +6136,7 @@
   {
     "id": "radio-renegade-outfit",
     "item_type": "Misc",
+    "icon": "radio-renegade-outfit.webp",
     "name": "Radio Renegade (Outfit)",
     "rarity": "",
     "value": 0,
@@ -5851,6 +6147,7 @@
   {
     "id": "raider-hatch-key",
     "item_type": "Key",
+    "icon": "raider-hatch-key.webp",
     "name": "Raider Hatch Key",
     "rarity": "rare",
     "value": 1000,
@@ -5870,6 +6167,7 @@
   {
     "id": "rattler-i",
     "item_type": "Weapon",
+    "icon": "rattler-i.webp",
     "name": "Rattler I",
     "rarity": "common",
     "value": 1750,
@@ -5899,6 +6197,7 @@
   {
     "id": "rattler-ii",
     "item_type": "Weapon",
+    "icon": "rattler-ii.webp",
     "name": "Rattler II",
     "rarity": "common",
     "value": 3000,
@@ -5932,6 +6231,7 @@
   {
     "id": "rattler-iii",
     "item_type": "Weapon",
+    "icon": "rattler-iii.webp",
     "name": "Rattler III",
     "rarity": "common",
     "value": 5000,
@@ -5969,6 +6269,7 @@
   {
     "id": "adrenaline-shot",
     "item_type": "Quick Use",
+    "icon": "adrenaline-shot.webp",
     "name": "Adrenaline Shot",
     "rarity": "common",
     "value": 300,
@@ -6002,6 +6303,7 @@
   {
     "id": "advanced-arc-powercell",
     "item_type": "Misc",
+    "icon": "advanced-arc-powercell.webp",
     "name": "Advanced ARC Powercell",
     "rarity": "rare",
     "value": 640,
@@ -6022,6 +6324,7 @@
   {
     "id": "advanced-electrical-components",
     "item_type": "Refined Material",
+    "icon": "advanced-electrical-components.webp",
     "name": "Advanced Electrical Components",
     "rarity": "rare",
     "value": 1750,
@@ -6055,6 +6358,7 @@
   {
     "id": "advanced-electrical-components-recipe",
     "item_type": "Blueprint",
+    "icon": "advanced-electrical-components-recipe.webp",
     "name": "Advanced Electrical Components Blueprint",
     "rarity": "legendary",
     "value": 0,
@@ -6065,6 +6369,7 @@
   {
     "id": "advanced-mechanical-components",
     "item_type": "Advanced Material",
+    "icon": "advanced-mechanical-components.webp",
     "name": "Advanced Mechanical Components",
     "rarity": "rare",
     "value": 1750,
@@ -6098,6 +6403,7 @@
   {
     "id": "advanced-mechanical-components-recipe",
     "item_type": "Blueprint",
+    "icon": "advanced-mechanical-components-recipe.webp",
     "name": "Advanced Mechanical Components Blueprint",
     "rarity": "legendary",
     "value": 0,
@@ -6108,6 +6414,7 @@
   {
     "id": "agave",
     "item_type": "Nature",
+    "icon": "agave.webp",
     "name": "Agave",
     "rarity": "common",
     "value": 1000,
@@ -6123,6 +6430,7 @@
   {
     "id": "agave-juice",
     "item_type": "Consumable",
+    "icon": "agave-juice.webp",
     "name": "Agave Juice",
     "rarity": "common",
     "value": 123,
@@ -6147,6 +6455,7 @@
   {
     "id": "air-freshener",
     "item_type": "Trinket",
+    "icon": "air-freshener.webp",
     "name": "Air Freshener",
     "rarity": "uncommon",
     "value": 2000,
@@ -6157,6 +6466,7 @@
   {
     "id": "alarm-clock",
     "item_type": "Recyclable",
+    "icon": "alarm-clock.webp",
     "name": "Alarm Clock",
     "rarity": "rare",
     "value": 1000,
@@ -6181,6 +6491,7 @@
   {
     "id": "angled-grip-i",
     "item_type": "Modification",
+    "icon": "angled-grip-i.webp",
     "name": "Angled Grip I",
     "rarity": "common",
     "value": 640,
@@ -6205,6 +6516,7 @@
   {
     "id": "angled-grip-ii",
     "item_type": "Modification",
+    "icon": "angled-grip-ii.webp",
     "name": "Angled Grip II",
     "rarity": "uncommon",
     "value": 0,
@@ -6229,6 +6541,7 @@
   {
     "id": "angled-grip-ii-recipe",
     "item_type": "Blueprint",
+    "icon": "angled-grip-ii-recipe.webp",
     "name": "Angled Grip II Blueprint",
     "rarity": "legendary",
     "value": 0,
@@ -6239,6 +6552,7 @@
   {
     "id": "angled-grip-iii",
     "item_type": "Modification",
+    "icon": "angled-grip-iii.webp",
     "name": "Angled Grip III",
     "rarity": "rare",
     "value": 5000,
@@ -6254,6 +6568,7 @@
   {
     "id": "angled-grip-iii-recipe",
     "item_type": "Blueprint",
+    "icon": "angled-grip-iii-recipe.webp",
     "name": "Angled Grip III Blueprint",
     "rarity": "legendary",
     "value": 0,
@@ -6264,6 +6579,7 @@
   {
     "id": "antiseptic",
     "item_type": "Refined Material",
+    "icon": "antiseptic.webp",
     "name": "Antiseptic",
     "rarity": "rare",
     "value": 1000,
@@ -6293,6 +6609,7 @@
   {
     "id": "anvil-recipe",
     "item_type": "Blueprint",
+    "icon": "anvil-recipe.webp",
     "name": "Anvil Blueprint",
     "rarity": "legendary",
     "value": 5000,
@@ -6303,6 +6620,7 @@
   {
     "id": "anvil-i",
     "item_type": "Weapon",
+    "icon": "anvil-i.webp",
     "name": "Anvil I",
     "rarity": "uncommon",
     "value": 5000,
@@ -6340,6 +6658,7 @@
   {
     "id": "anvil-ii",
     "item_type": "Weapon",
+    "icon": "anvil-ii.webp",
     "name": "Anvil II",
     "rarity": "uncommon",
     "value": 7000,
@@ -6377,6 +6696,7 @@
   {
     "id": "anvil-iii",
     "item_type": "Weapon",
+    "icon": "anvil-iii.webp",
     "name": "Anvil III",
     "rarity": "uncommon",
     "value": 10000,
@@ -6414,6 +6734,7 @@
   {
     "id": "anvil-iv",
     "item_type": "Weapon",
+    "icon": "anvil-iv.webp",
     "name": "Anvil IV",
     "rarity": "uncommon",
     "value": 13000,
@@ -6451,6 +6772,7 @@
   {
     "id": "anvil-splitter",
     "item_type": "Modification",
+    "icon": "anvil-splitter.webp",
     "name": "Anvil Splitter",
     "rarity": "legendary",
     "value": 7000,
@@ -6475,6 +6797,7 @@
   {
     "id": "anvil-splitter-recipe",
     "item_type": "Blueprint",
+    "icon": "anvil-splitter-recipe.webp",
     "name": "Anvil Splitter Blueprint",
     "rarity": "legendary",
     "value": 0,
@@ -6485,6 +6808,7 @@
   {
     "id": "aphelion-rifle",
     "item_type": "Weapon",
+    "icon": "",
     "name": "Aphelion Rifle",
     "rarity": "legendary",
     "value": 0,
@@ -6500,6 +6824,7 @@
   {
     "id": "aphelion-rifle-blueprint",
     "item_type": "Blueprint",
+    "icon": "",
     "name": "Aphelion Rifle Blueprint",
     "rarity": "legendary",
     "value": 0,
@@ -6510,6 +6835,7 @@
   {
     "id": "apricot",
     "item_type": "Nature",
+    "icon": "apricot.webp",
     "name": "Apricot",
     "rarity": "common",
     "value": 640,
@@ -6530,6 +6856,7 @@
   {
     "id": "arc-alloy",
     "item_type": "Topside Material",
+    "icon": "arc-alloy.webp",
     "name": "ARC Alloy",
     "rarity": "uncommon",
     "value": 200,
@@ -6550,6 +6877,7 @@
   {
     "id": "arc-circuitry",
     "item_type": "Topside Material",
+    "icon": "arc-circuitry.webp",
     "name": "ARC Circuitry",
     "rarity": "rare",
     "value": 1000,
@@ -6575,6 +6903,7 @@
   {
     "id": "arc-circuitry-recipe",
     "item_type": "Blueprint",
+    "icon": "arc-circuitry-recipe.webp",
     "name": "ARC Circuitry Blueprint",
     "rarity": "legendary",
     "value": 0,
@@ -6585,6 +6914,7 @@
   {
     "id": "arc-coolant",
     "item_type": "Recyclable",
+    "icon": "arc-coolant.webp",
     "name": "ARC Coolant",
     "rarity": "rare",
     "value": 1000,
@@ -6605,6 +6935,7 @@
   {
     "id": "arc-flex-rubber",
     "item_type": "Recyclable",
+    "icon": "arc-flex-rubber.webp",
     "name": "ARC Flex Rubber",
     "rarity": "rare",
     "value": 1000,
@@ -6620,6 +6951,7 @@
   {
     "id": "arc-motion-core",
     "item_type": "Topside Material",
+    "icon": "arc-motion-core.webp",
     "name": "ARC Motion Core",
     "rarity": "rare",
     "value": 1000,
@@ -6645,6 +6977,7 @@
   {
     "id": "arc-performance-steel",
     "item_type": "Recyclable",
+    "icon": "arc-performance-steel.webp",
     "name": "ARC Performance Steel",
     "rarity": "rare",
     "value": 1000,
@@ -6665,6 +6998,7 @@
   {
     "id": "arc-powercell",
     "item_type": "Topside Material",
+    "icon": "arc-powercell.webp",
     "name": "ARC Powercell",
     "rarity": "common",
     "value": 640,
@@ -6675,6 +7009,7 @@
   {
     "id": "arc-synthetic-resin",
     "item_type": "Recyclable",
+    "icon": "arc-synthetic-resin.webp",
     "name": "ARC Synthetic Resin",
     "rarity": "rare",
     "value": 1000,
@@ -6695,6 +7030,7 @@
   {
     "id": "arc-thermo-lining",
     "item_type": "Recyclable",
+    "icon": "arc-thermo-lining.webp",
     "name": "ARC Thermo Lining",
     "rarity": "rare",
     "value": 1000,
@@ -6715,6 +7051,7 @@
   {
     "id": "arpeggio-i",
     "item_type": "Weapon",
+    "icon": "arpeggio-i.webp",
     "name": "Arpeggio I",
     "rarity": "uncommon",
     "value": 5500,
@@ -6739,6 +7076,7 @@
   {
     "id": "arpeggio-ii",
     "item_type": "Weapon",
+    "icon": "arpeggio-ii.webp",
     "name": "Arpeggio II",
     "rarity": "uncommon",
     "value": 8000,
@@ -6767,6 +7105,7 @@
   {
     "id": "arpeggio-iii",
     "item_type": "Weapon",
+    "icon": "arpeggio-ii.webp",
     "name": "Arpeggio III",
     "rarity": "uncommon",
     "value": 11500,
@@ -6795,6 +7134,7 @@
   {
     "id": "arpeggio-iv",
     "item_type": "Weapon",
+    "icon": "arpeggio-ii.webp",
     "name": "Arpeggio IV",
     "rarity": "uncommon",
     "value": 15000,
@@ -6823,6 +7163,7 @@
   {
     "id": "assorted-seeds",
     "item_type": "Nature",
+    "icon": "assorted-seeds.webp",
     "name": "Assorted Seeds",
     "rarity": "common",
     "value": 100,
@@ -6833,6 +7174,7 @@
   {
     "id": "aviator-outfit",
     "item_type": "Misc",
+    "icon": "aviator-outfit.webp",
     "name": "Aviator (Outfit)",
     "rarity": "",
     "value": 0,
@@ -6843,6 +7185,7 @@
   {
     "id": "bag-radio-renegade-variant",
     "item_type": "Misc",
+    "icon": "bag-radio-renegade-variant.webp",
     "name": "Bag (Radio Renegade Variant)",
     "rarity": "common",
     "value": 0,
@@ -6853,6 +7196,7 @@
   {
     "id": "banana-backpack-charm",
     "item_type": "Misc",
+    "icon": "banana-backpack-charm.webp",
     "name": "Banana (Backpack Charm)",
     "rarity": "",
     "value": 0,
@@ -6863,6 +7207,7 @@
   {
     "id": "bandage",
     "item_type": "Quick Use",
+    "icon": "bandage.webp",
     "name": "Bandage",
     "rarity": "common",
     "value": 250,
@@ -6888,6 +7233,7 @@
   {
     "id": "barricade-kit",
     "item_type": "Quick Use",
+    "icon": "barricade-kit.webp",
     "name": "Barricade Kit",
     "rarity": "uncommon",
     "value": 640,
@@ -6917,6 +7263,7 @@
   {
     "id": "barricade-kit-recipe",
     "item_type": "Blueprint",
+    "icon": "barricade-kit-recipe.webp",
     "name": "Barricade Kit Blueprint",
     "rarity": "legendary",
     "value": 0,
@@ -6927,6 +7274,7 @@
   {
     "id": "bastion-part",
     "item_type": "Recyclable",
+    "icon": "bastion-part.webp",
     "name": "Bastion Cell",
     "rarity": "epic",
     "value": 5000,
@@ -6951,6 +7299,7 @@
   {
     "id": "battery",
     "item_type": "Topside Material",
+    "icon": "battery.webp",
     "name": "Battery",
     "rarity": "uncommon",
     "value": 250,
@@ -6971,6 +7320,7 @@
   {
     "id": "bettina-blueprint",
     "item_type": "Blueprint",
+    "icon": "bettina-blueprint.webp",
     "name": "Bettina Blueprint",
     "rarity": "legendary",
     "value": 5000,
@@ -6981,6 +7331,7 @@
   {
     "id": "vita-shot-recipe",
     "item_type": "Blueprint",
+    "icon": "vita-shot-recipe.webp",
     "name": "Vita Shot Blueprint",
     "rarity": "legendary",
     "value": 5000,
@@ -6991,6 +7342,7 @@
   {
     "id": "vita-spray",
     "item_type": "Quick Use",
+    "icon": "vita-spray.webp",
     "name": "Vita Spray",
     "rarity": "epic",
     "value": 2880,
@@ -7015,6 +7367,7 @@
   {
     "id": "vita-spray-recipe",
     "item_type": "Blueprint",
+    "icon": "vita-spray-recipe.webp",
     "name": "Vita Spray Blueprint",
     "rarity": "legendary",
     "value": 5000,
@@ -7025,6 +7378,7 @@
   {
     "id": "volcanic-rock",
     "item_type": "Misc",
+    "icon": "volcanic-rock.webp",
     "name": "Volcanic Rock",
     "rarity": "common",
     "value": 270,
@@ -7035,6 +7389,7 @@
   {
     "id": "voltage-converter",
     "item_type": "Topside Material",
+    "icon": "voltage-converter.webp",
     "name": "Voltage Converter",
     "rarity": "rare",
     "value": 500,
@@ -7059,6 +7414,7 @@
   {
     "id": "vulcano-blueprint",
     "item_type": "Blueprint",
+    "icon": "vulcano-blueprint.webp",
     "name": "Vulcano Blueprint",
     "rarity": "legendary",
     "value": 5000,
@@ -7069,6 +7425,7 @@
   {
     "id": "vulcano-i",
     "item_type": "Weapon",
+    "icon": "vulcano-i.webp",
     "name": "Vulcano I",
     "rarity": "epic",
     "value": 10000,
@@ -7106,6 +7463,7 @@
   {
     "id": "vulcano-ii",
     "item_type": "Weapon",
+    "icon": "vulcano-ii.webp",
     "name": "Vulcano II",
     "rarity": "epic",
     "value": 13000,
@@ -7143,6 +7501,7 @@
   {
     "id": "vulcano-iii",
     "item_type": "Weapon",
+    "icon": "vulcano-iii.webp",
     "name": "Vulcano III",
     "rarity": "epic",
     "value": 17000,
@@ -7180,6 +7539,7 @@
   {
     "id": "vulcano-iv",
     "item_type": "Weapon",
+    "icon": "vulcano-iv.webp",
     "name": "Vulcano IV",
     "rarity": "epic",
     "value": 22000,
@@ -7217,6 +7577,7 @@
   {
     "id": "wasp-driver",
     "item_type": "Recyclable",
+    "icon": "wasp-driver.webp",
     "name": "Wasp Driver",
     "rarity": "rare",
     "value": 1000,
@@ -7241,6 +7602,7 @@
   {
     "id": "water-filter",
     "item_type": "Recyclable",
+    "icon": "water-filter.webp",
     "name": "Water Filter",
     "rarity": "rare",
     "value": 1000,
@@ -7265,6 +7627,7 @@
   {
     "id": "water-pump",
     "item_type": "Recyclable",
+    "icon": "water-pump.webp",
     "name": "Water Pump",
     "rarity": "rare",
     "value": 1000,
@@ -7289,6 +7652,7 @@
   {
     "id": "wires-recipe",
     "item_type": "Topside Material",
+    "icon": "wires-recipe.webp",
     "name": "Wires",
     "rarity": "uncommon",
     "value": 200,
@@ -7304,6 +7668,7 @@
   {
     "id": "wolfpack",
     "item_type": "Quick Use",
+    "icon": "wolfpack.webp",
     "name": "WolfPack",
     "rarity": "epic",
     "value": 5000,
@@ -7337,6 +7702,7 @@
   {
     "id": "wolfpack-recipe",
     "item_type": "Blueprint",
+    "icon": "wolfpack-recipe.webp",
     "name": "Wolfpack Blueprint",
     "rarity": "legendary",
     "value": 5000,
@@ -7347,6 +7713,7 @@
   {
     "id": "yellow-light-stick",
     "item_type": "Quick Use",
+    "icon": "yellow-light-stick.webp",
     "name": "Yellow Light Stick",
     "rarity": "common",
     "value": 150,
@@ -7367,6 +7734,7 @@
   {
     "id": "yellow-light-stick-blueprint",
     "item_type": "Blueprint",
+    "icon": "",
     "name": "Yellow Light Stick Blueprint",
     "rarity": "legendary",
     "value": 5000,
@@ -7377,6 +7745,7 @@
   {
     "id": "zipline",
     "item_type": "Quick Use",
+    "icon": "zipline.webp",
     "name": "Zipline",
     "rarity": "rare",
     "value": 1000,
@@ -7405,6 +7774,7 @@
   {
     "id": "dried-out-arc-resin",
     "item_type": "Recyclable",
+    "icon": "dried-out-arc-resin.webp",
     "name": "Dried-Out ARC Resin",
     "rarity": "uncommon",
     "value": 640,
@@ -7415,6 +7785,7 @@
   {
     "id": "duct-tape-recipe",
     "item_type": "Topside Material",
+    "icon": "duct-tape-recipe.webp",
     "name": "Duct Tape",
     "rarity": "uncommon",
     "value": 300,
@@ -7430,6 +7801,7 @@
   {
     "id": "durable-cloth",
     "item_type": "Refined Material",
+    "icon": "durable-cloth.webp",
     "name": "Durable Cloth",
     "rarity": "uncommon",
     "value": 640,
@@ -7455,6 +7827,7 @@
   {
     "id": "electrical-components",
     "item_type": "Refined Material",
+    "icon": "electrical-components.webp",
     "name": "Electrical Components",
     "rarity": "uncommon",
     "value": 640,
@@ -7488,6 +7861,7 @@
   {
     "id": "empty-wine-bottle",
     "item_type": "Trinket",
+    "icon": "empty-wine-bottle.webp",
     "name": "Empty Wine Bottle",
     "rarity": "common",
     "value": 1000,
@@ -7498,6 +7872,7 @@
   {
     "id": "energy-ammo-recipe",
     "item_type": "Blueprint",
+    "icon": "energy-ammo-recipe.webp",
     "name": "Energy Ammo Blueprint",
     "rarity": "legendary",
     "value": 0,
@@ -7508,6 +7883,7 @@
   {
     "id": "energy-ammo",
     "item_type": "Ammunition",
+    "icon": "energy-ammo.webp",
     "name": "Energy Clip",
     "rarity": "rare",
     "value": 5,
@@ -7527,6 +7903,7 @@
   {
     "id": "equalizer-i",
     "item_type": "Weapon",
+    "icon": "equalizer-i.webp",
     "name": "Equalizer",
     "rarity": "legendary",
     "value": 34000,
@@ -7555,6 +7932,7 @@
   {
     "id": "equalizer-recipe",
     "item_type": "Blueprint",
+    "icon": "equalizer-recipe.webp",
     "name": "Equalizer Blueprint",
     "rarity": "legendary",
     "value": 0,
@@ -7565,6 +7943,7 @@
   {
     "id": "esr-analyzer",
     "item_type": "Quest Item",
+    "icon": "esr-analyzer.webp",
     "name": "ESR Analyzer",
     "rarity": "common",
     "value": 0,
@@ -7575,6 +7954,7 @@
   {
     "id": "exodus-modules",
     "item_type": "Topside Material",
+    "icon": "exodus-modules.webp",
     "name": "Exodus Modules",
     "rarity": "epic",
     "value": 2750,
@@ -7599,6 +7979,7 @@
   {
     "id": "expired-pasta",
     "item_type": "Trinket",
+    "icon": "expired-pasta.webp",
     "name": "Expired Pasta",
     "rarity": "common",
     "value": 1000,
@@ -7609,6 +7990,7 @@
   {
     "id": "expired-respirator",
     "item_type": "Recyclable",
+    "icon": "expired-respirator.webp",
     "name": "Expired Respirator",
     "rarity": "rare",
     "value": 640,
@@ -7633,6 +8015,7 @@
   {
     "id": "explosive-compound",
     "item_type": "Refined Material",
+    "icon": "explosive-compound.webp",
     "name": "Explosive Compound",
     "rarity": "rare",
     "value": 1000,
@@ -7662,6 +8045,7 @@
   {
     "id": "explosive-mine",
     "item_type": "Quick Use",
+    "icon": "jump-mine.webp",
     "name": "Explosive Mine",
     "rarity": "rare",
     "value": 1500,
@@ -7681,6 +8065,7 @@
   {
     "id": "explosive-mine-blueprint",
     "item_type": "Blueprint",
+    "icon": "explosive-mine-blueprint.webp",
     "name": "Explosive Mine Blueprint",
     "rarity": "legendary",
     "value": 5000,
@@ -7691,6 +8076,7 @@
   {
     "id": "extended-barrel",
     "item_type": "Modification",
+    "icon": "extended-barrel.webp",
     "name": "Extended Barrel",
     "rarity": "epic",
     "value": 5000,
@@ -7710,6 +8096,7 @@
   {
     "id": "extended-barrel-recipe",
     "item_type": "Blueprint",
+    "icon": "extended-barrel-recipe.webp",
     "name": "Extended Barrel Blueprint",
     "rarity": "legendary",
     "value": 0,
@@ -7720,6 +8107,7 @@
   {
     "id": "extended-light-mag-i",
     "item_type": "Modification",
+    "icon": "extended-light-mag-i.webp",
     "name": "Extended Light Mag I",
     "rarity": "common",
     "value": 640,
@@ -7749,6 +8137,7 @@
   {
     "id": "extended-light-mag-ii",
     "item_type": "Modification",
+    "icon": "extended-light-mag-ii.webp",
     "name": "Extended Light Mag II",
     "rarity": "uncommon",
     "value": 2000,
@@ -7773,6 +8162,7 @@
   {
     "id": "extended-light-mag-ii-recipe",
     "item_type": "Blueprint",
+    "icon": "extended-light-mag-ii-recipe.webp",
     "name": "Extended Light Mag II Blueprint",
     "rarity": "legendary",
     "value": 0,
@@ -7783,6 +8173,7 @@
   {
     "id": "extended-light-mag-iii",
     "item_type": "Modification",
+    "icon": "extended-light-mag-iii.webp",
     "name": "Extended Light Mag III",
     "rarity": "rare",
     "value": 0,
@@ -7807,6 +8198,7 @@
   {
     "id": "extended-light-mag-iii-recipe",
     "item_type": "Blueprint",
+    "icon": "extended-light-mag-iii-recipe.webp",
     "name": "Extended Light Mag III Blueprint",
     "rarity": "legendary",
     "value": 0,
@@ -7817,6 +8209,7 @@
   {
     "id": "extended-medium-mag-i",
     "item_type": "Modification",
+    "icon": "extended-medium-mag-i.webp",
     "name": "Extended Medium Mag I",
     "rarity": "common",
     "value": 640,
@@ -7846,6 +8239,7 @@
   {
     "id": "extended-medium-mag-ii",
     "item_type": "Modification",
+    "icon": "extended-medium-mag-ii.webp",
     "name": "Extended Medium Mag II",
     "rarity": "uncommon",
     "value": 0,
@@ -7861,6 +8255,7 @@
   {
     "id": "extended-medium-mag-ii-recipe",
     "item_type": "Blueprint",
+    "icon": "extended-medium-mag-ii-recipe.webp",
     "name": "Extended Medium Mag II Blueprint",
     "rarity": "legendary",
     "value": 0,
@@ -7871,6 +8266,7 @@
   {
     "id": "extended-medium-mag-iii",
     "item_type": "Modification",
+    "icon": "extended-medium-mag-iii.webp",
     "name": "Extended Medium Mag III",
     "rarity": "rare",
     "value": 0,
@@ -7890,6 +8286,7 @@
   {
     "id": "extended-medium-mag-iii-blueprint",
     "item_type": "Blueprint",
+    "icon": "extended-medium-mag-iii-blueprint.webp",
     "name": "Extended Medium Mag III Blueprint",
     "rarity": "legendary",
     "value": 0,
@@ -7900,6 +8297,7 @@
   {
     "id": "extended-shotgun-mag-i",
     "item_type": "Modification",
+    "icon": "extended-shotgun-mag-i.webp",
     "name": "Extended Shotgun Mag I",
     "rarity": "common",
     "value": 640,
@@ -7929,6 +8327,7 @@
   {
     "id": "extended-shotgun-mag-ii",
     "item_type": "Modification",
+    "icon": "extended-shotgun-mag-ii.webp",
     "name": "Extended Shotgun Mag II",
     "rarity": "uncommon",
     "value": 2000,
@@ -7962,6 +8361,7 @@
   {
     "id": "extended-shotgun-mag-ii-recipe",
     "item_type": "Blueprint",
+    "icon": "extended-shotgun-mag-ii-recipe.webp",
     "name": "Extended Shotgun Mag II Blueprint",
     "rarity": "legendary",
     "value": 5000,
@@ -7972,6 +8372,7 @@
   {
     "id": "extended-shotgun-mag-iii",
     "item_type": "Modification",
+    "icon": "extended-shotgun-mag-iii.webp",
     "name": "Extended Shotgun Mag III",
     "rarity": "rare",
     "value": 0,
@@ -7991,6 +8392,7 @@
   {
     "id": "extended-shotgun-mag-iii-recipe",
     "item_type": "Blueprint",
+    "icon": "extended-shotgun-mag-iii-recipe.webp",
     "name": "Extended Shotgun Mag III Blueprint",
     "rarity": "legendary",
     "value": 0,
@@ -8001,6 +8403,7 @@
   {
     "id": "fabric",
     "item_type": "Basic Material",
+    "icon": "fabric.webp",
     "name": "Fabric",
     "rarity": "common",
     "value": 50,
@@ -8011,6 +8414,7 @@
   {
     "id": "faded-photograph",
     "item_type": "Trinket",
+    "icon": "faded-photograph.webp",
     "name": "Faded Photograph",
     "rarity": "common",
     "value": 640,
@@ -8021,6 +8425,7 @@
   {
     "id": "ferro-i",
     "item_type": "Weapon",
+    "icon": "ferro-i.webp",
     "name": "Ferro I",
     "rarity": "common",
     "value": 475,
@@ -8054,6 +8459,7 @@
   {
     "id": "ferro-ii",
     "item_type": "Weapon",
+    "icon": "ferro-ii.webp",
     "name": "Ferro II",
     "rarity": "common",
     "value": 1000,
@@ -8087,6 +8493,7 @@
   {
     "id": "ferro-iii",
     "item_type": "Weapon",
+    "icon": "ferro-iii.webp",
     "name": "Ferro III",
     "rarity": "common",
     "value": 2000,
@@ -8124,6 +8531,7 @@
   {
     "id": "ferro-iv",
     "item_type": "Weapon",
+    "icon": "ferro-iv.webp",
     "name": "Ferro IV",
     "rarity": "common",
     "value": 2900,
@@ -8161,6 +8569,7 @@
   {
     "id": "fertilizer",
     "item_type": "Misc",
+    "icon": "fertilizer.webp",
     "name": "Fertilizer",
     "rarity": "common",
     "value": 1000,
@@ -8171,6 +8580,7 @@
   {
     "id": "film-reel",
     "item_type": "Trinket",
+    "icon": "film-reel.webp",
     "name": "Film Reel",
     "rarity": "rare",
     "value": 2000,
@@ -8181,6 +8591,7 @@
   {
     "id": "fine-wristwatch",
     "item_type": "Trinket",
+    "icon": "fine-wristwatch.webp",
     "name": "Fine Wristwatch",
     "rarity": "rare",
     "value": 3000,
@@ -8191,6 +8602,7 @@
   {
     "id": "fireball-burner",
     "item_type": "Recyclable",
+    "icon": "fireball-burner.webp",
     "name": "Fireball Burner",
     "rarity": "uncommon",
     "value": 640,
@@ -8215,6 +8627,7 @@
   {
     "id": "flame-spray",
     "item_type": "Quick use",
+    "icon": "flame-spray.webp",
     "name": "Flame Spray",
     "rarity": "uncommon",
     "value": 640,
@@ -8239,6 +8652,7 @@
   {
     "id": "flow-controller",
     "item_type": "Recyclable",
+    "icon": "flow-controller.webp",
     "name": "Flow Controller",
     "rarity": "rare",
     "value": 3000,
@@ -8263,6 +8677,7 @@
   {
     "id": "free-loadout-augment",
     "item_type": "Augment",
+    "icon": "free-loadout-augment.webp",
     "name": "Free Loadout Augment",
     "rarity": "common",
     "value": 100,
@@ -8273,6 +8688,7 @@
   {
     "id": "frequency-modulation-box",
     "item_type": "Recyclable",
+    "icon": "frequency-modulation-box.webp",
     "name": "Frequency Modulation Box",
     "rarity": "rare",
     "value": 3000,
@@ -8297,6 +8713,7 @@
   {
     "id": "fried-motherboard",
     "item_type": "Recyclable",
+    "icon": "fried-motherboard.webp",
     "name": "Fried Motherboard",
     "rarity": "rare",
     "value": 2000,
@@ -8321,6 +8738,7 @@
   {
     "id": "fruit-mix",
     "item_type": "Medical",
+    "icon": "fruit-mix.webp",
     "name": "Fruit Mix",
     "rarity": "common",
     "value": 0,
@@ -8344,6 +8762,7 @@
   {
     "id": "frying-pan",
     "item_type": "Recyclable",
+    "icon": "frying-pan.webp",
     "name": "Frying Pan",
     "rarity": "rare",
     "value": 640,
@@ -8364,6 +8783,7 @@
   {
     "id": "surge-shield-recharger",
     "item_type": "Quick Use",
+    "icon": "surge-shield-recharger.webp",
     "name": "Surge Shield Recharger",
     "rarity": "rare",
     "value": 1200,
@@ -8393,6 +8813,7 @@
   {
     "id": "surveyor-vault",
     "item_type": "Recyclable",
+    "icon": "surveyor-vault.webp",
     "name": "Surveyor Vault",
     "rarity": "rare",
     "value": 2000,
@@ -8417,6 +8838,7 @@
   {
     "id": "synthesized-fuel",
     "item_type": "Topside Material",
+    "icon": "synthesized-fuel.webp",
     "name": "Synthesized Fuel",
     "rarity": "rare",
     "value": 700,
@@ -8441,6 +8863,7 @@
   {
     "id": "syringe",
     "item_type": "Topside Material",
+    "icon": "syringe.webp",
     "name": "Syringe",
     "rarity": "rare",
     "value": 500,
@@ -8465,6 +8888,7 @@
   {
     "id": "tactical-mk-1",
     "item_type": "Augment",
+    "icon": "tactical-mk-1.webp",
     "name": "Tactical Mk. 1",
     "rarity": "uncommon",
     "value": 640,
@@ -8498,6 +8922,7 @@
   {
     "id": "tactical-mk-2",
     "item_type": "Augment",
+    "icon": "tactical-mk-2.webp",
     "name": "Tactical Mk. 2",
     "rarity": "rare",
     "value": 2000,
@@ -8522,6 +8947,7 @@
   {
     "id": "tactical-mk3-defensive",
     "item_type": "Augment",
+    "icon": "tactical-mk3-defensive.webp",
     "name": "Tactical Mk.3 (Defensive)",
     "rarity": "epic",
     "value": 5000,
@@ -8541,6 +8967,7 @@
   {
     "id": "tactical-mk3-defensive-blueprint",
     "item_type": "Blueprint",
+    "icon": "tactical-mk3-defensive-blueprint.webp",
     "name": "Tactical MK.3 (Defensive) Blueprint",
     "rarity": "legendary",
     "value": 5000,
@@ -8551,6 +8978,7 @@
   {
     "id": "tactical-mk-3-healing",
     "item_type": "Augment",
+    "icon": "tactical-mk-3-healing.webp",
     "name": "Tactical Mk. 3 (Healing)",
     "rarity": "epic",
     "value": 5000,
@@ -8575,6 +9003,7 @@
   {
     "id": "tacical-mk3-healing-blueprint",
     "item_type": "Blueprint",
+    "icon": "tacical-mk3-healing-blueprint.webp",
     "name": "Tactical MK.3 (Healing) Blueprint",
     "rarity": "legendary",
     "value": 5000,
@@ -8585,6 +9014,7 @@
   {
     "id": "tagging-grenade",
     "item_type": "Quick Use",
+    "icon": "tagging-grenade.webp",
     "name": "Tagging Grenade",
     "rarity": "rare",
     "value": 1000,
@@ -8609,6 +9039,7 @@
   {
     "id": "tagging-grenade-recipe",
     "item_type": "Blueprint",
+    "icon": "tagging-grenade-recipe.webp",
     "name": "Tagging Grenade Blueprint",
     "rarity": "legendary",
     "value": 0,
@@ -8619,6 +9050,7 @@
   {
     "id": "tattered-arc-lining",
     "item_type": "Recyclable",
+    "icon": "tattered-arc-lining.webp",
     "name": "Tattered ARC Lining",
     "rarity": "uncommon",
     "value": 640,
@@ -8639,6 +9071,7 @@
   {
     "id": "tattered-clothes",
     "item_type": "Recyclable",
+    "icon": "tattered-clothes.webp",
     "name": "Tattered Clothes",
     "rarity": "uncommon",
     "value": 640,
@@ -8659,6 +9092,7 @@
   {
     "id": "telemetry-transceiver",
     "item_type": "Recyclable",
+    "icon": "telemetry-transceiver.webp",
     "name": "Telemetry Transceiver",
     "rarity": "rare",
     "value": 3000,
@@ -8674,6 +9108,7 @@
   {
     "id": "tempest-i",
     "item_type": "Weapon",
+    "icon": "tempest-i.webp",
     "name": "Tempest I",
     "rarity": "epic",
     "value": 0,
@@ -8711,6 +9146,7 @@
   {
     "id": "tempest-i-recipe",
     "item_type": "Blueprint",
+    "icon": "tempest-i-recipe.webp",
     "name": "Tempest I Blueprint",
     "rarity": "legendary",
     "value": 0,
@@ -8721,6 +9157,7 @@
   {
     "id": "tempest-ii",
     "item_type": "Weapon",
+    "icon": "tempest-ii.webp",
     "name": "Tempest II",
     "rarity": "epic",
     "value": 17000,
@@ -8758,6 +9195,7 @@
   {
     "id": "tempest-iii",
     "item_type": "Weapon",
+    "icon": "tempest-iii.webp",
     "name": "Tempest III",
     "rarity": "epic",
     "value": 22000,
@@ -8795,6 +9233,7 @@
   {
     "id": "tempest-iv",
     "item_type": "Weapon",
+    "icon": "tempest-iv.webp",
     "name": "Tempest IV",
     "rarity": "epic",
     "value": 0,
@@ -8832,6 +9271,7 @@
   {
     "id": "thermostat",
     "item_type": "Recyclable",
+    "icon": "thermostat.webp",
     "name": "Thermostat",
     "rarity": "rare",
     "value": 1000,
@@ -8856,6 +9296,7 @@
   {
     "id": "tick-pod",
     "item_type": "Recyclable",
+    "icon": "tick-pod.webp",
     "name": "Tick Pod",
     "rarity": "uncommon",
     "value": 640,
@@ -8880,6 +9321,7 @@
   {
     "id": "toaster",
     "item_type": "Recyclable",
+    "icon": "toaster.webp",
     "name": "Toaster",
     "rarity": "rare",
     "value": 1000,
@@ -8904,6 +9346,7 @@
   {
     "id": "torch-ginger",
     "item_type": "Material",
+    "icon": "torch-ginger.webp",
     "name": "Torch Ginger",
     "rarity": "uncommon",
     "value": 300,
@@ -8924,6 +9367,7 @@
   {
     "id": "torn-blanket",
     "item_type": "Recyclable",
+    "icon": "torn-blanket.webp",
     "name": "Torn Blanket",
     "rarity": "rare",
     "value": 640,
@@ -8944,6 +9388,7 @@
   {
     "id": "torn-book",
     "item_type": "Trinket",
+    "icon": "torn-book.webp",
     "name": "Torn Book",
     "rarity": "common",
     "value": 1000,
@@ -8954,6 +9399,7 @@
   {
     "id": "torrent-i-recipe",
     "item_type": "Blueprint",
+    "icon": "torrent-i-recipe.webp",
     "name": "Torrente Blueprint",
     "rarity": "legendary",
     "value": 5000,
@@ -8964,6 +9410,7 @@
   {
     "id": "torrente-i",
     "item_type": "Weapon",
+    "icon": "torrente-i.webp",
     "name": "Torrente I",
     "rarity": "rare",
     "value": 7000,
@@ -8988,6 +9435,7 @@
   {
     "id": "torrente-ii",
     "item_type": "Weapon",
+    "icon": "torrente-ii.webp",
     "name": "Torrente II",
     "rarity": "rare",
     "value": 10000,
@@ -9025,6 +9473,7 @@
   {
     "id": "torrente-iii",
     "item_type": "Weapon",
+    "icon": "torrente-iii.webp",
     "name": "Torrente III",
     "rarity": "rare",
     "value": 13000,
@@ -9062,6 +9511,7 @@
   {
     "id": "torrente-iv",
     "item_type": "Weapon",
+    "icon": "torrente-iv.webp",
     "name": "Torrente IV",
     "rarity": "rare",
     "value": 15000,
@@ -9099,6 +9549,7 @@
   {
     "id": "trailblazer-grenade",
     "item_type": "Quick Use",
+    "icon": "trailblazer-grenade.webp",
     "name": "Trailblazer Grenade",
     "rarity": "rare",
     "value": 1600,
@@ -9119,6 +9570,7 @@
   {
     "id": "trailblazer-grenade-blueprint",
     "item_type": "Blueprint",
+    "icon": "trailblazer-grenade-blueprint.webp",
     "name": "Trailblazer Grenade Blueprint",
     "rarity": "legendary",
     "value": 0,
@@ -9129,6 +9581,7 @@
   {
     "id": "trigger-nade",
     "item_type": "Quick Use",
+    "icon": "trigger-nade.webp",
     "name": "Trigger Nade",
     "rarity": "rare",
     "value": 1000,
@@ -9139,6 +9592,7 @@
   {
     "id": "trigger-nade-recipe",
     "item_type": "Blueprint",
+    "icon": "trigger-nade-recipe.webp",
     "name": "Trigger Nade Blueprint",
     "rarity": "legendary",
     "value": 5000,
@@ -9149,6 +9603,7 @@
   {
     "id": "turbo-pump",
     "item_type": "Recyclable",
+    "icon": "turbo-pump.webp",
     "name": "Turbo Pump",
     "rarity": "rare",
     "value": 2000,
@@ -9173,6 +9628,7 @@
   {
     "id": "unusable-weapon",
     "item_type": "Recyclable",
+    "icon": "unusable-weapon.webp",
     "name": "Unusable Weapon",
     "rarity": "rare",
     "value": 2000,
@@ -9198,6 +9654,7 @@
   {
     "id": "vase",
     "item_type": "Trinket",
+    "icon": "vase.webp",
     "name": "Vase",
     "rarity": "rare",
     "value": 3000,
@@ -9208,6 +9665,7 @@
   {
     "id": "venator-recipe",
     "item_type": "Blueprint",
+    "icon": "venator-recipe.webp",
     "name": "Venator Blueprint",
     "rarity": "legendary",
     "value": 5000,
@@ -9218,6 +9676,7 @@
   {
     "id": "venator-i",
     "item_type": "Weapon",
+    "icon": "venator-i.webp",
     "name": "Venator I",
     "rarity": "rare",
     "value": 7000,
@@ -9255,6 +9714,7 @@
   {
     "id": "venator-ii",
     "item_type": "Weapon",
+    "icon": "venator-ii.webp",
     "name": "Venator II",
     "rarity": "rare",
     "value": 0,
@@ -9283,6 +9743,7 @@
   {
     "id": "venator-iii",
     "item_type": "Weapon",
+    "icon": "venator-iii.webp",
     "name": "Venator III",
     "rarity": "rare",
     "value": 0,
@@ -9311,6 +9772,7 @@
   {
     "id": "venator-iv",
     "item_type": "Weapon",
+    "icon": "venator-iv.webp",
     "name": "Venator IV",
     "rarity": "rare",
     "value": 10540,
@@ -9348,6 +9810,7 @@
   {
     "id": "vertical-grip-i",
     "item_type": "Modification",
+    "icon": "vertical-grip-i.webp",
     "name": "Vertical Grip I",
     "rarity": "common",
     "value": 640,
@@ -9377,6 +9840,7 @@
   {
     "id": "vertical-grip-ii",
     "item_type": "Modification",
+    "icon": "vertical-grip-ii.webp",
     "name": "Vertical Grip II",
     "rarity": "uncommon",
     "value": 2000,
@@ -9396,6 +9860,7 @@
   {
     "id": "vertical-grip-ii-recipe",
     "item_type": "Blueprint",
+    "icon": "vertical-grip-ii-recipe.webp",
     "name": "Vertical Grip II Blueprint",
     "rarity": "legendary",
     "value": 0,
@@ -9406,6 +9871,7 @@
   {
     "id": "vertical-grip-iii",
     "item_type": "Modification",
+    "icon": "vertical-grip-iii.webp",
     "name": "Vertical Grip III",
     "rarity": "rare",
     "value": 0,
@@ -9430,6 +9896,7 @@
   {
     "id": "vertical-grip-iii-recipe",
     "item_type": "Blueprint",
+    "icon": "vertical-grip-iii-recipe.webp",
     "name": "Vertical Grip III Blueprint",
     "rarity": "legendary",
     "value": 0,
@@ -9440,6 +9907,7 @@
   {
     "id": "very-comfortable-pillow",
     "item_type": "Trinket",
+    "icon": "very-comfortable-pillow.webp",
     "name": "Very Comfortable Pillow",
     "rarity": "uncommon",
     "value": 2000,
@@ -9450,6 +9918,7 @@
   {
     "id": "vita-shot",
     "item_type": "Quick Use",
+    "icon": "vita-shot.webp",
     "name": "Vita Shot",
     "rarity": "rare",
     "value": 2000,
@@ -9478,6 +9947,7 @@
   {
     "id": "bettina-i",
     "item_type": "Weapon",
+    "icon": "bettina-i.webp",
     "name": "Bettina I",
     "rarity": "epic",
     "value": 8000,
@@ -9506,6 +9976,7 @@
   {
     "id": "bettina-ii",
     "item_type": "Weapon",
+    "icon": "bettina-ii.webp",
     "name": "Bettina II",
     "rarity": "epic",
     "value": 11000,
@@ -9539,6 +10010,7 @@
   {
     "id": "bettina-iii",
     "item_type": "Weapon",
+    "icon": "bettina-iii.webp",
     "name": "Bettina III",
     "rarity": "epic",
     "value": 14000,
@@ -9572,6 +10044,7 @@
   {
     "id": "bettina-iv",
     "item_type": "Weapon",
+    "icon": "bettina-iv.webp",
     "name": "Bettina IV",
     "rarity": "epic",
     "value": 18000,
@@ -9605,6 +10078,7 @@
   {
     "id": "bicycle-pump",
     "item_type": "Recyclable",
+    "icon": "bicycle-pump.webp",
     "name": "Bicycle Pump",
     "rarity": "rare",
     "value": 2000,
@@ -9629,6 +10103,7 @@
   {
     "id": "binoculars",
     "item_type": "Gadget",
+    "icon": "binoculars.webp",
     "name": "Binoculars",
     "rarity": "common",
     "value": 640,
@@ -9662,6 +10137,7 @@
   {
     "id": "bison-driver",
     "item_type": "Recyclable",
+    "icon": "bison-driver.webp",
     "name": "Bison Driver",
     "rarity": "rare",
     "value": 2500,
@@ -9686,6 +10162,7 @@
   {
     "id": "black-eye-face-style",
     "item_type": "Misc",
+    "icon": "black-eye-face-style.webp",
     "name": "Black Eye (Face Style)",
     "rarity": "",
     "value": 0,
@@ -9696,6 +10173,7 @@
   {
     "id": "black-hiker-colour",
     "item_type": "Misc",
+    "icon": "black-hiker-colour.webp",
     "name": "Black (Hiker Colour)",
     "rarity": "common",
     "value": 0,
@@ -9706,6 +10184,7 @@
   {
     "id": "black-and-white-origin-color",
     "item_type": "Misc",
+    "icon": "black-and-white-origin-color.webp",
     "name": "Black & White (Origin Color)",
     "rarity": "common",
     "value": 0,
@@ -9716,6 +10195,7 @@
   {
     "id": "blaze-grenade",
     "item_type": "Throwable",
+    "icon": "blaze-grenade.webp",
     "name": "Blaze Grenade",
     "rarity": "rare",
     "value": 1600,
@@ -9749,6 +10229,7 @@
   {
     "id": "blaze-grenade-blueprint",
     "item_type": "Blueprint",
+    "icon": "blaze-grenade-blueprint.webp",
     "name": "Blaze Grenade Blueprint",
     "rarity": "legendary",
     "value": 0,
@@ -9759,6 +10240,7 @@
   {
     "id": "blaze-grenade-trap",
     "item_type": "Quick Use",
+    "icon": "blaze-grenade-trap.webp",
     "name": "Blaze Grenade Trap",
     "rarity": "rare",
     "value": 1000,
@@ -9769,6 +10251,7 @@
   {
     "id": "bloated-tuna-can",
     "item_type": "Trinket",
+    "icon": "bloated-tuna-can.webp",
     "name": "Bloated Tuna Can",
     "rarity": "common",
     "value": 1000,
@@ -9779,6 +10262,7 @@
   {
     "id": "blue-gate-cellar-key",
     "item_type": "Key",
+    "icon": "blue-gate-cellar-key.webp",
     "name": "Blue Gate Cellar Key",
     "rarity": "uncommon",
     "value": 100,
@@ -9789,6 +10273,7 @@
   {
     "id": "blue-gate-communication-tower-key",
     "item_type": "Key",
+    "icon": "blue-gate-communication-tower-key.webp",
     "name": "Blue Gate Communication Tower Key",
     "rarity": "rare",
     "value": 100,
@@ -9799,6 +10284,7 @@
   {
     "id": "blue-gate-confiscation-room-key",
     "item_type": "Key",
+    "icon": "blue-gate-confiscation-room-key.webp",
     "name": "Blue Gate Confiscation Room Key",
     "rarity": "epic",
     "value": 100,
@@ -9809,6 +10295,7 @@
   {
     "id": "blue-gate-village-key",
     "item_type": "Key",
+    "icon": "blue-gate-village-key.webp",
     "name": "Blue Gate Village Key",
     "rarity": "rare",
     "value": 100,
@@ -9819,6 +10306,7 @@
   {
     "id": "blue-light-stick",
     "item_type": "Quick Use",
+    "icon": "blue-light-stick.webp",
     "name": "Blue Light Stick",
     "rarity": "common",
     "value": 150,
@@ -9839,6 +10327,7 @@
   {
     "id": "blue-light-stick-blueprint",
     "item_type": "Blueprint",
+    "icon": "blue-light-stick-blueprint.webp",
     "name": "Blue Light Stick Blueprint",
     "rarity": "legendary",
     "value": 5000,
@@ -9849,6 +10338,7 @@
   {
     "id": "blue-radio-renegade-color",
     "item_type": "Misc",
+    "icon": "blue-radio-renegade-color.webp",
     "name": "Blue (Radio Renegade Color)",
     "rarity": "common",
     "value": 0,
@@ -9859,6 +10349,7 @@
   {
     "id": "blue-yellow-aviator-color",
     "item_type": "Misc",
+    "icon": "blue-yellow-aviator-color.webp",
     "name": "Blue Yellow (Aviator Color)",
     "rarity": "common",
     "value": 0,
@@ -9869,6 +10360,7 @@
   {
     "id": "bobcat-i-recipe",
     "item_type": "Blueprint",
+    "icon": "bobcat-i-recipe.webp",
     "name": "Bobcat Blueprint",
     "rarity": "legendary",
     "value": 0,
@@ -9879,6 +10371,7 @@
   {
     "id": "bobcat-i",
     "item_type": "Weapon",
+    "icon": "bobcat-ii.webp",
     "name": "Bobcat I",
     "rarity": "epic",
     "value": 13000,
@@ -9911,6 +10404,7 @@
   {
     "id": "bobcat-ii",
     "item_type": "Weapon",
+    "icon": "bobcat-ii.webp",
     "name": "Bobcat II",
     "rarity": "epic",
     "value": 17000,
@@ -9948,6 +10442,7 @@
   {
     "id": "bobcat-iii",
     "item_type": "Weapon",
+    "icon": "bobcat-iii.webp",
     "name": "Bobcat III",
     "rarity": "epic",
     "value": 22000,
@@ -9985,6 +10480,7 @@
   {
     "id": "bobcat-iv",
     "item_type": "Weapon",
+    "icon": "bobcat-iv.webp",
     "name": "Bobcat IV",
     "rarity": "epic",
     "value": 27000,
@@ -10022,6 +10518,7 @@
   {
     "id": "bombardier-cell",
     "item_type": "Recyclable",
+    "icon": "bombardier-cell.webp",
     "name": "Bombardier Cell",
     "rarity": "epic",
     "value": 5000,
@@ -10041,6 +10538,7 @@
   {
     "id": "bow-and-arrow-emote",
     "item_type": "Misc",
+    "icon": "bow-and-arrow-emote.webp",
     "name": "Bow and Arrow (Emote)",
     "rarity": "",
     "value": 0,
@@ -10051,6 +10549,7 @@
   {
     "id": "breathtaking-snow-globe",
     "item_type": "Trinket",
+    "icon": "breathtaking-snow-globe.webp",
     "name": "Breathtaking Snow Globe",
     "rarity": "epic",
     "value": 7000,
@@ -10061,6 +10560,7 @@
   {
     "id": "briefcase-backpack-attachment",
     "item_type": "Misc",
+    "icon": "briefcase-backpack-attachment.webp",
     "name": "Briefcase (Backpack Attachment)",
     "rarity": "",
     "value": 0,
@@ -10071,6 +10571,7 @@
   {
     "id": "broken-flashlight",
     "item_type": "Recyclable",
+    "icon": "broken-flashlight.webp",
     "name": "Broken Flashlight",
     "rarity": "rare",
     "value": 1000,
@@ -10095,6 +10596,7 @@
   {
     "id": "broken-guidance-system",
     "item_type": "Recyclable",
+    "icon": "broken-guidance-system.webp",
     "name": "Broken Guidance System",
     "rarity": "rare",
     "value": 2000,
@@ -10115,6 +10617,7 @@
   {
     "id": "broken-handcuffs",
     "item_type": "Recyclable",
+    "icon": "broken-handcuffs.webp",
     "name": "Broken Handcuffs",
     "rarity": "uncommon",
     "value": 270,
@@ -10130,6 +10633,7 @@
   {
     "id": "broken-handheld-radio",
     "item_type": "Recyclable",
+    "icon": "broken-handheld-radio.webp",
     "name": "Broken Handheld Radio",
     "rarity": "rare",
     "value": 2000,
@@ -10149,6 +10653,7 @@
   {
     "id": "broken-riot-shield",
     "item_type": "Recyclable",
+    "icon": "broken-riot-shield.webp",
     "name": "Broken Riot Shield",
     "rarity": "rare",
     "value": 1000,
@@ -10169,6 +10674,7 @@
   {
     "id": "broken-taser",
     "item_type": "Recyclable",
+    "icon": "broken-taser.webp",
     "name": "Broken Taser",
     "rarity": "rare",
     "value": 1000,
@@ -10188,6 +10694,7 @@
   {
     "id": "burgerboy-backpack-charm",
     "item_type": "Misc",
+    "icon": "burgerboy-backpack-charm.webp",
     "name": "Burgerboy (Backpack Charm)",
     "rarity": "",
     "value": 0,
@@ -10198,6 +10705,7 @@
   {
     "id": "buried-city-hospital-key",
     "item_type": "Quest Item",
+    "icon": "buried-city-hospital-key.webp",
     "name": "Buried City Hospital Key",
     "rarity": "uncommon",
     "value": 100,
@@ -10208,6 +10716,7 @@
   {
     "id": "buried-city-jkv-employee-access-card",
     "item_type": "Key",
+    "icon": "buried-city-jkv-employee-access-card.webp",
     "name": "Buried City JKV Employee Access Card",
     "rarity": "uncommon",
     "value": 100,
@@ -10218,6 +10727,7 @@
   {
     "id": "buried-city-residential-master-key",
     "item_type": "Quest Item",
+    "icon": "buried-city-residential-master-key.webp",
     "name": "Buried City Residential Master Key",
     "rarity": "uncommon",
     "value": 100,
@@ -10228,6 +10738,7 @@
   {
     "id": "buried-city-town-hall-key",
     "item_type": "Key",
+    "icon": "buried-city-town-hall-key.webp",
     "name": "Buried City Town Hall Key",
     "rarity": "epic",
     "value": 100,
@@ -10238,6 +10749,7 @@
   {
     "id": "burltetta-recipe",
     "item_type": "Blueprint",
+    "icon": "burltetta-recipe.webp",
     "name": "Burletta Blueprint",
     "rarity": "legendary",
     "value": 0,
@@ -10248,6 +10760,7 @@
   {
     "id": "burletta-i",
     "item_type": "Weapon",
+    "icon": "burletta-i.webp",
     "name": "Burletta I",
     "rarity": "uncommon",
     "value": 2900,
@@ -10285,6 +10798,7 @@
   {
     "id": "burletta-ii",
     "item_type": "Weapon",
+    "icon": "burletta-ii.webp",
     "name": "Burletta II",
     "rarity": "uncommon",
     "value": 5000,
@@ -10322,6 +10836,7 @@
   {
     "id": "burletta-iiii",
     "item_type": "Weapon",
+    "icon": "burletta-iiii.webp",
     "name": "Burletta III",
     "rarity": "uncommon",
     "value": 7000,
@@ -10359,6 +10874,7 @@
   {
     "id": "burletta-iv",
     "item_type": "Weapon",
+    "icon": "burletta-iv.webp",
     "name": "Burletta IV",
     "rarity": "uncommon",
     "value": 10000,
@@ -10396,6 +10912,7 @@
   {
     "id": "burned-arc-circuitry",
     "item_type": "Recyclable",
+    "icon": "burned-arc-circuitry.webp",
     "name": "Burned ARC Circuitry",
     "rarity": "uncommon",
     "value": 640,
@@ -10416,6 +10933,7 @@
   {
     "id": "camera-lens",
     "item_type": "Recyclable",
+    "icon": "camera-lens.webp",
     "name": "Camera Lens",
     "rarity": "uncommon",
     "value": 640,
@@ -10436,6 +10954,7 @@
   {
     "id": "candle-holder",
     "item_type": "Recyclable",
+    "icon": "candle-holder.webp",
     "name": "Candle Holder",
     "rarity": "uncommon",
     "value": 640,

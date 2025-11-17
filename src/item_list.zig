@@ -4,7 +4,7 @@ const state = @import("state.zig");
 
 pub const returnErrorHook = wsr.returnErrorHook;
 
-const ItemList = []const []const u8;
+const ItemList = []const Item;
 
 const StateCache = struct {
     alloc: std.mem.Allocator,
@@ -82,7 +82,11 @@ fn htmlEscape(s: []const u8) []const u8 {
 }
 
 pub export fn onItemList() void {
-    onItemListFailable() catch unreachable;
+    onItemListFailable() catch |e| {
+        wsr.print("{t}", .{e});
+        wsr.printCapturedBacktrace();
+        unreachable;
+    };
 }
 
 fn onItemListFailable() !void {
@@ -92,50 +96,40 @@ fn onItemListFailable() !void {
     var output_html = std.Io.Writer.Allocating.init(arena.allocator());
 
 
+    wsr.print("{s}", .{wsr.getInputBuffer()});
     const items = try std.json.parseFromSliceLeaky(ItemList, arena.allocator(), wsr.getInputBuffer(), .{
         .ignore_unknown_fields = true,
     });
+
     for (items) |item| {
-        try output_html.writer.print("<div item-name=\"{s}\" wsr-get=\"arcraiders-data/items/{s}.json\" wsr-call=\"onItemRetrieved\">{s}</div>", .{htmlEscape(item), urlEscape(item), htmlEscape(item)});
+        //const checked = global.state_cache.?.idTracked(item.id);
+            try output_html.writer.print(
+                \\<div item-name=\"{s}\">
+                \\  <input item-id="{s}" {s} type="checkbox" wsr-onevent="click" wsr-call="onItemClicked"/>
+                \\  <div class="item-card">
+                \\    <img class="item-img" src="images/{s}.webp" />
+                \\    <img src="rarity-overlay-{s}.png" title="{s}"/>
+                \\  </div>
+                \\</div>
+            , .{
+                htmlEscape(item.id),
+                htmlEscape(item.id),
+                htmlChecked(false),
+                htmlEscape(item.id),
+                htmlEscape(item.rarity orelse "uncommon"),
+                htmlEscape(item.name),
+            },
+        );
     }
 
     wsr.setSelfProperty(output_html.written(), "innerHTML");
 }
 
-const Translation = struct {
-    en: []const u8,
-
-    pub fn jsonParse(
-        allocator: std.mem.Allocator,
-        source: anytype,
-        options: std.json.ParseOptions,
-    ) !Translation {
-        if (try source.peekNextTokenType() == .string) {
-            return .{
-                .en = try std.json.innerParse([]const u8, allocator, source, options),
-            };
-        } else {
-            const Tmp = struct {
-                en: []const u8,
-            };
-
-            const ret = try std.json.innerParse(Tmp, allocator, source, options);
-            return .{
-                .en = ret.en,
-            };
-        }
-
-    }
-};
-
 const Item = struct {
-    id: []const u8,
-    name: Translation,
+    id: []const u8 = &.{},
+    name: []const u8 = &.{},
     rarity: ?[]const u8 = null,
-  imageFilename: ?[]const u8 = null,
-
-  const image_leading_string = "https://cdn.arctracker.io/";
-  const image_replace_string = "arcraiders-data/images/";
+    icon: ?[]const u8 = null,
 };
 
 
@@ -176,14 +170,6 @@ fn onItemClickedFailable() !void {
     try state.setState(arena.allocator(), try global.state_cache.?.toState(arena.allocator()));
 }
 
-pub export fn onItemRetrieved() void {
-    onItemRetrievedFailable() catch |e| {
-        wsr.print("Failed {t}\n", .{e});
-        wsr.printCapturedBacktrace();
-        unreachable;
-    };
-}
-
 fn htmlChecked(b: bool) []const u8 {
     if (b) return "checked" else return "";
 }
@@ -204,54 +190,6 @@ fn rarityMap(rarity_s: []const u8) []const u8 {
         .Rare => "rare",
         .Common => "common",
     };
-}
-
-fn onItemRetrievedFailable() !void {
-    var arena = std.heap.ArenaAllocator.init(std.heap.wasm_allocator);
-    defer arena.deinit();
-
-    var output_html = std.Io.Writer.Allocating.init(arena.allocator());
-
-    var scanner = std.json.Scanner.initCompleteInput(arena.allocator(), wsr.getInputBuffer());
-    var diagnostics = std.json.Diagnostics{};
-    scanner.enableDiagnostics(&diagnostics);
-    const item = std.json.parseFromTokenSourceLeaky(Item, arena.allocator(), &scanner, .{
-        .allocate = .alloc_always,
-        .ignore_unknown_fields = true,
-    }) catch |e| {
-        wsr.print("{s}", .{wsr.getInputBuffer()});
-        wsr.print("diagnostics {any}", .{diagnostics});
-        return e;
-    };
-
-    const checked = global.state_cache.?.idTracked(item.id);
-
-    if (std.mem.eql(u8, item.id, "damaged_arc_powercell",)) {
-        wsr.print("Setting {s} as {}", .{item.id, checked});
-    }
-    try output_html.writer.print(
-        //\\<div>{s}</div>
-        \\<input item-id="{s}" {s} type="checkbox" wsr-onevent="click" wsr-call="onItemClicked"/>
-        , .{htmlEscape(item.id), htmlChecked(checked), },
-    );
-    if (item.imageFilename) |f| {
-        // FIXME: What to do when image is not present?
-        try output_html.writer.print(
-            \\<div class="item-card">
-            \\<img class="item-img" src="{s}{s}" />
-            \\<img src="rarity-overlay-{s}.png" title="{s}"/>
-            \\</div>
-        , .{Item.image_replace_string, urlEscape(f[Item.image_leading_string.len..]), rarityMap(item.rarity orelse ""), htmlEscape(item.name.en) });
-    } else {
-        try output_html.writer.print(
-            \\<div class="item-card">
-            \\<img src="not-found.png" />
-            \\<img src="rarity-overlay-{s}.png" title="{s}"/>
-            \\</div>
-        , .{rarityMap(item.rarity orelse ""), htmlEscape(item.name.en)});
-    }
-
-    wsr.setSelfProperty(output_html.written(), "innerHTML");
 }
 
 // FIXME: Copy pasting URLs with different #states does not trigger a checkmark state update
