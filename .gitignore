@@ -1,2 +1,5 @@
 .zig-cache
 zig-out
+data-retrieval/metadata_cache
+html-root/images
+html-root/preprocessed.json

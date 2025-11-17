@@ -11,6 +11,7 @@ pkgs.mkShell {
     python3
     pkg-config
     black
+    pyright
   ];
 }
 

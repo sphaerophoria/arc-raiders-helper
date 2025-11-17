@@ -1,3 +1,11 @@
-# Zig WSR example
+# ARC raiders looting helper
 
-A quick lil' hello world. Run a webserver in html-root after building
+## Getting running
+```
+zig build
+./data-retrieval/update.sh
+cd html-root
+python -m http.server
+```
+
+
