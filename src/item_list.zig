@@ -10,7 +10,6 @@ const StateCache = struct {
     alloc: std.mem.Allocator,
     items: std.StringHashMapUnmanaged(void),
 
-
     fn idTracked(self: StateCache, id: []const u8) bool {
         return self.items.contains(id);
     }
@@ -23,6 +22,16 @@ const StateCache = struct {
     fn add(self: *StateCache, s: []const u8) !void {
         const cloned = try self.alloc.dupe(u8, s);
         try self.items.put(self.alloc, cloned, {});
+    }
+
+    fn toggleTracked(self: *StateCache, s: []const u8) !bool {
+        if (self.idTracked(s)) {
+            self.remove(s);
+            return false;
+        } else {
+            try self.add(s);
+            return true;
+        }
     }
 
     fn fromState(s: state.State) !StateCache {
@@ -50,8 +59,11 @@ const StateCache = struct {
     }
 };
 
+const ItemMap = std.StringHashMapUnmanaged(Item);
+
 var global = struct {
     state_cache: ?StateCache = null,
+    item_map: ItemMap = .{},
 }{};
 
 pub export fn initPage() void {
@@ -69,6 +81,7 @@ pub fn initPageFailable() !void {
     var scanner = std.json.Scanner.initCompleteInput(arena.allocator(), wsr.getInputBuffer());
     var diagnostics = std.json.Diagnostics{};
     scanner.enableDiagnostics(&diagnostics);
+
     const items = std.json.parseFromTokenSourceLeaky(ItemList, arena.allocator(), &scanner, .{
         .allocate = .alloc_always,
         .ignore_unknown_fields = true,
@@ -76,6 +89,20 @@ pub fn initPageFailable() !void {
         wsr.print("{any}", .{diagnostics});
         return e;
     };
+
+    for (items) |item| {
+        // A little inefficient, but we parse the json into our temp allocator
+        // because it will allocate more than we technically want to store. We
+        // then copy into the real global alloc for the stuff we want to keep.
+        // In reality it might be better to just over-allocate directly onto
+        // the global alloc
+        const duped = try item.dupe(std.heap.wasm_allocator);
+        try global.item_map.put(
+            std.heap.wasm_allocator,
+            duped.id,
+            duped,
+        );
+    }
 
     // FIXME: localstorage or URL based state
     //
@@ -86,8 +113,13 @@ pub fn initPageFailable() !void {
     global.state_cache = try StateCache.fromState(s);
 
     var untracked_writer = std.Io.Writer.Allocating.init(arena.allocator());
-    try generateItemList(items, &untracked_writer.writer);
+    var tracked_writer = std.Io.Writer.Allocating.init(arena.allocator());
+    try generateItemList(items, &untracked_writer.writer, &tracked_writer.writer);
+
     wsr.setElemProperty("untracked-items", untracked_writer.written(), "innerHTML");
+    wsr.setElemProperty("tracked-items", tracked_writer.written(), "innerHTML");
+
+    try regenerateComponents();
 }
 
 fn urlEscape(s: []const u8) []const u8 {
@@ -129,6 +161,7 @@ const ItemLevelOverlay = struct {
             , .{htmlEscape(level)});
     }
 };
+
 const ItemHtmlWidget = struct {
     item: Item,
 
@@ -148,7 +181,6 @@ const ItemHtmlWidget = struct {
             }
         );
     }
-
 };
 
 fn shouldSkipItem(item: Item) bool {
@@ -159,28 +191,41 @@ fn shouldSkipItem(item: Item) bool {
     }
 }
 
-fn generateItemList(items: ItemList, untracked_writer: *std.Io.Writer) !void {
+fn generateItemList(items: ItemList, untracked_writer: *std.Io.Writer, tracked_writer: *std.Io.Writer) !void {
     for (items) |item| {
-
         if (shouldSkipItem(item)) {
             continue;
         }
 
         const tracked = global.state_cache.?.idTracked(item.id);
-        try untracked_writer.print(
-            \\<div item-name=\"{[id]s}\">
-            \\  <input item-id="{[id]s}" {[checked]s} type="checkbox" wsr-onevent="click" wsr-call="onItemClicked"/>
+        const writer = if (tracked) tracked_writer else untracked_writer;
+        try writer.print(
+            \\<div item-id="{[id]s}" wsr-onevent="click" wsr-call="onItemClicked" >
             \\  {[item_card]f}
             \\</div>
         , .{
-            .id = htmlEscape(item.id),
-            .checked = htmlChecked(tracked),
-            .item_card = ItemHtmlWidget { .item = item },
-        },
+                .id = htmlEscape(item.id),
+                .item_card = ItemHtmlWidget { .item = item },
+            },
         );
     }
 }
 
+const Component = struct {
+    id: []const u8,
+    quantity: u16,
+
+    fn dupe(self: Component, alloc: std.mem.Allocator) !Component {
+        return .{
+            .id = try alloc.dupe(u8, self.id),
+            .quantity = self.quantity,
+        };
+    }
+};
+
+// FIXME: JSON repr != internal repr
+//
+// Convert rarity to enum
 const Item = struct {
     id: []const u8 = &.{},
     item_type: []const u8,
@@ -188,6 +233,24 @@ const Item = struct {
     name: []const u8 = &.{},
     rarity: ?[]const u8 = null,
     icon: ?[]const u8 = null,
+    components: []Component,
+
+    fn dupe(self: Item, alloc: std.mem.Allocator) !Item {
+        const new_components = try alloc.alloc(Component, self.components.len);
+        for (self.components, new_components) |old, *new| {
+            new.* = try old.dupe(alloc);
+        }
+
+        return .{
+            .id = try alloc.dupe(u8, self.id),
+            .item_type = try alloc.dupe(u8, self.item_type),
+            .item_level = if (self.item_level) |l| try alloc.dupe(u8, l) else null,
+            .name = try alloc.dupe(u8, self.name),
+            .rarity = if (self.rarity) |r| try alloc.dupe(u8, r) else null,
+            .icon = if (self.icon) |i| try alloc.dupe(u8, i) else null,
+            .components = new_components,
+        };
+    }
 };
 
 
@@ -215,17 +278,76 @@ fn onItemClickedFailable() !void {
     var arena = std.heap.ArenaAllocator.init(std.heap.wasm_allocator);
     defer arena.deinit();
 
-    wsr.getSelfProperty("checked");
-    const is_checked = try stringToBool(wsr.getInputBuffer());
+    wsr.getTargetAttribute("item-id");
+    wsr.print("{s}", .{wsr.getInputBuffer()});
 
-    wsr.getSelfAttribute("item-id");
-    if (is_checked) {
-        try global.state_cache.?.add(wsr.getInputBuffer());
-    } else {
-        global.state_cache.?.remove(wsr.getInputBuffer());
-    }
+    const tracked = try global.state_cache.?.toggleTracked(wsr.getInputBuffer());
+
+    const to_append_id = if (tracked) "tracked-items" else "untracked-items";
+
+    // FIXME: Hide from untracked instead of remove to preserve sort order
+    wsr.getTargetProperty("outerHTML");
+    wsr.appendToElem(to_append_id, wsr.getInputBuffer());
+    wsr.setTargetProperty("", "outerHTML");
+
+    try regenerateComponents();
 
     try state.setState(arena.allocator(), try global.state_cache.?.toState(arena.allocator()));
+}
+
+const ComponentListBuilder = struct {
+    quantities: std.StringHashMap(u32),
+
+    fn addComponent(self: *ComponentListBuilder, item_id: []const u8, quantity: u32, multiplier: u32) !void {
+        const gop = try self.quantities.getOrPut(item_id);
+        if (!gop.found_existing) {
+            gop.value_ptr.* = 0;
+        }
+
+        gop.value_ptr.* += quantity * multiplier;
+
+        const item = global.item_map.get(item_id).?;
+        for (item.components) |component| {
+            try self.addComponent(component.id, component.quantity, quantity);
+        }
+    }
+};
+
+fn regenerateComponents() !void {
+    var arena = std.heap.ArenaAllocator.init(std.heap.wasm_allocator);
+    defer arena.deinit();
+
+    var builder = ComponentListBuilder {
+        .quantities = .init(arena.allocator()),
+    };
+
+    var tracked_item_it = global.state_cache.?.items.keyIterator();
+    while (tracked_item_it.next()) |tracked_item_id| {
+        const item = global.item_map.get(tracked_item_id.*).?;
+        for (item.components) |component| {
+            try builder.addComponent(component.id, component.quantity, 1);
+        }
+    }
+
+    var component_writer = std.Io.Writer.Allocating.init(arena.allocator());
+
+    var component_it = builder.quantities.iterator();
+    while (component_it.next()) |kv| {
+        const item = global.item_map.get(kv.key_ptr.*).?;
+        if (shouldSkipItem(item)) continue;
+        try component_writer.writer.print(
+            \\<div class="component-item">
+            \\<div class="item-quantity-overlay">{d}</div>
+            \\{f}
+            \\</div>
+            , .{
+            kv.value_ptr.*,
+            ItemHtmlWidget { .item = item },
+        });
+        wsr.print("{s}: {d}", .{kv.key_ptr.*, kv.value_ptr.*});
+    }
+
+    wsr.setElemProperty("item-components", component_writer.written(), "innerHTML");
 }
 
 fn htmlChecked(b: bool) []const u8 {

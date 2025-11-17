@@ -38,9 +38,17 @@
 	margin-right: 5px;
 }
 
-.items-pane {
+.unselected-items-pane {
 	width: 40%;
 	height: 100vh;
+}
+
+.selected-items-pane {
+	height: 50vh;
+	flex-grow: 1
+}
+
+.items-pane {
 	display: flex;
 	flex-direction: column;
 }
@@ -52,7 +60,19 @@
 body {
 	color: #ecdbc9;
 	background: #090b17;
-	display: block;
+	display: flex;
 	margin: 0;
 	padding: 0;
+	gap: 20px;
+}
+
+.item-quantity-overlay {
+	position: absolute;
+	left: 10px;
+	top: 5px;
+	background: #00000088;
+}
+
+.component-item {
+	position: relative;
 }
