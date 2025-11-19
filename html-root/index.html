@@ -2,6 +2,48 @@
 <html>
 	<head>
 		<script src="wsr.js" wasm-url="item-list.wasm"></script>
+		<script>
+			function setState(state_ptr, state_len) {
+				localStorage.setItem("state", getWasmString(state_ptr, state_len))
+			}
+
+			function getState() {
+				let state = localStorage.getItem("state");
+				if (state === null) {
+					state = "";
+				}
+
+				setWasmInputBuffer(state)
+			}
+
+			drag_target = null;
+			drag_start = null;
+			drag_initial_val = null;
+
+			function handleDragMove(ev) {
+				ev.dragStart = drag_start;
+				ev.initialVal = drag_initial_val;
+				callWasmTargetEvent(drag_target, ev, "onStashSizeDrag");
+				ev.preventDefault();
+			}
+
+			function handleDragEnd(ev) {
+				window.removeEventListener("mousemove", handleDragMove)
+				window.removeEventListener("mouseup", handleDragEnd)
+			}
+
+			function startDrag(ev) {
+				drag_target = ev.target;
+				drag_start = ev.clientY;
+				drag_initial_val = ev.target.innerHTML;
+				window.addEventListener("mousemove", handleDragMove);
+				window.addEventListener("mouseup", handleDragEnd);
+				ev.preventDefault();
+			}
+
+			wsrCallbacks["setState"] = setState;
+			wsrCallbacks["getState"] = getState;
+		</script>
 		<link rel="stylesheet" href="index.css" />
 	</head>
 	<body wsr-get="/preprocessed.json" wsr-call="initPage" >

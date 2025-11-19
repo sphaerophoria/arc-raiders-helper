@@ -1,31 +1,38 @@
 const std = @import("std");
 const wsr = @import("wsr");
 
-pub const State = []const []const u8;
+pub const ItemQuantity = struct {
+    id: []const u8,
+    quantity: u32,
+};
+
+pub const State = struct {
+    tracked_items: []const []const u8 = &.{},
+    stash_quantities: []ItemQuantity = &.{},
+};
+
+const imported = struct {
+    extern fn getState() void;
+    extern fn setState(state_ptr: [*]const u8, state_len: usize) void;
+};
 
 pub fn setState(alloc: std.mem.Allocator, state: State) !void {
     const serialized = try std.json.Stringify.valueAlloc(alloc, state, .{});
-    var serialized_writer = std.Io.Writer.Allocating.init(alloc);
-    try serialized_writer.writer.writeByte('#');
-    try std.base64.url_safe.Encoder.encodeWriter(&serialized_writer.writer, serialized);
-    wsr.setWindowProperty(serialized_writer.written(), "location");
+    imported.setState(serialized.ptr, serialized.len);
 }
 
 pub fn getState(alloc: std.mem.Allocator) !State {
-    wsr.getWindowProperty("location");
+    imported.getState();
+    const state_str = wsr.getInputBuffer();
+    if (state_str.len == 0) {
+        return .{};
+    }
 
-    const loc = wsr.getInputBuffer();
-    const state_key = "#";
-    const state_start = (std.mem.indexOf(u8, loc, state_key) orelse return &.{}) + state_key.len;
-    const state = loc[state_start..];
-
-    if (state.len == 0) return &.{};
-
-    const serialized = try alloc.alloc(u8, try std.base64.url_safe.Decoder.calcSizeForSlice(state));
-    try std.base64.url_safe.Decoder.decode(serialized, state);
-
-    return try std.json.parseFromSliceLeaky(State, alloc, serialized, .{
+    return std.json.parseFromSliceLeaky(State, alloc, state_str, .{
         .allocate = .alloc_always,
-    });
+    }) catch {
+        wsr.print("Invalid state, resetting", .{});
+        return .{};
+    };
 }
 
