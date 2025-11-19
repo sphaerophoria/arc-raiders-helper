@@ -6,10 +6,13 @@ pub const returnErrorHook = wsr.returnErrorHook;
 
 const ItemList = []const Item;
 
+const imported = struct {
+    pub extern fn toggleTargetClass(class_ptr: [*]const u8, class_len: usize) void;
+};
+
 const StateCache = struct {
     alloc: std.mem.Allocator,
     items: std.StringHashMapUnmanaged(void),
-    // FIXME: Rename to stash quanitty
     stash_quantities: std.StringHashMapUnmanaged(u32),
 
     fn idTracked(self: StateCache, id: []const u8) bool {
@@ -309,6 +312,18 @@ fn shouldSkipItem(item: Item) bool {
     }
 }
 
+fn makeTrackedItem(item: Item, writer: *std.Io.Writer) !void {
+    try writer.print(
+        \\<div id="{[id]s}-tracked" item-id="{[id]s}" wsr-onevent="click" wsr-call="onTrackedItemClicked" >
+        \\  {[item_card]f}
+        \\</div>
+    , .{
+            .id = htmlEscape(item.id),
+            .item_card = ItemHtmlWidget { .item = item },
+        },
+    );
+}
+
 fn generateItemList(items: ItemList, untracked_writer: *std.Io.Writer, tracked_writer: *std.Io.Writer) !void {
     for (items) |item| {
         if (shouldSkipItem(item)) {
@@ -316,16 +331,23 @@ fn generateItemList(items: ItemList, untracked_writer: *std.Io.Writer, tracked_w
         }
 
         const tracked = global.state_cache.?.idTracked(item.id);
-        const writer = if (tracked) tracked_writer else untracked_writer;
-        try writer.print(
-            \\<div item-id="{[id]s}" wsr-onevent="click" wsr-call="onItemClicked" >
+
+        const hidden_style = if (tracked) "display: none" else "";
+
+        try untracked_writer.print(
+            \\<div id="{[id]s}-untracked" style="{[hidden_style]s}" item-id="{[id]s}" wsr-onevent="click" wsr-call="onUntrackedItemClicked" >
             \\  {[item_card]f}
             \\</div>
         , .{
                 .id = htmlEscape(item.id),
                 .item_card = ItemHtmlWidget { .item = item },
+                .hidden_style = hidden_style,
             },
         );
+
+        if (tracked) {
+            try makeTrackedItem(item, tracked_writer);
+        }
     }
 }
 
@@ -382,8 +404,8 @@ fn stringToBool(s: []const u8) !bool {
     return b == .true;
 }
 
-pub export fn onItemClicked() void {
-    onItemClickedFailable() catch |e| {
+pub export fn onTrackedItemClicked() void {
+    onTrackedItemClickedFailable() catch |e| {
         wsr.print("{t}\n", .{e});
         if (@errorReturnTrace()) |t| {
             wsr.print("trace: {any}", .{t});
@@ -392,24 +414,48 @@ pub export fn onItemClicked() void {
     };
 }
 
-fn onItemClickedFailable() !void {
+fn onTrackedItemClickedFailable() !void {
     var arena = std.heap.ArenaAllocator.init(std.heap.wasm_allocator);
     defer arena.deinit();
 
     wsr.getTargetAttribute("item-id");
-    wsr.print("{s}", .{wsr.getInputBuffer()});
+    global.state_cache.?.removeItem(wsr.getInputBuffer());
 
-    const tracked = try global.state_cache.?.toggleTracked(wsr.getInputBuffer());
-
-    const to_append_id = if (tracked) "tracked-items" else "untracked-items";
-
-    // FIXME: Hide from untracked instead of remove to preserve sort order
-    wsr.getTargetProperty("outerHTML");
-    wsr.appendToElem(to_append_id, wsr.getInputBuffer());
     wsr.setTargetProperty("", "outerHTML");
 
-    try regenerateComponents();
+    const untracked_dom_id = try std.fmt.allocPrint(arena.allocator(), "{s}-untracked", .{wsr.getInputBuffer()});
+    wsr.setElemAttribute(untracked_dom_id, "", "style");
 
+    try regenerateComponents();
+    try state.setState(arena.allocator(), try global.state_cache.?.toState(arena.allocator()));
+}
+
+pub export fn onUntrackedItemClicked() void {
+    onUntrackedItemClickedFailable() catch |e| {
+        wsr.print("{t}\n", .{e});
+        if (@errorReturnTrace()) |t| {
+            wsr.print("trace: {any}", .{t});
+        }
+        unreachable;
+    };
+}
+
+fn onUntrackedItemClickedFailable() !void {
+    var arena = std.heap.ArenaAllocator.init(std.heap.wasm_allocator);
+    defer arena.deinit();
+
+    wsr.getTargetAttribute("item-id");
+    try global.state_cache.?.addItem(wsr.getInputBuffer());
+
+    var writer = std.Io.Writer.Allocating.init(arena.allocator());
+
+    const item = global.item_map.get(wsr.getInputBuffer()) orelse return error.InvalidItem;
+    try makeTrackedItem(item, &writer.writer);
+    wsr.appendToElem("tracked-items", writer.written());
+
+    wsr.setTargetAttribute("display: none;", "style");
+
+    try regenerateComponents();
     try state.setState(arena.allocator(), try global.state_cache.?.toState(arena.allocator()));
 }
 
@@ -426,7 +472,7 @@ const ComponentListBuilder = struct {
 
         const item = global.item_map.get(item_id).?;
         for (item.components) |component| {
-            try self.addComponent(component.id, component.quantity, quantity);
+            try self.addComponent(component.id, component.quantity, quantity * multiplier);
         }
     }
 };

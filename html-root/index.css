@@ -1,6 +1,7 @@
 :root {
 	--light-text: #ecdbc9;
 	--dark-text: #0a111b;
+	--background: #080c1d;
 }
 
 .items {
@@ -61,7 +62,9 @@
 
 .selected-items-pane {
 	flex-grow: 1;
+	flex-shrink: 1;
 	overflow: scroll;
+	min-height: 200px;
 }
 
 .items-pane {
@@ -75,7 +78,7 @@
 
 body {
 	color: var(--light-text);
-	background: #090b17;
+	background: var(--background);
 	display: flex;
 	margin: 0;
 	padding: 0;
@@ -95,8 +98,11 @@ body {
 
 .component-items-pane {
 	flex-grow: 1;
+	flex-shrink: 1;
 	overflow: scroll;
+	min-height: 200px;
 }
+
 .component-preview {
 	position: relative;
 }
