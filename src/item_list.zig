@@ -253,6 +253,11 @@ const RuntimeFormatter = struct {
 
     ctx: ?*const anyopaque,
     f: ?FormatFn,
+
+    pub fn format(self: RuntimeFormatter, writer: *std.Io.Writer) !void {
+        const f = self.f orelse return;
+        return f(self.ctx, writer);
+    }
 };
 
 fn runtimeFormatFnWrapper(comptime T: type)  RuntimeFormatter.FormatFn {
@@ -284,23 +289,53 @@ const ItemHtmlWidget = struct {
             \\    <img class="item-rarity-overlay" src="rarity-overlay-{[rarity]s}.png" title="{[name]s}"/>
             \\  </div>
             \\  <div class="item-extradata">
+            \\    {[extra_data]f}
+            \\  </div>
+            \\</div>
             , .{
                 .id = htmlEscape(self.item.id),
                 .item_level_overlay = ItemLevelOverlay { .level = self.item.item_level },
                 .name = htmlEscape(self.item.name),
                 .gun_class = itemTypeToGunClass(self.item.item_type),
                 .rarity = htmlEscape(self.item.rarity orelse "uncommon"),
+                .extra_data = self.extra_data,
             }
         );
+    }
+};
 
-        if (self.extra_data.f) |f| {
-            try f(self.extra_data.ctx, writer);
-        }
+const DragIntHtmlWidgetInner = struct {
+    val: u32,
 
-        try writer.writeAll(
-            \\  </div>
+    pub fn format(self: DragIntHtmlWidgetInner, writer: *std.Io.Writer) std.Io.Writer.Error!void {
+        try writer.print(
+            \\<div>{[val]d}</div>
+            \\<div>
+            \\  <div class="drag-int-up"></div>
+            \\  <div class="drag-int-down"></div>
             \\</div>
-        );
+            , self);
+    }
+};
+const DragIntHtmlWidget = struct {
+    val: u32,
+    on_drag: []const u8,
+    extra_attrs: RuntimeFormatter,
+
+    pub fn format(self: DragIntHtmlWidget, writer: *std.Io.Writer) std.Io.Writer.Error!void {
+        const inner = DragIntHtmlWidgetInner {
+            .val = self.val,
+        };
+        try writer.print(
+            \\<div class="drag-int" {[extra_attrs]f} onmousedown="startDrag(event, &quot;{[on_drag]s}&quot;)">
+            \\  {[inner]f}
+            \\</div>
+            , .{
+                .on_drag = self.on_drag,
+                .extra_attrs = self.extra_attrs,
+                .inner =makeRuntimeFormatter(&inner),
+            });
+
     }
 };
 
@@ -483,18 +518,40 @@ const ComponentConfigurationWidget = struct {
     stash_size: u32,
 
     pub fn format(self: ComponentConfigurationWidget, writer: *std.Io.Writer) !void {
+        const DragAttrs = struct {
+            item_id: []const u8,
+
+            pub fn format(ctx: @This(), w: *std.Io.Writer) !void {
+                try w.print(
+                    \\item-id="{[item_id]s}" id="{[item_id]s}-stash-amount"
+                , ctx);
+            }
+        };
+
+        const drag_attrs = DragAttrs{
+            .item_id = self.item_id,
+        };
+
+        // FIXME: Inline styling here is stupid
         try writer.print(
             \\<div>
-            \\  <div style="display:flex;">
+            \\  <div style="display:flex; align-items: center">
             \\    <div style="flex-grow: 1;">Stash: </div>
-            \\    <div item-id="{[item_id]s}" id="{[item_id]s}-stash-amount" onmousedown="startDrag(event)">{[stash_size]d}</div>
+            \\    {[drag]f}
             \\  </div>
-            \\  <div style="display:flex;">
-            \\    <div style="flex-grow: 1;">Desired: </div>
+            \\  <div style="display:flex; align-items: center">
+            \\    <div style="flex-grow: 1;">Need: </div>
             \\    <div>{[desired_quantity]d}</div>
             \\  </div>
             \\</div>
-            , self);
+            , .{
+                .desired_quantity = self.desired_quantity,
+                .drag = DragIntHtmlWidget {
+                    .val = self.stash_size,
+                    .on_drag = "onStashSizeDrag",
+                    .extra_attrs = makeRuntimeFormatter(&drag_attrs),
+                },
+            });
     }
 };
 
@@ -651,11 +708,13 @@ fn onStashSizeDragFailable() !void {
     wsr.getEventProperty("movementY");
     const mouse_movement = mouse_y - start_mouse_y;
 
-    var size_buf: [10]u8 = undefined;
+    var size_buf: [150]u8 = undefined;
     var writer = std.Io.Writer.fixed(&size_buf);
 
     const val: u32 = @intFromFloat(@max(0, initial_val - mouse_movement));
-    try writer.print("{d}", .{val});
+    try writer.print("{f}", .{DragIntHtmlWidgetInner{
+        .val = val,
+    }});
 
     wsr.setTargetProperty(writer.buffered(), "innerHTML");
 

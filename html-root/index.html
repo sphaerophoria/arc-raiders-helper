@@ -19,23 +19,29 @@
 			drag_target = null;
 			drag_start = null;
 			drag_initial_val = null;
+			drag_callback = null;
 
 			function handleDragMove(ev) {
 				ev.dragStart = drag_start;
 				ev.initialVal = drag_initial_val;
-				callWasmTargetEvent(drag_target, ev, "onStashSizeDrag");
+				callWasmTargetEvent(drag_target, ev, drag_callback);
 				ev.preventDefault();
 			}
 
 			function handleDragEnd(ev) {
+				drag_target.classList.remove("dragging");
 				window.removeEventListener("mousemove", handleDragMove)
 				window.removeEventListener("mouseup", handleDragEnd)
 			}
 
-			function startDrag(ev) {
-				drag_target = ev.target;
+			function startDrag(ev, callback) {
+				drag_target = ev.currentTarget;
 				drag_start = ev.clientY;
 				drag_initial_val = ev.target.innerHTML;
+				drag_callback = callback;
+
+				ev.target.classList.add("dragging");
+
 				window.addEventListener("mousemove", handleDragMove);
 				window.addEventListener("mouseup", handleDragEnd);
 				ev.preventDefault();
