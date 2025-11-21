@@ -7,7 +7,7 @@ pub const ItemQuantity = struct {
 };
 
 pub const State = struct {
-    tracked_items: []const []const u8 = &.{},
+    tracked_items: []ItemQuantity = &.{},
     stash_quantities: []ItemQuantity = &.{},
 };
 
@@ -28,11 +28,20 @@ pub fn getState(alloc: std.mem.Allocator) !State {
         return .{};
     }
 
-    return std.json.parseFromSliceLeaky(State, alloc, state_str, .{
+    const ret =  std.json.parseFromSliceLeaky(State, alloc, state_str, .{
         .allocate = .alloc_always,
     }) catch {
         wsr.print("Invalid state, resetting", .{});
         return .{};
     };
+
+    for (ret.tracked_items) |item| {
+        if (std.mem.eql(u8, item.id, "null")) {
+            wsr.print("Invalid state, resetting", .{});
+            return .{};
+        }
+    }
+
+    return ret;
 }
 

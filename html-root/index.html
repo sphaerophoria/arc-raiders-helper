@@ -29,6 +29,7 @@
 			}
 
 			function handleDragEnd(ev) {
+				console.log("ended baybe", drag_target);
 				drag_target.classList.remove("dragging");
 				window.removeEventListener("mousemove", handleDragMove)
 				window.removeEventListener("mouseup", handleDragEnd)
@@ -40,7 +41,7 @@
 				drag_initial_val = ev.target.innerHTML;
 				drag_callback = callback;
 
-				ev.target.classList.add("dragging");
+				drag_target.classList.add("dragging");
 
 				window.addEventListener("mousemove", handleDragMove);
 				window.addEventListener("mouseup", handleDragEnd);

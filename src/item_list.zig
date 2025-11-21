@@ -12,7 +12,7 @@ const imported = struct {
 
 const StateCache = struct {
     alloc: std.mem.Allocator,
-    items: std.StringHashMapUnmanaged(void),
+    items: std.StringHashMapUnmanaged(u32),
     stash_quantities: std.StringHashMapUnmanaged(u32),
 
     fn idTracked(self: StateCache, id: []const u8) bool {
@@ -24,22 +24,30 @@ const StateCache = struct {
         self.alloc.free(kv.key);
     }
 
-    fn addItem(self: *StateCache, s: []const u8) !void {
+    fn addItem(self: *StateCache, s: []const u8, val: u32) !void {
         const cloned = try self.alloc.dupe(u8, s);
-        try self.items.put(self.alloc, cloned, {});
+        try self.items.put(self.alloc, cloned, val);
+    }
+
+    fn updateLoadoutQuantity(self: *StateCache, s: []const u8, val: u32) !void {
+        try updateMapQuantity(self.alloc, &self.items, s, val);
     }
 
     fn updateStashQuantity(self: *StateCache, s: []const u8, val: u32) !void {
+        try updateMapQuantity(self.alloc, &self.stash_quantities, s, val);
+    }
+
+    fn updateMapQuantity(alloc: std.mem.Allocator, map: anytype, s: []const u8, val: anytype) !void {
         if (val == 0) {
-            const kv = self.stash_quantities.fetchRemove(s) orelse return;
-            self.alloc.free(kv.key);
+            const kv = map.fetchRemove(s) orelse return;
+            alloc.free(kv.key);
             return;
         }
 
-        const gop = try self.stash_quantities.getOrPut(self.alloc, s);
+        const gop = try map.getOrPut(alloc, s);
 
         if (!gop.found_existing) {
-            gop.key_ptr.* = try self.alloc.dupe(u8, s);
+            gop.key_ptr.* = try alloc.dupe(u8, s);
         }
         gop.value_ptr.* = val;
     }
@@ -58,12 +66,12 @@ const StateCache = struct {
         const alloc = std.heap.wasm_allocator;
         var ret = StateCache{
             .alloc = alloc,
-            .items = std.StringHashMapUnmanaged(void){},
+            .items = std.StringHashMapUnmanaged(u32){},
             .stash_quantities = std.StringHashMapUnmanaged(u32){},
         };
 
         for (s.tracked_items) |item| {
-            try ret.addItem(item);
+            try ret.addItem(item.id, item.quantity);
         }
 
         for (s.stash_quantities) |item| {
@@ -74,11 +82,14 @@ const StateCache = struct {
     }
 
     fn toState(self: StateCache, alloc: std.mem.Allocator) !state.State {
-        var tracked_items = std.ArrayList([]const u8).initBuffer(try alloc.alloc([]const u8, self.items.count()));
+        var tracked_items = std.ArrayList(state.ItemQuantity).initBuffer(try alloc.alloc(state.ItemQuantity, self.items.count()));
         {
             var it = self.items.iterator();
             while (it.next()) |entry| {
-                tracked_items.appendBounded(entry.key_ptr.*) catch unreachable;
+                tracked_items.appendBounded(.{
+                    .id = entry.key_ptr.*,
+                    .quantity = entry.value_ptr.*,
+                }) catch unreachable;
             }
         }
 
@@ -108,10 +119,7 @@ var global = struct {
 }{};
 
 pub export fn initPage() void {
-    initPageFailable() catch {
-        wsr.printCapturedBacktrace();
-        unreachable;
-    };
+    wrapFailable(initPageFailable);
 }
 
 pub fn initPageFailable() !void {
@@ -150,6 +158,7 @@ pub fn initPageFailable() !void {
     // Share URL -> loadouts
     // Usually... use localstorage
     const s = try state.getState(arena.allocator());
+
     global.state_cache = try StateCache.fromState(s);
 
     std.mem.sort(Item, items, {}, struct {
@@ -278,19 +287,13 @@ fn makeRuntimeFormatter(ctx: anytype) RuntimeFormatter {
 
 const ItemHtmlWidget = struct {
     item: Item,
-    extra_data: RuntimeFormatter = .empty,
 
     pub fn format(self: ItemHtmlWidget, writer: *std.Io.Writer) std.Io.Writer.Error!void {
         try writer.print(
-            \\<div class="item-card">
-            \\  <div class="item-img-stack">
-            \\    <img class="item-img {[gun_class]s}" src="images/{[id]s}.webp" title="{[name]s}"/>
-            \\    {[item_level_overlay]f}
-            \\    <img class="item-rarity-overlay" src="rarity-overlay-{[rarity]s}.png" title="{[name]s}"/>
-            \\  </div>
-            \\  <div class="item-extradata">
-            \\    {[extra_data]f}
-            \\  </div>
+            \\<div class="item-img-stack">
+            \\  <img class="item-img {[gun_class]s}" src="images/{[id]s}.webp" title="{[name]s}"/>
+            \\  {[item_level_overlay]f}
+            \\  <img class="item-rarity-overlay" src="rarity-overlay-{[rarity]s}.png" title="{[name]s}"/>
             \\</div>
             , .{
                 .id = htmlEscape(self.item.id),
@@ -298,7 +301,6 @@ const ItemHtmlWidget = struct {
                 .name = htmlEscape(self.item.name),
                 .gun_class = itemTypeToGunClass(self.item.item_type),
                 .rarity = htmlEscape(self.item.rarity orelse "uncommon"),
-                .extra_data = self.extra_data,
             }
         );
     }
@@ -348,13 +350,41 @@ fn shouldSkipItem(item: Item) bool {
 }
 
 fn makeTrackedItem(item: Item, writer: *std.Io.Writer) !void {
+
+    const DragAttrs = struct {
+        item_id: []const u8,
+
+        pub fn format(ctx: @This(), w: *std.Io.Writer) !void {
+            try w.print(
+                \\item-id="{[item_id]s}" id="{[item_id]s}-stash-amount"
+            , ctx);
+        }
+    };
+
+    const drag_attrs = DragAttrs{
+        .item_id = item.id,
+    };
+
+    const drag = DragIntHtmlWidget {
+        .val = global.state_cache.?.items.get(item.id) orelse unreachable,
+        .extra_attrs = makeRuntimeFormatter(&drag_attrs),
+        .on_drag = "onLoadoutQuantityChanged",
+    };
+
     try writer.print(
-        \\<div id="{[id]s}-tracked" item-id="{[id]s}" wsr-onevent="click" wsr-call="onTrackedItemClicked" >
-        \\  {[item_card]f}
+        \\<div class="item-card" id="{[id]s}-tracked" >
+        \\  <div item-id="{[id]s}" remove-id="{[id]s}-tracked" wsr-onevent="click" wsr-call="onTrackedItemClicked" >
+        \\    {[item_card]f}
+        \\  </div>
+        \\  <div class="item-extradata" >
+        \\    <div>num:</div>
+        \\    {[drag]f}
+        \\  </div>
         \\</div>
     , .{
             .id = htmlEscape(item.id),
             .item_card = ItemHtmlWidget { .item = item },
+            .drag = drag,
         },
     );
 }
@@ -370,7 +400,7 @@ fn generateItemList(items: ItemList, untracked_writer: *std.Io.Writer, tracked_w
         const hidden_style = if (tracked) "display: none" else "";
 
         try untracked_writer.print(
-            \\<div id="{[id]s}-untracked" style="{[hidden_style]s}" item-id="{[id]s}" wsr-onevent="click" wsr-call="onUntrackedItemClicked" >
+            \\<div class="item-card" id="{[id]s}-untracked" style="{[hidden_style]s}" item-id="{[id]s}" wsr-onevent="click" wsr-call="onUntrackedItemClicked" >
             \\  {[item_card]f}
             \\</div>
         , .{
@@ -440,13 +470,7 @@ fn stringToBool(s: []const u8) !bool {
 }
 
 pub export fn onTrackedItemClicked() void {
-    onTrackedItemClickedFailable() catch |e| {
-        wsr.print("{t}\n", .{e});
-        if (@errorReturnTrace()) |t| {
-            wsr.print("trace: {any}", .{t});
-        }
-        unreachable;
-    };
+    wrapFailable(onTrackedItemClickedFailable);
 }
 
 fn onTrackedItemClickedFailable() !void {
@@ -454,25 +478,21 @@ fn onTrackedItemClickedFailable() !void {
     defer arena.deinit();
 
     wsr.getTargetAttribute("item-id");
+    wsr.print("Removing {s}", .{wsr.getInputBuffer()});
     global.state_cache.?.removeItem(wsr.getInputBuffer());
-
-    wsr.setTargetProperty("", "outerHTML");
 
     const untracked_dom_id = try std.fmt.allocPrint(arena.allocator(), "{s}-untracked", .{wsr.getInputBuffer()});
     wsr.setElemAttribute(untracked_dom_id, "", "style");
+
+    wsr.getTargetAttribute("remove-id");
+    wsr.setElemProperty(wsr.getInputBuffer(), "", "outerHTML");
 
     try regenerateComponents();
     try state.setState(arena.allocator(), try global.state_cache.?.toState(arena.allocator()));
 }
 
 pub export fn onUntrackedItemClicked() void {
-    onUntrackedItemClickedFailable() catch |e| {
-        wsr.print("{t}\n", .{e});
-        if (@errorReturnTrace()) |t| {
-            wsr.print("trace: {any}", .{t});
-        }
-        unreachable;
-    };
+    wrapFailable(onUntrackedItemClickedFailable);
 }
 
 fn onUntrackedItemClickedFailable() !void {
@@ -480,7 +500,7 @@ fn onUntrackedItemClickedFailable() !void {
     defer arena.deinit();
 
     wsr.getTargetAttribute("item-id");
-    try global.state_cache.?.addItem(wsr.getInputBuffer());
+    try global.state_cache.?.addItem(wsr.getInputBuffer(), 1);
 
     var writer = std.Io.Writer.Allocating.init(arena.allocator());
 
@@ -516,6 +536,7 @@ const ComponentConfigurationWidget = struct {
     item_id: []const u8,
     desired_quantity: u32,
     stash_size: u32,
+    score: i32,
 
     pub fn format(self: ComponentConfigurationWidget, writer: *std.Io.Writer) !void {
         const DragAttrs = struct {
@@ -543,6 +564,10 @@ const ComponentConfigurationWidget = struct {
             \\    <div style="flex-grow: 1;">Need: </div>
             \\    <div>{[desired_quantity]d}</div>
             \\  </div>
+            \\  <div style="display:flex; align-items: center">
+            \\    <div style="flex-grow: 1;">Score: </div>
+            \\    <div>{[score]d}</div>
+            \\  </div>
             \\</div>
             , .{
                 .desired_quantity = self.desired_quantity,
@@ -551,9 +576,130 @@ const ComponentConfigurationWidget = struct {
                     .on_drag = "onStashSizeDrag",
                     .extra_attrs = makeRuntimeFormatter(&drag_attrs),
                 },
+                .score = self.score,
             });
     }
 };
+
+const ConsumeItemInfo = struct {
+    any_components_over_consumed: bool,
+};
+
+fn consumeItemFromStash(item: Item, stash: *std.StringHashMap(i32), quantity: u32) !ConsumeItemInfo {
+    wsr.print("consuming id {s}\n", .{item.id});
+    const remaining = blk: {
+        const item_gop = try stash.getOrPut(item.id);
+        if (!item_gop.found_existing) {
+            item_gop.value_ptr.* = 0;
+        }
+
+        var remaining: i32 = @intCast(quantity);
+        if (item_gop.value_ptr.* > 0) {
+            const taken = @min(remaining, item_gop.value_ptr.*);
+            remaining -= taken;
+            item_gop.value_ptr.* -= taken;
+        }
+
+        if (remaining == 0) {
+            wsr.print("All good {s}", .{item.id});
+            return .{
+                .any_components_over_consumed = false,
+            };
+        }
+
+        wsr.print("Need to craft {s} {d}", .{item_gop.key_ptr.*, remaining});
+
+        break :blk remaining;
+    };
+
+
+    var ret = ConsumeItemInfo {
+        .any_components_over_consumed = false,
+    };
+    // Trying to craft
+    for (0..@intCast(remaining)) |idx| {
+        wsr.print("{s} iter {d}", .{item.id, idx});
+
+        var iter_overconsumed = item.components.len == 0;
+
+        for (item.components) |component| {
+            wsr.print("component id {s}\n", .{component.id});
+            const component_item = global.item_map.get(component.id) orelse {
+                wsr.print("Failed to get {s} from item_map", .{item.id});
+                return error.InvalidId;
+            };
+            // Invalidates item_gop
+            const component_ret = try consumeItemFromStash(component_item, stash, component.quantity);
+            iter_overconsumed |= component_ret.any_components_over_consumed;
+        }
+
+        if (iter_overconsumed) {
+            const item_count = stash.getPtr(item.id) orelse unreachable;
+            ret.any_components_over_consumed = true;
+            item_count.* -= 1;
+        }
+        wsr.print("Finished iterating for {s} {d}" ,.{item.id, idx});
+    }
+    return ret;
+}
+
+fn stashEmpty(stash: std.StringHashMap(i32)) bool {
+    var it = stash.iterator();
+    while (it.next()) |entry| {
+        if (entry.value_ptr.* > 0) {
+            wsr.print("have {s} {d}", .{entry.key_ptr.*, entry.value_ptr.*});
+            return false;
+        }
+    }
+
+    return true;
+}
+
+fn addItemToStash(item: Item, stash: *std.StringHashMap(i32)) !void {
+    for (item.components) |component| {
+        const gop = try stash.getOrPut(component.id);
+        if (!gop.found_existing) {
+            gop.value_ptr.* = @intCast(global.state_cache.?.stash_quantities.get(component.id) orelse 0);
+        }
+
+        const component_item = global.item_map.get(component.id) orelse return error.InvalidId;
+        try addItemToStash(component_item, stash);
+    }
+}
+
+fn calcItemScores(alloc: std.mem.Allocator) !std.StringHashMap(i32) {
+    var stash = std.StringHashMap(i32).init(alloc);
+
+    {
+        var it = global.state_cache.?.items.iterator();
+        // FIXME: recursively walk tree and set stash entries
+        while (it.next()) |entry| {
+            const item = global.item_map.get(entry.key_ptr.*) orelse unreachable;
+            try addItemToStash(item, &stash);
+        }
+    }
+
+    wsr.print("Calculating scores", .{});
+    var any_positive = true;
+    var idx: usize = 0;
+    while (!stashEmpty(stash) or idx >= 100) {
+        wsr.print("iter {d}", .{idx});
+        defer idx += 1;
+        var it =  global.state_cache.?.items.iterator();
+        while (it.next()) |entry| {
+            const item = global.item_map.get(entry.key_ptr.*) orelse return error.InvalidItem;
+            for (item.components) |component| {
+                wsr.print("looking at {s}", .{component.id});
+                const component_item = global.item_map.get(component.id) orelse return error.InvalidItem;
+                const component_info = try consumeItemFromStash(component_item, &stash, entry.value_ptr.*);
+                if (component_info.any_components_over_consumed) any_positive = false;
+            }
+        }
+    }
+
+    wsr.print("stash ready", .{});
+    return stash;
+}
 
 fn regenerateComponents() !void {
     var arena = std.heap.ArenaAllocator.init(std.heap.wasm_allocator);
@@ -566,12 +712,14 @@ fn regenerateComponents() !void {
     var tracked_item_it = global.state_cache.?.items.keyIterator();
     while (tracked_item_it.next()) |tracked_item_id| {
         const item = global.item_map.get(tracked_item_id.*).?;
+        const multiplier = global.state_cache.?.items.get(item.id) orelse unreachable;
         for (item.components) |component| {
-            try builder.addComponent(component.id, component.quantity, 1);
+            try builder.addComponent(component.id, component.quantity, multiplier);
         }
     }
 
     var component_writer = std.Io.Writer.Allocating.init(arena.allocator());
+    const scores = try calcItemScores(arena.allocator());
 
     var component_it = builder.quantities.iterator();
     while (component_it.next()) |kv| {
@@ -585,14 +733,21 @@ fn regenerateComponents() !void {
             .item_id = item.id,
             .stash_size = stash_quantity,
             .desired_quantity = kv.value_ptr.*,
+            .score = scores.get(item.id) orelse 0,
         };
 
         try component_writer.writer.print(
-            \\<div class="component-item">
-            \\  {[image_widget]f}
+            \\<div class="component-item item-card">
+            \\  <div>
+            \\    {[image_widget]f}
+            \\  </div>
+            \\  <div class="item-extradata">
+            \\    {[extra_data]f}
+            \\  </div>
             \\</div>
             , .{
-                .image_widget = ItemHtmlWidget { .item = item, .extra_data = makeRuntimeFormatter(&extra_data) },
+                .image_widget = ItemHtmlWidget { .item = item },
+                .extra_data = extra_data,
         });
     }
 
@@ -600,11 +755,7 @@ fn regenerateComponents() !void {
 }
 
 pub export fn updateStashAmount() void {
-    updateStashAmountFailable() catch |e| {
-        wsr.print("{t}", .{e});
-        wsr.printCapturedBacktrace();
-        unreachable;
-    };
+    wrapFailable(updateStashAmountFailable);
 }
 
 fn sliderValToQuantity(input_val: f32) u32 {
@@ -692,10 +843,12 @@ export fn onStashSizeDrag() void {
     };
 }
 
-fn onStashSizeDragFailable() !void {
-    var arena = std.heap.ArenaAllocator.init(std.heap.wasm_allocator);
-    defer arena.deinit();
+const DragInfo = struct {
+    initial_val: f32,
+    mouse_movement: f32,
+};
 
+fn getDragInfo() !DragInfo {
     wsr.getEventProperty("initialVal");
     const initial_val = try std.fmt.parseFloat(f32, wsr.getInputBuffer());
 
@@ -708,10 +861,22 @@ fn onStashSizeDragFailable() !void {
     wsr.getEventProperty("movementY");
     const mouse_movement = mouse_y - start_mouse_y;
 
+    return .{
+        .initial_val = initial_val,
+        .mouse_movement = mouse_movement,
+    };
+}
+
+fn onStashSizeDragFailable() !void {
+    var arena = std.heap.ArenaAllocator.init(std.heap.wasm_allocator);
+    defer arena.deinit();
+
+    const drag_info = try getDragInfo();
+
     var size_buf: [150]u8 = undefined;
     var writer = std.Io.Writer.fixed(&size_buf);
 
-    const val: u32 = @intFromFloat(@max(0, initial_val - mouse_movement));
+    const val: u32 = @intFromFloat(@max(0, drag_info.initial_val - drag_info.mouse_movement));
     try writer.print("{f}", .{DragIntHtmlWidgetInner{
         .val = val,
     }});
@@ -729,4 +894,41 @@ fn enumLt(a: anytype, b: @TypeOf(a)) bool {
     // FIXME: Deduce backing type of enum
     return @as(u32, @intFromEnum(a)) < @as(u32, @intFromEnum(b));
 
+}
+
+fn wrapFailable(f: anytype) void {
+    f() catch |e| {
+        wsr.print("{t}", .{e});
+        wsr.printCapturedBacktrace();
+        unreachable;
+    };
+}
+
+pub export fn onLoadoutQuantityChanged() void {
+    wrapFailable(onLoadoutQuantityChangedFailable);
+}
+
+pub fn onLoadoutQuantityChangedFailable() !void {
+    var arena = std.heap.ArenaAllocator.init(std.heap.wasm_allocator);
+    defer arena.deinit();
+
+    // FIXME: This is essentially the same function as the other drag function
+    const drag_info = try getDragInfo();
+
+    var size_buf: [150]u8 = undefined;
+    var writer = std.Io.Writer.fixed(&size_buf);
+
+    const val: u32 = @intFromFloat(@max(1, drag_info.initial_val - drag_info.mouse_movement));
+    try writer.print("{f}", .{DragIntHtmlWidgetInner{
+        .val = val,
+    }});
+
+    wsr.setTargetProperty(writer.buffered(), "innerHTML");
+
+    wsr.getTargetAttribute("item-id");
+    try global.state_cache.?.updateLoadoutQuantity(wsr.getInputBuffer(), val);
+
+    try state.setState(arena.allocator(), try global.state_cache.?.toState(arena.allocator()));
+
+    try regenerateComponents();
 }
